@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections in C# | BCA Hub</title>
+    <link rel="stylesheet" href="csharp.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📚 C# Collections</span>
+
+        <h1>Collections in C#</h1>
+
+        <p>
+            Learn C# Collections including List, Dictionary,
+            Queue, Stack and HashSet with examples and outputs.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 What are Collections?</h2>
+
+        <p>
+            Collections are classes used to store and manage groups of objects dynamically.
+            Unlike arrays, collections can grow or shrink automatically.
+        </p>
+
+        <div class="note-box">
+            Collections belong to the <strong>System.Collections.Generic</strong> namespace.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📋 List&lt;T&gt;</h2>
+
+        <p>
+            List is a dynamic array that allows adding and removing elements easily.
+        </p>
+
+        <div class="code-box">
+<pre>
+using System;
+using System.Collections.Generic;
+
+List<int> numbers = new List<int>();
+
+numbers.Add(10);
+numbers.Add(20);
+numbers.Add(30);
+
+foreach(int num in numbers)
+{
+    Console.WriteLine(num);
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+10
+20
+30
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📚 Stack&lt;T&gt;</h2>
+
+        <p>
+            Stack follows the LIFO (Last In First Out) principle.
+        </p>
+
+        <div class="code-box">
+<pre>
+using System;
+using System.Collections.Generic;
+
+Stack<int> stack = new Stack<int>();
+
+stack.Push(10);
+stack.Push(20);
+stack.Push(30);
+
+Console.WriteLine(stack.Pop());
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            30
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🚶 Queue&lt;T&gt;</h2>
+
+        <p>
+            Queue follows the FIFO (First In First Out) principle.
+        </p>
+
+        <div class="code-box">
+<pre>
+using System;
+using System.Collections.Generic;
+
+Queue<int> queue = new Queue<int>();
+
+queue.Enqueue(10);
+queue.Enqueue(20);
+queue.Enqueue(30);
+
+Console.WriteLine(queue.Dequeue());
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            10
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🗂 Dictionary&lt;TKey, TValue&gt;</h2>
+
+        <p>
+            Dictionary stores data in key-value pairs.
+        </p>
+
+        <div class="code-box">
+<pre>
+using System;
+using System.Collections.Generic;
+
+Dictionary<int,string> students =
+new Dictionary<int,string>();
+
+students.Add(101,"Rahul");
+students.Add(102,"Aman");
+
+Console.WriteLine(students[101]);
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            Rahul
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 HashSet&lt;T&gt;</h2>
+
+        <p>
+            HashSet stores unique values only and automatically removes duplicates.
+        </p>
+
+        <div class="code-box">
+<pre>
+using System;
+using System.Collections.Generic;
+
+HashSet<int> numbers =
+new HashSet<int>();
+
+numbers.Add(10);
+numbers.Add(20);
+numbers.Add(20);
+numbers.Add(30);
+
+foreach(int num in numbers)
+{
+    Console.WriteLine(num);
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+10
+20
+30
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>⚖ Array vs Collections</h2>
+
+        <table>
+            <tr>
+                <th>Array</th>
+                <th>Collection</th>
+            </tr>
+
+            <tr>
+                <td>Fixed Size</td>
+                <td>Dynamic Size</td>
+            </tr>
+
+            <tr>
+                <td>Less Flexible</td>
+                <td>More Flexible</td>
+            </tr>
+
+            <tr>
+                <td>Faster Access</td>
+                <td>More Features</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What are Collections in C#?</li>
+            <li>Difference between List and Array?</li>
+            <li>Difference between Stack and Queue?</li>
+            <li>What is Dictionary?</li>
+            <li>What is HashSet?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

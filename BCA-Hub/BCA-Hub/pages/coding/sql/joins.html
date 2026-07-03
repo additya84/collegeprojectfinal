@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Joins | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🔗 SQL Joins</span>
+
+        <h1>SQL Joins</h1>
+
+        <p>
+            Learn SQL Joins including INNER JOIN, LEFT JOIN,
+            RIGHT JOIN and FULL JOIN with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is a Join?</h2>
+
+        <p>
+            SQL Join is used to combine rows from two or more tables
+            based on a related column between them.
+        </p>
+
+        <div class="note-box">
+            Joins help us retrieve data from multiple tables at the same time.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Example Tables</h2>
+
+        <div class="code-box">
+<pre>
+Students Table
+
+ID   Name
+1    Rahul
+2    Aman
+3    Rohit
+
+
+Marks Table
+
+ID   Marks
+1    85
+2    90
+4    75
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>INNER JOIN</h2>
+
+        <p>
+            INNER JOIN returns only matching records from both tables.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT Students.Name, Marks.Marks
+FROM Students
+INNER JOIN Marks
+ON Students.ID = Marks.ID;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Rahul   85
+Aman    90
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>LEFT JOIN</h2>
+
+        <p>
+            LEFT JOIN returns all records from the left table and matching records from the right table.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT Students.Name, Marks.Marks
+FROM Students
+LEFT JOIN Marks
+ON Students.ID = Marks.ID;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Rahul   85
+Aman    90
+Rohit   NULL
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>RIGHT JOIN</h2>
+
+        <p>
+            RIGHT JOIN returns all records from the right table and matching records from the left table.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT Students.Name, Marks.Marks
+FROM Students
+RIGHT JOIN Marks
+ON Students.ID = Marks.ID;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Rahul   85
+Aman    90
+NULL    75
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>FULL JOIN</h2>
+
+        <p>
+            FULL JOIN returns all records when there is a match in either table.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT Students.Name, Marks.Marks
+FROM Students
+FULL OUTER JOIN Marks
+ON Students.ID = Marks.ID;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Rahul   85
+Aman    90
+Rohit   NULL
+NULL    75
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Join Summary</h2>
+
+        <table>
+            <tr>
+                <th>Join Type</th>
+                <th>Returns</th>
+            </tr>
+
+            <tr>
+                <td>INNER JOIN</td>
+                <td>Matching records only</td>
+            </tr>
+
+            <tr>
+                <td>LEFT JOIN</td>
+                <td>All left table records</td>
+            </tr>
+
+            <tr>
+                <td>RIGHT JOIN</td>
+                <td>All right table records</td>
+            </tr>
+
+            <tr>
+                <td>FULL JOIN</td>
+                <td>All records from both tables</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is SQL Join?</li>
+            <li>What is INNER JOIN?</li>
+            <li>Difference between INNER JOIN and LEFT JOIN?</li>
+            <li>What is RIGHT JOIN?</li>
+            <li>What is FULL OUTER JOIN?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

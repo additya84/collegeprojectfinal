@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASP.NET | BCA Hub</title>
+    <link rel="stylesheet" href="csharp.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">🌐 Microsoft Web Technology</span>
+
+        <h1>ASP.NET</h1>
+
+        <p>
+            Learn ASP.NET from basics to advanced concepts including
+            MVC Architecture, Controllers, Models, Views and Routing.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 What is ASP.NET?</h2>
+
+        <p>
+            ASP.NET is a web development framework developed by Microsoft
+            for building dynamic websites, web applications and APIs.
+        </p>
+
+        <div class="note-box">
+            ASP.NET uses C# as its primary programming language and runs on the .NET platform.
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section-card">
+        <h2>⭐ Features of ASP.NET</h2>
+
+        <ul class="points">
+            <li>Fast and High Performance</li>
+            <li>Cross Platform Support</li>
+            <li>Secure Framework</li>
+            <li>Easy Database Connectivity</li>
+            <li>Supports MVC Architecture</li>
+            <li>Developed and Maintained by Microsoft</li>
+        </ul>
+    </section>
+
+    <!-- MVC Architecture -->
+    <section class="section-card">
+        <h2>🏛 MVC Architecture</h2>
+
+        <p>
+            ASP.NET mainly follows the MVC architecture pattern.
+        </p>
+
+        <ul class="points">
+            <li><strong>Model</strong> → Handles application data and business logic.</li>
+            <li><strong>View</strong> → Responsible for the user interface.</li>
+            <li><strong>Controller</strong> → Handles user requests and responses.</li>
+        </ul>
+
+        <div class="note-box">
+            MVC helps separate business logic from the user interface,
+            making applications easier to manage and maintain.
+        </div>
+    </section>
+
+    <!-- Controller -->
+    <section class="section-card">
+        <h2>🎮 Controller</h2>
+
+        <p>
+            A Controller handles incoming requests and returns responses.
+        </p>
+
+        <div class="code-box">
+<pre>
+using Microsoft.AspNetCore.Mvc;
+
+public class HomeController : Controller
+{
+    public IActionResult Index()
+    {
+        return View();
+    }
+}
+</pre>
+        </div>
+    </section>
+
+    <!-- Model -->
+    <section class="section-card">
+        <h2>📦 Model</h2>
+
+        <p>
+            A Model represents application data and business rules.
+        </p>
+
+        <div class="code-box">
+<pre>
+public class Student
+{
+    public int Id { get; set; }
+
+    public string Name { get; set; }
+
+    public int Age { get; set; }
+}
+</pre>
+        </div>
+    </section>
+
+    <!-- View -->
+    <section class="section-card">
+        <h2>🖥 View</h2>
+
+        <p>
+            Views are responsible for displaying data to users.
+        </p>
+
+        <div class="code-box">
+<pre>
+&lt;h1&gt;Welcome to BCA Hub&lt;/h1&gt;
+
+&lt;p&gt;This page is rendered using ASP.NET MVC View.&lt;/p&gt;
+</pre>
+        </div>
+    </section>
+
+  
+    <section class="section-card">
+        <h2>🛣 Routing</h2>
+
+        <p>
+            Routing determines which controller and action method
+            should handle an incoming request.
+        </p>
+
+        <div class="code-box">
+<pre>
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
+</pre>
+        </div>
+    </section>
+
+    <!-- Example Project Structure -->
+    <section class="section-card">
+        <h2>📂 ASP.NET MVC Project Structure</h2>
+
+        <div class="code-box">
+<pre>
+MyProject/
+│
+├── Controllers/
+│   └── HomeController.cs
+│
+├── Models/
+│   └── Student.cs
+│
+├── Views/
+│   └── Home/
+│       └── Index.cshtml
+│
+├── wwwroot/
+│
+├── Program.cs
+│
+└── appsettings.json
+</pre>
+        </div>
+    </section>
+    <section class="section-card">
+        <h2>✅ Advantages of ASP.NET</h2>
+
+        <ul class="points">
+            <li>High Performance</li>
+            <li>Secure Applications</li>
+            <li>Easy Integration with SQL Server</li>
+            <li>Cross Platform Development</li>
+            <li>Supports REST APIs</li>
+            <li>Large Community Support</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Interview Questions</h2>
+
+        <ul class="points">
+            <li>What is ASP.NET?</li>
+            <li>What is MVC Architecture?</li>
+            <li>Difference between Model, View and Controller?</li>
+            <li>What is Routing in ASP.NET?</li>
+            <li>What is the role of wwwroot folder?</li>
+            <li>Difference between ASP.NET Framework and ASP.NET Core?</li>
+        </ul>
+    </section>
+
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

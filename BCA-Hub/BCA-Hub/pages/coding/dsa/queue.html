@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue | BCA Hub</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🚶 Data Structure</span>
+
+        <h1>Queue</h1>
+
+        <p>
+            Learn Queue Data Structure including Queue operations,
+            Circular Queue and applications with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 What is a Queue?</h2>
+
+        <p>
+            Queue is a linear data structure that follows the
+            <strong>FIFO (First In First Out)</strong> principle.
+        </p>
+
+        <div class="note-box">
+            The element inserted first is removed first.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📚 Queue Representation</h2>
+
+        <div class="code-box">
+<pre>
+Front → 10 | 20 | 30 | 40 ← Rear
+</pre>
+        </div>
+
+        <p>
+            Insertion takes place at Rear and deletion takes place at Front.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>➕ Enqueue Operation</h2>
+
+        <p>
+            Enqueue means inserting an element into the queue.
+        </p>
+
+        <div class="code-box">
+<pre>
+Before:
+10 | 20 | 30
+
+Enqueue 40
+
+After:
+10 | 20 | 30 | 40
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>➖ Dequeue Operation</h2>
+
+        <p>
+            Dequeue means removing an element from the queue.
+        </p>
+
+        <div class="code-box">
+<pre>
+Before:
+10 | 20 | 30 | 40
+
+Dequeue
+
+After:
+20 | 30 | 40
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔄 Circular Queue</h2>
+
+        <p>
+            Circular Queue connects the last position back to the first position
+            to utilize memory efficiently.
+        </p>
+
+        <div class="code-box">
+<pre>
+10 → 20 → 30 → 40
+↑              ↓
+└──────────────┘
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>💻 Queue Implementation in C</h2>
+
+        <div class="code-box">
+<pre>
+#define SIZE 5
+
+int queue[SIZE];
+int front = -1;
+int rear = -1;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🛠 Queue Operations</h2>
+
+        <ul class="points">
+            <li>Enqueue</li>
+            <li>Dequeue</li>
+            <li>Peek</li>
+            <li>isEmpty</li>
+            <li>isFull</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🌍 Applications of Queue</h2>
+
+        <ul class="points">
+            <li>CPU Scheduling</li>
+            <li>Printer Queue</li>
+            <li>Call Center Systems</li>
+            <li>Task Scheduling</li>
+            <li>Network Packet Processing</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>✅ Advantages of Queue</h2>
+
+        <ul class="points">
+            <li>Efficient data processing.</li>
+            <li>Maintains order of elements.</li>
+            <li>Useful in scheduling systems.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>❌ Disadvantages of Queue</h2>
+
+        <ul class="points">
+            <li>No random access to elements.</li>
+            <li>Searching is slower.</li>
+            <li>Fixed size in array implementation.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is Queue?</li>
+            <li>What is FIFO?</li>
+            <li>Difference between Queue and Stack?</li>
+            <li>What is Circular Queue?</li>
+            <li>What are applications of Queue?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

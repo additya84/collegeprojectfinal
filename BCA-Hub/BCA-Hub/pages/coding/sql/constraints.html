@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Constraints | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🛡️ SQL Constraints</span>
+
+        <h1>SQL Constraints</h1>
+
+        <p>
+            Learn SQL Constraints including Primary Key,
+            Foreign Key, Unique, Not Null and Check Constraint.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What are Constraints?</h2>
+
+        <p>
+            Constraints are rules applied on table columns to maintain
+            accuracy, consistency and integrity of data.
+        </p>
+
+        <div class="note-box">
+            Constraints help prevent invalid data from entering the database.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>NOT NULL Constraint</h2>
+
+        <p>
+            NOT NULL ensures that a column cannot have NULL values.
+        </p>
+
+        <div class="code-box">
+<pre>
+CREATE TABLE Students(
+    Id INT,
+    Name VARCHAR(50) NOT NULL
+);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>UNIQUE Constraint</h2>
+
+        <p>
+            UNIQUE ensures that all values in a column are different.
+        </p>
+
+        <div class="code-box">
+<pre>
+CREATE TABLE Students(
+    Email VARCHAR(100) UNIQUE
+);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>PRIMARY KEY Constraint</h2>
+
+        <p>
+            PRIMARY KEY uniquely identifies each record in a table.
+        </p>
+
+        <div class="code-box">
+<pre>
+CREATE TABLE Students(
+    Id INT PRIMARY KEY,
+    Name VARCHAR(50)
+);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>FOREIGN KEY Constraint</h2>
+
+        <p>
+            FOREIGN KEY creates a relationship between two tables.
+        </p>
+
+        <div class="code-box">
+<pre>
+CREATE TABLE Orders(
+    OrderId INT PRIMARY KEY,
+    StudentId INT,
+    FOREIGN KEY(StudentId)
+    REFERENCES Students(Id)
+);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>CHECK Constraint</h2>
+
+        <p>
+            CHECK ensures that values satisfy a specific condition.
+        </p>
+
+        <div class="code-box">
+<pre>
+CREATE TABLE Students(
+    Age INT CHECK(Age >= 18)
+);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>DEFAULT Constraint</h2>
+
+        <p>
+            DEFAULT assigns a default value if no value is provided.
+        </p>
+
+        <div class="code-box">
+<pre>
+CREATE TABLE Students(
+    City VARCHAR(50)
+    DEFAULT 'Delhi'
+);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Comparison of Constraints</h2>
+
+        <table>
+            <tr>
+                <th>Constraint</th>
+                <th>Purpose</th>
+            </tr>
+
+            <tr>
+                <td>NOT NULL</td>
+                <td>Prevents NULL values</td>
+            </tr>
+
+            <tr>
+                <td>UNIQUE</td>
+                <td>Prevents duplicate values</td>
+            </tr>
+
+            <tr>
+                <td>PRIMARY KEY</td>
+                <td>Unique identification</td>
+            </tr>
+
+            <tr>
+                <td>FOREIGN KEY</td>
+                <td>Creates relationship</td>
+            </tr>
+
+            <tr>
+                <td>CHECK</td>
+                <td>Validates conditions</td>
+            </tr>
+
+            <tr>
+                <td>DEFAULT</td>
+                <td>Assigns default value</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What are SQL Constraints?</li>
+            <li>What is PRIMARY KEY?</li>
+            <li>Difference between PRIMARY KEY and UNIQUE?</li>
+            <li>What is FOREIGN KEY?</li>
+            <li>What is CHECK Constraint?</li>
+            <li>What is DEFAULT Constraint?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

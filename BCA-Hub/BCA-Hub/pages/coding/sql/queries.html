@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Queries | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🔍 SQL Queries</span>
+
+        <h1>SQL Queries</h1>
+
+        <p>
+            Learn SQL Queries including SELECT, WHERE,
+            ORDER BY, GROUP BY and LIMIT with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is a Query?</h2>
+
+        <p>
+            A Query is a command used to retrieve or manipulate
+            data from a database.
+        </p>
+
+        <div class="note-box">
+            SQL Queries help us communicate with databases.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>SELECT Query</h2>
+
+        <p>
+            SELECT is used to retrieve data from a table.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Id   Name    Age
+1    Rahul   20
+2    Aman    21
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>WHERE Clause</h2>
+
+        <p>
+            WHERE is used to filter records based on a condition.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students
+WHERE Age > 20;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+2    Aman    21
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>ORDER BY Clause</h2>
+
+        <p>
+            ORDER BY is used to sort records in ascending or descending order.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students
+ORDER BY Name ASC;
+</pre>
+        </div>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students
+ORDER BY Age DESC;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>DISTINCT Query</h2>
+
+        <p>
+            DISTINCT removes duplicate values from the result.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT DISTINCT City
+FROM Students;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>LIMIT Clause</h2>
+
+        <p>
+            LIMIT is used to restrict the number of rows returned.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students
+LIMIT 5;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>GROUP BY Clause</h2>
+
+        <p>
+            GROUP BY groups rows with the same values.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT City, COUNT(*)
+FROM Students
+GROUP BY City;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>HAVING Clause</h2>
+
+        <p>
+            HAVING is used with GROUP BY to filter grouped data.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT City, COUNT(*)
+FROM Students
+GROUP BY City
+HAVING COUNT(*) > 1;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>LIKE Operator</h2>
+
+        <p>
+            LIKE is used for pattern matching.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students
+WHERE Name LIKE 'R%';
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Rahul
+Rohit
+Ramesh
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>IN Operator</h2>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students
+WHERE City IN ('Delhi','Mumbai');
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>BETWEEN Operator</h2>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students
+WHERE Age BETWEEN 18 AND 25;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is an SQL Query?</li>
+            <li>What is the use of SELECT statement?</li>
+            <li>Difference between WHERE and HAVING?</li>
+            <li>What is DISTINCT?</li>
+            <li>What is GROUP BY?</li>
+            <li>What is ORDER BY?</li>
+            <li>What is the use of LIKE operator?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

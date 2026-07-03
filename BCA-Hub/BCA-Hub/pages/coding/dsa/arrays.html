@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays | BCA Hub</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📦 Data Structure</span>
+
+        <h1>Arrays</h1>
+
+        <p>
+            Learn Array concepts including Traversal, Insertion,
+            Deletion and Searching with examples and programs.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 What is an Array?</h2>
+
+        <p>
+            An Array is a collection of elements of the same data type
+            stored in contiguous memory locations.
+        </p>
+
+        <div class="note-box">
+            Example: Instead of creating 100 variables, we can store
+            100 values in a single array.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📝 Declaration of Array</h2>
+
+        <div class="code-box">
+<pre>
+int arr[5];
+</pre>
+        </div>
+
+        <p>
+            This creates an integer array capable of storing 5 elements.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>⚡ Initialization of Array</h2>
+
+        <div class="code-box">
+<pre>
+int arr[5] = {10,20,30,40,50};
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            10 20 30 40 50
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔍 Traversal Operation</h2>
+
+        <p>
+            Traversal means visiting each element of an array one by one.
+        </p>
+
+        <div class="code-box">
+<pre>
+for(int i=0;i<5;i++)
+{
+    printf("%d ",arr[i]);
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            10 20 30 40 50
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>➕ Insertion Operation</h2>
+
+        <p>
+            Insertion means adding a new element at a specific position.
+        </p>
+
+        <div class="code-box">
+<pre>
+Array Before:
+10 20 40 50
+
+Insert 30 at position 3
+
+Array After:
+10 20 30 40 50
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>➖ Deletion Operation</h2>
+
+        <p>
+            Deletion means removing an element from an array.
+        </p>
+
+        <div class="code-box">
+<pre>
+Array Before:
+10 20 30 40 50
+
+Delete 30
+
+Array After:
+10 20 40 50
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔎 Linear Search</h2>
+
+        <div class="code-box">
+<pre>
+int arr[5]={10,20,30,40,50};
+int key=30;
+
+for(int i=0;i<5;i++)
+{
+    if(arr[i]==key)
+    {
+        printf("Element Found");
+    }
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            Element Found
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>💻 Program Example</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int arr[5]={10,20,30,40,50};
+
+    for(int i=0;i<5;i++)
+    {
+        printf("%d ",arr[i]);
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            10 20 30 40 50
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>✅ Advantages of Arrays</h2>
+
+        <ul class="points">
+            <li>Easy to access elements using index.</li>
+            <li>Stores multiple values using one variable.</li>
+            <li>Fast access to data.</li>
+            <li>Efficient memory usage.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>❌ Disadvantages of Arrays</h2>
+
+        <ul class="points">
+            <li>Fixed size.</li>
+            <li>Insertion and deletion are costly.</li>
+            <li>Stores only same type of elements.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is an Array?</li>
+            <li>What is Traversal?</li>
+            <li>Difference between Array and Linked List?</li>
+            <li>What are advantages of Arrays?</li>
+            <li>What is Linear Search?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

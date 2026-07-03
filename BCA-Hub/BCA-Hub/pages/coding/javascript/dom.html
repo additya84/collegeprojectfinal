@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation | BCA Hub</title>
+    <link rel="stylesheet" href="javascript.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🌐 JavaScript DOM</span>
+
+        <h1>DOM Manipulation</h1>
+
+        <p>
+            Learn Document Object Model (DOM) in JavaScript including
+            selecting elements, changing content and handling events.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is DOM?</h2>
+
+        <p>
+            DOM stands for Document Object Model. It represents the HTML
+            document as objects which JavaScript can access and modify.
+        </p>
+
+        <div class="note-box">
+            DOM allows JavaScript to change HTML content, styles and attributes dynamically.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>getElementById()</h2>
+
+        <p>
+            Used to select an element using its id.
+        </p>
+
+        <div class="code-box">
+<pre>
+<h1 id="title">Hello World</h1>
+
+<script>
+let element = document.getElementById("title");
+console.log(element);
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>querySelector()</h2>
+
+        <p>
+            Selects the first matching element.
+        </p>
+
+        <div class="code-box">
+<pre>
+let heading = document.querySelector("h1");
+console.log(heading);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>querySelectorAll()</h2>
+
+        <p>
+            Selects all matching elements.
+        </p>
+
+        <div class="code-box">
+<pre>
+let items = document.querySelectorAll("p");
+
+console.log(items);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Changing Text Content</h2>
+
+        <div class="code-box">
+<pre>
+<h1 id="title">Hello</h1>
+
+<script>
+document.getElementById("title").innerText =
+"Welcome to BCA Hub";
+</script>
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            Welcome to BCA Hub
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Changing HTML Content</h2>
+
+        <div class="code-box">
+<pre>
+document.getElementById("box").innerHTML =
+"<h2>New Heading</h2>";
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Changing CSS Style</h2>
+
+        <div class="code-box">
+<pre>
+document.getElementById("title").style.color =
+"red";
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Changing Attributes</h2>
+
+        <div class="code-box">
+<pre>
+document.getElementById("image")
+.setAttribute("src","photo.jpg");
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Creating Elements</h2>
+
+        <div class="code-box">
+<pre>
+let para = document.createElement("p");
+
+para.innerText = "Hello Students";
+
+document.body.appendChild(para);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Removing Elements</h2>
+
+        <div class="code-box">
+<pre>
+let element =
+document.getElementById("box");
+
+element.remove();
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Event Example</h2>
+
+        <div class="code-box">
+<pre>
+<button onclick="showMessage()">
+Click Me
+</button>
+
+<script>
+function showMessage(){
+    alert("Welcome to BCA Hub");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is DOM?</li>
+            <li>What is getElementById()?</li>
+            <li>Difference between innerHTML and innerText?</li>
+            <li>What is querySelector()?</li>
+            <li>How do you change CSS using JavaScript?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

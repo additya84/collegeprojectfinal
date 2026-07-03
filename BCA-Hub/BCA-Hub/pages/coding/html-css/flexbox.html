@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox | BCA Hub</title>
+    <link rel="stylesheet" href="cssprop.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📐 CSS Layout</span>
+
+        <h1>CSS Flexbox</h1>
+
+        <p>
+            Learn CSS Flexbox including flex container,
+            flex items and important flex properties.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is Flexbox?</h2>
+
+        <p>
+            Flexbox is a CSS layout model used to arrange items
+            in rows or columns efficiently and responsively.
+        </p>
+
+        <div class="note-box">
+            Flexbox makes alignment and spacing easier.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Basic Syntax</h2>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:flex;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Flex Container and Flex Items</h2>
+
+        <div class="code-box">
+<pre>
+<div class="container">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>
+</pre>
+        </div>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:flex;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>flex-direction</h2>
+
+        <p>
+            Defines the direction of items.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:flex;
+    flex-direction:row;
+}
+</pre>
+        </div>
+
+        <div class="code-box">
+<pre>
+flex-direction:column;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>justify-content</h2>
+
+        <p>
+            Aligns items horizontally.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    justify-content:center;
+}
+</pre>
+        </div>
+
+        <ul class="points">
+            <li>flex-start</li>
+            <li>center</li>
+            <li>flex-end</li>
+            <li>space-between</li>
+            <li>space-around</li>
+            <li>space-evenly</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>align-items</h2>
+
+        <p>
+            Aligns items vertically.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    align-items:center;
+}
+</pre>
+        </div>
+
+        <ul class="points">
+            <li>stretch</li>
+            <li>center</li>
+            <li>flex-start</li>
+            <li>flex-end</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>gap Property</h2>
+
+        <p>
+            Adds spacing between flex items.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    gap:20px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>flex-wrap</h2>
+
+        <p>
+            Allows items to move to the next line.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    flex-wrap:wrap;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Complete Example</h2>
+
+        <div class="code-box">
+<pre>
+<div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</div>
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Advantages of Flexbox</h2>
+
+        <ul class="points">
+            <li>Easy alignment of items.</li>
+            <li>Responsive layouts.</li>
+            <li>Less code required.</li>
+            <li>Better control over spacing.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is Flexbox?</li>
+            <li>What is the use of display:flex?</li>
+            <li>Difference between justify-content and align-items?</li>
+            <li>What is flex-wrap?</li>
+            <li>What is flex-direction?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

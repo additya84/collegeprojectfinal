@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack | BCA Hub</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📚 Data Structure</span>
+
+        <h1>Stack</h1>
+
+        <p>
+            Learn Stack Data Structure including Push, Pop,
+            Peek operations and Stack applications.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 What is Stack?</h2>
+
+        <p>
+            Stack is a linear data structure that follows the
+            <strong>LIFO (Last In First Out)</strong> principle.
+        </p>
+
+        <div class="note-box">
+            The element inserted last is removed first.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📚 Stack Representation</h2>
+
+        <div class="code-box">
+<pre>
+| 40 | ← Top
+| 30 |
+| 20 |
+| 10 |
+-----
+</pre>
+        </div>
+
+        <p>
+            Insertion and deletion both take place from the top of the stack.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>➕ Push Operation</h2>
+
+        <p>
+            Push operation inserts an element into the stack.
+        </p>
+
+        <div class="code-box">
+<pre>
+Before:
+
+| 30 |
+| 20 |
+| 10 |
+
+Push 40
+
+After:
+
+| 40 |
+| 30 |
+| 20 |
+| 10 |
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>➖ Pop Operation</h2>
+
+        <p>
+            Pop operation removes the top element from the stack.
+        </p>
+
+        <div class="code-box">
+<pre>
+Before:
+
+| 40 |
+| 30 |
+| 20 |
+| 10 |
+
+Pop
+
+After:
+
+| 30 |
+| 20 |
+| 10 |
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>👀 Peek Operation</h2>
+
+        <p>
+            Peek operation returns the top element without removing it.
+        </p>
+
+        <div class="code-box">
+<pre>
+Top Element = 40
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>💻 Stack Implementation in C</h2>
+
+        <div class="code-box">
+<pre>
+#define SIZE 5
+
+int stack[SIZE];
+int top = -1;
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🛠 Stack Operations</h2>
+
+        <ul class="points">
+            <li>Push</li>
+            <li>Pop</li>
+            <li>Peek</li>
+            <li>isEmpty</li>
+            <li>isFull</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🌍 Applications of Stack</h2>
+
+        <ul class="points">
+            <li>Function Calls</li>
+            <li>Undo and Redo Operations</li>
+            <li>Expression Evaluation</li>
+            <li>Recursion</li>
+            <li>Browser History</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>✅ Advantages of Stack</h2>
+
+        <ul class="points">
+            <li>Simple implementation.</li>
+            <li>Efficient insertion and deletion.</li>
+            <li>Useful for recursion and backtracking.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>❌ Disadvantages of Stack</h2>
+
+        <ul class="points">
+            <li>No random access to elements.</li>
+            <li>Limited size in array implementation.</li>
+            <li>Searching is slower.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is Stack?</li>
+            <li>What is LIFO?</li>
+            <li>Difference between Stack and Queue?</li>
+            <li>What is Push and Pop operation?</li>
+            <li>What are applications of Stack?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

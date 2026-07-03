@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods | BCA Hub</title>
+    <link rel="stylesheet" href="javascript.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📦 JavaScript Arrays</span>
+
+        <h1>Array Methods</h1>
+
+        <p>
+            Learn important JavaScript Array Methods with examples and outputs.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is an Array?</h2>
+
+        <p>
+            An array is used to store multiple values in a single variable.
+        </p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>push()</h2>
+
+        <p>Adds an element at the end of the array.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana"];
+
+fruits.push("Mango");
+
+console.log(fruits);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+["Apple", "Banana", "Mango"]
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>pop()</h2>
+
+        <p>Removes the last element from the array.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+fruits.pop();
+
+console.log(fruits);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+["Apple", "Banana"]
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>shift()</h2>
+
+        <p>Removes the first element from the array.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+fruits.shift();
+
+console.log(fruits);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+["Banana", "Mango"]
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>unshift()</h2>
+
+        <p>Adds an element at the beginning of the array.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Banana", "Mango"];
+
+fruits.unshift("Apple");
+
+console.log(fruits);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+["Apple", "Banana", "Mango"]
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>length</h2>
+
+        <p>Returns the number of elements in an array.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits.length);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+3
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>includes()</h2>
+
+        <p>Checks whether an element exists in the array.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits.includes("Mango"));
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+true
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>indexOf()</h2>
+
+        <p>Returns the index position of an element.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits.indexOf("Banana"));
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+1
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>join()</h2>
+
+        <p>Joins all array elements into a string.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits.join(" - "));
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Apple - Banana - Mango
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>reverse()</h2>
+
+        <p>Reverses the array elements.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+fruits.reverse();
+
+console.log(fruits);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+["Mango", "Banana", "Apple"]
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>sort()</h2>
+
+        <p>Sorts array elements alphabetically.</p>
+
+        <div class="code-box">
+<pre>
+let fruits = ["Mango", "Apple", "Banana"];
+
+fruits.sort();
+
+console.log(fruits);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+["Apple", "Banana", "Mango"]
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is an Array?</li>
+            <li>Difference between push() and pop()?</li>
+            <li>Difference between shift() and unshift()?</li>
+            <li>What is the use of includes()?</li>
+            <li>What is the use of sort() method?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

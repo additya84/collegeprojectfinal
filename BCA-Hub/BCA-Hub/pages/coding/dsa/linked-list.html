@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked List | BCA Hub</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🔗 Data Structure</span>
+
+        <h1>Linked List</h1>
+
+        <p>
+            Learn Linked List including types, insertion,
+            deletion and traversal operations with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 What is a Linked List?</h2>
+
+        <p>
+            A Linked List is a linear data structure where elements
+            are stored in nodes and each node points to the next node.
+        </p>
+
+        <div class="note-box">
+            Each node contains two parts:
+            Data + Address of Next Node
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🧩 Structure of Node</h2>
+
+        <div class="code-box">
+<pre>
++------+-------+
+| Data | Next  |
++------+-------+
+</pre>
+        </div>
+
+        <p>
+            The data field stores the value and next stores
+            the address of the next node.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📚 Types of Linked List</h2>
+
+        <ul class="points">
+            <li>Singly Linked List</li>
+            <li>Doubly Linked List</li>
+            <li>Circular Linked List</li>
+            <li>Circular Doubly Linked List</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>1️⃣ Singly Linked List</h2>
+
+        <div class="code-box">
+<pre>
+10 → 20 → 30 → 40 → NULL
+</pre>
+        </div>
+
+        <p>
+            Each node points to the next node only.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>2️⃣ Doubly Linked List</h2>
+
+        <div class="code-box">
+<pre>
+NULL ← 10 ⇄ 20 ⇄ 30 ⇄ 40 → NULL
+</pre>
+        </div>
+
+        <p>
+            Each node contains previous and next pointers.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>3️⃣ Circular Linked List</h2>
+
+        <div class="code-box">
+<pre>
+10 → 20 → 30 → 40
+↑             ↓
+└─────────────┘
+</pre>
+        </div>
+
+        <p>
+            The last node points back to the first node.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>🚶 Traversal Operation</h2>
+
+        <p>
+            Traversal means visiting every node in the linked list.
+        </p>
+
+        <div class="code-box">
+<pre>
+10 → 20 → 30 → 40 → NULL
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>➕ Insertion Operation</h2>
+
+        <div class="code-box">
+<pre>
+Before:
+10 → 20 → 40 → NULL
+
+Insert 30
+
+After:
+10 → 20 → 30 → 40 → NULL
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>➖ Deletion Operation</h2>
+
+        <div class="code-box">
+<pre>
+Before:
+10 → 20 → 30 → 40 → NULL
+
+Delete 30
+
+After:
+10 → 20 → 40 → NULL
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>💻 Example Program</h2>
+
+        <div class="code-box">
+<pre>
+struct Node
+{
+    int data;
+    struct Node *next;
+};
+</pre>
+        </div>
+
+        <p>
+            This is the basic structure of a linked list node in C.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>✅ Advantages of Linked List</h2>
+
+        <ul class="points">
+            <li>Dynamic size.</li>
+            <li>Easy insertion and deletion.</li>
+            <li>No memory wastage.</li>
+            <li>Efficient memory utilization.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>❌ Disadvantages of Linked List</h2>
+
+        <ul class="points">
+            <li>Extra memory required for pointers.</li>
+            <li>No direct access using index.</li>
+            <li>Traversal is slower than arrays.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is a Linked List?</li>
+            <li>Difference between Array and Linked List?</li>
+            <li>What is a Doubly Linked List?</li>
+            <li>What is a Circular Linked List?</li>
+            <li>What are advantages of Linked List?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

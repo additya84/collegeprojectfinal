@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design | BCA Hub</title>
+    <link rel="stylesheet" href="cssprop.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📱 Responsive Web Design</span>
+
+        <h1>Responsive Design</h1>
+
+        <p>
+            Learn Responsive Web Design using Media Queries,
+            Flexible Layouts and Mobile Friendly Techniques.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is Responsive Design?</h2>
+
+        <p>
+            Responsive Design is a web design approach that makes
+            websites look good on all devices such as mobiles,
+            tablets, laptops and desktops.
+        </p>
+
+        <div class="note-box">
+            One website can adapt automatically to different screen sizes.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Why Responsive Design?</h2>
+
+        <ul class="points">
+            <li>Better user experience.</li>
+            <li>Works on all devices.</li>
+            <li>Improves website accessibility.</li>
+            <li>Improves SEO ranking.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Viewport Meta Tag</h2>
+
+        <div class="code-box">
+<pre>
+&lt;meta name="viewport"
+content="width=device-width, initial-scale=1.0"&gt;
+</pre>
+        </div>
+
+        <p>
+            This tag helps the website scale properly on mobile devices.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>Media Query</h2>
+
+        <p>
+            Media Queries apply different styles for different screen sizes.
+        </p>
+
+        <div class="code-box">
+<pre>
+@media(max-width:768px)
+{
+    body{
+        background:lightblue;
+    }
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Responsive Grid Example</h2>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Responsive Flexbox Example</h2>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Responsive Images</h2>
+
+        <div class="code-box">
+<pre>
+img{
+    max-width:100%;
+    height:auto;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Responsive Typography</h2>
+
+        <div class="code-box">
+<pre>
+h1{
+    font-size:clamp(2rem,5vw,4rem);
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Example Media Query</h2>
+
+        <div class="code-box">
+<pre>
+@media(max-width:600px)
+{
+    .hero h1{
+        font-size:32px;
+    }
+
+    .container{
+        padding:15px;
+    }
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Best Practices</h2>
+
+        <ul class="points">
+            <li>Use flexible layouts.</li>
+            <li>Use percentage widths.</li>
+            <li>Use media queries.</li>
+            <li>Optimize images for mobile devices.</li>
+            <li>Test on multiple screen sizes.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is Responsive Design?</li>
+            <li>What is a Media Query?</li>
+            <li>Why is the viewport tag important?</li>
+            <li>How do responsive images work?</li>
+            <li>What are the advantages of Responsive Design?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

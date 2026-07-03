@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP in C# | BCA Hub</title>
+    <link rel="stylesheet" href="csharp.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🏛️ Object Oriented Programming</span>
+
+        <h1>OOP Concepts in C#</h1>
+
+        <p>
+            Learn Object Oriented Programming concepts in C#
+            including Classes, Objects, Encapsulation,
+            Inheritance, Polymorphism and Abstraction.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 What is OOP?</h2>
+
+        <p>
+            Object Oriented Programming (OOP) is a programming
+            paradigm based on objects and classes. It helps in
+            creating reusable, secure and maintainable applications.
+        </p>
+
+        <div class="note-box">
+            C# is a fully Object Oriented Programming language.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🏗️ Class</h2>
+
+        <p>
+            A class is a blueprint or template used to create objects.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Student
+{
+    public int RollNo;
+    public string Name;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📦 Object</h2>
+
+        <p>
+            An object is an instance of a class.
+        </p>
+
+        <div class="code-box">
+<pre>
+Student s1 = new Student();
+</pre>
+        </div>
+
+        <div class="output-box">
+            Here s1 is an object of Student class.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>💻 Example of Class and Object</h2>
+
+        <div class="code-box">
+<pre>
+using System;
+
+class Student
+{
+    public string Name;
+
+    public void Display()
+    {
+        Console.WriteLine(Name);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Student s1 = new Student();
+
+        s1.Name = "Additya";
+
+        s1.Display();
+    }
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            Additya
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔒 Encapsulation</h2>
+
+        <p>
+            Wrapping data and methods into a single unit is called Encapsulation.
+        </p>
+
+        <div class="code-box">
+<pre>
+class BankAccount
+{
+    private int balance;
+
+    public void SetBalance(int amount)
+    {
+        balance = amount;
+    }
+
+    public int GetBalance()
+    {
+        return balance;
+    }
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>👨‍👩‍👦 Inheritance</h2>
+
+        <p>
+            Inheritance allows one class to acquire the properties
+            and methods of another class.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Animal
+{
+    public void Eat()
+    {
+        Console.WriteLine("Eating...");
+    }
+}
+
+class Dog : Animal
+{
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔄 Polymorphism</h2>
+
+        <p>
+            Polymorphism means one method can perform multiple tasks.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Print
+{
+    public void Show(int x)
+    {
+        Console.WriteLine(x);
+    }
+
+    public void Show(string y)
+    {
+        Console.WriteLine(y);
+    }
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🎭 Abstraction</h2>
+
+        <p>
+            Abstraction means hiding implementation details
+            and showing only essential features.
+        </p>
+
+        <div class="code-box">
+<pre>
+abstract class Shape
+{
+    public abstract void Draw();
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔑 Access Modifiers</h2>
+
+        <table>
+            <tr>
+                <th>Modifier</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>public</td>
+                <td>Accessible everywhere</td>
+            </tr>
+
+            <tr>
+                <td>private</td>
+                <td>Accessible only inside class</td>
+            </tr>
+
+            <tr>
+                <td>protected</td>
+                <td>Accessible inside derived classes</td>
+            </tr>
+
+            <tr>
+                <td>internal</td>
+                <td>Accessible inside same assembly</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>✅ Advantages of OOP</h2>
+
+        <ul class="points">
+            <li>Code Reusability</li>
+            <li>Easy Maintenance</li>
+            <li>Better Security</li>
+            <li>Modular Programming</li>
+            <li>Easy Debugging</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is OOP?</li>
+            <li>Difference between Class and Object?</li>
+            <li>What is Encapsulation?</li>
+            <li>What is Inheritance?</li>
+            <li>What is Polymorphism?</li>
+            <li>What is Abstraction?</li>
+            <li>What are Access Modifiers?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

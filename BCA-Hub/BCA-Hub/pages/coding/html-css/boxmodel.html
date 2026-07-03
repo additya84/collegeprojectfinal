@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model | BCA Hub</title>
+    <link rel="stylesheet" href="cssprop.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📦 CSS Layout</span>
+
+        <h1>CSS Box Model</h1>
+
+        <p>
+            Learn CSS Box Model including Content, Padding,
+            Border and Margin with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is CSS Box Model?</h2>
+
+        <p>
+            Every HTML element is treated as a rectangular box in CSS.
+            This box consists of Content, Padding, Border and Margin.
+        </p>
+
+        <div class="note-box">
+            Box Model = Content + Padding + Border + Margin
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Box Model Structure</h2>
+
+        <div class="code-box">
+<pre>
++-----------------------+
+|        Margin         |
+|  +-----------------+  |
+|  |     Border      |  |
+|  | +-------------+ |  |
+|  | |   Padding   | |  |
+|  | | +---------+ | |  |
+|  | | | Content | | |  |
+|  | | +---------+ | |  |
+|  | +-------------+ |  |
+|  +-----------------+  |
++-----------------------+
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Content</h2>
+
+        <p>
+            Content is the actual text, image or element inside the box.
+        </p>
+
+        <div class="code-box">
+<pre>
+div{
+    width:300px;
+    height:150px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Padding</h2>
+
+        <p>
+            Padding creates space between content and border.
+        </p>
+
+        <div class="code-box">
+<pre>
+div{
+    padding:20px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Border</h2>
+
+        <p>
+            Border surrounds the padding and content.
+        </p>
+
+        <div class="code-box">
+<pre>
+div{
+    border:2px solid black;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Margin</h2>
+
+        <p>
+            Margin creates space outside the border.
+        </p>
+
+        <div class="code-box">
+<pre>
+div{
+    margin:20px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Complete Example</h2>
+
+        <div class="code-box">
+<pre>
+div{
+    width:300px;
+    padding:20px;
+    border:2px solid black;
+    margin:30px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Example Output</h2>
+
+        <div class="code-box">
+<pre>
+Margin
+ └── Border
+      └── Padding
+           └── Content
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Advantages of Box Model</h2>
+
+        <ul class="points">
+            <li>Helps create proper layouts.</li>
+            <li>Controls spacing effectively.</li>
+            <li>Makes responsive design easier.</li>
+            <li>Improves UI structure.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is CSS Box Model?</li>
+            <li>What are the parts of Box Model?</li>
+            <li>Difference between Margin and Padding?</li>
+            <li>What is the purpose of Border?</li>
+            <li>How does Box Model affect layout?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

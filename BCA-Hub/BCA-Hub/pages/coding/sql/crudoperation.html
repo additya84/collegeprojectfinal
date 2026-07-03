@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">➕ SQL CRUD Operations</span>
+
+        <h1>CRUD Operations</h1>
+
+        <p>
+            Learn Create, Read, Update and Delete operations in SQL
+            with examples and outputs.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is CRUD?</h2>
+
+        <p>
+            CRUD stands for Create, Read, Update and Delete.
+            These are the basic operations performed on database records.
+        </p>
+
+        <div class="note-box">
+            CRUD = Create + Read + Update + Delete
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Create (INSERT)</h2>
+
+        <p>
+            INSERT command is used to add new records into a table.
+        </p>
+
+        <div class="code-box">
+<pre>
+INSERT INTO Students
+VALUES(1,'Rahul',20);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+1 Rahul 20
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Read (SELECT)</h2>
+
+        <p>
+            SELECT command is used to retrieve data from a table.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT * FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Id   Name    Age
+1    Rahul   20
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Update (UPDATE)</h2>
+
+        <p>
+            UPDATE command is used to modify existing records.
+        </p>
+
+        <div class="code-box">
+<pre>
+UPDATE Students
+SET Age = 21
+WHERE Id = 1;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Id   Name    Age
+1    Rahul   21
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Delete (DELETE)</h2>
+
+        <p>
+            DELETE command is used to remove records from a table.
+        </p>
+
+        <div class="code-box">
+<pre>
+DELETE FROM Students
+WHERE Id = 1;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Record Deleted Successfully
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>CRUD Summary Table</h2>
+
+        <table>
+            <tr>
+                <th>Operation</th>
+                <th>Command</th>
+                <th>Purpose</th>
+            </tr>
+
+            <tr>
+                <td>Create</td>
+                <td>INSERT</td>
+                <td>Add New Record</td>
+            </tr>
+
+            <tr>
+                <td>Read</td>
+                <td>SELECT</td>
+                <td>Retrieve Data</td>
+            </tr>
+
+            <tr>
+                <td>Update</td>
+                <td>UPDATE</td>
+                <td>Modify Data</td>
+            </tr>
+
+            <tr>
+                <td>Delete</td>
+                <td>DELETE</td>
+                <td>Remove Data</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>Advantages of CRUD Operations</h2>
+
+        <ul class="points">
+            <li>Easy data management.</li>
+            <li>Efficient database operations.</li>
+            <li>Supports all database applications.</li>
+            <li>Improves data handling.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is CRUD?</li>
+            <li>What is the use of INSERT command?</li>
+            <li>Difference between UPDATE and DELETE?</li>
+            <li>What is SELECT statement?</li>
+            <li>Explain CRUD operations with examples.</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

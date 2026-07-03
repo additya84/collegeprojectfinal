@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# Basics | BCA Hub</title>
+    <link rel="stylesheet" href="csharp.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🔷 C# Fundamentals</span>
+
+        <h1>C# Basics</h1>
+
+        <p>
+            Learn C# fundamentals including variables, data types,
+            operators, conditions, loops and arrays with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 Introduction to C#</h2>
+
+        <p>
+            C# is an object-oriented programming language developed by Microsoft.
+            It is widely used for desktop applications, web applications,
+            APIs and game development using Unity.
+        </p>
+
+        <div class="note-box">
+            C# is pronounced as "C Sharp".
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🏗 Structure of a C# Program</h2>
+
+        <div class="code-box">
+<pre>
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello World");
+    }
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            Hello World
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📦 Variables</h2>
+
+        <div class="code-box">
+<pre>
+int age = 19;
+string name = "Additya";
+
+Console.WriteLine(age);
+Console.WriteLine(name);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+19
+Additya
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔢 Data Types</h2>
+
+        <table>
+            <tr>
+                <th>Data Type</th>
+                <th>Example</th>
+            </tr>
+
+            <tr>
+                <td>int</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>double</td>
+                <td>10.5</td>
+            </tr>
+
+            <tr>
+                <td>char</td>
+                <td>A</td>
+            </tr>
+
+            <tr>
+                <td>string</td>
+                <td>Hello</td>
+            </tr>
+
+            <tr>
+                <td>bool</td>
+                <td>true</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>➕ Operators</h2>
+
+        <div class="code-box">
+<pre>
+int a = 10;
+int b = 20;
+
+Console.WriteLine(a + b);
+Console.WriteLine(a - b);
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+30
+-10
+200
+0
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔀 If Else</h2>
+
+        <div class="code-box">
+<pre>
+int age = 20;
+
+if(age >= 18)
+{
+    Console.WriteLine("Eligible");
+}
+else
+{
+    Console.WriteLine("Not Eligible");
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            Eligible
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔄 Loops</h2>
+
+        <div class="code-box">
+<pre>
+for(int i=1;i<=5;i++)
+{
+    Console.WriteLine(i);
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+1
+2
+3
+4
+5
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📊 Arrays</h2>
+
+        <div class="code-box">
+<pre>
+int[] numbers = {10,20,30,40,50};
+
+foreach(int num in numbers)
+{
+    Console.WriteLine(num);
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+10
+20
+30
+40
+50
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>⌨️ User Input</h2>
+
+        <div class="code-box">
+<pre>
+Console.Write("Enter Name: ");
+
+string name = Console.ReadLine();
+
+Console.WriteLine(name);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Input : Additya
+Output : Additya
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is C#?</li>
+            <li>What are value types and reference types?</li>
+            <li>Difference between int and double?</li>
+            <li>Difference between for loop and foreach loop?</li>
+            <li>What is Console.ReadLine()?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events | BCA Hub</title>
+    <link rel="stylesheet" href="javascript.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🖱️ JavaScript Events</span>
+
+        <h1>Events in JavaScript</h1>
+
+        <p>
+            Learn JavaScript Events including click events,
+            mouse events, keyboard events and form events.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What are Events?</h2>
+
+        <p>
+            Events are actions performed by the user or browser
+            such as clicking a button, moving the mouse or pressing a key.
+        </p>
+
+        <div class="note-box">
+            JavaScript uses events to make web pages interactive.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Click Event</h2>
+
+        <div class="code-box">
+<pre>
+<button onclick="showMessage()">
+Click Me
+</button>
+
+<script>
+function showMessage(){
+    alert("Welcome to BCA Hub");
+}
+</script>
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output: Alert box appears after button click.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Double Click Event</h2>
+
+        <div class="code-box">
+<pre>
+<button ondblclick="changeText()">
+Double Click Me
+</button>
+
+<script>
+function changeText(){
+    alert("Double Click Detected");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Mouse Over Event</h2>
+
+        <div class="code-box">
+<pre>
+<p onmouseover="mouseOver()">
+Move mouse here
+</p>
+
+<script>
+function mouseOver(){
+    console.log("Mouse Over Event");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Mouse Out Event</h2>
+
+        <div class="code-box">
+<pre>
+<p onmouseout="mouseOut()">
+Move mouse away
+</p>
+
+<script>
+function mouseOut(){
+    console.log("Mouse Left");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Key Press Event</h2>
+
+        <div class="code-box">
+<pre>
+<input type="text"
+onkeypress="keyPress()">
+
+<script>
+function keyPress(){
+    console.log("Key Pressed");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Key Down Event</h2>
+
+        <div class="code-box">
+<pre>
+<input type="text"
+onkeydown="keyDown()">
+
+<script>
+function keyDown(){
+    console.log("Key Down");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Key Up Event</h2>
+
+        <div class="code-box">
+<pre>
+<input type="text"
+onkeyup="keyUp()">
+
+<script>
+function keyUp(){
+    console.log("Key Released");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Change Event</h2>
+
+        <div class="code-box">
+<pre>
+<select onchange="changeOption()">
+    <option>HTML</option>
+    <option>CSS</option>
+</select>
+
+<script>
+function changeOption(){
+    console.log("Option Changed");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Submit Event</h2>
+
+        <div class="code-box">
+<pre>
+<form onsubmit="submitForm()">
+
+<input type="text">
+
+<button type="submit">
+Submit
+</button>
+
+</form>
+
+<script>
+function submitForm(){
+    alert("Form Submitted");
+}
+</script>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Common JavaScript Events</h2>
+
+        <ul class="points">
+            <li>onclick</li>
+            <li>ondblclick</li>
+            <li>onmouseover</li>
+            <li>onmouseout</li>
+            <li>onkeypress</li>
+            <li>onkeydown</li>
+            <li>onkeyup</li>
+            <li>onchange</li>
+            <li>onsubmit</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What are events in JavaScript?</li>
+            <li>What is onclick event?</li>
+            <li>Difference between keydown and keyup?</li>
+            <li>What is onchange event?</li>
+            <li>What is onsubmit event?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

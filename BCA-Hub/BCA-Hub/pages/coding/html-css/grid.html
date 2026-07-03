@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid | BCA Hub</title>
+    <link rel="stylesheet" href="cssprop.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">🔲 CSS Layout</span>
+
+        <h1>CSS Grid</h1>
+
+        <p>
+            Learn CSS Grid including Grid Container,
+            Grid Items and important Grid properties
+            with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is CSS Grid?</h2>
+
+        <p>
+            CSS Grid is a two-dimensional layout system
+            used to arrange elements in rows and columns.
+        </p>
+
+        <div class="note-box">
+            Grid makes creating complex layouts simple and responsive.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Basic Syntax</h2>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:grid;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Grid Container and Grid Items</h2>
+
+        <div class="code-box">
+<pre>
+<div class="container">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>grid-template-columns</h2>
+
+        <p>
+            Defines the number and size of columns.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:grid;
+    grid-template-columns:
+    1fr 1fr 1fr;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>grid-template-rows</h2>
+
+        <p>
+            Defines the number and size of rows.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    grid-template-rows:
+    100px 100px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>gap Property</h2>
+
+        <p>
+            Adds spacing between rows and columns.
+        </p>
+
+        <div class="code-box">
+<pre>
+.container{
+    gap:20px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>grid-column</h2>
+
+        <p>
+            Specifies how many columns an item should span.
+        </p>
+
+        <div class="code-box">
+<pre>
+.item1{
+    grid-column:1/3;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>grid-row</h2>
+
+        <p>
+            Specifies how many rows an item should span.
+        </p>
+
+        <div class="code-box">
+<pre>
+.item1{
+    grid-row:1/3;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Responsive Grid Example</h2>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Complete Example</h2>
+
+        <div class="code-box">
+<pre>
+.container{
+    display:grid;
+    grid-template-columns:
+    repeat(3,1fr);
+    gap:20px;
+}
+
+.box{
+    padding:20px;
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Advantages of CSS Grid</h2>
+
+        <ul class="points">
+            <li>Easy row and column layouts.</li>
+            <li>Responsive design support.</li>
+            <li>Less code required.</li>
+            <li>Better control over positioning.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is CSS Grid?</li>
+            <li>Difference between Grid and Flexbox?</li>
+            <li>What is grid-template-columns?</li>
+            <li>What is gap property?</li>
+            <li>What is repeat() function in Grid?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

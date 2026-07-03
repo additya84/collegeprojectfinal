@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Functions | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">📊 SQL Functions</span>
+
+        <h1>SQL Functions</h1>
+
+        <p>
+            Learn SQL Functions including COUNT, SUM,
+            AVG, MAX and MIN with examples and outputs.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What are SQL Functions?</h2>
+
+        <p>
+            SQL Functions are built-in functions used to perform
+            calculations and operations on database data.
+        </p>
+
+        <div class="note-box">
+            SQL Functions help reduce code and improve query performance.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>COUNT() Function</h2>
+
+        <p>
+            COUNT() returns the total number of rows.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT COUNT(*)
+FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+5
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>SUM() Function</h2>
+
+        <p>
+            SUM() returns the total sum of a column.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT SUM(Marks)
+FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+420
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>AVG() Function</h2>
+
+        <p>
+            AVG() returns the average value of a column.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT AVG(Marks)
+FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+84
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>MAX() Function</h2>
+
+        <p>
+            MAX() returns the highest value in a column.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT MAX(Marks)
+FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+95
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>MIN() Function</h2>
+
+        <p>
+            MIN() returns the smallest value in a column.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT MIN(Marks)
+FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+65
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>UPPER() Function</h2>
+
+        <p>
+            UPPER() converts text into uppercase letters.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT UPPER(Name)
+FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+RAHUL
+AMAN
+ROHIT
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>LOWER() Function</h2>
+
+        <p>
+            LOWER() converts text into lowercase letters.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT LOWER(Name)
+FROM Students;
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+rahul
+aman
+rohit
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>ROUND() Function</h2>
+
+        <p>
+            ROUND() rounds a decimal value.
+        </p>
+
+        <div class="code-box">
+<pre>
+SELECT ROUND(85.678,2);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+85.68
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Function Summary</h2>
+
+        <table>
+            <tr>
+                <th>Function</th>
+                <th>Purpose</th>
+            </tr>
+
+            <tr>
+                <td>COUNT()</td>
+                <td>Counts rows</td>
+            </tr>
+
+            <tr>
+                <td>SUM()</td>
+                <td>Calculates total</td>
+            </tr>
+
+            <tr>
+                <td>AVG()</td>
+                <td>Calculates average</td>
+            </tr>
+
+            <tr>
+                <td>MAX()</td>
+                <td>Finds maximum value</td>
+            </tr>
+
+            <tr>
+                <td>MIN()</td>
+                <td>Finds minimum value</td>
+            </tr>
+
+            <tr>
+                <td>UPPER()</td>
+                <td>Converts text to uppercase</td>
+            </tr>
+
+            <tr>
+                <td>LOWER()</td>
+                <td>Converts text to lowercase</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What are SQL Functions?</li>
+            <li>What is COUNT() function?</li>
+            <li>Difference between MAX() and MIN()?</li>
+            <li>What is AVG() function?</li>
+            <li>What is the use of UPPER() and LOWER()?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

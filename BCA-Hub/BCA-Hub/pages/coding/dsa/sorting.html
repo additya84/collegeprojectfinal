@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting | BCA Hub</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">↕️ Data Structure</span>
+
+        <h1>Sorting Algorithms</h1>
+
+        <p>
+            Learn various sorting algorithms including Bubble Sort,
+            Selection Sort, Merge Sort and Quick Sort.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>📘 What is Sorting?</h2>
+
+        <p>
+            Sorting is the process of arranging data in ascending
+            or descending order.
+        </p>
+
+        <div class="note-box">
+            Example:
+            50 20 10 40 30 → 10 20 30 40 50
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🫧 Bubble Sort</h2>
+
+        <p>
+            Bubble Sort repeatedly swaps adjacent elements if they are in the wrong order.
+        </p>
+
+        <div class="code-box">
+<pre>
+for(i=0;i<n-1;i++)
+{
+    for(j=0;j<n-i-1;j++)
+    {
+        if(arr[j]>arr[j+1])
+        {
+            swap(arr[j],arr[j+1]);
+        }
+    }
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Example:
+            50 20 10 40 30 → 10 20 30 40 50
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Selection Sort</h2>
+
+        <p>
+            Selection Sort selects the smallest element and places it at the correct position.
+        </p>
+
+        <div class="code-box">
+<pre>
+for(i=0;i<n-1;i++)
+{
+    min=i;
+
+    for(j=i+1;j<n;j++)
+    {
+        if(arr[j]<arr[min])
+        {
+            min=j;
+        }
+    }
+
+    swap(arr[i],arr[min]);
+}
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>⚡ Quick Sort</h2>
+
+        <p>
+            Quick Sort uses a pivot element and partitions the array around it.
+        </p>
+
+        <div class="code-box">
+<pre>
+Choose Pivot
+Partition Array
+Recursively Sort Left Part
+Recursively Sort Right Part
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>🔀 Merge Sort</h2>
+
+        <p>
+            Merge Sort divides the array into smaller parts and merges them in sorted order.
+        </p>
+
+        <div class="code-box">
+<pre>
+Divide Array
+Sort Subarrays
+Merge Sorted Arrays
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>📊 Time Complexity</h2>
+
+        <table>
+            <tr>
+                <th>Algorithm</th>
+                <th>Best</th>
+                <th>Average</th>
+                <th>Worst</th>
+            </tr>
+
+            <tr>
+                <td>Bubble Sort</td>
+                <td>O(n)</td>
+                <td>O(n²)</td>
+                <td>O(n²)</td>
+            </tr>
+
+            <tr>
+                <td>Selection Sort</td>
+                <td>O(n²)</td>
+                <td>O(n²)</td>
+                <td>O(n²)</td>
+            </tr>
+
+            <tr>
+                <td>Merge Sort</td>
+                <td>O(n log n)</td>
+                <td>O(n log n)</td>
+                <td>O(n log n)</td>
+            </tr>
+
+            <tr>
+                <td>Quick Sort</td>
+                <td>O(n log n)</td>
+                <td>O(n log n)</td>
+                <td>O(n²)</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-card">
+        <h2>✅ Advantages of Sorting</h2>
+
+        <ul class="points">
+            <li>Makes searching faster.</li>
+            <li>Improves data organization.</li>
+            <li>Useful in databases and applications.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is Sorting?</li>
+            <li>Difference between Bubble and Selection Sort?</li>
+            <li>What is Quick Sort?</li>
+            <li>What is Merge Sort?</li>
+            <li>Which sorting algorithm is fastest?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

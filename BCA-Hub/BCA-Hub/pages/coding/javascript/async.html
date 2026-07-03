@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JavaScript | BCA Hub</title>
+    <link rel="stylesheet" href="javascript.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">⚡ Advanced JavaScript</span>
+
+        <h1>Async JavaScript</h1>
+
+        <p>
+            Learn Asynchronous JavaScript including Callbacks,
+            Promises, Async and Await with examples.
+        </p>
+    </section>
+
+    <section class="section-card">
+        <h2>What is Asynchronous JavaScript?</h2>
+
+        <p>
+            Asynchronous JavaScript allows code to run without
+            blocking the execution of other tasks.
+        </p>
+
+        <div class="note-box">
+            JavaScript can perform multiple tasks efficiently using asynchronous programming.
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Synchronous Example</h2>
+
+        <div class="code-box">
+<pre>
+console.log("Task 1");
+console.log("Task 2");
+console.log("Task 3");
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Task 1
+Task 2
+Task 3
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Asynchronous Example</h2>
+
+        <div class="code-box">
+<pre>
+console.log("Start");
+
+setTimeout(() => {
+    console.log("Task Completed");
+}, 2000);
+
+console.log("End");
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Start
+End
+Task Completed
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Callback Function</h2>
+
+        <p>
+            A callback is a function passed as an argument to another function.
+        </p>
+
+        <div class="code-box">
+<pre>
+function greet(name, callback){
+    console.log("Hello " + name);
+    callback();
+}
+
+function done(){
+    console.log("Completed");
+}
+
+greet("Additya", done);
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Promises</h2>
+
+        <p>
+            Promises are used to handle asynchronous operations.
+        </p>
+
+        <div class="code-box">
+<pre>
+let promise = new Promise((resolve, reject) => {
+    resolve("Success");
+});
+
+promise.then(result => {
+    console.log(result);
+});
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Success
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Async Function</h2>
+
+        <div class="code-box">
+<pre>
+async function message(){
+    return "Hello World";
+}
+
+message().then(console.log);
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Hello World
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Await Keyword</h2>
+
+        <div class="code-box">
+<pre>
+function fetchData(){
+    return new Promise(resolve=>{
+        setTimeout(()=>{
+            resolve("Data Loaded");
+        },2000);
+    });
+}
+
+async function getData(){
+    let result = await fetchData();
+    console.log(result);
+}
+
+getData();
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Data Loaded
+</pre>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <h2>Advantages of Async JavaScript</h2>
+
+        <ul class="points">
+            <li>Improves performance.</li>
+            <li>Prevents application freezing.</li>
+            <li>Handles API calls efficiently.</li>
+            <li>Provides better user experience.</li>
+        </ul>
+    </section>
+
+    <section class="section-card">
+        <h2>Important Questions</h2>
+
+        <ul class="points">
+            <li>What is asynchronous programming?</li>
+            <li>What is a callback function?</li>
+            <li>What is a Promise?</li>
+            <li>What is async and await?</li>
+            <li>Difference between synchronous and asynchronous code?</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>
