@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STL in C++ | BCA Hub</title>
+    <link rel="stylesheet" href="imheri.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">📚 C++ STL</span>
+
+        <h1>Standard Template Library (STL)</h1>
+
+        <p>
+            Learn C++ STL including Vector, Stack, Queue, Set, Map and Pair
+            with examples and outputs.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 What is STL?</h2>
+
+        <p>
+            STL stands for Standard Template Library.
+            It is a collection of ready-made classes and functions
+            that helps programmers write efficient code quickly.
+        </p>
+
+        <div class="note-box">
+            STL mainly contains Containers, Iterators and Algorithms.
+        </div>
+    </section>
+
+    <!-- Components -->
+    <section class="section-card">
+        <h2>🧩 Components of STL</h2>
+
+        <ul class="points">
+            <li>Containers</li>
+            <li>Algorithms</li>
+            <li>Iterators</li>
+        </ul>
+    </section>
+
+    <!-- Vector -->
+    <section class="section-card">
+        <h2>📦 Vector</h2>
+
+        <p>
+            Vector is a dynamic array that can grow or shrink in size automatically.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main()
+{
+    vector<int> v = {10,20,30,40};
+
+    for(int x : v)
+    {
+        cout << x << " ";
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>10 20 30 40</strong>
+        </div>
+    </section>
+
+    <!-- Stack -->
+    <section class="section-card">
+        <h2>📚 Stack</h2>
+
+        <p>
+            Stack follows LIFO (Last In First Out) principle.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+#include &lt;stack&gt;
+using namespace std;
+
+int main()
+{
+    stack<int> s;
+
+    s.push(10);
+    s.push(20);
+    s.push(30);
+
+    cout << s.top();
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>30</strong>
+        </div>
+    </section>
+
+    <!-- Queue -->
+    <section class="section-card">
+        <h2>🚶 Queue</h2>
+
+        <p>
+            Queue follows FIFO (First In First Out) principle.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+#include &lt;queue&gt;
+using namespace std;
+
+int main()
+{
+    queue<int> q;
+
+    q.push(10);
+    q.push(20);
+    q.push(30);
+
+    cout << q.front();
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>10</strong>
+        </div>
+    </section>
+
+    <!-- Set -->
+    <section class="section-card">
+        <h2>🎯 Set</h2>
+
+        <p>
+            Set stores unique elements in sorted order.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+#include &lt;set&gt;
+using namespace std;
+
+int main()
+{
+    set<int> s = {50,20,10,20,30};
+
+    for(int x : s)
+    {
+        cout << x << " ";
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>10 20 30 50</strong>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section-card">
+        <h2>🗺️ Map</h2>
+
+        <p>
+            Map stores data in key-value pairs.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+#include &lt;map&gt;
+using namespace std;
+
+int main()
+{
+    map<int,string> student;
+
+    student[101] = "Rahul";
+    student[102] = "Aman";
+
+    cout << student[101];
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Rahul</strong>
+        </div>
+    </section>
+
+    <!-- Pair -->
+    <section class="section-card">
+        <h2>👥 Pair</h2>
+
+        <p>
+            Pair stores two values together.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+#include &lt;utility&gt;
+using namespace std;
+
+int main()
+{
+    pair<int,string> p;
+
+    p.first = 101;
+    p.second = "Additya";
+
+    cout << p.first << " " << p.second;
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>101 Additya</strong>
+        </div>
+    </section>
+
+    <!-- Iterators -->
+    <section class="section-card">
+        <h2>🔁 Iterators</h2>
+
+        <p>
+            Iterators are used to traverse elements in STL containers.
+        </p>
+
+        <div class="code-box">
+<pre>
+vector<int>::iterator it;
+
+for(it=v.begin(); it!=v.end(); it++)
+{
+    cout << *it << " ";
+}
+</pre>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section-card">
+        <h2>✅ Advantages of STL</h2>
+
+        <ul class="points">
+            <li>Reduces coding time.</li>
+            <li>Provides optimized data structures.</li>
+            <li>Reusable and efficient code.</li>
+            <li>Easy implementation of complex tasks.</li>
+        </ul>
+    </section>
+
+    <!-- Important Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is STL?</li>
+            <li>What are the components of STL?</li>
+            <li>Difference between Vector and Array?</li>
+            <li>Difference between Stack and Queue?</li>
+            <li>What is an Iterator?</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>
