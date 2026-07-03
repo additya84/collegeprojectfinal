@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Concepts | BCA Hub</title>
+    <link rel="stylesheet" href="cpp.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">🏛️ Object Oriented Programming</span>
+
+        <h1>OOP Concepts in C++</h1>
+
+        <p>
+            Learn Object Oriented Programming concepts in C++
+            including Classes, Objects, Encapsulation, Abstraction,
+            Inheritance and Polymorphism with examples and programs.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 What is OOP?</h2>
+
+        <p>
+            Object Oriented Programming (OOP) is a programming approach
+            based on objects and classes. It helps in writing reusable,
+            secure and maintainable code.
+        </p>
+
+        <div class="note-box">
+            C++ is one of the most popular Object Oriented Programming languages.
+        </div>
+    </section>
+
+    <!-- Class -->
+    <section class="section-card">
+        <h2>🏗️ Class</h2>
+
+        <p>
+            A class is a blueprint or template for creating objects.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Student
+{
+    public:
+        int roll;
+        string name;
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Object -->
+    <section class="section-card">
+        <h2>📦 Object</h2>
+
+        <p>
+            An object is an instance of a class.
+        </p>
+
+        <div class="code-box">
+<pre>
+Student s1;
+</pre>
+        </div>
+
+        <p>
+            Here <strong>s1</strong> is an object of Student class.
+        </p>
+    </section>
+
+    <!-- Class and Object Example -->
+    <section class="section-card">
+        <h2>💻 Example of Class and Object</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+class Student
+{
+public:
+    string name;
+    int roll;
+
+    void display()
+    {
+        cout << "Name: " << name << endl;
+        cout << "Roll No: " << roll;
+    }
+};
+
+int main()
+{
+    Student s1;
+
+    s1.name = "Additya";
+    s1.roll = 101;
+
+    s1.display();
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Name: Additya
+Roll No: 101
+</pre>
+        </div>
+    </section>
+
+    <!-- Access Specifiers -->
+    <section class="section-card">
+        <h2>🔐 Access Specifiers</h2>
+
+        <p>
+            Access specifiers control the accessibility of class members.
+        </p>
+
+        <ul class="points">
+            <li><strong>Public</strong> → Accessible everywhere.</li>
+            <li><strong>Private</strong> → Accessible only inside the class.</li>
+            <li><strong>Protected</strong> → Accessible inside class and derived class.</li>
+        </ul>
+    </section>
+
+    <!-- Encapsulation -->
+    <section class="section-card">
+        <h2>📦 Encapsulation</h2>
+
+        <p>
+            Wrapping data and functions into a single unit is called Encapsulation.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Bank
+{
+private:
+    int balance;
+
+public:
+    void setBalance(int b)
+    {
+        balance = b;
+    }
+
+    int getBalance()
+    {
+        return balance;
+    }
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Abstraction -->
+    <section class="section-card">
+        <h2>🎭 Abstraction</h2>
+
+        <p>
+            Hiding unnecessary implementation details and showing only
+            important information to the user is called Abstraction.
+        </p>
+
+        <div class="note-box">
+            Example: ATM machine shows only options like Withdraw and Deposit
+            but hides internal processing.
+        </div>
+    </section>
+
+    <!-- Inheritance -->
+    <section class="section-card">
+        <h2>👨‍👩‍👧 Inheritance</h2>
+
+        <p>
+            Inheritance allows one class to acquire properties and methods
+            of another class.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Animal
+{
+};
+
+class Dog : public Animal
+{
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Polymorphism -->
+    <section class="section-card">
+        <h2>🔄 Polymorphism</h2>
+
+        <p>
+            Polymorphism means one thing having many forms.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Print
+{
+public:
+    void show(int x)
+    {
+        cout << x;
+    }
+
+    void show(string y)
+    {
+        cout << y;
+    }
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section-card">
+        <h2>✅ Advantages of OOP</h2>
+
+        <ul class="points">
+            <li>Code Reusability</li>
+            <li>Better Security</li>
+            <li>Easy Maintenance</li>
+            <li>Improved Productivity</li>
+            <li>Modular Programming</li>
+        </ul>
+    </section>
+
+    <!-- Important Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is OOP?</li>
+            <li>Difference between Class and Object?</li>
+            <li>What is Encapsulation?</li>
+            <li>What is Abstraction?</li>
+            <li>What is Polymorphism?</li>
+            <li>What are Access Specifiers?</li>
+            <li>What are the advantages of OOP?</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

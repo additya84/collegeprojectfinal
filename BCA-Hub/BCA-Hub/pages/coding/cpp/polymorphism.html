@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymorphism in C++ | BCA Hub</title>
+    <link rel="stylesheet" href="cpp.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">🔄 OOP Concept</span>
+
+        <h1>Polymorphism in C++</h1>
+
+        <p>
+            Learn Polymorphism in C++ including Function Overloading,
+            Operator Overloading and Runtime Polymorphism with examples.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 What is Polymorphism?</h2>
+
+        <p>
+            Polymorphism means <strong>"One Name, Many Forms"</strong>.
+            It allows the same function or operator to perform different tasks.
+        </p>
+
+        <div class="note-box">
+            Example: A person can be a Student, Employee and Customer at the same time.
+        </div>
+    </section>
+
+    <!-- Types -->
+    <section class="section-card">
+        <h2>📚 Types of Polymorphism</h2>
+
+        <ul class="points">
+            <li>Compile Time Polymorphism</li>
+            <li>Run Time Polymorphism</li>
+        </ul>
+    </section>
+
+    <!-- Compile Time -->
+    <section class="section-card">
+        <h2>⚡ Compile Time Polymorphism</h2>
+
+        <p>
+            Compile Time Polymorphism is achieved using Function Overloading
+            and Operator Overloading.
+        </p>
+    </section>
+
+    <!-- Function Overloading -->
+    <section class="section-card">
+        <h2>➕ Function Overloading</h2>
+
+        <p>
+            Defining multiple functions with the same name but different parameters.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+class Print
+{
+public:
+
+    void show(int x)
+    {
+        cout << "Integer: " << x << endl;
+    }
+
+    void show(double y)
+    {
+        cout << "Double: " << y << endl;
+    }
+
+    void show(string z)
+    {
+        cout << "String: " << z << endl;
+    }
+};
+
+int main()
+{
+    Print p;
+
+    p.show(10);
+    p.show(15.5);
+    p.show("BCA Hub");
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+Integer: 10
+Double: 15.5
+String: BCA Hub
+</pre>
+        </div>
+    </section>
+
+    <!-- Operator Overloading -->
+    <section class="section-card">
+        <h2>➗ Operator Overloading</h2>
+
+        <p>
+            Operator Overloading means giving additional meaning to an operator.
+        </p>
+
+        <div class="code-box">
+<pre>
+class Test
+{
+public:
+
+    int num;
+
+    Test operator +(Test t)
+    {
+        Test temp;
+
+        temp.num = num + t.num;
+
+        return temp;
+    }
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Runtime -->
+    <section class="section-card">
+        <h2>🚀 Run Time Polymorphism</h2>
+
+        <p>
+            Runtime Polymorphism is achieved using Function Overriding
+            and Virtual Functions.
+        </p>
+    </section>
+
+    <!-- Function Overriding -->
+    <section class="section-card">
+        <h2>🔁 Function Overriding</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+class Animal
+{
+public:
+    virtual void sound()
+    {
+        cout << "Animal Sound";
+    }
+};
+
+class Dog : public Animal
+{
+public:
+    void sound()
+    {
+        cout << "Dog Barks";
+    }
+};
+
+int main()
+{
+    Animal *a;
+
+    Dog d;
+
+    a = &d;
+
+    a->sound();
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Dog Barks</strong>
+        </div>
+    </section>
+
+    <!-- Virtual Function -->
+    <section class="section-card">
+        <h2>🎯 Virtual Function</h2>
+
+        <p>
+            A virtual function is a member function that can be overridden
+            in derived classes.
+        </p>
+
+        <div class="note-box">
+            Virtual keyword enables Runtime Polymorphism in C++.
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section-card">
+        <h2>✅ Advantages of Polymorphism</h2>
+
+        <ul class="points">
+            <li>Code Reusability</li>
+            <li>Flexibility</li>
+            <li>Easy Maintenance</li>
+            <li>Better Code Organization</li>
+        </ul>
+    </section>
+
+    <!-- Interview Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is Polymorphism?</li>
+            <li>What are the types of Polymorphism?</li>
+            <li>Difference between Overloading and Overriding?</li>
+            <li>What is a Virtual Function?</li>
+            <li>What is Runtime Polymorphism?</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

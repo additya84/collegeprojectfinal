@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance in C++ | BCA Hub</title>
+    <link rel="stylesheet" href="imheri.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">👨‍👩‍👧 OOP Concept</span>
+
+        <h1>Inheritance in C++</h1>
+
+        <p>
+            Learn Inheritance in C++ with examples, syntax,
+            types of inheritance and programs with output.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 What is Inheritance?</h2>
+
+        <p>
+            Inheritance is an OOP concept in which one class acquires
+            the properties and methods of another class.
+        </p>
+
+        <div class="note-box">
+            The existing class is called the <strong>Base Class</strong>
+            and the new class is called the <strong>Derived Class</strong>.
+        </div>
+    </section>
+
+    <!-- Syntax -->
+    <section class="section-card">
+        <h2>📝 Syntax of Inheritance</h2>
+
+        <div class="code-box">
+<pre>
+class Parent
+{
+    // members
+};
+
+class Child : public Parent
+{
+    // members
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Example -->
+    <section class="section-card">
+        <h2>💻 Example of Inheritance</h2>
+
+        <div class="code-box">
+<pre>
+#include<iostream>
+using namespace std;
+
+class Animal
+{
+public:
+    void eat()
+    {
+        cout<<"Animal can eat";
+    }
+};
+
+class Dog : public Animal
+{
+};
+
+int main()
+{
+    Dog d;
+
+    d.eat();
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Animal can eat</strong>
+        </div>
+    </section>
+
+    <!-- Types -->
+    <section class="section-card">
+        <h2>🏛 Types of Inheritance</h2>
+
+        <ul class="points">
+            <li>Single Inheritance</li>
+            <li>Multiple Inheritance</li>
+            <li>Multilevel Inheritance</li>
+            <li>Hierarchical Inheritance</li>
+            <li>Hybrid Inheritance</li>
+        </ul>
+    </section>
+
+    <!-- Single -->
+    <section class="section-card">
+        <h2>1️⃣ Single Inheritance</h2>
+
+        <p>
+            One derived class inherits from one base class.
+        </p>
+
+        <div class="code-box">
+<pre>
+class A
+{
+};
+
+class B : public A
+{
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Multiple -->
+    <section class="section-card">
+        <h2>2️⃣ Multiple Inheritance</h2>
+
+        <p>
+            One derived class inherits from multiple base classes.
+        </p>
+
+        <div class="code-box">
+<pre>
+class A{};
+class B{};
+
+class C : public A, public B
+{
+};
+</pre>
+        </div>
+    </section>
+
+    <!-- Multilevel -->
+    <section class="section-card">
+        <h2>3️⃣ Multilevel Inheritance</h2>
+
+        <p>
+            A class inherits from another derived class.
+        </p>
+
+        <div class="code-box">
+<pre>
+class A{};
+class B : public A{};
+class C : public B{};
+</pre>
+        </div>
+    </section>
+
+    <!-- Hierarchical -->
+    <section class="section-card">
+        <h2>4️⃣ Hierarchical Inheritance</h2>
+
+        <p>
+            Multiple classes inherit from one base class.
+        </p>
+
+        <div class="code-box">
+<pre>
+class A{};
+
+class B : public A{};
+class C : public A{};
+</pre>
+        </div>
+    </section>
+
+    <!-- Hybrid -->
+    <section class="section-card">
+        <h2>5️⃣ Hybrid Inheritance</h2>
+
+        <p>
+            Combination of two or more inheritance types is called Hybrid Inheritance.
+        </p>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section-card">
+        <h2>✅ Advantages of Inheritance</h2>
+
+        <ul class="points">
+            <li>Code Reusability</li>
+            <li>Reduces Code Duplication</li>
+            <li>Improves Maintainability</li>
+            <li>Supports Hierarchical Classification</li>
+        </ul>
+    </section>
+
+    <!-- Interview Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Questions</h2>
+
+        <ul class="points">
+            <li>What is inheritance?</li>
+            <li>Difference between base class and derived class?</li>
+            <li>What are the types of inheritance?</li>
+            <li>What is hybrid inheritance?</li>
+            <li>What is code reusability?</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>
