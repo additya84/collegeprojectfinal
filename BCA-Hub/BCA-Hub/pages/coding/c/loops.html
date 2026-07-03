@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in C | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">🔄 C Programming</span>
+        <h1>Loops in C</h1>
+        <p>
+            Learn For Loop, While Loop, Do While Loop and Nested Loops
+            with examples, outputs and explanations.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 Introduction to Loops</h2>
+
+        <p>
+            Loops are used to execute a block of code repeatedly until a condition becomes false.
+            They reduce code repetition and make programs shorter and easier to manage.
+        </p>
+
+        <div class="note-box">
+            Example: Printing numbers from 1 to 100 using 100 print statements is difficult,
+            so we use loops.
+        </div>
+    </section>
+
+    <!-- For Loop -->
+    <section class="section-card">
+        <h2>🔁 For Loop</h2>
+
+        <p>
+            The for loop is used when the number of iterations is known.
+        </p>
+
+        <div class="code-box">
+<pre>
+for(initialization; condition; increment/decrement)
+{
+    // code
+}
+</pre>
+        </div>
+
+        <h3>Example</h3>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    for(int i=1;i<=5;i++)
+    {
+        printf("%d ",i);
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>1 2 3 4 5</strong>
+        </div>
+    </section>
+
+    <!-- While Loop -->
+    <section class="section-card">
+        <h2>🔄 While Loop</h2>
+
+        <p>
+            The while loop checks the condition first and then executes the code block.
+        </p>
+
+        <div class="code-box">
+<pre>
+while(condition)
+{
+    // code
+}
+</pre>
+        </div>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int i=1;
+
+    while(i<=5)
+    {
+        printf("%d ",i);
+        i++;
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>1 2 3 4 5</strong>
+        </div>
+    </section>
+
+    <!-- Do While Loop -->
+    <section class="section-card">
+        <h2>♻️ Do While Loop</h2>
+
+        <p>
+            The do while loop executes the code at least once,
+            even if the condition is false.
+        </p>
+
+        <div class="code-box">
+<pre>
+do
+{
+    // code
+}
+while(condition);
+</pre>
+        </div>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int i=1;
+
+    do
+    {
+        printf("%d ",i);
+        i++;
+    }
+    while(i<=5);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>1 2 3 4 5</strong>
+        </div>
+    </section>
+
+    <!-- Nested Loop -->
+    <section class="section-card">
+        <h2>🧩 Nested Loops</h2>
+
+        <p>
+            A loop inside another loop is called a nested loop.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    for(int i=1;i<=3;i++)
+    {
+        for(int j=1;j<=3;j++)
+        {
+            printf("* ");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+* * *
+* * *
+* * *
+</pre>
+        </div>
+    </section>
+
+    <!-- Program 1 -->
+    <section class="section-card">
+        <h2>💻 Program 1: Print Table of 5</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    for(int i=1;i<=10;i++)
+    {
+        printf("5 x %d = %d\n",i,5*i);
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
+5 x 10 = 50
+</pre>
+        </div>
+    </section>
+
+    <!-- Program 2 -->
+    <section class="section-card">
+        <h2>💻 Program 2: Sum of First 10 Numbers</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int sum=0;
+
+    for(int i=1;i<=10;i++)
+    {
+        sum += i;
+    }
+
+    printf("Sum = %d",sum);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Sum = 55</strong>
+        </div>
+    </section>
+
+    <!-- Program 3 -->
+    <section class="section-card">
+        <h2>💻 Program 3: Factorial of Number</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int n=5,fact=1;
+
+    for(int i=1;i<=n;i++)
+    {
+        fact*=i;
+    }
+
+    printf("Factorial = %d",fact);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Factorial = 120</strong>
+        </div>
+    </section>
+
+    <!-- Interview Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Interview Questions</h2>
+
+        <ul class="points">
+            <li>Difference between for and while loop?</li>
+            <li>Difference between while and do while loop?</li>
+            <li>What is nested loop?</li>
+            <li>Which loop executes at least once?</li>
+            <li>Can we use infinite loops in C?</li>
+        </ul>
+    </section>
+
+    <!-- Important Points -->
+    <section class="section-card important">
+        <h2>⭐ Important Points</h2>
+
+        <ul class="points">
+            <li>for loop is preferred when iterations are known.</li>
+            <li>while loop checks condition before execution.</li>
+            <li>do while loop executes at least once.</li>
+            <li>Nested loops are mainly used for patterns and matrices.</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

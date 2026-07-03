@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointers in C | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">👉 C Programming</span>
+        <h1>Pointers in C</h1>
+        <p>
+            Learn pointers, memory addresses, dereferencing and pointer arithmetic
+            with examples, outputs and explanations.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 Introduction to Pointers</h2>
+
+        <p>
+            A pointer is a variable that stores the memory address of another variable.
+        </p>
+
+        <div class="note-box">
+            Instead of storing a value directly, pointers store the address where the value is stored.
+        </div>
+    </section>
+
+    <!-- Syntax -->
+    <section class="section-card">
+        <h2>📝 Syntax of Pointer</h2>
+
+        <div class="code-box">
+<pre>
+datatype *pointer_name;
+</pre>
+        </div>
+
+        <div class="code-box">
+<pre>
+int *ptr;
+float *ptr;
+char *ptr;
+</pre>
+        </div>
+    </section>
+
+    <!-- Address Operator -->
+    <section class="section-card">
+        <h2>📍 Address Operator (&)</h2>
+
+        <p>
+            The <strong>&</strong> operator is used to get the address of a variable.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int num = 10;
+
+    printf("%p",&num);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>0x61ff08</strong>
+        </div>
+
+        <p>
+            The output may be different on every computer because memory addresses change.
+        </p>
+    </section>
+
+    <!-- Pointer Initialization -->
+    <section class="section-card">
+        <h2>⚡ Pointer Initialization</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int num = 10;
+
+    int *ptr = &num;
+
+    printf("%d",*ptr);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>10</strong>
+        </div>
+
+        <div class="explanation">
+            <ul>
+                <li>num stores value 10.</li>
+                <li>ptr stores address of num.</li>
+                <li>*ptr accesses the value stored at that address.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Dereference Operator -->
+    <section class="section-card">
+        <h2>🔍 Dereference Operator (*)</h2>
+
+        <p>
+            The * operator is used to access the value stored at the memory address.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int x = 50;
+
+    int *ptr = &x;
+
+    printf("%d",*ptr);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>50</strong>
+        </div>
+    </section>
+
+    <!-- Changing Value -->
+    <section class="section-card">
+        <h2>✏️ Changing Value using Pointer</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int num = 10;
+
+    int *ptr = &num;
+
+    *ptr = 25;
+
+    printf("%d",num);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>25</strong>
+        </div>
+    </section>
+
+    <!-- Pointer Arithmetic -->
+    <section class="section-card">
+        <h2>➕ Pointer Arithmetic</h2>
+
+        <p>
+            We can perform arithmetic operations on pointers such as increment and decrement.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int arr[3]={10,20,30};
+
+    int *ptr = arr;
+
+    printf("%d\n",*ptr);
+
+    ptr++;
+
+    printf("%d",*ptr);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+<pre>
+10
+20
+</pre>
+        </div>
+    </section>
+
+    <!-- Pointers and Arrays -->
+    <section class="section-card">
+        <h2>📊 Pointers and Arrays</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    int arr[5]={10,20,30,40,50};
+
+    int *ptr = arr;
+
+    for(int i=0;i<5;i++)
+    {
+        printf("%d ",*(ptr+i));
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>10 20 30 40 50</strong>
+        </div>
+    </section>
+
+    <!-- Null Pointer -->
+    <section class="section-card">
+        <h2>❌ Null Pointer</h2>
+
+        <div class="code-box">
+<pre>
+int *ptr = NULL;
+</pre>
+        </div>
+
+        <p>
+            A null pointer does not point to any memory location.
+        </p>
+    </section>
+
+    <!-- Interview Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Interview Questions</h2>
+
+        <ul class="points">
+            <li>What is a pointer?</li>
+            <li>Difference between pointer and variable?</li>
+            <li>What is dereferencing?</li>
+            <li>What is a null pointer?</li>
+            <li>What is pointer arithmetic?</li>
+        </ul>
+    </section>
+
+    <!-- Important Points -->
+    <section class="section-card important">
+        <h2>⭐ Important Points</h2>
+
+        <ul class="points">
+            <li>Pointers store memory addresses.</li>
+            <li>& is the address operator.</li>
+            <li>* is the dereference operator.</li>
+            <li>Pointers are heavily used with arrays and functions.</li>
+            <li>Pointers are important for dynamic memory allocation.</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

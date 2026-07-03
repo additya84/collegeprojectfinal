@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in C | BCA Hub</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <span class="badge">⚙️ C Programming</span>
+        <h1>Functions in C</h1>
+        <p>
+            Learn Functions in C Programming with syntax,
+            examples, return values and recursion.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 Introduction to Functions</h2>
+
+        <p>
+            A function is a block of code that performs a specific task.
+            Functions help us avoid writing the same code repeatedly.
+        </p>
+
+        <div class="note-box">
+            Example: Instead of writing addition code 10 times,
+            we can create an <strong>add()</strong> function and call it whenever needed.
+        </div>
+    </section>
+
+    <!-- Syntax -->
+    <section class="section-card">
+        <h2>📝 Syntax of Function</h2>
+
+        <div class="code-box">
+<pre>
+return_type function_name(parameters)
+{
+    // code
+}
+</pre>
+        </div>
+
+        <h3>Example:</h3>
+
+        <div class="code-box">
+<pre>
+int add(int a, int b)
+{
+    return a+b;
+}
+</pre>
+        </div>
+    </section>
+
+    <!-- Types -->
+    <section class="section-card">
+        <h2>📚 Types of Functions</h2>
+
+        <ul class="points">
+            <li>Library Functions</li>
+            <li>User Defined Functions</li>
+        </ul>
+
+        <p>
+            <strong>Library Functions:</strong> Functions already available in C such as printf(), scanf(), sqrt().
+        </p>
+
+        <p>
+            <strong>User Defined Functions:</strong> Functions created by the programmer.
+        </p>
+    </section>
+
+    <!-- Declaration -->
+    <section class="section-card">
+        <h2>📌 Function Declaration</h2>
+
+        <div class="code-box">
+<pre>
+int add(int, int);
+</pre>
+        </div>
+
+        <p>
+            Function declaration tells the compiler about the function name,
+            return type and parameters.
+        </p>
+    </section>
+
+    <!-- Definition -->
+    <section class="section-card">
+        <h2>⚡ Function Definition</h2>
+
+        <div class="code-box">
+<pre>
+int add(int a, int b)
+{
+    return a+b;
+}
+</pre>
+        </div>
+    </section>
+
+    <!-- Calling -->
+    <section class="section-card">
+        <h2>📞 Function Calling</h2>
+
+        <div class="code-box">
+<pre>
+result = add(10,20);
+</pre>
+        </div>
+
+        <p>
+            Function calling transfers control from main() to the function.
+        </p>
+    </section>
+
+    <!-- Program 1 -->
+    <section class="section-card">
+        <h2>💻 Program 1: Addition using Function</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int add(int a,int b)
+{
+    return a+b;
+}
+
+int main()
+{
+    int result;
+
+    result = add(10,20);
+
+    printf("%d",result);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>30</strong>
+        </div>
+
+        <div class="explanation">
+            <ul>
+                <li>add() function receives two numbers.</li>
+                <li>return sends the result back to main().</li>
+                <li>main() prints the returned value.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Program 2 -->
+    <section class="section-card">
+        <h2>💻 Program 2: Square of Number</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int square(int n)
+{
+    return n*n;
+}
+
+int main()
+{
+    printf("%d",square(5));
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>25</strong>
+        </div>
+    </section>
+
+    <!-- No Arguments -->
+    <section class="section-card">
+        <h2>🚀 Function with No Arguments and No Return Value</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+void greet()
+{
+    printf("Welcome to BCA Hub");
+}
+
+int main()
+{
+    greet();
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Welcome to BCA Hub</strong>
+        </div>
+    </section>
+
+    <!-- Arguments no return -->
+    <section class="section-card">
+        <h2>📥 Function with Arguments but No Return Value</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+void display(int age)
+{
+    printf("%d",age);
+}
+
+int main()
+{
+    display(19);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>19</strong>
+        </div>
+    </section>
+
+    <!-- Arguments and return -->
+    <section class="section-card">
+        <h2>📤 Function with Arguments and Return Value</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int multiply(int a,int b)
+{
+    return a*b;
+}
+
+int main()
+{
+    printf("%d",multiply(10,5));
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>50</strong>
+        </div>
+    </section>
+
+    <!-- Recursion -->
+    <section class="section-card">
+        <h2>🔁 Recursive Function</h2>
+
+        <p>
+            A recursive function is a function that calls itself.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int fact(int n)
+{
+    if(n==1)
+        return 1;
+
+    return n*fact(n-1);
+}
+
+int main()
+{
+    printf("%d",fact(5));
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>120</strong>
+        </div>
+    </section>
+
+    <!-- Interview Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Interview Questions</h2>
+
+        <ul class="points">
+            <li>What is a function?</li>
+            <li>Difference between declaration and definition?</li>
+            <li>What is recursion?</li>
+            <li>Difference between library and user defined functions?</li>
+            <li>Why do we use functions?</li>
+        </ul>
+    </section>
+
+    <!-- Important Points -->
+    <section class="section-card important">
+        <h2>⭐ Important Points</h2>
+
+        <ul class="points">
+            <li>Functions improve code reusability.</li>
+            <li>Functions reduce code duplication.</li>
+            <li>Every C program must contain main() function.</li>
+            <li>Recursion means a function calling itself.</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

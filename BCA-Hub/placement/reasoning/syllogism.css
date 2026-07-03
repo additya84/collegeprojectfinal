@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1e293b;
+    line-height:1.8;
+}
+
+.topic-intro,
+.formula-section,
+.trick-section,
+.question-section,
+.download-section,
+.image-question{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.topic-intro{
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.topic-intro h1{
+    color:#8b5cf6;
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.card,
+.question-card,
+.pdf-card,
+.image-question{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    margin-bottom:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.card{
+    border-left:5px solid #8b5cf6;
+}
+
+.question-card{
+    border-top:5px solid #8b5cf6;
+}
+
+.answer{
+    color:#16a34a;
+    font-weight:700;
+    margin-top:15px;
+}
+
+.pdf-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.pdf-card{
+    text-align:center;
+}
+
+.pdf-card i{
+    font-size:50px;
+    color:#dc2626;
+    margin-bottom:20px;
+}
+
+.pdf-card a{
+    display:inline-block;
+    padding:12px 24px;
+    background:#8b5cf6;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.image-question img{
+    width:100%;
+    max-width:600px;
+    display:block;
+    margin:20px auto;
+    border-radius:15px;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:40px;
+    margin-top:70px;
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .topic-intro h1{
+        font-size:32px;
+    }
+
+}

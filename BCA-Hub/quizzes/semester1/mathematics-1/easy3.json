@@ -1,0 +1,92 @@
+[
+  {
+    "question": "A matrix having only one row is called:",
+    "options": ["Column Matrix", "Square Matrix", "Row Matrix", "Diagonal Matrix"],
+    "answer": 2
+  },
+  {
+    "question": "A matrix having only one column is called:",
+    "options": ["Row Matrix", "Column Matrix", "Identity Matrix", "Null Matrix"],
+    "answer": 1
+  },
+  {
+    "question": "A matrix having equal number of rows and columns is called:",
+    "options": ["Rectangular Matrix", "Column Matrix", "Square Matrix", "Zero Matrix"],
+    "answer": 2
+  },
+  {
+    "question": "The order of a matrix with 3 rows and 2 columns is:",
+    "options": ["2×3", "3×2", "3×3", "2×2"],
+    "answer": 1
+  },
+  {
+    "question": "A matrix in which all elements are zero is called:",
+    "options": ["Identity Matrix", "Diagonal Matrix", "Null Matrix", "Unit Matrix"],
+    "answer": 2
+  },
+  {
+    "question": "The diagonal elements of an identity matrix are:",
+    "options": ["0", "1", "2", "-1"],
+    "answer": 1
+  },
+  {
+    "question": "Transpose of a matrix is obtained by:",
+    "options": [
+      "Changing signs",
+      "Interchanging rows and columns",
+      "Multiplying elements",
+      "Dividing elements"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Determinants can be defined only for:",
+    "options": [
+      "Rectangular Matrices",
+      "Square Matrices",
+      "Column Matrices",
+      "Row Matrices"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "The determinant of a 2×2 matrix [a b; c d] is:",
+    "options": ["ab+cd", "ad-bc", "ac-bd", "ab-cd"],
+    "answer": 1
+  },
+  {
+    "question": "The determinant of identity matrix is:",
+    "options": ["0", "1", "-1", "2"],
+    "answer": 1
+  },
+  {
+    "question": "The symbol used for determinant is:",
+    "options": ["()", "[]", "||", "{}"],
+    "answer": 2
+  },
+  {
+    "question": "If determinant value is zero, the matrix is called:",
+    "options": ["Singular Matrix", "Identity Matrix", "Diagonal Matrix", "Unit Matrix"],
+    "answer": 0
+  },
+  {
+    "question": "If determinant value is not zero, the matrix is called:",
+    "options": ["Null Matrix", "Singular Matrix", "Non-Singular Matrix", "Unit Matrix"],
+    "answer": 2
+  },
+  {
+    "question": "The inverse of a matrix exists only if:",
+    "options": [
+      "Determinant is zero",
+      "Determinant is one",
+      "Determinant is not zero",
+      "Matrix is null"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "A diagonal matrix has non-zero elements only on:",
+    "options": ["Rows", "Columns", "Main Diagonal", "Last Row"],
+    "answer": 2
+  }
+]

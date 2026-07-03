@@ -1,0 +1,131 @@
+.card,
+.question-card,
+.tip-card{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    margin-bottom:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.card{
+    border-left:6px solid #2563eb;
+}
+
+.question-card{
+    border-top:6px solid #2563eb;
+}
+
+.tip-card{
+    border-left:6px solid #22c55e;
+}
+
+.card h3,
+.question-card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.guide-section,
+.project-example,
+.question-section,
+.tips-section{
+    width:90%;
+    max-width:1200px;
+    margin:70px auto;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:70px;
+}
+/* Sections */
+
+.topic-intro,
+.guide-section,
+.project-example,
+.question-section,
+.tips-section{
+    width:90%;
+    max-width:1200px;
+    margin:70px auto;
+}
+
+/* Section Headings */
+
+.guide-section h2,
+.project-example h2,
+.question-section h2,
+.tips-section h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+    color:#0f172a;
+}
+
+/* Intro Section */
+
+.topic-intro{
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.topic-intro h1{
+    font-size:48px;
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.topic-intro p{
+    color:#475569;
+    margin-bottom:18px;
+}
+
+.topic-intro ul{
+    padding-left:25px;
+    margin-top:20px;
+}
+
+.topic-intro li{
+    margin-bottom:12px;
+    color:#334155;
+}
+
+/* Card Text */
+
+.card p,
+.question-card p,
+.tip-card p{
+    color:#475569;
+    line-height:1.9;
+}
+
+.card ul,
+.question-card ul{
+    padding-left:25px;
+    margin-top:15px;
+}
+
+.card li,
+.question-card li{
+    margin-bottom:10px;
+    color:#475569;
+}
+
+/* Question Card Heading */
+
+.question-card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+/* Tip Card */
+
+.tip-card p{
+    margin-bottom:12px;
+}

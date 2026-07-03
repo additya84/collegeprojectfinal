@@ -1,0 +1,17 @@
+[
+  {"question":"The algorithm used for division is called:","options":["Euclidean Algorithm","Leibnitz Rule","MVT","CRT"],"answer":0},
+  {"question":"GCD stands for:","options":["Greatest Common Divisor","General Common Divisor","Greatest Circular Divisor","None"],"answer":0},
+  {"question":"LCM stands for:","options":["Least Common Multiple","Largest Common Multiple","Least Circular Multiple","None"],"answer":0},
+  {"question":"GCD of 12 and 18 is:","options":["2","3","6","9"],"answer":2},
+  {"question":"LCM of 4 and 6 is:","options":["12","24","6","18"],"answer":0},
+  {"question":"Which algorithm finds GCD efficiently?","options":["Bubble Sort","Euclidean Algorithm","DFS","BFS"],"answer":1},
+  {"question":"Integers are represented by symbol:","options":["N","Q","Z","R"],"answer":2},
+  {"question":"Natural numbers are represented by:","options":["N","Z","Q","R"],"answer":0},
+  {"question":"Rational numbers are represented by:","options":["Q","Z","N","R"],"answer":0},
+  {"question":"Real numbers are represented by:","options":["R","Q","N","Z"],"answer":0},
+  {"question":"0 is an integer.","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"1 is the smallest natural number.","options":["True","False","Depends","None"],"answer":0},
+  {"question":"Prime numbers have exactly:","options":["1 factor","2 factors","3 factors","4 factors"],"answer":1},
+  {"question":"2 is the only even prime number.","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"LCM × GCD =","options":["Product of numbers","Sum of numbers","Difference","None"],"answer":0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question":"a ≡ b (mod n) means:","options":["a=b","a-b divisible by n","a+b divisible by n","None"],"answer":1},
+  {"question":"7 mod 3 equals:","options":["0","1","2","3"],"answer":1},
+  {"question":"10 mod 4 equals:","options":["1","2","3","0"],"answer":1},
+  {"question":"15 mod 5 equals:","options":["0","1","2","3"],"answer":0},
+  {"question":"Congruence relation is an example of:","options":["Equivalence relation","Function","Group","Field"],"answer":0},
+  {"question":"9 ≡ 1 (mod 4)","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"17 mod 5 equals:","options":["1","2","3","4"],"answer":1},
+  {"question":"The set of residues modulo n contains:","options":["n elements","n+1 elements","n-1 elements","2n elements"],"answer":0},
+  {"question":"0 mod n is always:","options":["0","1","n","Undefined"],"answer":0},
+  {"question":"Modular arithmetic is also called:","options":["Clock arithmetic","Matrix arithmetic","Field arithmetic","Ring arithmetic"],"answer":0},
+  {"question":"12 ≡ 2 (mod 5)","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"13 mod 7 equals:","options":["5","6","7","4"],"answer":1},
+  {"question":"20 mod 6 equals:","options":["0","1","2","3"],"answer":2},
+  {"question":"The modulus in 15 mod 4 is:","options":["15","4","19","11"],"answer":1},
+  {"question":"Congruence relation is reflexive.","options":["True","False","Sometimes","None"],"answer":0}
+]

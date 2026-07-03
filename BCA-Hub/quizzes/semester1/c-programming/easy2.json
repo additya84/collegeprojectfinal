@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Which operator is used for addition?",
+    "options": ["+", "-", "*", "/"],
+    "answer": 0
+  },
+  {
+    "question": "Which operator is used for modulus operation?",
+    "options": ["/", "%", "*", "+"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator is used for assignment?",
+    "options": ["==", "=", "!=", ">="],
+    "answer": 1
+  },
+  {
+    "question": "Which operator checks equality?",
+    "options": ["=", "==", "!=", "<="],
+    "answer": 1
+  },
+  {
+    "question": "Which operator represents logical AND?",
+    "options": ["&&", "||", "&", "|"],
+    "answer": 0
+  },
+  {
+    "question": "Which operator represents logical OR?",
+    "options": ["&&", "||", "&", "|"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator represents logical NOT?",
+    "options": ["~", "!", "&", "#"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator increases value by 1?",
+    "options": ["--", "++", "+=", "*="],
+    "answer": 1
+  },
+  {
+    "question": "Which operator decreases value by 1?",
+    "options": ["--", "++", "-=", "/="],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of 10 % 3?",
+    "options": ["1", "2", "3", "0"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a relational operator?",
+    "options": ["+", "*", ">", "%"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a unary operator?",
+    "options": ["++", "+", "*", "/"],
+    "answer": 0
+  },
+  {
+    "question": "Which keyword declares a variable of integer type?",
+    "options": ["float", "double", "int", "char"],
+    "answer": 2
+  },
+  {
+    "question": "Which operator is known as conditional operator?",
+    "options": ["?:", "==", "&&", "++"],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol is used to separate arguments in functions?",
+    "options": [";", ",", ":", "."],
+    "answer": 1
+  }
+]

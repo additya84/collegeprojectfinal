@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which DOS command displays the list of files and folders?",
+    "options": ["CLS", "DIR", "CD", "TYPE"],
+    "answer": 1
+  },
+  {
+    "question": "Which command clears the screen?",
+    "options": ["CLEAR", "CLS", "DIR", "CD"],
+    "answer": 1
+  },
+  {
+    "question": "Which command changes the current directory?",
+    "options": ["CD", "DIR", "MD", "RD"],
+    "answer": 0
+  },
+  {
+    "question": "Which command creates a new directory?",
+    "options": ["RD", "DEL", "MD", "CD"],
+    "answer": 2
+  },
+  {
+    "question": "Which command removes a directory?",
+    "options": ["RD", "MD", "DEL", "TYPE"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays current date?",
+    "options": ["TIME", "DATE", "VER", "VOL"],
+    "answer": 1
+  },
+  {
+    "question": "Which command displays current time?",
+    "options": ["TIME", "DATE", "PROMPT", "PATH"],
+    "answer": 0
+  },
+  {
+    "question": "Which command copies files?",
+    "options": ["COPY", "MOVE", "REN", "DEL"],
+    "answer": 0
+  },
+  {
+    "question": "Which command renames a file?",
+    "options": ["COPY", "REN", "DEL", "TYPE"],
+    "answer": 1
+  },
+  {
+    "question": "Which command deletes a file?",
+    "options": ["DEL", "REN", "COPY", "TYPE"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays DOS version?",
+    "options": ["VER", "VOL", "PATH", "PROMPT"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays disk volume label?",
+    "options": ["VOL", "VER", "DIR", "CLS"],
+    "answer": 0
+  },
+  {
+    "question": "Which wildcard represents multiple characters?",
+    "options": ["?", "*", "#", "&"],
+    "answer": 1
+  },
+  {
+    "question": "Which wildcard represents a single character?",
+    "options": ["*", "?", "#", "%"],
+    "answer": 1
+  },
+  {
+    "question": "CHKDSK command is used for:",
+    "options": [
+      "Checking disk errors",
+      "Formatting disk",
+      "Copying files",
+      "Deleting files"
+    ],
+    "answer": 0
+  }
+]

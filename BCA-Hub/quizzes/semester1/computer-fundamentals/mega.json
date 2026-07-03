@@ -1,0 +1,337 @@
+[
+  {
+    "question": "Which generation of computers used Vacuum Tubes?",
+    "options": ["First Generation", "Second Generation", "Third Generation", "Fourth Generation"],
+    "answer": 0
+  },
+  {
+    "question": "Which generation introduced Microprocessors?",
+    "options": ["First", "Second", "Third", "Fourth"],
+    "answer": 3
+  },
+  {
+    "question": "The brain of a computer is:",
+    "options": ["RAM", "CPU", "ROM", "ALU"],
+    "answer": 1
+  },
+  {
+    "question": "ALU stands for:",
+    "options": ["Arithmetic Logic Unit", "Advanced Logic Unit", "Array Logic Unit", "Arithmetic Linear Unit"],
+    "answer": 0
+  },
+  {
+    "question": "Which type of computer is the fastest?",
+    "options": ["Mini Computer", "Micro Computer", "Mainframe", "Super Computer"],
+    "answer": 3
+  },
+  {
+    "question": "Which characteristic means a computer can perform many types of tasks?",
+    "options": ["Accuracy", "Speed", "Versatility", "Storage"],
+    "answer": 2
+  },
+  {
+    "question": "Which unit controls all operations of a computer?",
+    "options": ["RAM", "ROM", "CPU", "Cache"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is an output device?",
+    "options": ["Keyboard", "Mouse", "Scanner", "Monitor"],
+    "answer": 3
+  },
+  {
+    "question": "Which memory is volatile?",
+    "options": ["ROM", "EPROM", "RAM", "PROM"],
+    "answer": 2
+  },
+  {
+    "question": "Which memory retains data after power is switched off?",
+    "options": ["RAM", "Cache", "ROM", "Register"],
+    "answer": 2
+  },
+  {
+    "question": "PROM stands for:",
+    "options": [
+      "Programmable Read Only Memory",
+      "Permanent Read Only Memory",
+      "Primary Read Only Memory",
+      "Programmable Random Memory"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which memory can be erased using ultraviolet light?",
+    "options": ["RAM", "PROM", "EPROM", "ROM"],
+    "answer": 2
+  },
+  {
+    "question": "Which memory is used to speed up CPU operations?",
+    "options": ["ROM", "RAM", "Cache Memory", "Hard Disk"],
+    "answer": 2
+  },
+  {
+    "question": "SSD stands for:",
+    "options": [
+      "Solid State Device",
+      "Solid State Drive",
+      "Storage State Drive",
+      "Secondary Storage Device"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an optical storage device?",
+    "options": ["Hard Disk", "USB Drive", "CD-ROM", "SSD"],
+    "answer": 2
+  },
+  {
+    "question": "OCR stands for:",
+    "options": [
+      "Optical Character Reader",
+      "Optical Character Recognition",
+      "Optical Code Recognition",
+      "Original Character Reader"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "OMR is mainly used for:",
+    "options": [
+      "Reading Cheques",
+      "Checking Answer Sheets",
+      "Printing Documents",
+      "Reading Barcodes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "MICR technology is mainly used in:",
+    "options": ["Schools", "Banks", "Hospitals", "Libraries"],
+    "answer": 1
+  },
+  {
+    "question": "Which device is used to scan barcodes?",
+    "options": ["OCR", "MICR", "Barcode Reader", "OMR"],
+    "answer": 2
+  },
+  {
+    "question": "Which device converts hard copy documents into digital form?",
+    "options": ["Monitor", "Printer", "Scanner", "Plotter"],
+    "answer": 2
+  },
+  {
+    "question": "Which printer is an impact printer?",
+    "options": ["Laser Printer", "Inkjet Printer", "Dot Matrix Printer", "Thermal Printer"],
+    "answer": 2
+  },
+  {
+    "question": "Which output device is mainly used for engineering drawings?",
+    "options": ["Printer", "Monitor", "Plotter", "Projector"],
+    "answer": 2
+  },
+  {
+    "question": "System software is designed to:",
+    "options": [
+      "Play Games",
+      "Manage Computer Resources",
+      "Browse Internet",
+      "Create Presentations"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which software acts as an interface between user and hardware?",
+    "options": ["Compiler", "Operating System", "Assembler", "Utility Program"],
+    "answer": 1
+  },
+  {
+    "question": "FAT stands for:",
+    "options": [
+      "File Allocation Table",
+      "Fast Access Table",
+      "File Access Transfer",
+      "Fast Allocation Transfer"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Linux is an example of:",
+    "options": [
+      "Programming Language",
+      "Operating System",
+      "Database",
+      "Application Software"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Antivirus software belongs to:",
+    "options": [
+      "System Software",
+      "Application Software",
+      "Utility Software",
+      "Firmware"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "MS Excel is an example of:",
+    "options": [
+      "System Software",
+      "Application Software",
+      "Utility Software",
+      "Firmware"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A folder inside another folder is called:",
+    "options": [
+      "Subfolder",
+      "Root Folder",
+      "Directory Tree",
+      "Branch"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which operating system is open source?",
+    "options": ["Windows", "Linux", "macOS", "MS-DOS"],
+    "answer": 1
+  },
+  {
+    "question": "Which register stores the address of the next instruction?",
+    "options": [
+      "Accumulator",
+      "MAR",
+      "Program Counter",
+      "MDR"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Registers are located in:",
+    "options": ["RAM", "ROM", "CPU", "Hard Disk"],
+    "answer": 2
+  },
+  {
+    "question": "Processor speed is measured in:",
+    "options": ["Bytes", "Volts", "Hertz", "Pixels"],
+    "answer": 2
+  },
+  {
+    "question": "Which translator converts High Level Language into Machine Language?",
+    "options": ["Assembler", "Interpreter", "Compiler", "Loader"],
+    "answer": 2
+  },
+  {
+    "question": "An assembler converts:",
+    "options": [
+      "Machine Language to Assembly Language",
+      "Assembly Language to Machine Language",
+      "High Level Language to Machine Language",
+      "Machine Language to High Level Language"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Machine language consists of:",
+    "options": [
+      "English Words",
+      "Binary Digits",
+      "Symbols",
+      "Mathematical Equations"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which language is closest to hardware?",
+    "options": ["C", "Java", "Assembly Language", "Python"],
+    "answer": 2
+  },
+  {
+    "question": "Which translator executes code line by line?",
+    "options": ["Compiler", "Interpreter", "Assembler", "Loader"],
+    "answer": 1
+  },
+  {
+    "question": "1 KB is equal to:",
+    "options": ["1000 Bytes", "1024 Bytes", "2048 Bytes", "512 Bytes"],
+    "answer": 1
+  },
+  {
+    "question": "The smallest unit of data is:",
+    "options": ["Bit", "Byte", "Nibble", "Word"],
+    "answer": 0
+  },
+  {
+    "question": "A nibble contains:",
+    "options": ["2 Bits", "4 Bits", "8 Bits", "16 Bits"],
+    "answer": 1
+  },
+  {
+    "question": "Which generation of computers introduced Artificial Intelligence?",
+    "options": ["Second", "Third", "Fourth", "Fifth"],
+    "answer": 3
+  },
+  {
+    "question": "Which component performs arithmetic and logical operations?",
+    "options": ["RAM", "ROM", "ALU", "CU"],
+    "answer": 2
+  },
+  {
+    "question": "The Control Unit is responsible for:",
+    "options": [
+      "Arithmetic Operations",
+      "Managing Instructions",
+      "Storage Management",
+      "Output Processing"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which memory is directly accessible by CPU?",
+    "options": [
+      "Secondary Memory",
+      "Primary Memory",
+      "Optical Disk",
+      "Magnetic Tape"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT an Operating System?",
+    "options": ["Windows", "Linux", "Java", "UNIX"],
+    "answer": 2
+  },
+  {
+    "question": "The root directory is:",
+    "options": [
+      "The main directory",
+      "Recycle Bin",
+      "Desktop",
+      "Temporary Folder"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which programming language belongs to Fourth Generation Language (4GL)?",
+    "options": ["Assembly", "C", "SQL", "Machine Language"],
+    "answer": 2
+  },
+  {
+    "question": "Compiler translates:",
+    "options": [
+      "Line by Line",
+      "Entire Program at Once",
+      "Only Variables",
+      "Only Loops"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which device is commonly used to provide hard copy output?",
+    "options": ["Monitor", "Printer", "Scanner", "Keyboard"],
+    "answer": 1
+  }
+]

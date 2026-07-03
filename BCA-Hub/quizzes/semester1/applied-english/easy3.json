@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He don't like coffee.",
+      "He doesn't likes coffee.",
+      "He doesn't like coffee.",
+      "He not like coffee."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Fill in the blank: She ___ to college every day.",
+    "options": ["go", "goes", "going", "gone"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Each student have a notebook.",
+      "Each student has a notebook.",
+      "Each students have notebooks.",
+      "Each student having notebook."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Identify the error: 'Neither of the boys are present.'",
+    "options": [
+      "Neither",
+      "boys",
+      "are",
+      "present"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct preposition: He is good ___ mathematics.",
+    "options": ["in", "on", "at", "for"],
+    "answer": 2
+  },
+  {
+    "question": "Fill in the blank: I have been waiting here ___ two hours.",
+    "options": ["since", "for", "from", "by"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct article: She bought ___ umbrella.",
+    "options": ["a", "an", "the", "some"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He is senior than me.",
+      "He is senior to me.",
+      "He is senior from me.",
+      "He is senior over me."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct word: The news ___ true.",
+    "options": ["are", "were", "is", "have"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "One of my friend is here.",
+      "One of my friends is here.",
+      "One of my friends are here.",
+      "One of my friend are here."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct verb: Mathematics ___ my favourite subject.",
+    "options": ["are", "is", "were", "have"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She can sings well.",
+      "She can sing well.",
+      "She can sang well.",
+      "She can singing well."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Fill in the blank: The train arrived ___ time.",
+    "options": ["at", "on", "in", "for"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Everybody have completed the task.",
+      "Everybody has completed the task.",
+      "Everybody completed the task have.",
+      "Everybody completing the task."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct form: If I ___ rich, I would travel the world.",
+    "options": ["am", "was", "were", "be"],
+    "answer": 2
+  }
+]

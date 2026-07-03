@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Who developed the C programming language?",
+    "options": ["Dennis Ritchie", "Bjarne Stroustrup", "James Gosling", "Guido van Rossum"],
+    "answer": 0
+  },
+  {
+    "question": "C language was developed at:",
+    "options": ["Bell Labs", "IBM", "Microsoft", "Google"],
+    "answer": 0
+  },
+  {
+    "question": "C is a ______ level programming language.",
+    "options": ["Low", "Middle", "High", "Machine"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a valid C keyword?",
+    "options": ["integer", "float", "real", "doublevalue"],
+    "answer": 1
+  },
+  {
+    "question": "Which symbol is used to end a statement in C?",
+    "options": [".", ";", ":", ","],
+    "answer": 1
+  },
+  {
+    "question": "Which header file is required for printf()?",
+    "options": ["math.h", "stdio.h", "string.h", "conio.h"],
+    "answer": 1
+  },
+  {
+    "question": "Which data type is used for decimal values?",
+    "options": ["int", "char", "float", "void"],
+    "answer": 2
+  },
+  {
+    "question": "Which data type stores a single character?",
+    "options": ["char", "string", "int", "float"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a valid identifier?",
+    "options": ["2num", "total_marks", "float", "roll-number"],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to declare a constant variable?",
+    "options": ["static", "const", "fixed", "final"],
+    "answer": 1
+  },
+  {
+    "question": "Which data type occupies 1 byte in C?",
+    "options": ["char", "int", "float", "double"],
+    "answer": 0
+  },
+  {
+    "question": "Which function is used to display output?",
+    "options": ["scanf()", "printf()", "gets()", "input()"],
+    "answer": 1
+  },
+  {
+    "question": "Which function is used to take input?",
+    "options": ["scanf()", "printf()", "puts()", "display()"],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol is used for comments in C?",
+    "options": ["//", "**", "##", "@@"],
+    "answer": 0
+  },
+  {
+    "question": "C language is mainly known for:",
+    "options": ["Object Oriented Programming", "System Programming", "Web Development", "Database Management"],
+    "answer": 1
+  }
+]

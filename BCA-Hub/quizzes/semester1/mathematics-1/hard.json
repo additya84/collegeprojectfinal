@@ -1,0 +1,77 @@
+[
+  {
+    "question": "The distance between points (0,0) and (3,4) is:",
+    "options": ["5", "6", "7", "4"],
+    "answer": 0
+  },
+  {
+    "question": "The midpoint of points (2,4) and (6,8) is:",
+    "options": ["(4,6)", "(3,5)", "(5,7)", "(2,8)"],
+    "answer": 0
+  },
+  {
+    "question": "The section formula is used to find:",
+    "options": ["Distance", "Midpoint", "Point dividing line segment", "Slope"],
+    "answer": 2
+  },
+  {
+    "question": "The slope of the line joining (1,2) and (3,6) is:",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1
+  },
+  {
+    "question": "Equation y = mx + c represents:",
+    "options": ["Circle", "Parabola", "Straight Line", "Ellipse"],
+    "answer": 2
+  },
+  {
+    "question": "In y = mx + c, m represents:",
+    "options": ["Intercept", "Slope", "Radius", "Distance"],
+    "answer": 1
+  },
+  {
+    "question": "In y = mx + c, c represents:",
+    "options": ["Slope", "Y-intercept", "Radius", "Distance"],
+    "answer": 1
+  },
+  {
+    "question": "The equation x² + y² = r² represents:",
+    "options": ["Line", "Circle", "Ellipse", "Parabola"],
+    "answer": 1
+  },
+  {
+    "question": "The center of x² + y² = 25 is:",
+    "options": ["(0,0)", "(5,5)", "(0,5)", "(5,0)"],
+    "answer": 0
+  },
+  {
+    "question": "The radius of x² + y² = 49 is:",
+    "options": ["49", "14", "7", "21"],
+    "answer": 2
+  },
+  {
+    "question": "Area of triangle with base b and height h is:",
+    "options": ["bh", "1/2 bh", "2bh", "b+h"],
+    "answer": 1
+  },
+  {
+    "question": "The coordinates of origin are:",
+    "options": ["(1,1)", "(0,1)", "(1,0)", "(0,0)"],
+    "answer": 3
+  },
+  {
+    "question": "A line parallel to x-axis has slope:",
+    "options": ["0", "1", "∞", "-1"],
+    "answer": 0
+  },
+  {
+    "question": "A line parallel to y-axis has slope:",
+    "options": ["0", "1", "Undefined", "-1"],
+    "answer": 2
+  },
+  {
+    "question": "The distance between (1,1) and (1,6) is:",
+    "options": ["4", "5", "6", "7"],
+    "answer": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Choose the synonym of 'Benevolent'.",
+    "options": ["Cruel", "Kind", "Angry", "Greedy"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the synonym of 'Candid'.",
+    "options": ["Dishonest", "Honest", "Silent", "Weak"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the synonym of 'Lucid'.",
+    "options": ["Confusing", "Clear", "Complex", "Hidden"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the synonym of 'Diligent'.",
+    "options": ["Lazy", "Hardworking", "Careless", "Slow"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the synonym of 'Eloquent'.",
+    "options": ["Persuasive", "Silent", "Rude", "Confused"],
+    "answer": 0
+  },
+
+  {
+    "question": "Choose the antonym of 'Scarcity'.",
+    "options": ["Lack", "Shortage", "Abundance", "Deficiency"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the antonym of 'Hostile'.",
+    "options": ["Aggressive", "Friendly", "Cruel", "Violent"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the antonym of 'Fragile'.",
+    "options": ["Weak", "Delicate", "Durable", "Breakable"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the antonym of 'Artificial'.",
+    "options": ["Synthetic", "Natural", "Fake", "Plastic"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the antonym of 'Transparent'.",
+    "options": ["Visible", "Opaque", "Clear", "Open"],
+    "answer": 1
+  },
+
+  {
+    "question": "Choose the correct determiner: ___ university student must carry an ID card.",
+    "options": ["A", "An", "The", "Some"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct determiner: She has ___ honest friend.",
+    "options": ["A", "An", "The", "Some"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct determiner: ___ books on the table belong to me.",
+    "options": ["A", "An", "The", "Any"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct determiner: I have visited ___ European country before.",
+    "options": ["A", "An", "The", "Some"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct determiner: There isn't ___ milk left in the fridge.",
+    "options": ["Many", "Some", "Any", "Few"],
+    "answer": 2
+  }
+]

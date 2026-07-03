@@ -1,0 +1,17 @@
+[
+  {"question":"A ring with commutative multiplication is called:","options":["Field","Commutative Ring","Group","Vector"],"answer":1},
+  {"question":"A ring with multiplicative identity is called:","options":["Ring with Unity","Field","Group","Module"],"answer":0},
+  {"question":"Every field is a ring.","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"Every ring is a field.","options":["True","False","Sometimes","None"],"answer":1},
+  {"question":"The set of real numbers forms a:","options":["Ring only","Field","Group only","Matrix"],"answer":1},
+  {"question":"A polynomial ring contains:","options":["Polynomials","Matrices","Functions","Relations"],"answer":0},
+  {"question":"Fields have multiplicative inverses for:","options":["All non-zero elements","All elements","Only zero","None"],"answer":0},
+  {"question":"Integers form a field.","options":["True","False","Sometimes","None"],"answer":1},
+  {"question":"Real numbers form a commutative ring.","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"Zero element exists in every ring.","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"Q denotes:","options":["Integers","Rational numbers","Real numbers","Natural numbers"],"answer":1},
+  {"question":"R denotes:","options":["Integers","Rational numbers","Real numbers","Natural numbers"],"answer":2},
+  {"question":"Fields satisfy distributive law.","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"Polynomial addition forms a:","options":["Ring","Field","Matrix","Relation"],"answer":0},
+  {"question":"Every field is commutative under multiplication.","options":["True","False","Sometimes","None"],"answer":0}
+]

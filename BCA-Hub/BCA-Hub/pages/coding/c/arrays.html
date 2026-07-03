@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">📊 C Programming</span>
+            <h1>Arrays in C</h1>
+            <p>
+                Learn Arrays in C Programming with theory,
+                syntax, examples, programs and outputs.
+            </p>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 Introduction to Arrays</h2>
+
+        <p>
+            An array is a collection of similar data items stored in contiguous memory locations.
+            Arrays are used to store multiple values of the same data type using a single variable name.
+        </p>
+
+        <div class="note-box">
+            Example: Instead of creating 100 variables for storing marks,
+            we can create a single array of size 100.
+        </div>
+    </section>
+
+    <!-- Declaration -->
+    <section class="section-card">
+        <h2>📝 Declaration of Array</h2>
+
+        <div class="code-box">
+<pre>
+datatype array_name[size];
+
+int marks[5];
+</pre>
+        </div>
+
+        <h3>Explanation</h3>
+
+        <ul class="points">
+            <li><strong>int</strong> → Data type</li>
+            <li><strong>marks</strong> → Array name</li>
+            <li><strong>5</strong> → Number of elements</li>
+        </ul>
+    </section>
+
+    <!-- Initialization -->
+    <section class="section-card">
+        <h2>⚡ Initialization of Array</h2>
+
+        <div class="code-box">
+<pre>
+int numbers[5] = {10,20,30,40,50};
+</pre>
+        </div>
+
+        <div class="output-box">
+            Array Elements:
+            <strong>10 20 30 40 50</strong>
+        </div>
+    </section>
+
+    <!-- Accessing Elements -->
+    <section class="section-card">
+        <h2>🔍 Accessing Array Elements</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int arr[5] = {10,20,30,40,50};
+
+    printf("%d", arr[2]);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>30</strong>
+        </div>
+
+        <p>
+            Array indexing starts from <strong>0</strong>.
+            Therefore arr[2] refers to the third element.
+        </p>
+    </section>
+
+    <!-- Input and Output -->
+    <section class="section-card">
+        <h2>⌨️ Input and Output in Arrays</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int arr[5];
+
+    for(int i=0;i<5;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+
+    for(int i=0;i<5;i++)
+    {
+        printf("%d ",arr[i]);
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Input:
+            <strong>10 20 30 40 50</strong>
+
+            <br><br>
+
+            Output:
+            <strong>10 20 30 40 50</strong>
+        </div>
+    </section>
+
+    <!-- Sum Program -->
+    <section class="section-card">
+        <h2>➕ Program 1 : Sum of Array Elements</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int arr[5]={10,20,30,40,50};
+    int sum=0;
+
+    for(int i=0;i<5;i++)
+    {
+        sum = sum + arr[i];
+    }
+
+    printf("Sum = %d",sum);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Sum = 150</strong>
+        </div>
+    </section>
+
+    <!-- Largest Element -->
+    <section class="section-card">
+        <h2>🏆 Program 2 : Largest Element</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int arr[5]={10,90,40,20,60};
+    int max=arr[0];
+
+    for(int i=1;i<5;i++)
+    {
+        if(arr[i]>max)
+        {
+            max=arr[i];
+        }
+    }
+
+    printf("Largest = %d",max);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Largest = 90</strong>
+        </div>
+    </section>
+
+    <!-- Reverse Array -->
+    <section class="section-card">
+        <h2>🔄 Program 3 : Reverse Array</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int arr[5]={10,20,30,40,50};
+
+    for(int i=4;i>=0;i--)
+    {
+        printf("%d ",arr[i]);
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>50 40 30 20 10</strong>
+        </div>
+    </section>
+
+    <!-- 2D Arrays -->
+    <section class="section-card">
+        <h2>🧮 Two Dimensional Arrays</h2>
+
+        <div class="code-box">
+<pre>
+int matrix[2][2] =
+{
+    {1,2},
+    {3,4}
+};
+</pre>
+        </div>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int a[2][2]={{1,2},{3,4}};
+
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<2;j++)
+        {
+            printf("%d ",a[i][j]);
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>
+            1 2 <br>
+            3 4
+            </strong>
+        </div>
+    </section>
+
+    <!-- Interview Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Interview Questions</h2>
+
+        <ul class="points">
+            <li>What is an Array?</li>
+            <li>Why does array indexing start from 0?</li>
+            <li>Difference between Array and Linked List?</li>
+            <li>What is the difference between 1D and 2D Array?</li>
+            <li>Can array size be changed after declaration?</li>
+        </ul>
+    </section>
+
+    <!-- Important Points -->
+    <section class="section-card important">
+        <h2>⭐ Important Points</h2>
+
+        <ul class="points">
+            <li>Arrays store elements of same data type.</li>
+            <li>Array indexing starts from 0.</li>
+            <li>Arrays use contiguous memory locations.</li>
+            <li>Array size cannot be changed after declaration.</li>
+            <li>Arrays provide fast access using indexes.</li>
+        </ul>
+    </section>
+
+</div>
+   <footer class="footer">
+    © 2026 BCA Hub • Learn • Practice • Grow 🚀
+</footer>
+</body>
+</html>

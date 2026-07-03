@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+.container{
+    width:95%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.hero{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    border-radius:30px;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+.hero-left{
+    width:60%;
+}
+
+.badge{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    background:rgba(255,255,255,.15);
+    padding:10px 20px;
+    border-radius:30px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:24px;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.stat-card{
+    width:180px;
+    background:white;
+    color:#111827;
+    border-radius:20px;
+    padding:25px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.icon{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+}
+
+.blue{
+    background:#dbeafe;
+    color:#2563eb;
+}
+
+.green{
+    background:#dcfce7;
+    color:#16a34a;
+}
+
+.purple{
+    background:#ede9fe;
+    color:#7c3aed;
+}
+
+.yellow{
+    background:#fef3c7;
+    color:#f59e0b;
+}
+
+.stat-card h2{
+    font-size:32px;
+}
+
+.stat-card span{
+    color:#6b7280;
+}
+
+.hero-right img{
+    width:500px;
+    border-radius: 15px;
+}
+.semester-section{
+    margin-top:60px;
+}
+
+.section-title{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.section-title i{
+    font-size:30px;
+    color:#2563eb;
+}
+
+.section-title h2{
+    font-size:40px;
+    color:#111827;
+}
+
+.semester-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.semester-card{
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    transition:0.3s;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.semester-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.semester-info h3{
+    color:#111827;
+    font-size:32px;
+    margin-bottom:5px;
+}
+
+.semester-info p{
+    color:#6b7280;
+    font-size:20px;
+}
+
+.semester-icon{
+    width:80px;
+    height:80px;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+}
+
+.arrow{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:2px solid;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+}
+
+.sem1{
+    border-top:5px solid #2563eb;
+}
+
+.sem2{
+    border-top:5px solid #16a34a;
+}
+
+.sem3{
+    border-top:5px solid #f59e0b;
+}
+
+.sem4{
+    border-top:5px solid #ef4444;
+}
+
+.sem5{
+    border-top:5px solid #8b5cf6;
+}
+
+.sem6{
+    border-top:5px solid #06b6d4;
+}
+
+.blue-bg{
+    background:#dbeafe;
+    color:#2563eb;
+}
+
+.green-bg{
+    background:#dcfce7;
+    color:#16a34a;
+}
+
+.orange-bg{
+    background:#fef3c7;
+    color:#f59e0b;
+}
+
+.red-bg{
+    background:#fee2e2;
+    color:#ef4444;
+}
+
+.purple-bg{
+    background:#ede9fe;
+    color:#8b5cf6;
+}
+
+.cyan-bg{
+    background:#cffafe;
+    color:#06b6d4;
+}
+
+.blue-text{
+    color:#2563eb;
+}
+
+.green-text{
+    color:#16a34a;
+}
+
+.orange-text{
+    color:#f59e0b;
+}
+
+.red-text{
+    color:#ef4444;
+}
+
+.purple-text{
+    color:#8b5cf6;
+}
+
+.cyan-text{
+    color:#06b6d4;
+}
+.features-section{
+    margin-top:60px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.feature-card{
+    background:white;
+    border-radius:25px;
+    padding:25px;
+    display:flex;
+    gap:20px;
+    align-items:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.1);
+}
+
+.feature-icon{
+    width:70px;
+    height:70px;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}
+
+.feature-content h3{
+    font-size:22px;
+    margin-bottom:8px;
+    color:#111827;
+}
+
+.feature-content p{
+    color:#6b7280;
+    line-height:1.6;
+}
+
+.footer{
+    margin-top:60px;
+    text-align:center;
+    padding:30px 0;
+    color:#6b7280;
+    font-size:18px;
+}
+
+@media(max-width:1200px){
+
+    .semester-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .features-section{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .hero{
+        flex-direction:column;
+        gap:40px;
+        text-align:center;
+    }
+
+    .hero-left{
+        width:100%;
+    }
+
+    .hero-right img{
+        width:400px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .stats{
+        justify-content:center;
+    }
+
+    .semester-grid{
+        grid-template-columns:1fr;
+    }
+
+    .features-section{
+        grid-template-columns:1fr;
+    }
+
+    .semester-card{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .hero-right img{
+        width:280px;
+    }
+
+    .section-title h2{
+        font-size:28px;
+    }
+}

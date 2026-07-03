@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Which function is used to read a string in C?",
+    "options": ["puts()", "gets()", "scanf()", "printf()"],
+    "answer": 1
+  },
+  {
+    "question": "Which function is used to display a string?",
+    "options": ["gets()", "puts()", "scanf()", "input()"],
+    "answer": 1
+  },
+  {
+    "question": "Which symbol is used in scanf() for integer input?",
+    "options": ["%f", "%c", "%d", "%s"],
+    "answer": 2
+  },
+  {
+    "question": "Which format specifier is used for float?",
+    "options": ["%d", "%c", "%f", "%s"],
+    "answer": 2
+  },
+  {
+    "question": "Which format specifier is used for character input?",
+    "options": ["%c", "%f", "%d", "%s"],
+    "answer": 0
+  },
+  {
+    "question": "Which format specifier is used for string input?",
+    "options": ["%s", "%c", "%f", "%d"],
+    "answer": 0
+  },
+  {
+    "question": "Which header file contains scanf() and printf()?",
+    "options": ["string.h", "math.h", "stdio.h", "conio.h"],
+    "answer": 2
+  },
+  {
+    "question": "Which function is used to clear screen in Turbo C?",
+    "options": ["clear()", "clrscr()", "cls()", "erase()"],
+    "answer": 1
+  },
+  {
+    "question": "Which header file contains clrscr()?",
+    "options": ["stdio.h", "math.h", "conio.h", "string.h"],
+    "answer": 2
+  },
+  {
+    "question": "Which function pauses the screen in Turbo C?",
+    "options": ["pause()", "hold()", "getch()", "wait()"],
+    "answer": 2
+  },
+  {
+    "question": "Which function is used to take single character input?",
+    "options": ["scanf()", "gets()", "getchar()", "puts()"],
+    "answer": 2
+  },
+  {
+    "question": "Which function is used to display a single character?",
+    "options": ["putchar()", "printf()", "puts()", "display()"],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol is used before variables in scanf()?",
+    "options": ["*", "&", "%", "#"],
+    "answer": 1
+  },
+  {
+    "question": "Which library function is used for mathematical calculations?",
+    "options": ["math.h", "stdio.h", "conio.h", "string.h"],
+    "answer": 0
+  },
+  {
+    "question": "Which function is used to calculate square root?",
+    "options": ["power()", "sqrt()", "square()", "root()"],
+    "answer": 1
+  }
+]

@@ -1,0 +1,77 @@
+[
+{
+"question":"Which generation of computers used Vacuum Tubes?",
+"options":["First Generation","Second Generation","Third Generation","Fourth Generation"],
+"answer":0
+},
+{
+"question":"Which generation of computers used Transistors?",
+"options":["First","Second","Third","Fourth"],
+"answer":1
+},
+{
+"question":"Which generation introduced Integrated Circuits?",
+"options":["First","Second","Third","Fourth"],
+"answer":2
+},
+{
+"question":"Which generation introduced Microprocessors?",
+"options":["First","Second","Third","Fourth"],
+"answer":3
+},
+{
+"question":"Which is the fastest type of computer?",
+"options":["Mini Computer","Micro Computer","Super Computer","Mainframe"],
+"answer":2
+},
+{
+"question":"Which computer is commonly used in homes?",
+"options":["Mainframe","Micro Computer","Super Computer","Mini Computer"],
+"answer":1
+},
+{
+"question":"The brain of a computer is:",
+"options":["RAM","CPU","ROM","ALU"],
+"answer":1
+},
+{
+"question":"ALU stands for:",
+"options":["Arithmetic Logic Unit","Array Logic Unit","Arithmetic Linear Unit","Advanced Logic Unit"],
+"answer":0
+},
+{
+"question":"CU stands for:",
+"options":["Central Unit","Control Unit","Computer Unit","Core Unit"],
+"answer":1
+},
+{
+"question":"Which unit performs arithmetic operations?",
+"options":["CU","RAM","ALU","ROM"],
+"answer":2
+},
+{
+"question":"Which of the following is an input unit?",
+"options":["Monitor","Keyboard","Printer","Speaker"],
+"answer":1
+},
+{
+"question":"Which of the following is an output unit?",
+"options":["Mouse","Keyboard","Scanner","Monitor"],
+"answer":3
+},
+{
+"question":"Which characteristic means computer gives accurate results?",
+"options":["Speed","Accuracy","Storage","Versatility"],
+"answer":1
+},
+{
+"question":"Which characteristic means computer can perform many tasks?",
+"options":["Versatility","Accuracy","Speed","Reliability"],
+"answer":0
+},
+{
+"question":"Which component controls all operations of a computer?",
+"options":["ALU","CPU","RAM","ROM"],
+"answer":1
+}
+]

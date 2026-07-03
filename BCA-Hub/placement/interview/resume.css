@@ -1,0 +1,112 @@
+.question-card{
+    border-top:6px solid #2563eb;
+}
+
+.question-card h3{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.answer{
+    line-height:2;
+    color:#475569;
+}
+
+.tip-card{
+    border-left:6px solid #16a34a;
+}
+
+.card{
+    border-left:6px solid #ef4444;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1e293b;
+    line-height:1.8;
+}
+
+.topic-intro,
+.types-section,
+.evaluation-section,
+.tips-section,
+.mistakes-section,
+.topics-section{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.topic-intro,
+.card,
+.tip-card,
+.topic-card{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    margin-bottom:25px;
+}
+
+.topic-intro h1{
+    color:#2563eb;
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.card{
+    border-left:6px solid #2563eb;
+}
+
+.tip-card{
+    border-left:6px solid #16a34a;
+}
+
+.topic-card{
+    border-left:6px solid #f59e0b;
+    font-weight:600;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:38px;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:70px;
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .topic-intro h1{
+        font-size:34px;
+    }
+
+    h2{
+        font-size:28px;
+    }
+
+    .topic-intro,
+    .card,
+    .tip-card,
+    .topic-card{
+        padding:22px;
+    }
+
+}

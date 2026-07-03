@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BCA Quiz</title>
+
+<link rel="stylesheet" href="quiz-engine.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="quiz-container">
+
+<div class="quiz-header">
+
+<div class="quiz-info">
+
+<span class="subject-badge">
+<i class="fa-solid fa-book-open"></i>
+<span id="subject-name">Loading Quiz</span>
+</span>
+
+<h1 id="quiz-title">Please wait...</h1>
+
+<p>
+Answer all questions before the timer ends.
+</p>
+
+</div>
+
+<div class="timer-box">
+
+<i class="fa-solid fa-clock"></i>
+
+<span id="timer">
+10:00
+</span>
+
+</div>
+
+</div>
+
+<div class="progress-container">
+
+<div class="progress-bar">
+
+<div class="progress-fill"></div>
+
+</div>
+
+<p>
+Question
+<span id="current-question">1</span>
+of
+<span id="total-question">15</span>
+</p>
+
+</div>
+<div class="question-card">
+
+<div class="question-number" id="question-number">
+Question 1
+</div>
+
+<h2 class="question-text" id="question-text">
+Loading question...
+</h2>
+
+<div class="options" id="options-container"></div>
+
+</div>
+<div class="quiz-buttons">
+
+<button class="previous-btn" id="prev-btn">
+<i class="fa-solid fa-arrow-left"></i>
+Previous
+</button>
+
+<button class="next-btn" id="next-btn">
+<span id="next-btn-text">Next</span>
+<i class="fa-solid fa-arrow-right"></i>
+</button>
+
+</div>
+
+<div class="result-panel" id="result-panel" hidden>
+    <div class="result-card">
+        <div class="result-icon">
+            <i class="fa-solid fa-trophy"></i>
+        </div>
+        <h2>Quiz Completed</h2>
+        <p id="result-message">Here is your performance summary.</p>
+        <div class="score-circle">
+            <span id="score-percent">0%</span>
+        </div>
+        <div class="result-stats">
+            <div>
+                <strong id="correct-count">0</strong>
+                <span>Correct</span>
+            </div>
+            <div>
+                <strong id="wrong-count">0</strong>
+                <span>Wrong</span>
+            </div>
+            <div>
+                <strong id="total-count">0</strong>
+                <span>Total</span>
+            </div>
+            <div>
+                <strong id="time-taken">00:00</strong>
+                <span>Time Taken</span>
+            </div>
+        </div>
+        <div class="result-actions">
+            <button id="retry-btn">
+                <i class="fa-solid fa-rotate-right"></i>
+                Retry
+            </button>
+            <button id="back-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                Back
+            </button>
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>

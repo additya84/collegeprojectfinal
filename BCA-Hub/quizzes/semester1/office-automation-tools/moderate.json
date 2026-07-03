@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Which software is used for creating presentations?",
+    "options": ["MS Word", "MS Excel", "MS PowerPoint", "MS Access"],
+    "answer": 2
+  },
+  {
+    "question": "The default extension of PowerPoint 2007 file is:",
+    "options": [".ppt", ".pptx", ".docx", ".xlsx"],
+    "answer": 1
+  },
+  {
+    "question": "Which view is used to display all slides together?",
+    "options": ["Normal View", "Slide Sorter View", "Reading View", "Outline View"],
+    "answer": 1
+  },
+  {
+    "question": "Which feature adds movement effects to slide objects?",
+    "options": ["Transition", "Animation", "Design", "Theme"],
+    "answer": 1
+  },
+  {
+    "question": "Which feature adds effects between slides?",
+    "options": ["Animation", "Transition", "Hyperlink", "Action Button"],
+    "answer": 1
+  },
+  {
+    "question": "Which slide controls the formatting of all slides?",
+    "options": ["Title Slide", "Master Slide", "Notes Slide", "Layout Slide"],
+    "answer": 1
+  },
+  {
+    "question": "Action Buttons in PowerPoint are used for:",
+    "options": [
+      "Formatting text",
+      "Navigation and hyperlinks",
+      "Printing slides",
+      "Changing themes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Mail Merge combines:",
+    "options": [
+      "Two presentations",
+      "Main document and data source",
+      "Two worksheets",
+      "Charts and tables"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which Excel feature summarizes large data quickly?",
+    "options": ["Chart", "Pivot Table", "Filter", "Validation"],
+    "answer": 1
+  },
+  {
+    "question": "Data Validation is used to:",
+    "options": [
+      "Delete records",
+      "Restrict input values",
+      "Print worksheets",
+      "Sort records"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which feature hides unwanted records temporarily?",
+    "options": ["Sort", "Filter", "Validation", "Scenario"],
+    "answer": 1
+  },
+  {
+    "question": "Sorting arranges data in:",
+    "options": [
+      "Random order",
+      "Specific order",
+      "Encrypted form",
+      "Compressed form"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Scenario Manager is used for:",
+    "options": [
+      "Presentations",
+      "What-if analysis",
+      "Printing",
+      "Formatting"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which feature automatically corrects common typing mistakes?",
+    "options": ["Spell Check", "AutoCorrect", "Find", "Replace"],
+    "answer": 1
+  },
+  {
+    "question": "Thesaurus in MS Word is used for:",
+    "options": [
+      "Checking spelling",
+      "Finding synonyms",
+      "Printing documents",
+      "Formatting text"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which Word feature is used for repetitive formatting?",
+    "options": ["Template", "Macro", "Mail Merge", "Header"],
+    "answer": 0
+  },
+  {
+    "question": "Which feature creates automatic table of contents?",
+    "options": ["Styles", "References", "Header", "Review"],
+    "answer": 1
+  },
+  {
+    "question": "Which tab contains Spell Check in Word 2007?",
+    "options": ["Home", "Insert", "Review", "View"],
+    "answer": 2
+  },
+  {
+    "question": "Pivot Table is mainly used for:",
+    "options": [
+      "Drawing charts",
+      "Summarizing and analyzing data",
+      "Printing worksheets",
+      "Creating slides"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which feature allows jumping to another slide or website?",
+    "options": ["Animation", "Transition", "Hyperlink", "Theme"],
+    "answer": 2
+  }
+]

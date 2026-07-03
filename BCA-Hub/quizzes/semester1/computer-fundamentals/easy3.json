@@ -1,0 +1,118 @@
+[
+  {
+    "question": "Which of the following is an input device?",
+    "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+    "answer": 2
+  },
+  {
+    "question": "Which device is used to point and select items on the screen?",
+    "options": ["Scanner", "Joystick", "Mouse", "Plotter"],
+    "answer": 2
+  },
+  {
+    "question": "Which device is mainly used for playing games?",
+    "options": ["Joystick", "Scanner", "MICR", "Printer"],
+    "answer": 0
+  },
+  {
+    "question": "OCR stands for:",
+    "options": [
+      "Optical Character Reader",
+      "Optical Code Recognition",
+      "Optical Character Recognition",
+      "Original Character Recognition"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "OMR is mainly used to check:",
+    "options": [
+      "Bank Cheques",
+      "Answer Sheets",
+      "Barcodes",
+      "Documents"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "MICR technology is mainly used in:",
+    "options": [
+      "Schools",
+      "Hospitals",
+      "Banks",
+      "Libraries"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which device is used to read barcodes?",
+    "options": [
+      "Barcode Reader",
+      "OCR",
+      "OMR",
+      "MICR"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which device converts paper documents into digital form?",
+    "options": [
+      "Monitor",
+      "Printer",
+      "Scanner",
+      "Plotter"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is an output device?",
+    "options": [
+      "Mouse",
+      "Keyboard",
+      "Monitor",
+      "Joystick"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "CRT stands for:",
+    "options": [
+      "Cathode Ray Tube",
+      "Computer Ray Tube",
+      "Color Ray Tube",
+      "Cathode Read Tube"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which printer is an impact printer?",
+    "options": [
+      "Laser Printer",
+      "Inkjet Printer",
+      "Dot Matrix Printer",
+      "Thermal Printer"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which printer provides the highest print quality?",
+    "options": [
+      "Dot Matrix Printer",
+      "Laser Printer",
+      "Line Printer",
+      "Drum Printer"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which printer is an impact printer?",
+    "options": [
+      "Laser Printer",
+      "Inkjet Printer",
+      "Dot Matrix Printer",
+      "Thermal Printer"
+    ],
+    "answer": 2
+  }
+]
+  

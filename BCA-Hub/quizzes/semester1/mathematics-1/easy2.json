@@ -1,0 +1,77 @@
+[
+  {
+    "question": "In an Arithmetic Progression (AP), the difference between consecutive terms is called:",
+    "options": ["Ratio", "Common Difference", "Mean", "Factor"],
+    "answer": 1
+  },
+  {
+    "question": "The general term of AP is:",
+    "options": ["a+r(n-1)", "a+d(n-1)", "a×r^(n-1)", "a/n"],
+    "answer": 1
+  },
+  {
+    "question": "The sequence 2,4,6,8,... is an example of:",
+    "options": ["GP", "AP", "HP", "None"],
+    "answer": 1
+  },
+  {
+    "question": "The common difference in 5,10,15,20,... is:",
+    "options": ["2", "5", "10", "15"],
+    "answer": 1
+  },
+  {
+    "question": "In a Geometric Progression (GP), consecutive terms are related by:",
+    "options": ["Addition", "Subtraction", "Multiplication", "Division"],
+    "answer": 2
+  },
+  {
+    "question": "The common ratio of 2,6,18,54,... is:",
+    "options": ["2", "3", "4", "6"],
+    "answer": 1
+  },
+  {
+    "question": "The nth term of GP is:",
+    "options": ["a+d(n-1)", "ar^(n-1)", "a+r(n-1)", "a/n"],
+    "answer": 1
+  },
+  {
+    "question": "The sum of first n terms of AP is denoted by:",
+    "options": ["An", "Sn", "Rn", "Pn"],
+    "answer": 1
+  },
+  {
+    "question": "The sequence 1, 1/2, 1/3, 1/4,... is an example of:",
+    "options": ["AP", "GP", "HP", "None"],
+    "answer": 2
+  },
+  {
+    "question": "The expansion of (a+b)^2 is:",
+    "options": ["a²+b²", "a²+2ab+b²", "a²-ab+b²", "2a+2b"],
+    "answer": 1
+  },
+  {
+    "question": "The expansion of (a-b)^2 is:",
+    "options": ["a²+b²", "a²-2ab+b²", "a²+2ab+b²", "a²-b²"],
+    "answer": 1
+  },
+  {
+    "question": "The coefficient of x² in (x+1)^2 is:",
+    "options": ["0", "1", "2", "3"],
+    "answer": 1
+  },
+  {
+    "question": "The number of terms in expansion of (a+b)^n is:",
+    "options": ["n", "n+1", "n-1", "2n"],
+    "answer": 1
+  },
+  {
+    "question": "Binomial theorem is used to expand:",
+    "options": ["Trigonometric Functions", "Polynomials", "Matrices", "Determinants"],
+    "answer": 1
+  },
+  {
+    "question": "The middle term of (a+b)^4 is:",
+    "options": ["3rd term", "2nd term", "4th term", "5th term"],
+    "answer": 0
+  }
+]

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings in C | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <span class="badge">🔤 C Programming</span>
+        <h1>Strings in C</h1>
+        <p>
+            Learn Strings in C Programming including declaration,
+            initialization, string functions and important programs.
+        </p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 Introduction to Strings</h2>
+
+        <p>
+            A string is a collection of characters stored inside an array and
+            terminated with a null character '\0'.
+        </p>
+
+        <div class="note-box">
+            Example:
+            <strong>"Hello"</strong> is a string whereas
+            <strong>'A'</strong> is a character.
+        </div>
+    </section>
+
+    <!-- Declaration -->
+    <section class="section-card">
+        <h2>📝 Declaration of String</h2>
+
+        <div class="code-box">
+<pre>
+char name[20];
+</pre>
+        </div>
+
+        <p>
+            Here name can store up to 19 characters and one null character.
+        </p>
+    </section>
+
+    <!-- Initialization -->
+    <section class="section-card">
+        <h2>⚡ Initialization of String</h2>
+
+        <div class="code-box">
+<pre>
+char name[] = "Additya";
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Additya</strong>
+        </div>
+    </section>
+
+    <!-- Input and Output -->
+    <section class="section-card">
+        <h2>⌨️ Input and Output of Strings</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+
+int main()
+{
+    char name[20];
+
+    scanf("%s",name);
+
+    printf("%s",name);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Input:
+            <strong>Additya</strong>
+
+            <br><br>
+
+            Output:
+            <strong>Additya</strong>
+        </div>
+    </section>
+
+    <!-- strlen -->
+    <section class="section-card">
+        <h2>📏 strlen() Function</h2>
+
+        <p>
+            strlen() returns the length of a string.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str[]="BCA Hub";
+
+    printf("%d",strlen(str));
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>7</strong>
+        </div>
+    </section>
+
+    <!-- strcpy -->
+    <section class="section-card">
+        <h2>📋 strcpy() Function</h2>
+
+        <p>
+            strcpy() copies one string into another string.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str1[20];
+    char str2[]="Hello";
+
+    strcpy(str1,str2);
+
+    printf("%s",str1);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Hello</strong>
+        </div>
+    </section>
+
+    <!-- strcat -->
+    <section class="section-card">
+        <h2>➕ strcat() Function</h2>
+
+        <p>
+            strcat() joins two strings.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str1[30]="BCA ";
+    char str2[]="Hub";
+
+    strcat(str1,str2);
+
+    printf("%s",str1);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>BCA Hub</strong>
+        </div>
+    </section>
+
+    <!-- strcmp -->
+    <section class="section-card">
+        <h2>⚖️ strcmp() Function</h2>
+
+        <p>
+            strcmp() compares two strings.
+        </p>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str1[]="Hello";
+    char str2[]="Hello";
+
+    printf("%d",strcmp(str1,str2));
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>0</strong>
+        </div>
+
+        <p>
+            If output is 0, strings are equal.
+        </p>
+    </section>
+
+    <!-- Reverse String -->
+    <section class="section-card">
+        <h2>🔄 Program 1 : Reverse a String</h2>
+
+        <div class="code-box">
+<pre>
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str[]="Hello";
+
+    strrev(str);
+
+    printf("%s",str);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>olleH</strong>
+        </div>
+    </section>
+
+    <!-- Palindrome -->
+    <section class="section-card">
+        <h2>🔁 Program 2 : Palindrome String</h2>
+
+        <div class="code-box">
+<pre>
+Input : madam
+Output : Palindrome
+</pre>
+        </div>
+
+        <p>
+            A palindrome string reads the same forward and backward.
+        </p>
+    </section>
+
+    <!-- Vowels -->
+    <section class="section-card">
+        <h2>🔤 Program 3 : Count Vowels</h2>
+
+        <div class="code-box">
+<pre>
+Input : Additya
+Output : 3 vowels
+</pre>
+        </div>
+    </section>
+
+    <!-- Interview Questions -->
+    <section class="section-card">
+        <h2>🎯 Important Interview Questions</h2>
+
+        <ul class="points">
+            <li>What is a string in C?</li>
+            <li>Difference between character and string?</li>
+            <li>What is null character?</li>
+            <li>Difference between strcpy() and strcat()?</li>
+            <li>Difference between strlen() and sizeof()?</li>
+        </ul>
+    </section>
+
+    <!-- Important Points -->
+    <section class="section-card important">
+        <h2>⭐ Important Points</h2>
+
+        <ul class="points">
+            <li>Strings are stored as character arrays.</li>
+            <li>Every string ends with '\0'.</li>
+            <li>String functions are available in string.h header file.</li>
+            <li>Strings are widely used in file handling and text processing.</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        © 2026 BCA Hub • Learn • Practice • Grow 🚀
+    </footer>
+
+</div>
+
+</body>
+</html>

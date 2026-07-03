@@ -1,0 +1,17 @@
+[
+  {"question":"Rolle's theorem applies to functions that are:","options":["Continuous only","Differentiable only","Continuous and Differentiable","None"],"answer":2},
+  {"question":"Rolle's theorem requires f(a)=f(b).","options":["True","False","Sometimes","None"],"answer":0},
+  {"question":"Lagrange Mean Value Theorem is also called:","options":["MVT","Rolle's theorem","Leibnitz theorem","Cauchy theorem"],"answer":0},
+  {"question":"Cauchy's Mean Value Theorem is a generalization of:","options":["Leibnitz theorem","LMVT","Rolle's theorem","Groups"],"answer":1},
+  {"question":"The derivative of x² is:","options":["x","2x","x²","2"],"answer":1},
+  {"question":"The derivative of sinx is:","options":["cosx","-cosx","sinx","-sinx"],"answer":0},
+  {"question":"The derivative of cosx is:","options":["sinx","-sinx","cosx","-cosx"],"answer":1},
+  {"question":"Leibnitz theorem is used for:","options":["Integration","Successive differentiation","Matrices","Groups"],"answer":1},
+  {"question":"The nth derivative of xⁿ is:","options":["0","n!","n","1"],"answer":1},
+  {"question":"The geometrical meaning of Rolle's theorem involves:","options":["Horizontal tangent","Vertical tangent","Circle","Parabola"],"answer":0},
+  {"question":"LMVT guarantees existence of:","options":["A point c","A root","An integral","A matrix"],"answer":0},
+  {"question":"Successive differentiation means:","options":["Repeated integration","Repeated differentiation","Repeated addition","Repeated multiplication"],"answer":1},
+  {"question":"Derivative of eˣ is:","options":["x","1","eˣ","lnx"],"answer":2},
+  {"question":"Derivative of ln x is:","options":["1/x","x","lnx","eˣ"],"answer":0},
+  {"question":"CMVT involves how many functions?","options":["1","2","3","4"],"answer":1}
+]

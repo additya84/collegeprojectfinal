@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Basics | BCA Hub</title>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">💻 C Programming</span>
+            <h1>C Programming Basics</h1>
+            <p>
+                Learn the fundamentals of C Programming including program structure,
+                variables, data types, operators and input/output functions with examples.
+            </p>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section-card">
+        <h2>📘 Introduction to C</h2>
+
+        <p>
+            C is a general-purpose, procedural programming language developed by
+            Dennis Ritchie in 1972 at Bell Laboratories.
+        </p>
+
+        <p>
+            It is fast, efficient and widely used in operating systems, embedded
+            systems, compilers and system software.
+        </p>
+
+        <div class="note-box">
+            <strong>Important:</strong>
+            C is often called the "Mother of Programming Languages"
+            because many languages like C++, Java and C# are influenced by it.
+        </div>
+    </section>
+
+    <!-- Structure of Program -->
+    <section class="section-card">
+        <h2>🏗 Structure of a C Program</h2>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <h3>Explanation</h3>
+
+        <ul class="points">
+            <li><strong>#include &lt;stdio.h&gt;</strong> → Header file for input/output functions.</li>
+            <li><strong>int main()</strong> → Program execution starts here.</li>
+            <li><strong>printf()</strong> → Displays output on screen.</li>
+            <li><strong>return 0;</strong> → Indicates successful execution.</li>
+        </ul>
+    </section>
+
+    <!-- Variables -->
+    <section class="section-card">
+        <h2>📦 Variables</h2>
+
+        <p>
+            Variables are memory locations used to store data values.
+        </p>
+
+        <h3>Syntax</h3>
+
+        <div class="code-box">
+<pre>
+datatype variable_name;
+</pre>
+        </div>
+
+        <h3>Example 1</h3>
+
+        <div class="code-box">
+<pre>
+int age = 19;
+
+printf("%d", age);
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>19</strong>
+        </div>
+
+        <p>
+            Here <strong>int</strong> is datatype,
+            <strong>age</strong> is variable name and
+            <strong>19</strong> is stored value.
+        </p>
+
+        <h3>Example 2</h3>
+
+        <div class="code-box">
+<pre>
+float marks = 89.5;
+
+printf("%.1f", marks);
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>89.5</strong>
+        </div>
+    </section>
+
+    <!-- Data Types -->
+    <section class="section-card">
+        <h2>🔢 Data Types</h2>
+
+        <table>
+            <tr>
+                <th>Data Type</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+
+            <tr>
+                <td>int</td>
+                <td>Stores integer values</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>float</td>
+                <td>Stores decimal values</td>
+                <td>10.5</td>
+            </tr>
+
+            <tr>
+                <td>char</td>
+                <td>Stores characters</td>
+                <td>'A'</td>
+            </tr>
+
+            <tr>
+                <td>double</td>
+                <td>Stores large decimal values</td>
+                <td>10.55555</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Input Output -->
+    <section class="section-card">
+        <h2>⌨️ Input and Output Functions</h2>
+
+        <h3>printf()</h3>
+
+        <div class="code-box">
+<pre>
+printf("Hello BCA Hub");
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Hello BCA Hub</strong>
+        </div>
+
+        <h3>scanf()</h3>
+
+        <div class="code-box">
+<pre>
+int age;
+
+scanf("%d", &age);
+
+printf("%d", age);
+</pre>
+        </div>
+
+        <div class="output-box">
+            Input: 19 <br>
+            Output: <strong>19</strong>
+        </div>
+    </section>
+
+    <!-- Operators -->
+    <section class="section-card">
+        <h2>➕ Operators</h2>
+
+        <h3>Arithmetic Operators</h3>
+
+        <table>
+            <tr>
+                <th>Operator</th>
+                <th>Meaning</th>
+            </tr>
+
+            <tr>
+                <td>+</td>
+                <td>Addition</td>
+            </tr>
+
+            <tr>
+                <td>-</td>
+                <td>Subtraction</td>
+            </tr>
+
+            <tr>
+                <td>*</td>
+                <td>Multiplication</td>
+            </tr>
+
+            <tr>
+                <td>/</td>
+                <td>Division</td>
+            </tr>
+
+            <tr>
+                <td>%</td>
+                <td>Modulus</td>
+            </tr>
+        </table>
+
+        <div class="code-box">
+<pre>
+int a = 10;
+int b = 20;
+
+printf("%d", a+b);
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>30</strong>
+        </div>
+    </section>
+
+    <!-- Comments -->
+    <section class="section-card">
+        <h2>💬 Comments</h2>
+
+        <h3>Single Line Comment</h3>
+
+        <div class="code-box">
+<pre>
+// This is a comment
+</pre>
+        </div>
+
+        <h3>Multi Line Comment</h3>
+
+        <div class="code-box">
+<pre>
+/*
+This is
+multi line comment
+*/
+</pre>
+        </div>
+    </section>
+
+    <!-- Practice Programs -->
+    <section class="section-card">
+        <h2>📝 Practice Programs</h2>
+
+        <h3>Program 1: Print Name</h3>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    printf("Additya");
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>Additya</strong>
+        </div>
+
+        <h3>Program 2: Add Two Numbers</h3>
+
+        <div class="code-box">
+<pre>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int a = 10;
+    int b = 20;
+
+    printf("%d", a+b);
+
+    return 0;
+}
+</pre>
+        </div>
+
+        <div class="output-box">
+            Output:
+            <strong>30</strong>
+        </div>
+    </section>
+
+    <!-- Important Points -->
+    <section class="section-card important">
+        <h2>⭐ Important Points</h2>
+
+        <ul class="points">
+            <li>C is case sensitive.</li>
+            <li>Every statement ends with semicolon (;).</li>
+            <li>Keywords cannot be used as variable names.</li>
+            <li>Variable names cannot start with numbers.</li>
+            <li>main() function is mandatory in every C program.</li>
+        </ul>
+    </section>
+
+</div>
+<footer class="footer">
+    © 2026 BCA Hub • Learn • Practice • Grow 🚀
+</footer>
+
+</body>
+</html>

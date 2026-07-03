@@ -1,0 +1,172 @@
+[
+  {
+    "question": "System software is designed to:",
+    "options": [
+      "Play games",
+      "Manage computer resources",
+      "Browse internet",
+      "Create presentations"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is system software?",
+    "options": ["MS Word", "Windows", "PowerPoint", "Excel"],
+    "answer": 1
+  },
+  {
+    "question": "Which software acts as an interface between user and hardware?",
+    "options": ["Compiler", "Operating System", "Assembler", "Utility Program"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an operating system?",
+    "options": ["Linux", "Oracle", "Python", "Photoshop"],
+    "answer": 0
+  },
+  {
+    "question": "Windows is developed by:",
+    "options": ["Apple", "IBM", "Microsoft", "Google"],
+    "answer": 2
+  },
+  {
+    "question": "Linux is an example of:",
+    "options": ["Programming Language", "Operating System", "Compiler", "Database"],
+    "answer": 1
+  },
+  {
+    "question": "FAT stands for:",
+    "options": [
+      "File Allocation Table",
+      "Fast Access Table",
+      "File Access Transfer",
+      "Fast Allocation Transfer"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "FAT32 is mainly related to:",
+    "options": [
+      "CPU Architecture",
+      "File System",
+      "Memory Management",
+      "Programming"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which software is designed for specific user tasks?",
+    "options": [
+      "System Software",
+      "Application Software",
+      "Firmware",
+      "BIOS"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "MS Excel is an example of:",
+    "options": [
+      "Operating System",
+      "Application Software",
+      "Utility Software",
+      "Compiler"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Antivirus software belongs to:",
+    "options": [
+      "Application Software",
+      "System Software",
+      "Utility Software",
+      "Firmware"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Disk Cleanup is a type of:",
+    "options": [
+      "Operating System",
+      "Utility Program",
+      "Database",
+      "Programming Language"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A folder inside another folder is called:",
+    "options": [
+      "Root Folder",
+      "Subfolder",
+      "Directory Tree",
+      "Archive"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is not an operating system?",
+    "options": ["Windows", "Linux", "UNIX", "Java"],
+    "answer": 3
+  },
+  {
+    "question": "The root directory is:",
+    "options": [
+      "The main directory",
+      "Temporary folder",
+      "Recycle Bin",
+      "Desktop"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "MS Word belongs to:",
+    "options": [
+      "Word Processing Software",
+      "Spreadsheet Software",
+      "Presentation Software",
+      "Utility Software"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "MS PowerPoint is used for:",
+    "options": [
+      "Programming",
+      "Presentations",
+      "Operating System",
+      "Database Management"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "MS Excel is primarily used for:",
+    "options": [
+      "Programming",
+      "Spreadsheets",
+      "Operating Systems",
+      "Image Editing"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A collection of related files is called:",
+    "options": [
+      "Directory",
+      "Register",
+      "Sector",
+      "Block"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which operating system is open source?",
+    "options": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "MS-DOS"
+    ],
+    "answer": 1
+  }
+]

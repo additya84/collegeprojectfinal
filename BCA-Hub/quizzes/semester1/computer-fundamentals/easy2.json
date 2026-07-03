@@ -1,0 +1,97 @@
+[
+  {
+    "question": "Which memory is volatile?",
+    "options": ["ROM", "RAM", "EPROM", "PROM"],
+    "answer": 1
+  },
+  {
+    "question": "Which memory retains data even after power is turned off?",
+    "options": ["RAM", "Cache", "ROM", "Registers"],
+    "answer": 2
+  },
+  {
+    "question": "EPROM stands for:",
+    "options": [
+      "Erasable Programmable Read Only Memory",
+      "Electronic Programmable ROM",
+      "External Programmable ROM",
+      "Enhanced Programmable ROM"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "PROM stands for:",
+    "options": [
+      "Programmable Read Only Memory",
+      "Primary Read Only Memory",
+      "Permanent Read Only Memory",
+      "Programmable Random Memory"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which memory is the fastest?",
+    "options": ["RAM", "ROM", "Cache Memory", "Hard Disk"],
+    "answer": 2
+  },
+  {
+    "question": "Which storage device uses magnetic technology?",
+    "options": ["SSD", "CD-ROM", "Hard Disk", "DVD"],
+    "answer": 2
+  },
+  {
+    "question": "SSD stands for:",
+    "options": [
+      "Solid State Device",
+      "Solid State Drive",
+      "Storage State Drive",
+      "Secondary Storage Device"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an optical storage device?",
+    "options": ["Hard Disk", "USB Drive", "CD-ROM", "Floppy Disk"],
+    "answer": 2
+  },
+  {
+    "question": "Which storage device is portable and uses flash memory?",
+    "options": ["Hard Disk", "USB Drive", "Magnetic Tape", "CD"],
+    "answer": 1
+  },
+  {
+    "question": "Which memory is used to speed up CPU operations?",
+    "options": ["ROM", "RAM", "Cache Memory", "Hard Disk"],
+    "answer": 2
+  },
+  {
+    "question": "DVD stands for:",
+    "options": [
+      "Digital Video Disc",
+      "Digital Versatile Disc",
+      "Data Video Disc",
+      "Digital Visual Device"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a secondary storage device?",
+    "options": ["RAM", "Cache", "Hard Disk", "Register"],
+    "answer": 2
+  },
+  {
+    "question": "Which memory can be erased using ultraviolet light?",
+    "options": ["PROM", "RAM", "EPROM", "ROM"],
+    "answer": 2
+  },
+  {
+    "question": "Which storage device has no moving parts?",
+    "options": ["Hard Disk", "Floppy Disk", "SSD", "Magnetic Tape"],
+    "answer": 2
+  },
+  {
+    "question": "Which storage medium has the highest storage capacity among these?",
+    "options": ["Floppy Disk", "CD", "DVD", "Hard Disk"],
+    "answer": 3
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "question": "Choose the plural form of 'Criterion'.",
+    "options": ["Criterions", "Criteria", "Criterias", "Criteriones"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the plural form of 'Phenomenon'.",
+    "options": ["Phenomenons", "Phenomena", "Phenomenae", "Phenomenones"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the feminine form of 'Executor'.",
+    "options": ["Executress", "Executrix", "Executive", "Executora"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the feminine form of 'Patron'.",
+    "options": ["Patroness", "Patrice", "Patrona", "Patrona"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the correct spelling.",
+    "options": ["Accomodation", "Accommodation", "Acommodation", "Accommadation"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the correct spelling.",
+    "options": ["Embarrasment", "Embarrassment", "Embarrasement", "Embarrasment"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the synonym of 'Benevolent'.",
+    "options": ["Cruel", "Kind", "Angry", "Greedy"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the synonym of 'Lucid'.",
+    "options": ["Complex", "Hidden", "Clear", "Confusing"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the antonym of 'Hostile'.",
+    "options": ["Friendly", "Aggressive", "Violent", "Cruel"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct determiner: ___ university student must carry an ID card.",
+    "options": ["A", "An", "The", "Some"],
+    "answer": 0
+  },
+
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He don't like coffee.",
+      "He doesn't likes coffee.",
+      "He doesn't like coffee.",
+      "He not like coffee."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Fill in the blank: She ___ to college every day.",
+    "options": ["go", "goes", "going", "gone"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct preposition: He is good ___ mathematics.",
+    "options": ["in", "on", "at", "for"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She can sings well.",
+      "She can sing well.",
+      "She can sang well.",
+      "She can singing well."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct form: If I ___ rich, I would travel the world.",
+    "options": ["am", "was", "were", "be"],
+    "answer": 2
+  },
+
+  {
+    "question": "Identify the tense: 'She has been studying English for five years.'",
+    "options": [
+      "Present Perfect",
+      "Present Continuous",
+      "Present Perfect Continuous",
+      "Past Perfect Continuous"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct passive voice: 'The manager approved the proposal.'",
+    "options": [
+      "The proposal approved by the manager.",
+      "The proposal was approved by the manager.",
+      "The proposal is approved by the manager.",
+      "The proposal had approved by the manager."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct indirect speech: He said, 'I am busy.'",
+    "options": [
+      "He said that he is busy.",
+      "He said that he was busy.",
+      "He says that he was busy.",
+      "He told he was busy."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct conditional sentence.",
+    "options": [
+      "If I was rich, I would travel.",
+      "If I were rich, I would travel.",
+      "If I am rich, I would travel.",
+      "If I be rich, I travel."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct article: He is ___ MBA graduate.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": 1
+  },
+
+  {
+    "question": "Choose the one-word substitution for 'One who knows many languages'.",
+    "options": ["Linguist", "Polyglot", "Scholar", "Translator"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct idiom meaning of 'Break the ice'.",
+    "options": [
+      "Destroy something",
+      "Start a conversation",
+      "Win a competition",
+      "End an argument"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which part of a formal letter contains the purpose of writing?",
+    "options": ["Salutation", "Subject", "Body", "Signature"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the best opening for a formal complaint letter.",
+    "options": [
+      "Hey there!",
+      "I am writing to express my concern regarding...",
+      "What's up?",
+      "Hope you are doing great buddy."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Identify the figure of speech: 'Time is a thief.'",
+    "options": ["Metaphor", "Simile", "Hyperbole", "Oxymoron"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the meaning of the idiom 'Hit the nail on the head'.",
+    "options": [
+      "To hit someone",
+      "To be exactly right",
+      "To make a mistake",
+      "To repair something"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Identify the clause in: 'I know the man who won the prize.'",
+    "options": [
+      "Adverb Clause",
+      "Noun Clause",
+      "Relative Clause",
+      "Main Clause"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Choose the antonym of 'Ephemeral'.",
+    "options": ["Temporary", "Short-lived", "Permanent", "Weak"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the synonym of 'Pragmatic'.",
+    "options": ["Idealistic", "Practical", "Foolish", "Emotional"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct meaning of 'Once in a blue moon'.",
+    "options": ["Very frequently", "Rarely", "Every month", "Daily"],
+    "answer": 1
+  },
+
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Each of the players have arrived.",
+      "Each of the players has arrived.",
+      "Each player have arrived.",
+      "Each player are arrived."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct one-word substitution for 'Government by the people'.",
+    "options": ["Monarchy", "Democracy", "Autocracy", "Theocracy"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct spelling.",
+    "options": ["Conscience", "Concience", "Consience", "Conscince"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correctly punctuated sentence.",
+    "options": [
+      "My hobbies are reading, travelling, and photography.",
+      "My hobbies are reading travelling and photography.",
+      "My hobbies are, reading travelling and photography.",
+      "My hobbies are reading; travelling and photography."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct figure of speech: 'The stars danced in the sky.'",
+    "options": ["Personification", "Simile", "Metaphor", "Irony"],
+    "answer": 0
+  },
+
+  {
+    "question": "Choose the plural form of 'Syllabus'.",
+    "options": ["Syllabuses", "Syllabi", "Syllabuses", "Syllabii"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the plural form of 'Datum'.",
+    "options": ["Datums", "Data", "Datas", "Datums"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the feminine form of 'Bridegroom'.",
+    "options": ["Bride", "Bridess", "Bridewoman", "Bridemaid"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct determiner: There isn't ___ sugar left.",
+    "options": ["many", "some", "any", "few"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Everybody have completed the work.",
+      "Everybody has completed the work.",
+      "Everybody completed the work have.",
+      "Everybody completing work."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct voice: 'People speak English all over the world.'",
+    "options": [
+      "English is spoken all over the world.",
+      "English was spoken all over the world.",
+      "English has spoken all over the world.",
+      "English speaks all over the world."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "No sooner did he arrive when the meeting started.",
+      "No sooner had he arrived than the meeting started.",
+      "No sooner he arrived than meeting started.",
+      "No sooner had arrived he than meeting started."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct one-word substitution for 'A speech delivered without preparation'.",
+    "options": ["Debate", "Extempore", "Lecture", "Monologue"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the mood of the sentence: 'Please close the door.'",
+    "options": ["Indicative", "Imperative", "Subjunctive", "Interrogative"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct figure of speech: 'The wind whispered through the trees.'",
+    "options": ["Metaphor", "Hyperbole", "Personification", "Irony"],
+    "answer": 2
+  }
+]

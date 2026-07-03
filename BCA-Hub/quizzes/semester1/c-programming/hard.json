@@ -1,0 +1,137 @@
+[
+  {
+    "question": "A function prototype is used to:",
+    "options": [
+      "Execute function",
+      "Declare function before use",
+      "Delete function",
+      "Call function"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to return a value from a function?",
+    "options": ["break", "goto", "return", "continue"],
+    "answer": 2
+  },
+  {
+    "question": "A function calling itself is called:",
+    "options": ["Iteration", "Recursion", "Looping", "Branching"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator is used to get the address of a variable?",
+    "options": ["*", "&", "%", "#"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator is used to access the value stored at an address?",
+    "options": ["&", "*", "%", "@"],
+    "answer": 1
+  },
+  {
+    "question": "A pointer stores:",
+    "options": [
+      "Data",
+      "Address of another variable",
+      "Instructions",
+      "Functions"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which symbol is used to declare a pointer variable?",
+    "options": ["&", "*", "%", "#"],
+    "answer": 1
+  },
+  {
+    "question": "Which function allocates memory dynamically?",
+    "options": ["malloc()", "printf()", "scanf()", "gets()"],
+    "answer": 0
+  },
+  {
+    "question": "Which header file contains malloc()?",
+    "options": ["stdio.h", "stdlib.h", "string.h", "math.h"],
+    "answer": 1
+  },
+  {
+    "question": "Which function releases dynamically allocated memory?",
+    "options": ["delete()", "remove()", "free()", "clear()"],
+    "answer": 2
+  },
+  {
+    "question": "Which function is used to allocate memory for multiple elements?",
+    "options": ["malloc()", "calloc()", "free()", "realloc()"],
+    "answer": 1
+  },
+  {
+    "question": "Which function changes the size of allocated memory?",
+    "options": ["malloc()", "calloc()", "realloc()", "free()"],
+    "answer": 2
+  },
+  {
+    "question": "Which pointer points to nothing?",
+    "options": ["Wild Pointer", "Null Pointer", "Void Pointer", "Array Pointer"],
+    "answer": 1
+  },
+  {
+    "question": "Which pointer type can store address of any data type?",
+    "options": ["Integer Pointer", "Character Pointer", "Void Pointer", "Float Pointer"],
+    "answer": 2
+  },
+  {
+    "question": "Recursion must have:",
+    "options": [
+      "Infinite loop",
+      "Base condition",
+      "Switch statement",
+      "Goto statement"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Passing array to function is done by:",
+    "options": [
+      "Value",
+      "Reference (Address)",
+      "Constant",
+      "Keyword"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which function call mechanism copies actual values to formal parameters?",
+    "options": [
+      "Call by Reference",
+      "Call by Value",
+      "Call by Pointer",
+      "Call by Array"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which function call mechanism passes addresses to function?",
+    "options": [
+      "Call by Value",
+      "Call by Reference",
+      "Direct Call",
+      "Simple Call"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the default return type of a C function in old C standards?",
+    "options": ["char", "float", "void", "int"],
+    "answer": 3
+  },
+  {
+    "question": "Pointers are mainly used for:",
+    "options": [
+      "Graphics",
+      "Memory Management",
+      "Printing",
+      "Input Output"
+    ],
+    "answer": 1
+  }
+]

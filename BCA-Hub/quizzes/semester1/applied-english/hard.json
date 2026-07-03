@@ -1,0 +1,132 @@
+[
+{
+"question":"Which part of a formal letter contains the purpose of writing?",
+"options":["Salutation","Subject","Body","Signature"],
+"answer":2
+},
+{
+"question":"Choose the best opening for a formal complaint letter.",
+"options":[
+"Hey there!",
+"I am writing to express my concern regarding...",
+"What's up?",
+"Hope you are doing great buddy."
+],
+"answer":1
+},
+{
+"question":"Which tense is used in research reports most frequently?",
+"options":["Present Simple","Past Simple","Future Perfect","Past Perfect Continuous"],
+"answer":0
+},
+{
+"question":"Identify the figure of speech: 'Time is a thief.'",
+"options":["Metaphor","Simile","Hyperbole","Oxymoron"],
+"answer":0
+},
+{
+"question":"Choose the one-word substitution for 'A person who cannot read or write.'",
+"options":["Ignorant","Illiterate","Innocent","Uneducated"],
+"answer":1
+},
+{
+"question":"Choose the correct meaning of the idiom 'Hit the nail on the head'.",
+"options":[
+"To hit someone",
+"To be exactly right",
+"To make a mistake",
+"To repair something"
+],
+"answer":1
+},
+{
+"question":"Identify the type of clause in: 'I know the man who won the prize.'",
+"options":["Adverb Clause","Noun Clause","Relative Clause","Main Clause"],
+"answer":2
+},
+{
+"question":"Choose the correct sentence.",
+"options":[
+"Scarcely had I reached than the train left.",
+"Scarcely had I reached when the train left.",
+"Scarcely I reached when train left.",
+"Scarcely had reached I when train left."
+],
+"answer":1
+},
+{
+"question":"Choose the correct one-word substitution for 'Government by the people'.",
+"options":["Monarchy","Democracy","Autocracy","Theocracy"],
+"answer":1
+},
+{
+"question":"Identify the figure of speech: 'The wind whispered through the trees.'",
+"options":["Metaphor","Hyperbole","Personification","Irony"],
+"answer":2
+},
+{
+"question":"Choose the antonym of 'Ephemeral'.",
+"options":["Temporary","Short-lived","Permanent","Weak"],
+"answer":2
+},
+{
+"question":"Choose the synonym of 'Pragmatic'.",
+"options":["Idealistic","Practical","Foolish","Emotional"],
+"answer":1
+},
+{
+"question":"Choose the correct reported speech: She said, 'I will call you tomorrow.'",
+"options":[
+"She said that she would call me the next day.",
+"She said she will call me tomorrow.",
+"She says she would call tomorrow.",
+"She told she calls next day."
+],
+"answer":0
+},
+{
+"question":"Identify the mood of the sentence: 'Please close the door.'",
+"options":["Indicative","Imperative","Subjunctive","Interrogative"],
+"answer":1
+},
+{
+"question":"Choose the correct spelling.",
+"options":["Conscience","Concience","Consience","Conscince"],
+"answer":0
+},
+{
+"question":"Choose the correctly punctuated sentence.",
+"options":[
+"My hobbies are reading, travelling, and photography.",
+"My hobbies are reading travelling and photography.",
+"My hobbies are, reading travelling and photography.",
+"My hobbies are reading; travelling and photography."
+],
+"answer":0
+},
+{
+"question":"Choose the correct meaning of 'Once in a blue moon'.",
+"options":["Very frequently","Rarely","Every month","Daily"],
+"answer":1
+},
+{
+"question":"Choose the correct one-word substitution for 'A speech delivered without preparation'.",
+"options":["Debate","Extempore","Lecture","Monologue"],
+"answer":1
+},
+{
+"question":"Choose the correct sentence.",
+"options":[
+"No sooner did he arrive when the meeting started.",
+"No sooner had he arrived than the meeting started.",
+"No sooner he arrived than meeting started.",
+"No sooner had arrived he than meeting started."
+],
+"answer":1
+},
+{
+"question":"Choose the correct figure of speech: 'The stars danced in the sky.'",
+"options":["Personification","Simile","Metaphor","Irony"],
+"answer":0
+}
+]

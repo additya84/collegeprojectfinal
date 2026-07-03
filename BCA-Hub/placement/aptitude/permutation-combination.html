@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Permutation & Combination | Placement Portal</title>
+<link rel="stylesheet" href="pc.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <i class="fa-solid fa-shuffle"></i>
+        <span>P&C Master</span>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../index.html">Placement</a></li>
+        <li><a href="index.html">Aptitude</a></li>
+        <li><a href="#">Permutation & Combination</a></li>
+    </ul>
+</nav>
+<section class="page-title">
+    <h1>Permutation & Combination</h1>
+    <p>
+        Learn concepts, formulas, shortcuts and exam level questions
+        for placement preparation and aptitude tests.
+    </p>
+</section>
+<section class="formula-section">
+
+    <h2>Important Formulas</h2>
+
+    <div class="formula-card">
+        <h3>1. Factorial</h3>
+        <p>n! = n × (n-1) × (n-2) × ... × 1</p>
+        <p>0! = 1</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>2. Permutation Formula</h3>
+        <p>nPr = n! / (n-r)!</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>3. Combination Formula</h3>
+        <p>nCr = n! / r!(n-r)!</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>4. Relation Between P and C</h3>
+        <p>nPr = nCr × r!</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>5. Property</h3>
+        <p>nCr = nC(n-r)</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>6. Special Values</h3>
+        <p>nC0 = 1</p>
+        <p>nCn = 1</p>
+        <p>nC1 = n</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>7. Pascal Rule</h3>
+        <p>nCr + nC(r-1) = (n+1)Cr</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>8. Permutation With Repetition</h3>
+        <p>Ways = n! / (p! × q!)</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>9. Circular Permutation</h3>
+        <p>People Around Table = (n-1)!</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>10. Garland / Necklace Case</h3>
+        <p>Ways = (n-1)! / 2</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>11. Selection From Distinct Items</h3>
+        <p>Total Ways = 2ⁿ - 1</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>12. Selection From Identical Items</h3>
+        <p>(p+1)(q+1)(r+1) - 1</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>13. Number Of Diagonals</h3>
+        <p>n(n-3) / 2</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>14. Number Of Triangles</h3>
+        <p>nC3</p>
+    </div>
+
+    <div class="formula-card">
+        <h3>15. Straight Lines From n Points</h3>
+        <p>nC2</p>
+    </div>
+
+</section>
+<section class="tricks-section">
+
+<h2>Shortcut Tricks</h2>
+
+<div class="formula-card">
+<h3>1. Box Method</h3>
+<p>
+Use boxes equal to the number of places and multiply options.
+</p>
+<p>
+Example:
+<br>
+3 digit numbers from 3,5,7,8
+<br>
+4 × 3 × 2 = 24
+</p>
+</div>
+
+<div class="formula-card">
+<h3>2. String / Tie Method</h3>
+<p>
+If some persons or letters must stay together,
+treat them as one unit.
+</p>
+<p>
+Example:
+<br>
+[UE], J, D, G
+<br>
+4! × 2! = 48
+</p>
+</div>
+
+<div class="formula-card">
+<h3>3. Gap Method</h3>
+<p>
+Arrange remaining persons first and place
+restricted persons in gaps.
+</p>
+<p>
+Example:
+<br>
+5 Boys and 4 Girls
+<br>
+No two girls together
+<br>
+Answer = 5! × 6P4
+</p>
+</div>
+
+<div class="formula-card">
+<h3>4. Countdown Trick</h3>
+<p>
+For nCr calculation use countdown method.
+</p>
+<p>
+10C3 =
+<br>
+(10 × 9 × 8) / (3 × 2 × 1)
+<br>
+Answer = 120
+</p>
+</div>
+
+<div class="formula-card">
+<h3>5. Handshake Trick</h3>
+<p>
+Total Handshakes = nC2
+</p>
+<p>
+Formula:
+<br>
+n(n-1)/2
+</p>
+</div>
+
+<div class="formula-card">
+<h3>6. Gift Exchange Trick</h3>
+<p>
+Total Gifts = nP2
+</p>
+<p>
+Formula:
+<br>
+n(n-1)
+</p>
+</div>
+
+</section>
+
+<section class="question-section">
+
+<h2>Solved Questions</h2>
+
+<p class="question">
+Q1. A committee of 5 members is to be formed from 7 men and 5 women.
+Find the number of committees containing at least 3 women.
+</p>
+
+<p class="answer">
+Case 1:
+<br>
+3 Women and 2 Men
+<br>
+5C3 × 7C2
+<br>
+10 × 21 = 210
+<br><br>
+
+Case 2:
+<br>
+4 Women and 1 Man
+<br>
+5C4 × 7C1
+<br>
+5 × 7 = 35
+<br><br>
+
+Case 3:
+<br>
+5 Women and 0 Men
+<br>
+5C5 × 7C0
+<br>
+1 × 1 = 1
+<br><br>
+
+Total Ways
+<br>
+210 + 35 + 1
+<br>
+= 246
+</p>
+
+
+<p class="question">
+Q2. In how many ways can the letters of the word QUEUE be arranged
+such that Q is immediately followed by U?
+</p>
+
+<p class="answer">
+Treat QU as one unit.
+<br><br>
+
+Units become:
+<br>
+[QU], E, U, E
+<br><br>
+
+Total letters = 4
+<br>
+Two E's are identical.
+<br><br>
+
+Required Ways
+<br>
+= 4! / 2!
+<br>
+= 24 / 2
+<br>
+= 12
+</p>
+
+
+<p class="question">
+Q3. In how many ways can 5 different balls be distributed into
+3 different boxes such that no box remains empty?
+</p>
+
+<p class="answer">
+Total distributions
+<br>
+= 3⁵
+<br>
+= 243
+<br><br>
+
+Subtract cases where one box is empty.
+<br><br>
+
+Exactly one box empty:
+<br>
+3 × 2⁵
+<br>
+= 96
+<br><br>
+
+Add cases where two boxes are empty:
+<br>
+3 × 1⁵
+<br>
+= 3
+<br><br>
+
+Required Ways
+<br>
+= 243 - 96 + 3
+<br>
+= 150
+</p>
+<p class="question">
+Q4. A person wants to invite one or more friends out of his 8 friends.
+In how many ways can he do so?
+</p>
+
+<p class="answer">
+Total number of friends = 8
+<br><br>
+
+For selection problems:
+<br>
+Total Ways = 2ⁿ - 1
+<br><br>
+
+Total Ways = 2⁸ - 1
+<br>
+= 256 - 1
+<br>
+= 255
+<br><br>
+
+Final Answer: 255 ways
+</p>
+
+
+<p class="question">
+Q5. Six friends are sitting in a row. Two of them are best friends and do not want to sit together.
+Find the number of arrangements.
+</p>
+
+<p class="answer">
+Total arrangements of 6 friends
+<br>
+= 6!
+<br>
+= 720
+<br><br>
+
+Treat the two friends as one unit.
+<br>
+Units become = 5
+<br><br>
+
+Arrangements when together
+<br>
+= 5! × 2!
+<br>
+= 120 × 2
+<br>
+= 240
+<br><br>
+
+Required arrangements
+<br>
+= 720 - 240
+<br>
+= 480
+<br><br>
+
+Final Answer: 480 ways
+</p>
+
+
+<p class="question">
+Q6. How many two digit numbers can be formed using
+3, 5 and 7 if repetition is allowed?
+</p>
+
+<p class="answer">
+First digit options = 3
+<br>
+Second digit options = 3
+<br><br>
+
+Using Box Method:
+<br>
+[ ] [ ]
+<br>
+3 × 3
+<br>
+= 9
+<br><br>
+
+Final Answer: 9 numbers
+</p>
+
+
+<p class="question">
+Q7. In a meeting every person shakes hands with every other person.
+If total handshakes are 210, find the number of persons present.
+</p>
+
+<p class="answer">
+Handshake Formula:
+<br>
+n(n-1)/2 = 210
+<br><br>
+
+n(n-1) = 420
+<br><br>
+
+20 × 21 = 420
+<br><br>
+
+Therefore,
+<br>
+n = 21
+<br><br>
+
+Final Answer: 21 persons
+</p>
+<p class="question">
+Q4. A person wants to invite one or more friends out of his 8 friends.
+In how many ways can he do so?
+</p>
+
+<p class="answer">
+Total number of friends = 8
+<br><br>
+
+For selection problems:
+<br>
+Total Ways = 2ⁿ - 1
+<br><br>
+
+Total Ways = 2⁸ - 1
+<br>
+= 256 - 1
+<br>
+= 255
+<br><br>
+
+Final Answer: 255 ways
+</p>
+
+
+<p class="question">
+Q5. Six friends are sitting in a row. Two of them are best friends and do not want to sit together.
+Find the number of arrangements.
+</p>
+
+<p class="answer">
+Total arrangements of 6 friends
+<br>
+= 6!
+<br>
+= 720
+<br><br>
+
+Treat the two friends as one unit.
+<br>
+Units become = 5
+<br><br>
+
+Arrangements when together
+<br>
+= 5! × 2!
+<br>
+= 120 × 2
+<br>
+= 240
+<br><br>
+
+Required arrangements
+<br>
+= 720 - 240
+<br>
+= 480
+<br><br>
+
+Final Answer: 480 ways
+</p>
+
+
+<p class="question">
+Q6. How many two digit numbers can be formed using
+3, 5 and 7 if repetition is allowed?
+</p>
+
+<p class="answer">
+First digit options = 3
+<br>
+Second digit options = 3
+<br><br>
+
+Using Box Method:
+<br>
+[ ] [ ]
+<br>
+3 × 3
+<br>
+= 9
+<br><br>
+
+Final Answer: 9 numbers
+</p>
+
+
+<p class="question">
+Q7. In a meeting every person shakes hands with every other person.
+If total handshakes are 210, find the number of persons present.
+</p>
+
+<p class="answer">
+Handshake Formula:
+<br>
+n(n-1)/2 = 210
+<br><br>
+
+n(n-1) = 420
+<br><br>
+
+20 × 21 = 420
+<br><br>
+
+Therefore,
+<br>
+n = 21
+<br><br>
+
+Final Answer: 21 persons
+</p>
+
+<p class="question">
+Q8. In how many ways can the letters of the word GEOGRAPHY be arranged such that all vowels always remain together?
+</p>
+
+<p class="answer">
+Letters in GEOGRAPHY = 8
+<br>
+Vowels = E, O, A
+<br>
+Consonants = G, G, R, P, H, Y
+<br><br>
+
+Treat all vowels as one unit.
+<br><br>
+
+Total units become:
+<br>
+[Vowels], G, G, R, P, H, Y
+<br>
+Total Units = 7
+<br><br>
+
+Since G repeats twice:
+<br>
+Ways to arrange units
+<br>
+= 7! / 2!
+<br>
+= 2520
+<br><br>
+
+Arrange vowels internally:
+<br>
+3!
+<br>
+= 6
+<br><br>
+
+Total Arrangements
+<br>
+= 2520 × 6
+<br>
+= 15120
+<br><br>
+
+Final Answer: 15120
+</p>
+
+
+
+<p class="question">
+Q9. A committee of 5 members is to be selected from 7 men and 5 women such that the committee contains at least 3 men.
+</p>
+
+<p class="answer">
+Case 1:
+<br>
+3 Men and 2 Women
+<br>
+7C3 × 5C2
+<br>
+35 × 10
+<br>
+= 350
+<br><br>
+
+Case 2:
+<br>
+4 Men and 1 Woman
+<br>
+7C4 × 5C1
+<br>
+35 × 5
+<br>
+= 175
+<br><br>
+
+Case 3:
+<br>
+5 Men and 0 Women
+<br>
+7C5 × 5C0
+<br>
+21 × 1
+<br>
+= 21
+<br><br>
+
+Total Ways
+<br>
+= 350 + 175 + 21
+<br>
+= 546
+<br><br>
+
+Final Answer: 546
+</p>
+
+
+
+<p class="question">
+Q10. What is the probability that all vowels occupy even positions in the word ARTICLE?
+</p>
+
+<p class="answer">
+Letters in ARTICLE = 7
+<br>
+Vowels = A, I, E
+<br>
+Even positions available = 2, 4, 6
+<br><br>
+
+Ways to arrange vowels in even positions
+<br>
+= 3!
+<br>
+= 6
+<br><br>
+
+Remaining consonants:
+<br>
+R, T, C, L
+<br><br>
+
+Ways to arrange consonants
+<br>
+= 4!
+<br>
+= 24
+<br><br>
+
+Favourable arrangements
+<br>
+= 6 × 24
+<br>
+= 144
+<br><br>
+
+Total arrangements
+<br>
+= 7!
+<br>
+= 5040
+<br><br>
+
+Probability
+<br>
+= 144 / 5040
+<br>
+= 1 / 35
+<br><br>
+
+Final Answer: 1/35
+</p>
+
+
+</section>
+
+
+<!-- ================= VIDEO SECTION ================= -->
+
+<section class="video-section">
+
+<h2>Recommended Videos</h2>
+
+<div class="video-grid">
+
+<div class="video-card">
+<img src="images/video1.jpg" alt="Permutation Basics">
+<h3>Permutation Basics</h3>
+<a href="#">Watch Video</a>
+</div>
+
+<div class="video-card">
+<img src="images/video2.jpg" alt="Combination Tricks">
+<h3>Combination Tricks</h3>
+<a href="#">Watch Video</a>
+</div>
+
+<div class="video-card">
+<img src="images/video3.jpg" alt="PYQ Questions">
+<h3>Previous Year Questions</h3>
+<a href="#">Watch Video</a>
+</div>
+
+<div class="video-card">
+<img src="images/video4.jpg" alt="Complete Playlist">
+<h3>Complete Playlist</h3>
+<a href="#">Watch Playlist</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="pdf-section">
+
+<h2>Download Resources</h2>
+
+<div class="resource-grid">
+
+<div class="resource-card">
+<i class="fa-solid fa-file-pdf"></i>
+<h3>Formula Sheet</h3>
+<a href="pdf/formulas.pdf" download>Download PDF</a>
+</div>
+
+<div class="resource-card">
+<i class="fa-solid fa-file-pdf"></i>
+<h3>Practice Questions</h3>
+<a href="pdf/questions.pdf" download>Download PDF</a>
+</div>
+
+<div class="resource-card">
+<i class="fa-solid fa-file-pdf"></i>
+<h3>Complete Notes</h3>
+<a href="pdf/notes.pdf" download>Download PDF</a>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

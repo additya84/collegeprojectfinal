@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1e293b;
+    line-height:1.8;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    width:100%;
+    padding:18px 8%;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo i{
+    font-size:28px;
+    color:#2563eb;
+}
+
+.logo h2{
+    color:#0f172a;
+}
+
+.logo span{
+    color:#2563eb;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#334155;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#2563eb;
+}
+
+/* ================= INTRO ================= */
+
+.topic-intro{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+    padding:40px;
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.topic-intro h1{
+    font-size:45px;
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.topic-intro p{
+    margin-bottom:15px;
+    color:#475569;
+}
+
+.topic-intro ul{
+    margin-top:20px;
+    padding-left:20px;
+}
+
+.topic-intro li{
+    margin-bottom:10px;
+}
+
+/* ================= FORMULA SECTION ================= */
+
+#tw-formulas{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+#tw-formulas h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+    border-left:5px solid #2563eb;
+    margin-bottom:25px;
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.card p{
+    margin-bottom:12px;
+    color:#475569;
+}
+.trick-section,
+#tw-questions{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.trick-section h2,
+#tw-questions h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.qa{
+    margin-bottom:35px;
+}
+
+.question{
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:15px;
+    color:#0f172a;
+}
+
+.answer{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    border-left:5px solid #10b981;
+    line-height:2;
+    color:#475569;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.answer b{
+    color:#059669;
+}
+.video-section{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.video-section h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.video-card{
+    background:#fff;
+    padding:20px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.video-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.video-card h3{
+    margin:18px 0;
+}
+
+.video-card a{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:#fff;
+    padding:10px 22px;
+    border-radius:10px;
+}
+
+/* Footer */
+
+footer{
+    margin-top:70px;
+    background:#0f172a;
+    color:#fff;
+    text-align:center;
+    padding:35px 20px;
+}
+
+footer p{
+    margin-bottom:10px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .topic-intro h1{
+        font-size:32px;
+    }
+
+    #tw-formulas h2,
+    .trick-section h2,
+    #tw-questions h2,
+    .video-section h2{
+        font-size:28px;
+    }
+
+    .question{
+        font-size:18px;
+    }
+
+    .answer{
+        padding:18px;
+    }
+}

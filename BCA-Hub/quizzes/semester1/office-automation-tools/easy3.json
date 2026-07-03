@@ -1,0 +1,82 @@
+[
+  {
+    "question": "MS Excel is a:",
+    "options": ["Word Processor", "Spreadsheet", "Database", "Presentation Tool"],
+    "answer": 1
+  },
+  {
+    "question": "The intersection of row and column is called:",
+    "options": ["Table", "Cell", "Sheet", "Range"],
+    "answer": 1
+  },
+  {
+    "question": "Which symbol starts a formula in Excel?",
+    "options": ["+", "-", "=", "*"],
+    "answer": 2
+  },
+  {
+    "question": "SUM() function is used for:",
+    "options": ["Average", "Addition", "Counting", "Sorting"],
+    "answer": 1
+  },
+  {
+    "question": "AVERAGE() function calculates:",
+    "options": ["Sum", "Count", "Average", "Maximum"],
+    "answer": 2
+  },
+  {
+    "question": "Which feature arranges data alphabetically?",
+    "options": ["Filter", "Sort", "Validation", "Goal Seek"],
+    "answer": 1
+  },
+  {
+    "question": "Which feature displays selected records only?",
+    "options": ["Sort", "Filter", "Chart", "Macro"],
+    "answer": 1
+  },
+  {
+    "question": "A collection of adjacent cells is called:",
+    "options": ["Range", "Table", "Formula", "Record"],
+    "answer": 0
+  },
+  {
+    "question": "Which chart is used to show percentages?",
+    "options": ["Bar Chart", "Line Chart", "Pie Chart", "Area Chart"],
+    "answer": 2
+  },
+  {
+    "question": "Goal Seek is used for:",
+    "options": [
+      "Formatting",
+      "Finding required input value",
+      "Sorting",
+      "Printing"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which function counts numeric values?",
+    "options": ["COUNT()", "SUM()", "MAX()", "MIN()"],
+    "answer": 0
+  },
+  {
+    "question": "Which function returns highest value?",
+    "options": ["MIN()", "AVG()", "MAX()", "COUNT()"],
+    "answer": 2
+  },
+  {
+    "question": "Which function returns lowest value?",
+    "options": ["MAX()", "MIN()", "COUNT()", "SUM()"],
+    "answer": 1
+  },
+  {
+    "question": "Which feature creates graphical representation of data?",
+    "options": ["Charts", "Tables", "Ranges", "Validation"],
+    "answer": 0
+  },
+  {
+    "question": "Excel file extension in Office 2007 is:",
+    "options": [".xls", ".xlsx", ".docx", ".pptx"],
+    "answer": 1
+  }
+]

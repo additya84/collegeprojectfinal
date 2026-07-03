@@ -1,0 +1,147 @@
+[
+{
+"question":"Identify the tense: 'She has been studying English for five years.'",
+"options":["Present Perfect","Present Continuous","Present Perfect Continuous","Past Perfect Continuous"],
+"answer":2
+},
+{
+"question":"Choose the correct passive voice: 'The manager approved the proposal.'",
+"options":[
+"The proposal approved by the manager.",
+"The proposal was approved by the manager.",
+"The proposal is approved by the manager.",
+"The proposal had approved by the manager."
+],
+"answer":1
+},
+{
+"question":"Identify the type of sentence: 'What a beautiful sunset!'",
+"options":["Assertive","Interrogative","Imperative","Exclamatory"],
+"answer":3
+},
+{
+"question":"Choose the correct indirect speech: He said, 'I am busy.'",
+"options":[
+"He said that he is busy.",
+"He said that he was busy.",
+"He says that he was busy.",
+"He told he was busy."
+],
+"answer":1
+},
+{
+"question":"Select the correctly ordered sentence.",
+"options":[
+"Always she arrives early.",
+"She arrives always early.",
+"She always arrives early.",
+"Arrives she always early."
+],
+"answer":2
+},
+{
+"question":"Choose the correct transformation: 'No other city is as large as Delhi.'",
+"options":[
+"Delhi is larger than any other city.",
+"Delhi is the largest city.",
+"Delhi is larger than all cities.",
+"Delhi is a large city."
+],
+"answer":0
+},
+{
+"question":"Choose the correct conditional sentence.",
+"options":[
+"If I was rich, I would travel.",
+"If I were rich, I would travel.",
+"If I am rich, I would travel.",
+"If I be rich, I travel."
+],
+"answer":1
+},
+{
+"question":"Choose the correct form: Neither the teacher nor the students ___ present.",
+"options":["was","is","are","has"],
+"answer":2
+},
+{
+"question":"Identify the error: 'The committee have taken its decision.'",
+"options":["committee","have","its","decision"],
+"answer":1
+},
+{
+"question":"Choose the correct article: He is ___ MBA graduate.",
+"options":["a","an","the","no article"],
+"answer":1
+},
+{
+"question":"Choose the correct preposition: She insisted ___ paying the bill.",
+"options":["on","for","at","with"],
+"answer":0
+},
+{
+"question":"Choose the correct synonym of 'Meticulous'.",
+"options":["Careless","Detailed","Fast","Simple"],
+"answer":1
+},
+{
+"question":"Choose the antonym of 'Obsolete'.",
+"options":["Ancient","Outdated","Modern","Broken"],
+"answer":2
+},
+{
+"question":"Identify the figure of speech: 'The classroom was a zoo.'",
+"options":["Simile","Metaphor","Personification","Hyperbole"],
+"answer":1
+},
+{
+"question":"Choose the correctly punctuated sentence.",
+"options":[
+"Lets eat grandma.",
+"Let's eat grandma.",
+"Let's eat, grandma.",
+"Lets eat, grandma."
+],
+"answer":2
+},
+{
+"question":"Choose the correct one-word substitution for 'One who knows many languages'.",
+"options":["Linguist","Polyglot","Scholar","Translator"],
+"answer":1
+},
+{
+"question":"Choose the correct voice: 'People speak English all over the world.'",
+"options":[
+"English is spoken all over the world.",
+"English was spoken all over the world.",
+"English has spoken all over the world.",
+"English speaks all over the world."
+],
+"answer":0
+},
+{
+"question":"Choose the correct form: Hardly had he arrived ___ it started raining.",
+"options":["when","than","then","and"],
+"answer":0
+},
+{
+"question":"Choose the correct idiom meaning of 'Break the ice'.",
+"options":[
+"Destroy something",
+"Start a conversation",
+"Win a competition",
+"End an argument"
+],
+"answer":1
+},
+{
+"question":"Choose the correct sentence.",
+"options":[
+"Each of the players have arrived.",
+"Each of the players has arrived.",
+"Each player have arrived.",
+"Each player are arrived."
+],
+"answer":1
+}
+]

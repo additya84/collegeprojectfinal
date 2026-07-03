@@ -1,0 +1,172 @@
+[
+  {
+    "question": "A Macro in MS Office is:",
+    "options": [
+      "A chart",
+      "Recorded sequence of commands",
+      "A worksheet",
+      "A slide layout"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which command records repetitive tasks automatically?",
+    "options": ["Template", "Macro", "Mail Merge", "Scenario"],
+    "answer": 1
+  },
+  {
+    "question": "Goal Seek belongs to:",
+    "options": [
+      "MS Word",
+      "MS Excel",
+      "MS PowerPoint",
+      "DOS"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Goal Seek is used to:",
+    "options": [
+      "Find required input value",
+      "Create charts",
+      "Sort data",
+      "Create presentations"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which command formats a disk?",
+    "options": ["CHKDSK", "FORMAT", "FDISK", "XCOPY"],
+    "answer": 1
+  },
+  {
+    "question": "FDISK command is used for:",
+    "options": [
+      "File deletion",
+      "Disk partitioning",
+      "Copying files",
+      "Displaying files"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "XCOPY command is used for:",
+    "options": [
+      "Copying files and directories",
+      "Deleting files",
+      "Formatting disks",
+      "Displaying files"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "TREE command displays:",
+    "options": [
+      "Running programs",
+      "Directory structure",
+      "Disk usage",
+      "Memory usage"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "DISKCOPY command is used for:",
+    "options": [
+      "Copying complete disks",
+      "Deleting disks",
+      "Formatting disks",
+      "Checking disks"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "DELTREE command deletes:",
+    "options": [
+      "Single file",
+      "Entire directory tree",
+      "Only hidden files",
+      "Only system files"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which DOS command searches text in files?",
+    "options": ["SORT", "FIND", "TREE", "MORE"],
+    "answer": 1
+  },
+  {
+    "question": "SORT command is used for:",
+    "options": [
+      "Searching files",
+      "Sorting data",
+      "Formatting disks",
+      "Copying files"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "MORE command is used to:",
+    "options": [
+      "Display output page by page",
+      "Delete files",
+      "Create folders",
+      "Format disks"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays file contents?",
+    "options": ["TYPE", "COPY", "DIR", "VOL"],
+    "answer": 0
+  },
+  {
+    "question": "Redirection operator '>' is used for:",
+    "options": [
+      "Input redirection",
+      "Output redirection",
+      "Directory creation",
+      "File deletion"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Redirection operator '<' is used for:",
+    "options": [
+      "Input redirection",
+      "Output redirection",
+      "Sorting",
+      "Formatting"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which wildcard matches exactly one character?",
+    "options": ["*", "?", "&", "#"],
+    "answer": 1
+  },
+  {
+    "question": "Which wildcard matches multiple characters?",
+    "options": ["*", "?", "#", "&"],
+    "answer": 0
+  },
+  {
+    "question": "Pivot Tables are mainly used in:",
+    "options": [
+      "MS Word",
+      "MS Excel",
+      "MS PowerPoint",
+      "DOS"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which Office application is best suited for data analysis?",
+    "options": [
+      "MS Word",
+      "MS Excel",
+      "PowerPoint",
+      "Paint"
+    ],
+    "answer": 1
+  }
+]

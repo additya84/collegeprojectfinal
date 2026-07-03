@@ -1,0 +1,82 @@
+[
+  {
+    "question": "MS Word is a:",
+    "options": ["Spreadsheet", "Word Processor", "Database", "Presentation Software"],
+    "answer": 1
+  },
+  {
+    "question": "Shortcut key for Copy is:",
+    "options": ["Ctrl+V", "Ctrl+C", "Ctrl+X", "Ctrl+P"],
+    "answer": 1
+  },
+  {
+    "question": "Shortcut key for Paste is:",
+    "options": ["Ctrl+C", "Ctrl+X", "Ctrl+V", "Ctrl+S"],
+    "answer": 2
+  },
+  {
+    "question": "Shortcut key for Save is:",
+    "options": ["Ctrl+P", "Ctrl+S", "Ctrl+A", "Ctrl+N"],
+    "answer": 1
+  },
+  {
+    "question": "Which feature checks spelling mistakes?",
+    "options": ["Grammar Check", "Spell Check", "Find", "Replace"],
+    "answer": 1
+  },
+  {
+    "question": "Mail Merge is used for:",
+    "options": [
+      "Creating presentations",
+      "Sending personalized letters",
+      "Creating charts",
+      "Formatting text"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ctrl+B is used for:",
+    "options": ["Bold", "Bookmark", "Bullet", "Break"],
+    "answer": 0
+  },
+  {
+    "question": "Ctrl+I is used for:",
+    "options": ["Insert", "Italic", "Indent", "Image"],
+    "answer": 1
+  },
+  {
+    "question": "Ctrl+U is used for:",
+    "options": ["Undo", "Underline", "Update", "Uppercase"],
+    "answer": 1
+  },
+  {
+    "question": "Find and Replace shortcut key is:",
+    "options": ["Ctrl+F", "Ctrl+H", "Ctrl+R", "Ctrl+L"],
+    "answer": 1
+  },
+  {
+    "question": "Header appears at:",
+    "options": ["Bottom", "Top", "Left", "Right"],
+    "answer": 1
+  },
+  {
+    "question": "Footer appears at:",
+    "options": ["Top", "Bottom", "Left", "Right"],
+    "answer": 1
+  },
+  {
+    "question": "Which feature protects a document?",
+    "options": ["Password Protection", "Mail Merge", "Themes", "Styles"],
+    "answer": 0
+  },
+  {
+    "question": "A collection of formatting settings is called:",
+    "options": ["Theme", "Style", "Macro", "Template"],
+    "answer": 1
+  },
+  {
+    "question": "Ctrl+P is used for:",
+    "options": ["Paste", "Print", "Page Setup", "Preview"],
+    "answer": 1
+  }
+]

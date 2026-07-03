@@ -1,0 +1,257 @@
+[
+  {
+    "question": "Which DOS command displays files and folders in a directory?",
+    "options": ["DIR", "CLS", "CD", "MD"],
+    "answer": 0
+  },
+  {
+    "question": "Which DOS command clears the screen?",
+    "options": ["CLS", "CLEAR", "CD", "DIR"],
+    "answer": 0
+  },
+  {
+    "question": "Which command changes the current directory?",
+    "options": ["CD", "MD", "RD", "PATH"],
+    "answer": 0
+  },
+  {
+    "question": "Which command creates a new directory?",
+    "options": ["MD", "RD", "DIR", "TYPE"],
+    "answer": 0
+  },
+  {
+    "question": "Which command removes a directory?",
+    "options": ["RD", "DEL", "COPY", "REN"],
+    "answer": 0
+  },
+  {
+    "question": "Which DOS command displays current date?",
+    "options": ["TIME", "DATE", "VER", "VOL"],
+    "answer": 1
+  },
+  {
+    "question": "Which DOS command displays current time?",
+    "options": ["TIME", "DATE", "PROMPT", "PATH"],
+    "answer": 0
+  },
+  {
+    "question": "Which command is used to rename a file?",
+    "options": ["REN", "COPY", "DEL", "TYPE"],
+    "answer": 0
+  },
+  {
+    "question": "Which command deletes a file?",
+    "options": ["DEL", "COPY", "REN", "TYPE"],
+    "answer": 0
+  },
+  {
+    "question": "Which command copies files?",
+    "options": ["COPY", "MOVE", "DEL", "REN"],
+    "answer": 0
+  },
+  {
+    "question": "Which wildcard represents multiple characters?",
+    "options": ["*", "?", "#", "&"],
+    "answer": 0
+  },
+  {
+    "question": "Which wildcard represents a single character?",
+    "options": ["*", "?", "&", "#"],
+    "answer": 1
+  },
+  {
+    "question": "CHKDSK command is used for?",
+    "options": ["Checking disk errors", "Formatting disk", "Copying files", "Deleting files"],
+    "answer": 0
+  },
+  {
+    "question": "Which DOS command displays DOS version?",
+    "options": ["VER", "VOL", "PATH", "PROMPT"],
+    "answer": 0
+  },
+  {
+    "question": "Which command displays volume label?",
+    "options": ["VOL", "VER", "DIR", "DATE"],
+    "answer": 0
+  },
+  {
+    "question": "MS Word is a type of:",
+    "options": ["Spreadsheet", "Presentation Software", "Word Processor", "Database"],
+    "answer": 2
+  },
+  {
+    "question": "Shortcut key for Copy is:",
+    "options": ["Ctrl+V", "Ctrl+C", "Ctrl+X", "Ctrl+P"],
+    "answer": 1
+  },
+  {
+    "question": "Shortcut key for Paste is:",
+    "options": ["Ctrl+V", "Ctrl+C", "Ctrl+X", "Ctrl+S"],
+    "answer": 0
+  },
+  {
+    "question": "Shortcut key for Save is:",
+    "options": ["Ctrl+S", "Ctrl+P", "Ctrl+A", "Ctrl+N"],
+    "answer": 0
+  },
+  {
+    "question": "Ctrl+B is used for:",
+    "options": ["Bold", "Bookmark", "Break", "Bullet"],
+    "answer": 0
+  },
+  {
+    "question": "Ctrl+I is used for:",
+    "options": ["Italic", "Insert", "Indent", "Image"],
+    "answer": 0
+  },
+  {
+    "question": "Ctrl+U is used for:",
+    "options": ["Underline", "Undo", "Update", "Uppercase"],
+    "answer": 0
+  },
+  {
+    "question": "Which feature checks spelling mistakes?",
+    "options": ["Spell Check", "Find", "Replace", "Mail Merge"],
+    "answer": 0
+  },
+  {
+    "question": "Mail Merge is used for:",
+    "options": ["Presentations", "Personalized Letters", "Charts", "Formatting"],
+    "answer": 1
+  },
+  {
+    "question": "Shortcut key for Print is:",
+    "options": ["Ctrl+S", "Ctrl+P", "Ctrl+N", "Ctrl+R"],
+    "answer": 1
+  },
+  {
+    "question": "MS Excel is a:",
+    "options": ["Spreadsheet", "Database", "Word Processor", "Presentation Tool"],
+    "answer": 0
+  },
+  {
+    "question": "Intersection of row and column is called:",
+    "options": ["Range", "Worksheet", "Cell", "Workbook"],
+    "answer": 2
+  },
+  {
+    "question": "Which symbol starts a formula in Excel?",
+    "options": ["+", "-", "=", "*"],
+    "answer": 2
+  },
+  {
+    "question": "SUM() function is used for:",
+    "options": ["Average", "Addition", "Maximum", "Count"],
+    "answer": 1
+  },
+  {
+    "question": "AVERAGE() function calculates:",
+    "options": ["Average", "Sum", "Count", "Minimum"],
+    "answer": 0
+  },
+  {
+    "question": "Which feature arranges data alphabetically?",
+    "options": ["Sort", "Filter", "Goal Seek", "Validation"],
+    "answer": 0
+  },
+  {
+    "question": "Which feature displays selected records only?",
+    "options": ["Filter", "Sort", "Macro", "Chart"],
+    "answer": 0
+  },
+  {
+    "question": "A collection of adjacent cells is called:",
+    "options": ["Range", "Sheet", "Record", "Workbook"],
+    "answer": 0
+  },
+  {
+    "question": "Which chart is best for percentages?",
+    "options": ["Pie Chart", "Line Chart", "Bar Chart", "Area Chart"],
+    "answer": 0
+  },
+  {
+    "question": "COUNT() function is used to:",
+    "options": ["Count values", "Add values", "Find maximum", "Find average"],
+    "answer": 0
+  },
+  {
+    "question": "MS PowerPoint is used for:",
+    "options": ["Documents", "Presentations", "Databases", "Programming"],
+    "answer": 1
+  },
+  {
+    "question": "Default extension of PowerPoint 2007 file is:",
+    "options": [".pptx", ".ppt", ".docx", ".xlsx"],
+    "answer": 0
+  },
+  {
+    "question": "Which view displays all slides together?",
+    "options": ["Slide Sorter View", "Normal View", "Reading View", "Outline View"],
+    "answer": 0
+  },
+  {
+    "question": "Animations are applied to:",
+    "options": ["Objects", "Slides", "Pages", "Files"],
+    "answer": 0
+  },
+  {
+    "question": "Transitions are applied to:",
+    "options": ["Slides", "Pictures", "Tables", "Charts"],
+    "answer": 0
+  },
+  {
+    "question": "Which slide controls formatting of all slides?",
+    "options": ["Master Slide", "Title Slide", "Layout Slide", "Notes Slide"],
+    "answer": 0
+  },
+  {
+    "question": "Action Buttons are mainly used for:",
+    "options": ["Navigation", "Printing", "Formatting", "Editing"],
+    "answer": 0
+  },
+  {
+    "question": "Pivot Tables are used for:",
+    "options": ["Data Analysis", "Printing", "Animations", "Slides"],
+    "answer": 0
+  },
+  {
+    "question": "Goal Seek belongs to:",
+    "options": ["Excel", "Word", "PowerPoint", "DOS"],
+    "answer": 0
+  },
+  {
+    "question": "Goal Seek is used for:",
+    "options": ["Finding required input value", "Formatting", "Printing", "Sorting"],
+    "answer": 0
+  },
+  {
+    "question": "Which command formats a disk?",
+    "options": ["FORMAT", "FDISK", "XCOPY", "CHKDSK"],
+    "answer": 0
+  },
+  {
+    "question": "FDISK command is used for:",
+    "options": ["Disk Partitioning", "Formatting", "Deleting", "Copying"],
+    "answer": 0
+  },
+  {
+    "question": "XCOPY command is used for:",
+    "options": ["Copying files and directories", "Formatting", "Deleting", "Searching"],
+    "answer": 0
+  },
+  {
+    "question": "TREE command displays:",
+    "options": ["Directory Structure", "Files", "Memory", "Disk Space"],
+    "answer": 0
+  },
+  {
+    "question": "Which DOS command searches text inside files?",
+    "options": ["FIND", "SORT", "MORE", "TREE"],
+    "answer": 0
+  },
+  {
+    "question": "MORE command displays output:",
+    "options": ["Page by Page", "Line by Line", "Word by Word", "Character by Character"],
+    "answer": 0
+  }
+]

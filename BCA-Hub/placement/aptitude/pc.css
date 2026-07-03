@@ -1,0 +1,319 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1e293b;
+}
+
+.navbar{
+    width:100%;
+    height:85px;
+    padding:0 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:linear-gradient(90deg,#0f172a,#1d4ed8,#2563eb);
+    box-shadow:0 8px 24px rgba(37,99,235,.22);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:white;
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo i{
+    color:#bfdbfe;
+    font-size:32px;
+}
+
+.logo span{
+    color:white;
+}
+
+.nav-links{
+    display:flex;
+    gap:18px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:#eff6ff;
+    text-decoration:none;
+    font-size:17px;
+    font-weight:500;
+    padding:10px 14px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.nav-links a:hover,
+.nav-links li:last-child a{
+    background:rgba(255,255,255,.16);
+    color:white;
+}
+
+.nav-links li:last-child a{
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.18);
+}
+
+.page-title{
+    width:90%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.page-title h1{
+    font-size:50px;
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.page-title p{
+    width:70%;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+    color:#64748b;
+}
+
+.formula-section,
+.tricks-section,
+.question-section{
+    width:90%;
+    margin:40px auto;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.formula-section h2,
+.tricks-section h2,
+.question-section h2{
+    color:#2563eb;
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+.formula-section,
+.tricks-section{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.formula-section h2,
+.tricks-section h2{
+    grid-column:1/-1;
+}
+
+.formula-card{
+    background:#eff6ff;
+    border-left:5px solid #2563eb;
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.formula-card:hover{
+    transform:translateY(-5px);
+}
+
+.formula-card h3{
+    margin-bottom:15px;
+    color:#1d4ed8;
+}
+
+.formula-card p{
+    color:#475569;
+    line-height:1.8;
+    font-size:17px;
+    margin-bottom:10px;
+}
+
+.question{
+    font-size:20px;
+    font-weight:600;
+    color:#1e293b;
+    margin-top:35px;
+    margin-bottom:15px;
+    line-height:1.8;
+}
+
+.answer{
+    background:#f8fafc;
+    border-left:5px solid #22c55e;
+    padding:25px;
+    border-radius:12px;
+    line-height:2;
+    color:#475569;
+    margin-bottom:30px;
+    font-size:17px;
+}
+
+.video-section,
+.pdf-section{
+    width:90%;
+    margin:40px auto;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.video-section h2,
+.pdf-section h2{
+    color:#2563eb;
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+.video-grid,
+.resource-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.video-card,
+.resource-card{
+    background:#f8fafc;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    transition:.3s;
+}
+
+.video-card:hover,
+.resource-card:hover{
+    transform:translateY(-8px);
+}
+
+.video-card img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:14px;
+    margin-bottom:20px;
+    background:#e2e8f0;
+}
+
+.video-card h3,
+.resource-card h3{
+    color:#1e293b;
+    margin-bottom:15px;
+}
+
+.resource-card i{
+    font-size:48px;
+    color:#dc2626;
+    margin-bottom:20px;
+}
+
+.video-card a,
+.resource-card a{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.video-card a:hover,
+.resource-card a:hover{
+    background:#1d4ed8;
+}
+
+@media(max-width:1100px){
+
+    .navbar{
+        padding:20px 30px;
+        flex-wrap:wrap;
+        gap:20px;
+        height:auto;
+    }
+
+    .nav-links{
+        gap:18px;
+        flex-wrap:wrap;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        align-items:center;
+        padding:20px;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    .logo i{
+        font-size:28px;
+    }
+
+    .nav-links{
+        width:100%;
+        justify-content:center;
+        gap:12px;
+    }
+
+    .nav-links a{
+        font-size:15px;
+        padding:8px 10px;
+    }
+
+    .page-title h1{
+        font-size:38px;
+    }
+
+    .page-title p{
+        width:100%;
+        font-size:16px;
+    }
+
+    .formula-section,
+    .tricks-section,
+    .question-section,
+    .video-section,
+    .pdf-section{
+        padding:25px;
+    }
+
+    .formula-section h2,
+    .tricks-section h2,
+    .question-section h2,
+    .video-section h2,
+    .pdf-section h2{
+        font-size:26px;
+    }
+
+    .question{
+        font-size:18px;
+    }
+
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Choose the plural form of 'Criterion'.",
+    "options": ["Criterions", "Criteria", "Criterions", "Criterias"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the plural form of 'Phenomenon'.",
+    "options": ["Phenomenons", "Phenomena", "Phenomenae", "Phenomena"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the plural form of 'Thesis'.",
+    "options": ["Thesises", "Theses", "Thesises", "Thesae"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the plural form of 'Analysis'.",
+    "options": ["Analysises", "Analysises", "Analyses", "Analysae"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the plural form of 'Curriculum'.",
+    "options": ["Curriculums", "Curricula", "Curriculai", "Curriculas"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the feminine form of 'Executor'.",
+    "options": ["Executress", "Executrix", "Executive", "Executora"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the feminine form of 'Patron'.",
+    "options": ["Patroness", "Patrona", "Patrice", "Patrona"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the feminine form of 'Monk'.",
+    "options": ["Nun", "Monkess", "Priestess", "Abbess"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the feminine form of 'Testator'.",
+    "options": ["Testatrix", "Testress", "Tester", "Testa"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the feminine form of 'Wizard'.",
+    "options": ["Witch", "Wizardess", "Enchantress", "Mage"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the correct spelling.",
+    "options": ["Accomodation", "Accommodation", "Acommodation", "Accommadation"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the correct spelling.",
+    "options": ["Embarrasment", "Embarrassment", "Embarrasment", "Embarrasement"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the correct spelling.",
+    "options": ["Maintainance", "Maintenance", "Maintenence", "Maintanance"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the correct spelling.",
+    "options": ["Questionaire", "Questionnaire", "Questionnare", "Quesionnaire"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the correct spelling.",
+    "options": ["Entreprenuer", "Entrepreneur", "Entrepeneur", "Entreprenuar"],
+    "answer": 1
+  }
+]
