@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+
     <title>Login - BCA Hub</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,16 +23,16 @@
         <h1>Welcome Back</h1>
         <p class="subtitle">Login to continue your learning journey</p>
 
-        <form>
+        <form id="loginForm">
 
             <div class="input-group">
                 <label>Email</label>
-                <input type="email" placeholder="Enter your email">
+                <input id="loginEmail" type="email" placeholder="Enter your email" required>
             </div>
 
             <div class="input-group">
                 <label>Password</label>
-                <input type="password" placeholder="Enter your password">
+                <input id="loginPassword" type="password" placeholder="Enter your password" required>
             </div>
 
             <div class="options">
@@ -43,6 +43,8 @@
 
                 <a href="#">Forgot Password?</a>
             </div>
+
+            <p id="loginMessage" aria-live="polite"></p>
 
             <button type="submit" class="login-btn">
                 Login
@@ -59,5 +61,6 @@
 
 </div>
 
+<script src="./js/login.js"></script>
 </body>
 </html>

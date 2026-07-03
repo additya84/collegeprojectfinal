@@ -4,50 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile | BCA Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
 
-<div class="profile-container">
+<main class="profile-shell">
+    <aside class="sidebar">
+        <a class="brand" href="../dashboard.html">
+            <span class="brand-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+            <span>
+                <strong>BCA Hub</strong>
+                <small>Learn Practice Grow</small>
+            </span>
+        </a>
 
-    <div class="profile-card">
+        <nav class="side-nav" aria-label="Profile navigation">
+            <a href="../dashboard.html"><i class="fa-solid fa-house"></i><span>Dashboard</span></a>
+            <a href="../pages/notes/notes.html"><i class="fa-solid fa-book"></i><span>Notes</span></a>
+            <a href="../pages/coding/index.html"><i class="fa-solid fa-code"></i><span>Coding</span></a>
+            <a href="../syllabus/syllabus.html"><i class="fa-solid fa-file-lines"></i><span>Syllabus</span></a>
+            <a href="../../quiz/index.html"><i class="fa-solid fa-clipboard-question"></i><span>Quiz</span></a>
+            <a href="../../placement/index.html"><i class="fa-solid fa-briefcase"></i><span>Placement</span></a>
+            <a class="active" href="profile.html"><i class="fa-solid fa-user"></i><span>Profile</span></a>
+        </nav>
+    </aside>
 
-        <img src="../assets/profile.png" class="profile-img">
-
-        <h2>Additya Choudhary</h2>
-
-        <p class="course">BCA Student</p>
-
-        <div class="info-box">
-            <div class="info-item">
-                <span>Email</span>
-                <p>additya@example.com</p>
+    <section class="profile-content">
+        <header class="topbar">
+            <div>
+                <p class="eyebrow">Student Profile</p>
+                <h1 id="displayName">Additya Choudhary</h1>
             </div>
 
-            <div class="info-item">
-                <span>College</span>
-                <p>Dronacharya PG College</p>
+            <div class="topbar-actions">
+                <button class="icon-btn" id="resetProfile" type="button" title="Reset profile">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+                <button class="primary-btn" id="saveProfile" type="button">
+                    <i class="fa-solid fa-floppy-disk"></i>
+                    Save
+                </button>
+                <button class="danger-btn" id="logoutBtn" type="button">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
+                </button>
             </div>
+        </header>
 
-            <div class="info-item">
-                <span>Completed Courses</span>
-                <p>8</p>
-            </div>
+        <div class="profile-grid">
+            <section class="identity-card">
+                <div class="avatar-wrap">
+                    <img id="avatarPreview" src="../assets/images/profile.png" alt="Profile photo">
+                    <label class="avatar-upload" title="Change photo">
+                        <i class="fa-solid fa-camera"></i>
+                        <input id="avatarInput" type="file" accept="image/*">
+                    </label>
+                </div>
 
-            <div class="info-item">
-                <span>Quiz Score</span>
-                <p>1250 Points</p>
-            </div>
+                <h2 id="cardName">Additya Choudhary</h2>
+                <p id="cardCourse">BCA Student</p>
+
+                <div class="quick-meta">
+                    <span><i class="fa-solid fa-layer-group"></i><b id="cardSemester">Semester 1</b></span>
+                    <span><i class="fa-solid fa-id-card"></i><b id="cardRoll">BCA-001</b></span>
+                </div>
+            </section>
+
+            <section class="stats-grid" aria-label="Learning stats">
+                <div class="stat-card">
+                    <i class="fa-solid fa-book-open"></i>
+                    <strong id="statCourses">8</strong>
+                    <span>Completed Courses</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fa-solid fa-star"></i>
+                    <strong id="statScore">1250</strong>
+                    <span>Quiz Points</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <strong id="statProgress">75%</strong>
+                    <span>Progress</span>
+                </div>
+            </section>
         </div>
 
-        <div class="btn-group">
-            <button class="edit-btn">Edit Profile</button>
-            <button class="logout-btn">Logout</button>
-        </div>
+        <form class="details-panel" id="profileForm">
+            <div class="panel-heading">
+                <h2>Personal Details</h2>
+                <p id="saveStatus" aria-live="polite"></p>
+            </div>
 
-    </div>
+            <div class="form-grid">
+                <label>
+                    Full Name
+                    <input id="fullName" name="fullName" type="text" required>
+                </label>
 
-</div>
+                <label>
+                    Email
+                    <input id="email" name="email" type="email" required>
+                </label>
+
+                <label>
+                    Roll Number
+                    <input id="rollNumber" name="rollNumber" type="text">
+                </label>
+
+                <label>
+                    College
+                    <input id="college" name="college" type="text">
+                </label>
+
+                <label>
+                    Course
+                    <input id="course" name="course" type="text">
+                </label>
+
+                <label>
+                    Semester
+                    <select id="semester" name="semester">
+                        <option>Semester 1</option>
+                        <option>Semester 2</option>
+                        <option>Semester 3</option>
+                        <option>Semester 4</option>
+                        <option>Semester 5</option>
+                        <option>Semester 6</option>
+                    </select>
+                </label>
+
+                <label>
+                    Completed Courses
+                    <input id="completedCourses" name="completedCourses" type="number" min="0" max="100">
+                </label>
+
+                <label>
+                    Quiz Points
+                    <input id="quizScore" name="quizScore" type="number" min="0">
+                </label>
+
+                <label>
+                    Progress
+                    <input id="progress" name="progress" type="range" min="0" max="100">
+                    <span class="range-value" id="progressValue">75%</span>
+                </label>
+
+                <label class="wide">
+                    Skills
+                    <input id="skills" name="skills" type="text" placeholder="HTML, CSS, JavaScript, C">
+                </label>
+
+                <label class="wide">
+                    About
+                    <textarea id="about" name="about" rows="4"></textarea>
+                </label>
+            </div>
+        </form>
+    </section>
+</main>
 
 <script src="profile.js"></script>
 </body>

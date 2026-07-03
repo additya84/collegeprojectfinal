@@ -38,11 +38,35 @@ body{
     gap: 10px;
 }
 
-.search-box input{
-    border: none;
-    outline: none;
-    background: transparent;
-    width: 100%;
+.nav-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-middle nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-middle nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-middle nav a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-middle nav a.active {
+    background-color: #007bff;
+    color: white;
 }
 
 .nav-right{

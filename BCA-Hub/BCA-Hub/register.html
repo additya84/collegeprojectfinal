@@ -25,22 +25,22 @@
             Join BCA Hub and start learning today
         </p>
 
-        <form>
+        <form id="registerForm">
 
             <div class="input-group">
                 <label>Full Name</label>
-                <input type="text" placeholder="Enter your name">
+                <input id="registerName" type="text" placeholder="Enter your name" required>
             </div>
 
             <div class="input-group">
                 <label>Roll Number</label>
-                <input type="text" placeholder="Enter roll number">
+                <input id="registerRoll" type="text" placeholder="Enter roll number" required>
             </div>
 
             <div class="input-group">
                 <label>Semester</label>
-                <select>
-                    <option>Select Semester</option>
+                <select id="registerSemester" required>
+                    <option value="">Select Semester</option>
                     <option>Semester 1</option>
                     <option>Semester 2</option>
                     <option>Semester 3</option>
@@ -52,20 +52,22 @@
 
             <div class="input-group">
                 <label>Email</label>
-                <input type="email" placeholder="Enter your email">
+                <input id="registerEmail" type="email" placeholder="Enter your email" required>
             </div>
 
             <div class="input-group">
                 <label>Password</label>
-                <input type="password" placeholder="Create password">
+                <input id="registerPassword" type="password" placeholder="Create password" minlength="4" required>
             </div>
 
             <div class="input-group">
                 <label>Confirm Password</label>
-                <input type="password" placeholder="Confirm password">
+                <input id="confirmPassword" type="password" placeholder="Confirm password" minlength="4" required>
             </div>
 
-            <button class="register-btn">
+            <p id="registerMessage" aria-live="polite"></p>
+
+            <button class="register-btn" type="submit">
                 Create Account
             </button>
 
@@ -80,5 +82,6 @@
 
 </div>
 
+<script src="./js/register.js"></script>
 </body>
 </html>
