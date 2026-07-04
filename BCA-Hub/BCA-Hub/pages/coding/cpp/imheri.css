@@ -109,3 +109,28 @@ body{
     font-size:14px;
     border-top:1px solid #e5e7eb;
 }
+
+/* --- Mobile Responsiveness Additions --- */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    .hero {
+        padding: 25px 20px;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+    .section, .section-card {
+        padding: 20px 15px;
+    }
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

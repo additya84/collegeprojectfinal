@@ -18,10 +18,12 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+    padding:20px;
 }
 
 .login-box{
-    width:420px;
+    width:100%;
+    max-width:420px;
     background:white;
     padding:40px;
     border-radius:20px;
@@ -110,4 +112,10 @@ body{
 
 *::-webkit-scrollbar{
     display:none;
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        padding: 25px 20px;
+    }
 }

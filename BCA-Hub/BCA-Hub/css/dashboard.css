@@ -1300,6 +1300,28 @@ a:hover{
 
         height:auto;
 
+        padding: 15px;
+
+    }
+
+    .sidebar-card, .logo {
+
+        display: none;
+
+    }
+
+    .menu {
+
+        flex-direction: row;
+
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+        gap: 12px;
+
+        padding-bottom: 5px;
+
     }
 
     .main-content{

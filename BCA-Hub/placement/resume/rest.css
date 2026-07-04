@@ -153,3 +153,31 @@ body{
     margin-bottom:10px;
     color:#334155;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .topic-intro h1 {
+        font-size: 32px;
+    }
+    .section h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .topic-intro, .card, .tip-card {
+        padding: 25px 20px;
+    }
+    .topic-intro, .section {
+        margin: 40px auto;
+        width: 95%;
+    }
+}

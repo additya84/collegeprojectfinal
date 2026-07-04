@@ -240,3 +240,41 @@ body{
         justify-content:center;
     }
 }
+
+/* --- Mobile Responsiveness Additions --- */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    .topbar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        height: auto;
+    }
+    .search-box {
+        width: 100%;
+    }
+    .profile {
+        width: 100%;
+        justify-content: center;
+    }
+    .hero {
+        flex-direction: column;
+        padding: 25px 20px;
+        text-align: center;
+        gap: 20px;
+    }
+    .hero p {
+        width: 100%;
+    }
+    .hero-right, .hero-icon {
+        display: none !important;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .grid, .stats, .topics-grid {
+        grid-template-columns: 1fr !important;
+    }
+}

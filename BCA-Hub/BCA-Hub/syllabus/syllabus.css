@@ -110,3 +110,31 @@ footer{
     padding:25px;
     background:white;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .content {
+        width: 95%;
+    }
+    .table-box, .syllabus-box {
+        padding: 20px 15px;
+    }
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
