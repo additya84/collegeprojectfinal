@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BCAHubAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc9f9ce2dcdee98b5691fc533afd9e4d9f2d07af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22515f7262f18f4794a683b58db3be8c0017e903")]
 [assembly: System.Reflection.AssemblyProductAttribute("BCAHubAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BCAHubAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

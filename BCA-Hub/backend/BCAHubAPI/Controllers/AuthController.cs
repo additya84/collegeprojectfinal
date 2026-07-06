@@ -21,6 +21,18 @@ public class AuthController : ControllerBase
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterDto dto)
     {
+        dto.Email = dto.Email.Trim().ToLowerInvariant();
+
+        if (string.IsNullOrWhiteSpace(dto.Name) ||
+            string.IsNullOrWhiteSpace(dto.Email) ||
+            string.IsNullOrWhiteSpace(dto.Password))
+        {
+            return BadRequest(new
+            {
+                message = "Name, email and password are required"
+            });
+        }
+
         var existingUser = await _context.Users
             .Find(x => x.Email == dto.Email)
             .FirstOrDefaultAsync();
@@ -35,8 +47,10 @@ public class AuthController : ControllerBase
 
         var user = new User
         {
-            Name = dto.Name,
+            Name = dto.Name.Trim(),
             Email = dto.Email,
+            RollNumber = dto.RollNumber.Trim(),
+            Semester = dto.Semester.Trim(),
             PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
         };
 
@@ -52,6 +66,8 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginDto dto)
     {
+        dto.Email = dto.Email.Trim().ToLowerInvariant();
+
         var user = await _context.Users
             .Find(x => x.Email == dto.Email)
             .FirstOrDefaultAsync();
@@ -78,11 +94,14 @@ public class AuthController : ControllerBase
         return Ok(new
         {
             message = "Login successful",
+            token = user.Id,
             user = new
             {
                 user.Id,
                 user.Name,
-                user.Email
+                user.Email,
+                user.RollNumber,
+                user.Semester
             }
         });
     }
