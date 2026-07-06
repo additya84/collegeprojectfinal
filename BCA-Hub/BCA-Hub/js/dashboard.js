@@ -3,6 +3,70 @@ const profileKey = "bcaHubProfile";
 const tokenKey = "bcaHubToken";
 const apiBaseUrl = "http://localhost:5059/api";
 
+function getProfile() {
+    try {
+        return JSON.parse(localStorage.getItem(profileKey)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function getDisplayName(profile = getProfile()) {
+    return profile.fullName || profile.name || "Student";
+}
+
+function getDashboardAvatar(profile) {
+    const avatar = profile.avatar || "assets/images/profile.png";
+
+    if (avatar.startsWith("../assets/")) {
+        return avatar.replace("../assets/", "assets/");
+    }
+
+    return avatar;
+}
+
+function renderUserDetails() {
+    const profile = getProfile();
+    const displayName = getDisplayName(profile);
+    const course = profile.course || "BCA Student";
+    const avatar = getDashboardAvatar(profile);
+    const topWelcome = document.querySelector(".top-left p");
+    const bannerTitle = document.querySelector(".welcome-left h1");
+    const profileName = document.querySelector(".profile-text h4");
+    const profileCourse = document.querySelector(".profile-text span");
+    const profileImage = document.querySelector(".profile img");
+    const profileBox = document.querySelector(".profile");
+
+    if (topWelcome) {
+        topWelcome.textContent = `Welcome back, ${displayName}`;
+    }
+
+    if (bannerTitle) {
+        bannerTitle.textContent = "";
+        bannerTitle.append("Welcome Back,");
+        bannerTitle.append(document.createElement("br"));
+        bannerTitle.append(displayName);
+    }
+
+    if (profileName) {
+        profileName.textContent = displayName;
+    }
+
+    if (profileCourse) {
+        profileCourse.textContent = course;
+    }
+
+    if (profileImage) {
+        profileImage.src = avatar;
+    }
+
+    if (profileBox) {
+        profileBox.addEventListener("click", () => {
+            window.location.href = "./profile/profile.html";
+        });
+    }
+}
+
 function getLearningStats() {
     try {
         return JSON.parse(localStorage.getItem(learningStatsKey)) || {};
@@ -144,4 +208,5 @@ document.querySelectorAll(".note-card button").forEach((button) => {
     });
 });
 
+renderUserDetails();
 renderProgress();
