@@ -60,3 +60,14 @@ C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\bui
 C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\BCAHubAPI.deps.json
 C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\BCAHubAPI.runtimeconfig.json
 C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\BCAHubAPI.staticwebassets.endpoints.json
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\BCAHubAPI.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\BCAHubAPI.pdb
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\BCrypt-Net-Next.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\DnsClient.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\Microsoft.OpenApi.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\MongoDB.Bson.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\MongoDB.Driver.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\SharpCompress.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\Snappier.dll
+C:\Users\Additya\Desktop\BCA Hub\BCA-Hub\backend\BCAHubAPI\bin\Debug\net10.0\build-check\ZstdSharp.dll

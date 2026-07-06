@@ -28,6 +28,7 @@ const questions = [
 
 let currentQuestion = 0;
 let userAnswers = new Array(questions.length).fill(null);
+const learningStatsKey = "bcaHubLearningStats";
 
 const questionText = document.getElementById("question-text");
 const optionsContainer = document.getElementById("options-container");
@@ -115,6 +116,17 @@ nextBtn.addEventListener("click", () => {
             `Quiz Completed!\n\nScore: ${score}/${questions.length}`
         );
 
+        saveQuizProgress({
+            quizId: "sample-english-quiz",
+            subject: "Applied English",
+            title: "Sample Quiz",
+            correct: score,
+            total: questions.length,
+            percent: Math.round((score / questions.length) * 100),
+            timeTaken: 0,
+            completedAt: new Date().toISOString()
+        });
+
         return;
     }
 
@@ -135,3 +147,29 @@ prevBtn.addEventListener("click", () => {
 });
 
 loadQuestion();
+
+function getLearningStats() {
+    try {
+        return JSON.parse(localStorage.getItem(learningStatsKey)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function saveQuizProgress(result) {
+    const stats = {
+        quizzes: [],
+        notes: [],
+        ...getLearningStats()
+    };
+
+    const existingIndex = stats.quizzes.findIndex((quiz) => quiz.quizId === result.quizId);
+
+    if (existingIndex >= 0) {
+        stats.quizzes[existingIndex] = result;
+    } else {
+        stats.quizzes.push(result);
+    }
+
+    localStorage.setItem(learningStatsKey, JSON.stringify(stats));
+}

@@ -12,6 +12,7 @@ let remainingSeconds = totalSeconds;
 let timerId = null;
 let startedAt = Date.now();
 let submitted = false;
+const learningStatsKey = "bcaHubLearningStats";
 
 const subjectNameEl = document.getElementById("subject-name");
 const quizTitleEl = document.getElementById("quiz-title");
@@ -186,6 +187,16 @@ function submitQuiz() {
     const wrong = total - correct;
     const percent = Math.round((correct / total) * 100);
     const timeTaken = Math.min(totalSeconds, Math.floor((Date.now() - startedAt) / 1000));
+    saveQuizProgress({
+        quizId: `${subjectName}-${quizTitle}`.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+        subject: subjectName,
+        title: quizTitle,
+        correct,
+        total,
+        percent,
+        timeTaken,
+        completedAt: new Date().toISOString()
+    });
 
     document.getElementById("score-percent").textContent = `${percent}%`;
     document.getElementById("correct-count").textContent = correct;
@@ -198,6 +209,32 @@ function submitQuiz() {
         "Keep revising and try again.";
 
     resultPanel.hidden = false;
+}
+
+function getLearningStats() {
+    try {
+        return JSON.parse(localStorage.getItem(learningStatsKey)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function saveQuizProgress(result) {
+    const stats = {
+        quizzes: [],
+        notes: [],
+        ...getLearningStats()
+    };
+
+    const existingIndex = stats.quizzes.findIndex((quiz) => quiz.quizId === result.quizId);
+
+    if (existingIndex >= 0) {
+        stats.quizzes[existingIndex] = result;
+    } else {
+        stats.quizzes.push(result);
+    }
+
+    localStorage.setItem(learningStatsKey, JSON.stringify(stats));
 }
 
 nextBtn.addEventListener("click", () => {
