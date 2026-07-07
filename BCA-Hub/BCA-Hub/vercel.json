@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/dashboard",
+      "destination": "/dashboard.html"
+    },
+    {
+      "source": "/login",
+      "destination": "/login.html"
+    },
+    {
+      "source": "/register",
+      "destination": "/register.html"
+    },
+    {
+      "source": "/profile",
+      "destination": "/profile/profile.html"
+    },
+    {
+      "source": "/syllabus",
+      "destination": "/syllabus/syllabus.html"
+    },
+    {
+      "source": "/notes",
+      "destination": "/pages/notes/notes.html"
+    },
+    {
+      "source": "/coding",
+      "destination": "/pages/coding/index.html"
+    }
+  ]
+}
