@@ -1,0 +1,197 @@
+/* ============================
+   RESPONSIVE.CSS — shared mobile styles for all pages
+   ============================ */
+
+/* Scrollbar hide (global) */
+* { scrollbar-width: none; -ms-overflow-style: none; }
+*::-webkit-scrollbar { display: none; }
+
+/* ---------- Sidebar Hamburger (dashboard, semester pages) ---------- */
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1001;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 12px;
+  background: #0f172a;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 998;
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .stats-container,
+  .semester-stats {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .bottom-row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+  .sidebar-toggle {
+    display: flex;
+  }
+
+  .sidebar {
+    position: fixed !important;
+    left: -100% !important;
+    width: 280px !important;
+    height: 100vh !important;
+    transition: left 0.3s ease !important;
+    z-index: 1000 !important;
+  }
+
+  .sidebar.open {
+    left: 0 !important;
+  }
+
+  .sidebar-overlay.show {
+    display: block;
+  }
+
+  .main-content {
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 20px !important;
+  }
+
+  .top-navbar {
+    flex-direction: column !important;
+    height: auto !important;
+    padding: 20px !important;
+    gap: 15px !important;
+    text-align: center !important;
+  }
+
+  .top-center {
+    width: 100% !important;
+  }
+
+  .welcome-banner {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 30px !important;
+  }
+
+  .welcome-left,
+  .welcome-right {
+    width: 100% !important;
+  }
+
+  .welcome-left h1 {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+
+  .banner-buttons {
+    flex-direction: column !important;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100% !important;
+  }
+
+  .stats-container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .bottom-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .content-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Sidebar on mobile */
+  .sidebar .logo,
+  .sidebar .sidebar-card {
+    display: none !important;
+  }
+
+  .sidebar .menu {
+    flex-direction: column !important;
+    overflow-x: visible !important;
+    white-space: normal !important;
+  }
+
+  /* Semester page */
+  .semester-banner {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 30px !important;
+  }
+
+  .banner-left,
+  .banner-right {
+    width: 100% !important;
+  }
+  .banner-right { margin-top: 25px !important; }
+
+  .subjects-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .semester-stats {
+    grid-template-columns: 1fr !important;
+  }
+
+  .recent-item {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 15px !important;
+  }
+  .recent-item div { margin-left: 0 !important; }
+
+  .study-card {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 20px !important;
+  }
+
+  .profile-text { display: none !important; }
+
+  .note-card {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .note-content { margin: 10px 0 !important; }
+}
+
+/* ---------- Small phones ---------- */
+@media (max-width: 480px) {
+  .main-content { padding: 15px !important; }
+
+  .stats-card {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .welcome-left h1 {
+    font-size: 28px !important;
+    line-height: 38px !important;
+  }
+}
+
+/* ---------- Sidebar toggle script helper ---------- */
+/* Add .sidebar-open to body when sidebar is toggled */

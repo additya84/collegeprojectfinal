@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="css/dashboard.css">
-    <title>Document</title>
+     <link rel="stylesheet" href="css/responsive.css">
+    <title>Dashboard - BCA Hub</title>
 </head>
   <body>
 <div class="dashboard">
-<div class="sidebar">
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="sidebar" id="sidebar">
 
     <div class="logo">
 
@@ -420,5 +426,24 @@
 </div>
 
 <script src="js/dashboard.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var toggle = document.getElementById("sidebarToggle");
+  var sidebar = document.getElementById("sidebar");
+  var overlay = document.getElementById("sidebarOverlay");
+  if (toggle && sidebar) {
+    toggle.addEventListener("click", function () {
+      sidebar.classList.toggle("open");
+      if (overlay) overlay.classList.toggle("show");
+    });
+    if (overlay) {
+      overlay.addEventListener("click", function () {
+        sidebar.classList.remove("open");
+        overlay.classList.remove("show");
+      });
+    }
+  }
+});
+</script>
 </body>
 </html>
