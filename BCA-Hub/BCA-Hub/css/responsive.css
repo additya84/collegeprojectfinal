@@ -1,5 +1,7 @@
-/* ---------- Dashboard / Sidebar Layout ---------- */
-.dashboard { display: flex; width: 100%; min-height: 100vh; }
+.dashboard { display: flex;
+   width: 100%;
+    min-height: 100vh;
+   }
 
 .sidebar {
   width: 280px;
@@ -11,7 +13,7 @@
   padding: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   overflow-y: auto;
   z-index: 999;
 }
@@ -127,7 +129,6 @@
   height: 38px;
 }
 
-/* ---------- Sidebar Hamburger ---------- */
 .sidebar-toggle {
   display: none;
   position: fixed;

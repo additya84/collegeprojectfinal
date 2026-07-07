@@ -15,7 +15,7 @@
   <i class="fa-solid fa-bars"></i>
 </button>
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
-<main class="profile-shell">
+<div class="dashboard">
     <aside class="sidebar" id="sidebar">
         <a class="brand" href="../dashboard.html">
             <span class="brand-icon"><i class="fa-solid fa-graduation-cap"></i></span>
@@ -34,9 +34,15 @@
             <a href="../placement/index.html"><i class="fa-solid fa-briefcase"></i><span>Placement</span></a>
             <a class="active" href="profile.html"><i class="fa-solid fa-user"></i><span>Profile</span></a>
         </nav>
+
+        <div class="sidebar-card">
+            <h3>Keep Learning</h3>
+            <p>Complete today's goal to stay on track.</p>
+            <button>Explore</button>
+        </div>
     </aside>
 
-    <section class="profile-content">
+    <div class="main-content">
         <header class="topbar">
             <div>
                 <p class="eyebrow">Student Profile</p>
@@ -167,8 +173,8 @@
                 </label>
             </div>
         </form>
-    </section>
-</main>
+    </div>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
