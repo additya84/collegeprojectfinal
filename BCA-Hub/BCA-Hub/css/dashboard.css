@@ -129,8 +129,10 @@ button:active { transform: scale(0.96); }
 .top-left h2 { font-size: 30px; color: #0f172a; font-weight: 700; }
 .top-left p { margin-top: 5px; color: #64748b; font-size: 15px; }
 .top-center {
-  width: 430px;
+  flex: 1;
+  max-width: 430px;
   position: relative;
+  margin: 0 15px;
 }
 .top-center input {
   width: 100%;
