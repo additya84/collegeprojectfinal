@@ -146,6 +146,7 @@ button:active { transform: scale(0.96); }
   padding-right: 20px;
   font-size: 15px;
   transition: 0.35s;
+  box-sizing: border-box;
 }
 .top-center input:focus { border-color: #6d5dfc; background: white; }
 .top-center i {

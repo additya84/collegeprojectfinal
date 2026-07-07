@@ -203,7 +203,7 @@ input, select, textarea { max-width: 100%; }
     gap: 15px !important;
     text-align: center !important;
   }
-  .top-center { width: 100% !important; }
+  .top-center { width: 100% !important; max-width: none !important; margin: 0 !important; }
   .top-center input { width: 100% !important; }
 
   .profile-text { display: none !important; }
