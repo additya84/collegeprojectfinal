@@ -11,7 +11,7 @@ body{
     line-height:1.8;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar{
     width:100%;
@@ -63,7 +63,7 @@ body{
     color:#2563eb;
 }
 
-/* ================= INTRO ================= */
+
 
 .topic-intro{
     width:90%;
@@ -96,7 +96,7 @@ body{
     color:#334155;
 }
 
-/* ================= FORMULAS ================= */
+
 
 #ratio-formulas,
 #ratio-questions,
@@ -144,7 +144,7 @@ body{
     line-height:2;
 }
 
-/* ================= QUESTIONS ================= */
+
 
 .qa{
     margin-bottom:35px;
@@ -167,7 +167,7 @@ body{
     color:#475569;
 }
 
-/* ================= VIDEOS ================= */
+
 
 .video-grid{
     display:grid;
@@ -213,7 +213,7 @@ body{
     background:#1d4ed8;
 }
 
-/* ================= DOWNLOAD ================= */
+
 
 .resource-grid{
     display:grid;
@@ -263,7 +263,7 @@ body{
     background:#1d4ed8;
 }
 
-/* ================= RELATED TOPICS ================= */
+
 
 .topic-grid{
     display:grid;
@@ -289,7 +289,7 @@ body{
     transform:translateY(-5px);
 }
 
-/* ================= FOOTER ================= */
+
 
 footer{
     background:#0f172a;
@@ -304,7 +304,7 @@ footer p{
     color:#cbd5e1;
 }
 
-/* ================= RESPONSIVE ================= */
+
 
 @media(max-width:768px){
 

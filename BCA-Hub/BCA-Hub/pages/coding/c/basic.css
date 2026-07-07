@@ -139,7 +139,7 @@ table th{
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* --- Mobile Responsiveness Additions --- */
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;

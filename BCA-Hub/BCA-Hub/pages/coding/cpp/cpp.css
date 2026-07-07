@@ -13,7 +13,7 @@ body{
     padding:30px;
 }
 
-/* topbar */
+
 
 .topbar{
     background:white;
@@ -99,7 +99,7 @@ body{
     font-size:180px;
 }
 
-/* cards */
+
 
 .title{
     margin-bottom:25px;
@@ -142,7 +142,7 @@ body{
     text-decoration:none;
 }
 
-/* stats */
+
 
 .stats{
     display:grid;
@@ -164,9 +164,7 @@ body{
 .stat-card p{
     color:gray;
 }
-/* ===========================
-   Topic Cards
-=========================== */
+
 
 .topics-grid{
     display: grid;
@@ -255,7 +253,7 @@ body{
     font-size: larger;
 }
 
-/* --- Mobile Responsiveness Additions --- */
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;

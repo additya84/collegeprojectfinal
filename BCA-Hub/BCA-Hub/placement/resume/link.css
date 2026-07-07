@@ -11,7 +11,7 @@ body{
     line-height:1.8;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar{
     width:100%;
@@ -62,7 +62,7 @@ body{
     color:#0A66C2;
 }
 
-/* ================= INTRO SECTION ================= */
+
 
 .topic-intro{
     width:90%;
@@ -94,7 +94,7 @@ body{
     margin-bottom:10px;
 }
 
-/* ================= MAIN SECTIONS ================= */
+
 
 .profile-sections,
 .projects-section,
@@ -113,7 +113,7 @@ body{
     color:#0f172a;
 }
 
-/* ================= CARDS ================= */
+
 
 .card,
 .tip-card{
@@ -158,7 +158,7 @@ body{
     margin-bottom:10px;
 }
 
-/* ================= FOOTER ================= */
+
 
 footer{
     background:#0f172a;
@@ -172,7 +172,7 @@ footer p{
     margin-bottom:10px;
 }
 
-/* ================= RESPONSIVE ================= */
+
 
 @media(max-width:768px){
 

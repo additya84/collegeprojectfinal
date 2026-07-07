@@ -11,7 +11,7 @@ body{
     line-height:1.8;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar{
     width:100%;
@@ -58,7 +58,7 @@ body{
     color:#0ea5e9;
 }
 
-/* ================= INTRO ================= */
+
 
 .topic-intro{
     width:90%;
@@ -111,7 +111,7 @@ body{
     color:#0f172a;
 }
 
-/* ================= CARDS ================= */
+
 
 .card,
 .tip-card,
@@ -150,7 +150,7 @@ body{
     margin-bottom:10px;
 }
 
-/* ================= TIPS ================= */
+
 
 .tip-card{
     border-left:6px solid #22c55e;
@@ -161,7 +161,7 @@ body{
     margin-bottom:15px;
 }
 
-/* ================= QUESTIONS ================= */
+
 
 .question-card{
     border-top:6px solid #0ea5e9;
@@ -179,7 +179,7 @@ body{
     border-radius:12px;
     color:#1e293b;
 }
-/* ================= PDF SECTION ================= */
+
 
 .pdf-grid{
     display:grid;
@@ -216,7 +216,7 @@ body{
     background:#0284c7;
 }
 
-/* ================= FOOTER ================= */
+
 
 footer{
     margin-top:70px;
@@ -230,7 +230,7 @@ footer p{
     margin-bottom:10px;
 }
 
-/* ================= RESPONSIVE ================= */
+
 
 @media(max-width:768px){
 

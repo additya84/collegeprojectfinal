@@ -473,7 +473,7 @@ button:active { transform: scale(0.96); }
   transform: translateX(8px);
 }
 
-/* Scrollbar */
+
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: #eef2ff; }
 ::-webkit-scrollbar-thumb { background: #6d5dfc; border-radius: 20px; }

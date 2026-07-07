@@ -13,7 +13,7 @@ body {
 a { text-decoration: none; }
 ul { list-style: none; }
 
-/* ========== HEADER / NAV ========== */
+
 .header {
   width: 100%;
   background: #03133f;
@@ -61,7 +61,7 @@ ul { list-style: none; }
   cursor: pointer;
 }
 
-/* Hamburger */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -79,7 +79,7 @@ ul { list-style: none; }
   transition: 0.3s;
 }
 
-/* ========== HERO ========== */
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -127,7 +127,7 @@ ul { list-style: none; }
 .hero-image { width: 45%; }
 .hero-image img { width: 100%; }
 
-/* ========== STATS ========== */
+
 .stats {
   display: flex;
   justify-content: center;
@@ -147,7 +147,7 @@ ul { list-style: none; }
 }
 .stat-card h2 { color: #03133f; }
 
-/* ========== FEATURES ========== */
+
 .features {
   display: flex;
   justify-content: center;
@@ -173,7 +173,7 @@ ul { list-style: none; }
   font-weight: 600;
 }
 
-/* ========== RESOURCES ========== */
+
 .resources-section {
   display: flex;
   gap: 20px;
@@ -207,7 +207,7 @@ ul { list-style: none; }
   cursor: pointer;
 }
 
-/* ========== FOOTER ========== */
+
 footer {
   background: #03133f;
   color: white;
@@ -238,7 +238,7 @@ footer li { margin-bottom: 10px; }
   cursor: pointer;
 }
 
-/* ========== RESPONSIVE ========== */
+
 @media (max-width: 1024px) {
   .hero-content h1 { font-size: 52px; line-height: 62px; }
   .hero { padding: 60px 6%; }

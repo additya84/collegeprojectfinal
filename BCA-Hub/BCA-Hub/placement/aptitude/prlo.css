@@ -76,7 +76,7 @@ body{
     font-size:17px;
 }
 
-/* Formula Cards */
+
 
 .formula-grid{
     display:grid;
@@ -106,7 +106,7 @@ body{
     line-height:1.8;
 }
 
-/* Tables */
+
 
 .table-container{
     overflow-x:auto;
@@ -138,7 +138,7 @@ body{
     background:#eff6ff;
 }
 
-/* Questions */
+
 
 .question{
     font-size:20px;
@@ -158,7 +158,7 @@ body{
     margin-bottom:30px;
 }
 
-/* Video Section */
+
 
 .video-grid{
     display:grid;
@@ -208,7 +208,7 @@ body{
     font-weight:600;
 }
 
-/* Resource Section */
+
 
 .resource-grid{
     display:grid;

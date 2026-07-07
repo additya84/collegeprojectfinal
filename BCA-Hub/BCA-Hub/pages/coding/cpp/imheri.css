@@ -110,7 +110,7 @@ body{
     border-top:1px solid #e5e7eb;
 }
 
-/* --- Mobile Responsiveness Additions --- */
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;

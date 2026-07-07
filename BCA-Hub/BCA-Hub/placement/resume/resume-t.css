@@ -11,7 +11,7 @@ body{
     line-height:1.8;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar{
     width:100%;
@@ -62,7 +62,7 @@ body{
     color:#2563eb;
 }
 
-/* ================= HERO SECTION ================= */
+
 
 .hero{
     width:90%;
@@ -86,7 +86,7 @@ body{
     margin-bottom:18px;
     font-size:18px;
 }
-/* ================= RESUME SECTIONS ================= */
+
 
 .resume-section{
     width:90%;
@@ -107,7 +107,7 @@ body{
     margin-bottom:20px;
 }
 
-/* ================= RESUME CARD ================= */
+
 
 .resume-card{
     background:white;
@@ -127,7 +127,7 @@ body{
     margin-bottom:12px;
 }
 
-/* ================= LISTS ================= */
+
 
 .resume-section ul{
     padding-left:25px;
@@ -137,7 +137,7 @@ body{
     margin-bottom:12px;
     color:#475569;
 }
-/* ================= SKILLS ================= */
+
 
 .skills-grid{
     display:flex;
@@ -155,7 +155,7 @@ body{
     font-weight:500;
 }
 
-/* ================= DOWNLOAD BUTTON ================= */
+
 
 .download-resume{
     width:90%;
@@ -180,7 +180,7 @@ body{
     transform:translateY(-3px);
 }
 
-/* ================= FOOTER ================= */
+
 
 footer{
     background:#0f172a;
@@ -194,7 +194,7 @@ footer p{
     margin-bottom:10px;
 }
 
-/* ================= RESPONSIVE ================= */
+
 
 @media(max-width:768px){
 

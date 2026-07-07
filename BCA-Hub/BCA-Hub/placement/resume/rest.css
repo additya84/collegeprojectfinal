@@ -55,7 +55,7 @@ footer{
     padding:40px 20px;
     margin-top:70px;
 }
-/* ================= RESET ================= */
+
 
 *{
     margin:0;
@@ -70,7 +70,7 @@ body{
     line-height:1.8;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar{
     width:100%;
@@ -121,7 +121,7 @@ body{
     color:#2563eb;
 }
 
-/* ================= INTRO SECTION ================= */
+
 
 .topic-intro{
     width:90%;

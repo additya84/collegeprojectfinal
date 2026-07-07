@@ -146,7 +146,7 @@ body{
     }
 }
 
-/* --- Mobile Responsiveness Additions --- */
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;

@@ -11,7 +11,7 @@ body{
     line-height:1.8;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar{
     width:100%;
@@ -58,7 +58,7 @@ body{
     color:#2563eb;
 }
 
-/* ================= INTRO ================= */
+
 
 .topic-intro{
     width:90%;
@@ -103,7 +103,7 @@ body{
 .feature-card h3{
     font-size:18px;
 }
-/* ================= FORMULA SECTION ================= */
+
 
 .formula-section,
 .question-section,
@@ -145,7 +145,7 @@ body{
     margin-bottom:10px;
 }
 
-/* ================= QUESTIONS ================= */
+
 
 .question-card{
     background:#fff;
@@ -179,7 +179,7 @@ body{
     margin-top:15px;
     color:#475569;
 }
-/* ================= PDF SECTION ================= */
+
 
 .pdf-grid{
     display:grid;
@@ -219,7 +219,7 @@ body{
     background:#1d4ed8;
 }
 
-/* ================= FOOTER ================= */
+
 
 footer{
     margin-top:70px;
@@ -233,7 +233,7 @@ footer p{
     margin-bottom:10px;
 }
 
-/* ================= RESPONSIVE ================= */
+
 
 @media(max-width:768px){
 
