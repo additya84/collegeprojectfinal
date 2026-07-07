@@ -1,4 +1,4 @@
-const apiBaseUrl = "http://localhost:5059/api";
+const apiBaseUrl = "https://collegeprojectfinal-1.onrender.com/api";
 const storageKey = "bcaHubProfile";
 const tokenKey = "bcaHubToken";
 

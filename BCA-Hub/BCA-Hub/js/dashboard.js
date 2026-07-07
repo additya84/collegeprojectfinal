@@ -1,7 +1,7 @@
 const learningStatsKey = "bcaHubLearningStats";
 const profileKey = "bcaHubProfile";
 const tokenKey = "bcaHubToken";
-const apiBaseUrl = "http://localhost:5059/api";
+const apiBaseUrl = "https://collegeprojectfinal-1.onrender.com/api";
 
 function getProfile() {
     try {
