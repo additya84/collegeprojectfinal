@@ -25,6 +25,8 @@ public class AuthService : IAuthService
 
     public async Task<AuthResult> RegisterAsync(RegisterDto dto)
     {
+        try
+        {
         dto.Email = (dto.Email ?? string.Empty).Trim().ToLowerInvariant();
         dto.Name = (dto.Name ?? string.Empty).Trim();
         dto.RollNumber = (dto.RollNumber ?? string.Empty).Trim();
@@ -74,10 +76,17 @@ public class AuthService : IAuthService
                 user.Semester
             }
         };
+        }
+        catch (Exception ex)
+        {
+            return new AuthResult { Success = false, Message = $"An error occurred: {ex.Message}" };
+        }
     }
 
     public async Task<AuthResult> LoginAsync(LoginDto dto)
     {
+        try
+        {
         dto.Email = (dto.Email ?? string.Empty).Trim().ToLowerInvariant();
         dto.Password = (dto.Password ?? string.Empty).Trim();
 
@@ -111,6 +120,11 @@ public class AuthService : IAuthService
                 user.Semester
             }
         };
+        }
+        catch (Exception ex)
+        {
+            return new AuthResult { Success = false, Message = $"An error occurred: {ex.Message}" };
+        }
     }
 
     private string GenerateJwtToken(User user)

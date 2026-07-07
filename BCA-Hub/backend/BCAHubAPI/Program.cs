@@ -57,6 +57,8 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
+app.UseCors("Frontend");
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -69,8 +71,6 @@ else
 }
 
 app.UseHttpsRedirection();
-
-app.UseCors("Frontend");
 
 app.UseAuthentication();
 app.UseAuthorization();
