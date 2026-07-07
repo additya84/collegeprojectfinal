@@ -1,4 +1,4 @@
-
+/* ---------- Sidebar Hamburger ---------- */
 .sidebar-toggle {
   display: none;
   position: fixed;
@@ -25,13 +25,14 @@
   z-index: 998;
 }
 
-
+/* ---------- Responsive images & tables ---------- */
 img { max-width: 100%; height: auto; }
+video { max-width: 100%; }
 table { max-width: 100%; overflow-x: auto; display: block; }
 pre, code { white-space: pre-wrap; word-break: break-word; }
 input, select, textarea { max-width: 100%; }
 
-
+/* ---------- Tablet ---------- */
 @media (max-width: 1024px) {
   .stats-container,
   .semester-stats { grid-template-columns: repeat(2, 1fr) !important; }
@@ -43,9 +44,8 @@ input, select, textarea { max-width: 100%; }
   .subject-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
-
+/* ---------- Mobile ---------- */
 @media (max-width: 768px) {
-  
   .sidebar-toggle { display: flex; }
   .sidebar {
     position: fixed !important;
@@ -76,7 +76,6 @@ input, select, textarea { max-width: 100%; }
 
   .profile-text { display: none !important; }
 
-  
   .sidebar .logo,
   .sidebar .sidebar-card { display: none !important; }
   .sidebar .menu {
@@ -85,7 +84,7 @@ input, select, textarea { max-width: 100%; }
     white-space: normal !important;
   }
 
-  
+  /* Grids -> single column */
   .stats-container,
   .bottom-row,
   .content-row { grid-template-columns: 1fr !important; }
@@ -96,11 +95,22 @@ input, select, textarea { max-width: 100%; }
   .subject-grid { grid-template-columns: 1fr !important; }
   .semester-stats { grid-template-columns: 1fr !important; }
 
-  
+  /* Quiz section grids */
+  .semester-grid.quiz-grid { grid-template-columns: 1fr !important; }
+
+  /* Banners / Heroes - shrink padding and font-size */
   .welcome-banner,
   .semester-banner,
   .papers-hero,
-  .hero { flex-direction: column !important; text-align: center !important; padding: 30px 20px !important; }
+  .hero,
+  .notes-hero,
+  .coding-hero,
+  .hero-section {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 30px 20px !important;
+    min-height: auto !important;
+  }
 
   .welcome-left,
   .welcome-right,
@@ -109,17 +119,42 @@ input, select, textarea { max-width: 100%; }
   .hero-left,
   .hero-right,
   .hero-content,
-  .hero-image { width: 100% !important; }
+  .hero-image {
+    width: 100% !important;
+  }
   .banner-right,
   .welcome-right,
   .hero-right { margin-top: 25px !important; }
 
   .welcome-left h1 { font-size: 36px !important; line-height: 48px !important; }
   .banner-left h1 { font-size: 36px !important; line-height: 48px !important; }
+
+  .welcome-left h1,
+  .hero h1,
+  .hero-content h1,
+  .hero-left h1,
+  .coding-hero h1,
+  .notes-hero h1,
+  .papers-hero h1,
+  .banner-left h1,
+  .semester-banner h1,
+  .hero-section h1 {
+    font-size: 32px !important;
+    line-height: 42px !important;
+  }
+
+  .hero p,
+  .hero-content p,
+  .hero-left p,
+  .hero-section p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
   .banner-buttons { flex-direction: column !important; }
   .btn1, .btn2 { width: 100% !important; }
 
-  
+  /* Cards */
   .stat-card,
   .stats-card,
   .note-card,
@@ -135,31 +170,55 @@ input, select, textarea { max-width: 100%; }
   .study-card { gap: 20px !important; }
   .recent-item { gap: 15px !important; }
 
-  .banner-left h1 { font-size: 32px !important; line-height: 42px !important; }
-  .banner-left p { font-size: 15px !important; }
-
   .section-title { flex-direction: column !important; gap: 8px !important; }
 
-  
+  /* Request section */
   .request-content { flex-direction: column !important; text-align: center !important; gap: 15px !important; }
 
-  
+  /* Stats section in papers */
   .stats-section { grid-template-columns: repeat(2, 1fr) !important; }
 
+  /* FAQ / search */
   .search-box { width: 100% !important; }
   .search-box input { width: 100% !important; }
 
-  
+  /* Coding pages */
   .coding-header,
   .topic-header { flex-direction: column !important; text-align: center !important; }
   .code-block { font-size: 13px !important; }
+
+  /* Quiz specifics */
+  .hero-stats { flex-direction: column !important; align-items: center !important; }
+  .stats { justify-content: center !important; flex-wrap: wrap !important; }
+  .semester-card { gap: 20px !important; }
+
+  /* Syllabus */
+  .semester-buttons { flex-direction: column !important; align-items: center !important; }
+
+  /* Placement aptitude */
+  .video-card,
+  .pdf-card { padding: 15px !important; }
 }
 
+/* ---------- Small phones ---------- */
 @media (max-width: 480px) {
   .main-content { padding: 12px !important; }
   .stats-card { flex-direction: column !important; text-align: center !important; }
-  .welcome-left h1 { font-size: 28px !important; line-height: 38px !important; }
-  .banner-left h1 { font-size: 26px !important; line-height: 36px !important; }
+
+  .welcome-left h1,
+  .hero h1,
+  .hero-content h1,
+  .hero-left h1,
+  .coding-hero h1,
+  .notes-hero h1,
+  .papers-hero h1,
+  .banner-left h1,
+  .semester-banner h1,
+  .hero-section h1 {
+    font-size: 26px !important;
+    line-height: 36px !important;
+  }
+
   .stat-card { padding: 15px !important; }
   .stat-card h2 { font-size: 22px !important; }
   .stats-section { grid-template-columns: 1fr !important; }
@@ -169,12 +228,16 @@ input, select, textarea { max-width: 100%; }
   .hero-btn,
   .btn1, .btn2 { padding: 12px 22px !important; font-size: 14px !important; }
 
-  
+  /* Quiz */
   .quiz-option { font-size: 14px !important; padding: 12px !important; }
   .quiz-question h3 { font-size: 16px !important; }
+  .hero-right img { width: 200px !important; }
+
+  .badge { font-size: 14px !important; padding: 8px 16px !important; }
+  .section-title h2 { font-size: 24px !important; }
 }
 
-
+/* ---------- Extra small (320px) ---------- */
 @media (max-width: 360px) {
   .sidebar { width: 260px !important; }
   .main-content { padding: 10px !important; }

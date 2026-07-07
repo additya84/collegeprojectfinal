@@ -63,6 +63,11 @@ body{
     justify-content:center;
     text-align:center;
 }
+@media(max-width:768px){
+.hero{min-height:auto;margin:30px auto;}
+.hero-content h1{font-size:36px;}
+.hero-content p{font-size:17px;}
+}
 
 .hero-content h1{
     font-size:55px;

@@ -18,15 +18,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-</head>
+    <link rel="stylesheet" href="../css/responsive.css">
+
 
 <body>
 
 <div class="dashboard">
-
-
-
-    <div class="sidebar">
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="sidebar" id="sidebar">
 
         <div class="logo">
 
@@ -505,6 +507,25 @@
 </div>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var toggle = document.getElementById("sidebarToggle");
+  var sidebar = document.getElementById("sidebar");
+  var overlay = document.getElementById("sidebarOverlay");
+  if (toggle && sidebar) {
+    toggle.addEventListener("click", function () {
+      sidebar.classList.toggle("open");
+      if (overlay) overlay.classList.toggle("show");
+    });
+    if (overlay) {
+      overlay.addEventListener("click", function () {
+        sidebar.classList.remove("open");
+        overlay.classList.remove("show");
+      });
+    }
+  }
+});
+</script>
 </body>
 
 </html>

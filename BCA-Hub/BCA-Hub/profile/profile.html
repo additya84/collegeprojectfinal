@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile | BCA Hub</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 <body>
 
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
 <main class="profile-shell">
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
         <a class="brand" href="../dashboard.html">
             <span class="brand-icon"><i class="fa-solid fa-graduation-cap"></i></span>
             <span>
@@ -165,6 +170,25 @@
     </section>
 </main>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var toggle = document.getElementById("sidebarToggle");
+  var sidebar = document.getElementById("sidebar");
+  var overlay = document.getElementById("sidebarOverlay");
+  if (toggle && sidebar) {
+    toggle.addEventListener("click", function () {
+      sidebar.classList.toggle("open");
+      if (overlay) overlay.classList.toggle("show");
+    });
+    if (overlay) {
+      overlay.addEventListener("click", function () {
+        sidebar.classList.remove("open");
+        overlay.classList.remove("show");
+      });
+    }
+  }
+});
+</script>
 <script src="profile.js"></script>
 </body>
 </html>
