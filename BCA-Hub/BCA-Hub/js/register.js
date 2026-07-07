@@ -1,4 +1,4 @@
-const apiBaseUrl = "http://localhost:5059/api";
+const apiBaseUrl = "https://collegeprojectfinal-1.onrender.com/api";
 
 const registerForm = document.getElementById("registerForm");
 const registerMessage = document.getElementById("registerMessage");
