@@ -64,6 +64,9 @@ body{
     margin:30px 0;
 }
 
+.sidebar { left: -100% !important; }
+.sidebar.open { left: 0 !important; }
+
 .progress-bar{
     height:12px;
     background:#e5e7eb;

@@ -1,3 +1,6 @@
+.sidebar { left: -100% !important; }
+.sidebar.open { left: 0 !important; }
+
 *{
     margin:0;
     padding:0;

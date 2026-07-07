@@ -21,10 +21,32 @@ rel="stylesheet">
 
 
 <body>
+<div class="dashboard">
 
 <div class="container">
-
-<div class="hero">
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="sidebar" id="sidebar">
+    <div class="logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div class="logo-text">
+            <h2>BCA Hub</h2>
+            <p>Learn • Practice • Grow</p>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="../../dashboard.html"><div class="menu-item"><i class="fa-solid fa-house"></i><span>Dashboard</span></div></a>
+        <a href="../../pages/notes/notes.html"><div class="menu-item"><i class="fa-solid fa-book"></i><span>Notes</span></div></a>
+        <a href="../../pages/coding/index.html"><div class="menu-item"><i class="fa-solid fa-code"></i><span>Coding</span></div></a>
+        <a href="../../syllabus/syllabus.html"><div class="menu-item"><i class="fa-solid fa-file-lines"></i><span>Syllabus</span></div></a>
+        <a href="../../papers/index.html"><div class="menu-item"><i class="fa-solid fa-file-pdf"></i><span>Papers</span></div></a>
+        <a href="../../quiz/index.html"><div class="menu-item active"><i class="fa-solid fa-clipboard-question"></i><span>Quiz</span></div></a>
+        <a href="../../placement/index.html"><div class="menu-item"><i class="fa-solid fa-briefcase"></i><span>Placement</span></div></a>
+        <a href="../../profile/profile.html"><div class="menu-item"><i class="fa-solid fa-user"></i><span>Profile</span></div></a>
+    </div>
+</div><div class="hero">
 
 <div class="hero-left">
 
@@ -133,5 +155,24 @@ Mathematics-II
 
 </div>
 
-<script src="../subject-quiz-links.js"></script>`r`n</body>
+<script src="../subject-quiz-links.js"></script>`r`n<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var toggle = document.getElementById("sidebarToggle");
+  var sidebar = document.getElementById("sidebar");
+  var overlay = document.getElementById("sidebarOverlay");
+  if (toggle && sidebar) {
+    toggle.addEventListener("click", function () {
+      sidebar.classList.toggle("open");
+      if (overlay) overlay.classList.toggle("show");
+    });
+    if (overlay) {
+      overlay.addEventListener("click", function () {
+        sidebar.classList.remove("open");
+        overlay.classList.remove("show");
+      });
+    }
+  }
+});
+</script>
+</body>
 </html>
