@@ -55,7 +55,7 @@ public class AuthService : IAuthService
             Email = dto.Email,
             RollNumber = dto.RollNumber,
             Semester = dto.Semester,
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password, BCrypt.Net.SaltRevision.Revision2A)
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
         };
 
         await _context.Users.InsertOneAsync(user);
