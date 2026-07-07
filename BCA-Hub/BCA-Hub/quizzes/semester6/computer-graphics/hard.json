@@ -1,0 +1,17 @@
+[
+  {"question": "What is the mathematical representation of a Bezier curve?", "options": ["Bernstein polynomial basis", "Lagrange polynomial", "Hermite polynomial", "Cubic spline"], "answer": 0},
+  {"question": "How many control points define a cubic Bezier curve?", "options": ["4", "3", "2", "5"], "answer": 0},
+  {"question": "What is a B-spline curve?", "options": ["Piecewise polynomial with local control", "A single global polynomial", "A line segment", "A circle approximation"], "answer": 0},
+  {"question": "What is the difference between uniform and non-uniform B-splines?", "options": ["Spacing of knots: uniform has equal spacing", "Degree of polynomial", "Number of control points", "Curve smoothness"], "answer": 0},
+  {"question": "What is NURBS?", "options": ["Non-Uniform Rational B-Splines", "Non-Uniform Raster Buffer System", "Natural Uniform Raster B-Splines", "Non-Uniform Rendering Basis System"], "answer": 0},
+  {"question": "What is Phong reflection model?", "options": ["Ambient, diffuse, and specular components", "Only ambient and diffuse", "Only specular", "Diffuse only"], "answer": 0},
+  {"question": "What is the Blinn-Phong shading model?", "options": ["Simplified specular component using half-vector", "Improved diffuse lighting", "Ambient occlusion model", "Subsurface scattering"], "answer": 0},
+  {"question": "What is environment mapping?", "options": ["Using an image to simulate reflections on an object", "Map generation", "World map texture", "Displacement mapping"], "answer": 0},
+  {"question": "What is bump mapping?", "options": ["Simulating surface bumps without geometric changes", "Adding geometry details", "Changing surface color", "Applying shadows"], "answer": 0},
+  {"question": "What is displacement mapping?", "options": ["Actually modifying geometry vertices", "Simulating bumps with normals", "Changing texture coordinates", "Altering colors"], "answer": 0},
+  {"question": "What is the view transformation matrix?", "options": ["Transforms world coordinates to camera coordinates", "Transforms camera to world", "Transforms model to world", "Transforms screen to world"], "answer": 0},
+  {"question": "What is the projection matrix?", "options": ["Maps 3D coordinates to 2D screen coordinates", "Maps 2D to 3D", "Maps object to world", "Maps camera to light"], "answer": 0},
+  {"question": "What is the viewport transformation?", "options": ["Maps normalized coordinates to screen coordinates", "Maps world to camera", "Maps model to world", "Maps camera to light"], "answer": 0},
+  {"question": "What is frustum culling?", "options": ["Removing objects outside the viewing frustum", "Adding objects to the scene", "Clipping polygons", "Sorting polygons"], "answer": 0},
+  {"question": "What is the purpose of the stencil buffer?", "options": ["Controlling which pixels are updated", "Storing color values", "Storing depth values", "Storing texture coordinates"], "answer": 0}
+]

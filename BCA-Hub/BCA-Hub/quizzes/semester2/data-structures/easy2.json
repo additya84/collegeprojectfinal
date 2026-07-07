@@ -1,0 +1,17 @@
+[
+  {"question": "What is adjacency matrix used for?", "options": ["Representing graphs", "Sorting data", "Searching data", "Traversing arrays"], "answer": 0},
+  {"question": "Which algorithm is used to find the shortest path in a graph?", "options": ["DFS", "BFS", "Dijkstra's", "Kruskal's"], "answer": 2},
+  {"question": "What is the time complexity of bubble sort in the worst case?", "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"], "answer": 2},
+  {"question": "Which sorting algorithm has the best average time complexity?", "options": ["Bubble sort", "Selection sort", "Insertion sort", "Merge sort"], "answer": 3},
+  {"question": "What is the pivot element in quicksort?", "options": ["The first element", "The last element", "A chosen element for partitioning", "The middle element"], "answer": 2},
+  {"question": "Which data structure is used for breadth-first search?", "options": ["Stack", "Queue", "Array", "Tree"], "answer": 1},
+  {"question": "Which data structure is used for depth-first search?", "options": ["Queue", "Stack", "Array", "Linked list"], "answer": 1},
+  {"question": "What is hashing?", "options": ["Mapping keys to indices", "Sorting data", "Searching data", "Inserting data"], "answer": 0},
+  {"question": "What is a collision in hashing?", "options": ["Two keys map to the same index", "Two keys are identical", "Key is not found", "Table is full"], "answer": 0},
+  {"question": "Which of the following is a collision resolution method?", "options": ["Chaining", "Sorting", "Merging", "Balancing"], "answer": 0},
+  {"question": "What is a doubly linked list?", "options": ["Nodes with two pointers", "Nodes with one pointer", "Circular list", "Linked list with head only"], "answer": 0},
+  {"question": "What is the advantage of a circular linked list?", "options": ["No null pointers", "Faster search", "Less memory", "Easier sorting"], "answer": 0},
+  {"question": "What is a stack overflow?", "options": ["Stack is empty", "Stack is full", "Stack has one element", "Stack is corrupted"], "answer": 1},
+  {"question": "What does 'peek' operation do in a stack?", "options": ["Removes top element", "Returns top element without removing", "Adds an element", "Clears stack"], "answer": 1},
+  {"question": "What is the time complexity of push operation in a stack implemented with an array?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": 0}
+]

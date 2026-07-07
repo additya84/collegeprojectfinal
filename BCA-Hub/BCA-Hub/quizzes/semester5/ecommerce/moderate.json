@@ -1,0 +1,17 @@
+[
+  {"question": "Explain the difference between B2B and B2C e-commerce models.", "options": ["B2B sells to businesses, B2C sells to consumers", "Both are same", "B2C sells to businesses", "B2B sells to consumers"], "answer": 0},
+  {"question": "What is the role of EDI in supply chain management?", "options": ["Electronic document exchange between partners", "Physical document delivery", "Phone communication", "Manual data entry"], "answer": 0},
+  {"question": "How does a payment gateway ensure transaction security?", "options": ["Encryption and tokenization", "Physical guards", "Paper receipts", "Email confirmation"], "answer": 0},
+  {"question": "What is the difference between SSL and TLS?", "options": ["TLS is successor of SSL", "Same protocol", "SSL is newer", "No difference"], "answer": 0},
+  {"question": "Explain the concept of drop shipping business model.", "options": ["Store sells without holding inventory", "Store manufactures products", "Store warehouses products", "Store retails in physical location"], "answer": 0},
+  {"question": "What is the impact of e-commerce on traditional retail?", "options": ["Shift towards online shopping", "No impact", "Complete replacement", "Only positive effects"], "answer": 0},
+  {"question": "How does a digital signature provide non-repudiation?", "options": ["Sender cannot deny sending message", "Encrypts the message", "Decrypts the message", "Compresses the data"], "answer": 0},
+  {"question": "What is the role of a public key infrastructure in e-commerce?", "options": ["Manage encryption keys and certificates", "Design websites", "Host servers", "Manage databases"], "answer": 0},
+  {"question": "Explain the concept of m-commerce.", "options": ["Commercial transactions via mobile devices", "Desktop based commerce", "Television commerce", "Catalog commerce"], "answer": 0},
+  {"question": "What are the advantages of e-commerce for consumers?", "options": ["Convenience, variety, price comparison", "Limited options", "Higher prices", "Inconvenience"], "answer": 0},
+  {"question": "How does affiliate marketing work?", "options": ["Commission based referral selling", "Direct selling of products", "Wholesale purchasing", "Manufacturing goods"], "answer": 0},
+  {"question": "What is the meaning of PCI DSS compliance?", "options": ["Payment Card Industry Data Security Standard", "Personal Computer Integration Standard", "Processor Control Interface Standard", "Protocol Configuration Data System"], "answer": 0},
+  {"question": "Describe the characteristics of a successful e-commerce website.", "options": ["User-friendly, secure, fast, responsive", "Complex and slow", "Only visually appealing", "No security needed"], "answer": 0},
+  {"question": "What is the role of logistics in e-commerce?", "options": ["Product delivery and supply chain management", "Website design", "Payment processing", "Marketing and ads"], "answer": 0},
+  {"question": "Explain the concept of dynamic pricing in e-commerce.", "options": ["Real-time price adjustment based on demand", "Fixed pricing always", "Discounted pricing only", "Barter pricing"], "answer": 0}
+]

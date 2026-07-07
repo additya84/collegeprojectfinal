@@ -1,0 +1,17 @@
+[
+  {"question": "What is vector graphics?", "options": ["Graphics based on mathematical equations", "Graphics based on pixels", "Graphics based on text", "Graphics based on photographs"], "answer": 0},
+  {"question": "Which software is used for image editing?", "options": ["Photoshop", "Audacity", "PowerPoint", "Word"], "answer": 0},
+  {"question": "What is the sampling rate in audio?", "options": ["Number of samples per second", "Number of bits per sample", "Number of channels", "Volume level"], "answer": 0},
+  {"question": "What is the standard sampling rate for CD quality audio?", "options": ["44.1 kHz", "22.05 kHz", "48 kHz", "96 kHz"], "answer": 0},
+  {"question": "Which compression standard is used for video?", "options": ["MPEG", "JPEG", "PNG", "GIF"], "answer": 0},
+  {"question": "What does MPEG stand for?", "options": ["Moving Picture Experts Group", "Media Picture Encoding Group", "Multi-Protocol Encoding Group", "Motion Picture Enhancement Group"], "answer": 0},
+  {"question": "What is lossy compression?", "options": ["Some data is permanently lost", "No data is lost", "File size remains same", "Quality is unchanged"], "answer": 0},
+  {"question": "What is the extension for JPEG images?", "options": [".jpg", ".png", ".gif", ".bmp"], "answer": 0},
+  {"question": "Which audio format is uncompressed?", "options": ["WAV", "MP3", "AAC", "OGG"], "answer": 0},
+  {"question": "What is a codec?", "options": ["Software for encoding/decoding media", "A type of file", "A hardware device", "A compression algorithm"], "answer": 0},
+  {"question": "What is interframe compression?", "options": ["Compression across multiple video frames", "Compression within a single frame", "Audio compression", "Text compression"], "answer": 0},
+  {"question": "What is intraframe compression?", "options": ["Compression within a single frame", "Compression across multiple frames", "Compression of audio", "Compression of text"], "answer": 0},
+  {"question": "Which format supports transparency in images?", "options": ["PNG", "JPEG", "BMP", "TIFF"], "answer": 0},
+  {"question": "What is the color depth of an image?", "options": ["Number of bits used to represent a pixel", "Size of the image", "Number of pixels", "Compression ratio"], "answer": 0},
+  {"question": "What does WMV stand for?", "options": ["Windows Media Video", "Web Media Video", "Wide Media Video", "Wireless Media Video"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is the maximum throughput of a Gigabit Ethernet network?", "options": ["100 Mbps", "500 Mbps", "1 Gbps", "10 Gbps"], "answer": 2},
+  {"question": "Which TCP flag is used to terminate a connection?", "options": ["SYN", "ACK", "FIN", "RST"], "answer": 2},
+  {"question": "What is the difference between TCP and UDP in terms of header size?", "options": ["TCP: 20 bytes, UDP: 8 bytes", "TCP: 8 bytes, UDP: 20 bytes", "TCP: 20 bytes, UDP: 20 bytes", "TCP: 40 bytes, UDP: 8 bytes"], "answer": 0},
+  {"question": "Which protocol is used for multicast communication?", "options": ["UDP", "TCP", "IGMP", "ICMP"], "answer": 2},
+  {"question": "What is the purpose of the OSPF routing protocol?", "options": ["Link-state routing within an AS", "Distance-vector routing", "Policy-based routing", "Path-vector routing"], "answer": 0},
+  {"question": "What is the maximum number of hosts in a /24 subnet?", "options": ["254", "256", "255", "252"], "answer": 0},
+  {"question": "Which security protocol operates at the Network Layer?", "options": ["SSL", "TLS", "IPsec", "SSH"], "answer": 2},
+  {"question": "What is the purpose of BGP?", "options": ["Routing between autonomous systems", "Routing within an autonomous system", "Assigning IP addresses", "Network address translation"], "answer": 0},
+  {"question": "Which type of cable is best for long-distance high-speed communication?", "options": ["Coaxial", "Twisted Pair", "Fiber Optic", "Cat6"], "answer": 2},
+  {"question": "What is the window size field in TCP header?", "options": ["8 bits", "16 bits", "32 bits", "64 bits"], "answer": 1},
+  {"question": "Which authentication protocol uses a three-way handshake?", "options": ["PAP", "CHAP", "EAP", "RADIUS"], "answer": 1},
+  {"question": "What is the maximum data rate of 802.11ac standard?", "options": ["54 Mbps", "300 Mbps", "1.3 Gbps", "600 Mbps"], "answer": 2},
+  {"question": "Which technique is used for Flow Control in TCP?", "options": ["Sliding Window", "Stop-and-Wait", "Go-Back-N", "Selective Repeat"], "answer": 0},
+  {"question": "What is a collision domain?", "options": ["A segment where data packets can collide", "A network with no switches", "A subnet with multiple routers", "A domain name conflict"], "answer": 0},
+  {"question": "Which protocol provides both authentication and encryption?", "options": ["FTPS", "SFTP", "TFTP", "HTTP"], "answer": 1}
+]

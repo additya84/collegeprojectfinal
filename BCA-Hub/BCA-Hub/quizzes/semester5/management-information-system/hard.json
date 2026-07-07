@@ -1,0 +1,17 @@
+[
+  {"question": "Analyze the impact of cloud computing on MIS infrastructure.", "options": ["Scalable, cost-effective, accessible from anywhere", "No impact", "Increases costs", "Reduces accessibility"], "answer": 0},
+  {"question": "How does big data analytics enhance MIS capabilities?", "options": ["Process massive datasets for deeper insights and patterns", "No enhancement", "Only small data", "Same as traditional"], "answer": 0},
+  {"question": "Compare the roles of CIO, CTO, and IT manager in an organization.", "options": ["CIO: strategy; CTO: technology; IT Manager: operations", "All same role", "One role only", "No roles defined"], "answer": 0},
+  {"question": "Explain the concept of a balanced scorecard in MIS.", "options": ["Strategic performance measurement across four perspectives", "Financial measure only", "Customer measure only", "No measurement"], "answer": 0},
+  {"question": "How does artificial intelligence integrate with DSS?", "options": ["AI enhances DSS with prediction, optimization, and learning", "No integration", "AI replaces DSS", "DSS is obsolete"], "answer": 0},
+  {"question": "Analyze the security challenges in management information systems.", "options": ["Data breaches, unauthorized access, cyber threats requiring protection", "No challenges", "Only physical security", "Easy to secure"], "answer": 0},
+  {"question": "Compare the decision-making models: classical, administrative, and political.", "options": ["Different assumptions about rationality and information availability", "All same model", "Only classical exists", "No models"], "answer": 0},
+  {"question": "How does enterprise resource planning support decision making?", "options": ["Unified data enables cross-functional analysis and reporting", "No decision support", "Only accounting data", "Only HR data"], "answer": 0},
+  {"question": "Explain the concept of data governance in MIS.", "options": ["Policies and processes for data quality, security, and compliance", "No governance needed", "Only data entry", "Only backups"], "answer": 0},
+  {"question": "What is the role of MIS in knowledge management?", "options": ["Capture, store, share, and apply organizational knowledge", "No role", "Only documents", "Only training"], "answer": 0},
+  {"question": "Analyze the ethical issues in management information systems.", "options": ["Privacy, accuracy, property, accessibility concerns", "No ethical issues", "Only legal issues", "Only technical issues"], "answer": 0},
+  {"question": "How does a geographic information system integrate with MIS?", "options": ["Spatial data analysis for location-based decisions", "No integration", "Only maps", "Only coordinates"], "answer": 0},
+  {"question": "Compare the different types of information systems in an organization.", "options": ["TPS, MIS, DSS, ESS, KMS each serve different organizational levels", "All serve same purpose", "Only one system", "No systems exist"], "answer": 0},
+  {"question": "Explain the system development methodologies and their suitability.", "options": ["Waterfall for stable requirements; Agile for changing requirements", "One methodology for all", "No methodologies", "Only coding"], "answer": 0},
+  {"question": "What is the impact of mobile technology on MIS?", "options": ["Mobile access enables real-time decision making anywhere", "No impact", "Reduces access", "Slows decisions"], "answer": 0}
+]

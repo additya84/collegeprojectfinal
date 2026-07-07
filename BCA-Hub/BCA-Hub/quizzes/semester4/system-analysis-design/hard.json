@@ -1,0 +1,17 @@
+[
+  {"question": "Which of the following is a disadvantage of the waterfall model?", "options": ["Inflexible to requirement changes", "Too flexible", "No documentation", "Cannot be used for small projects"], "answer": 0},
+  {"question": "What is the main advantage of the spiral model?", "options": ["Risk management is built in", "Low cost", "Fast delivery", "Simple to implement"], "answer": 0},
+  {"question": "Which coupling is considered the strongest (worst)?", "options": ["Content coupling", "Data coupling", "Stamp coupling", "Control coupling"], "answer": 0},
+  {"question": "What is transform analysis in structured design?", "options": ["Mapping DFD to structure chart", "Data transformation", "Code compilation", "System testing"], "answer": 0},
+  {"question": "Which of the following is a requirement elicitation technique?", "options": ["Joint Application Development (JAD)", "Unit testing", "System testing", "Code review"], "answer": 0},
+  {"question": "What does the term 'fan-in' and 'fan-out' refer to in module design?", "options": ["Number of modules calling a module and modules called", "Data input and output", "User requests and responses", "System inputs and outputs"], "answer": 0},
+  {"question": "Which of the following is a quality metric for system design?", "options": ["Modularity", "Complexity", "Maintainability", "All of the above"], "answer": 3},
+  {"question": "What is transaction analysis in structured design?", "options": ["Identifying transaction centers in DFD", "Financial transaction analysis", "Database transaction analysis", "System transaction logging"], "answer": 0},
+  {"question": "Which level of testing is performed after integration testing?", "options": ["System testing", "Unit testing", "Module testing", "Regression testing"], "answer": 0},
+  {"question": "What is the purpose of regression testing?", "options": ["To ensure changes don't break existing functionality", "To test new features only", "To test the complete system", "To test user acceptance"], "answer": 0},
+  {"question": "Which of the following is a CASE tool category?", "options": ["Upper CASE", "Middle CASE", "Lower CASE", "Both upper and lower CASE"], "answer": 3},
+  {"question": "What is a data modeling technique in system analysis?", "options": ["Entity relationship modeling", "Flowcharting", "Pseudocode", "Structure chart"], "answer": 0},
+  {"question": "Which SDLC model is best for large, complex, high-risk projects?", "options": ["Spiral model", "Waterfall model", "V-model", "Agile model"], "answer": 0},
+  {"question": "What is the purpose of structured walkthrough?", "options": ["To review system design for errors", "To test the system", "To code the system", "To deploy the system"], "answer": 0},
+  {"question": "Which of the following is a top-down design approach?", "options": ["Stepwise refinement", "Bottom-up integration", "Big bang integration", "All at once design"], "answer": 0}
+]

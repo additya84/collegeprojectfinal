@@ -1,0 +1,17 @@
+[
+  {"question": "What is ASP.NET?", "options": ["Web framework by Microsoft", "Database system", "Operating system", "Programming language"], "answer": 0},
+  {"question": "What is a Web Form in ASP.NET?", "options": ["UI component for web pages", "Database table", "Network protocol", "File format"], "answer": 0},
+  {"question": "What is ADO.NET used for?", "options": ["Database access in .NET", "Web page design", "Network communication", "File management"], "answer": 0},
+  {"question": "What is ViewState in ASP.NET?", "options": ["Page state preservation mechanism", "Database view", "State of server", "User profile"], "answer": 0},
+  {"question": "What is a Web Service?", "options": ["Application communicating over web", "Web page only", "Database table", "File server"], "answer": 0},
+  {"question": "What is the code-behind model in ASP.NET?", "options": ["Separates UI from logic", "Combines UI and logic", "Only UI code", "Only logic code"], "answer": 0},
+  {"question": "What is a Master Page in ASP.NET?", "options": ["Template for consistent layout", "Main database table", "Primary web page", "Server configuration"], "answer": 0},
+  {"question": "What is a User Control in ASP.NET?", "options": ["Reusable custom UI component", "User profile page", "Database user", "Login form"], "answer": 0},
+  {"question": "What is the Global.asax file used for?", "options": ["Application-level events handling", "Page layout", "Database connection", "Web service definition"], "answer": 0},
+  {"question": "What is a Session in ASP.NET?", "options": ["User-specific state storage", "Database connection", "Web page", "Configuration file"], "answer": 0},
+  {"question": "What is a Cookie in web applications?", "options": ["Small data stored on client", "Server cache", "Database record", "Web page"], "answer": 0},
+  {"question": "What is the Web.config file?", "options": ["Application configuration file", "Web page file", "Database file", "Style sheet file"], "answer": 0},
+  {"question": "What is a PostBack in ASP.NET?", "options": ["Page submitted to itself", "Redirect to another page", "Database query", "Server restart"], "answer": 0},
+  {"question": "What is an HTTP Handler?", "options": ["Processes HTTP requests", "Handles database queries", "Manages files", "Configures network"], "answer": 0},
+  {"question": "What is the difference between Response.Redirect and Server.Transfer?", "options": ["Redirect sends to client; Transfer stays on server", "Both are same", "Transfer sends to client", "Redirect stays on server"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What does CV stand for?", "options": ["Career Vision", "Curriculum Vitae", "Certified Vocational", "Career Value"], "answer": 1},
+  {"question": "Which is NOT included in a resume?", "options": ["Contact info", "Work experience", "Hobbies unrelated to job", "Education"], "answer": 2},
+  {"question": "What is an interview called when there is no prior notice?", "options": ["Panel interview", "Stress interview", "Telephonic interview", "Walk-in interview"], "answer": 2},
+  {"question": "Which is a type of listening?", "options": ["Appreciative", "Empathetic", "Critical", "All of the above"], "answer": 3},
+  {"question": "What is the meaning of 'Pros and cons'?", "options": ["Advantages and disadvantages", "For and against", "Good and bad", "All of the above"], "answer": 3},
+  {"question": "Which communication channel is richest?", "options": ["Email", "Face-to-face", "Memo", "Notice board"], "answer": 1},
+  {"question": "What is the correct punctuation for a question?", "options": [".", "!", "?", ","], "answer": 2},
+  {"question": "Which is an example of a conjunction?", "options": ["And", "In", "Quickly", "Beautiful"], "answer": 0},
+  {"question": "What is the comparative form of 'Good'?", "options": ["Gooder", "Better", "Best", "More good"], "answer": 1},
+  {"question": "Which of these is a modal verb?", "options": ["Run", "Can", "Eat", "Sleep"], "answer": 1},
+  {"question": "What is an effective presentation skill?", "options": ["Reading from slides", "Eye contact with audience", "Speaking fast", "Ignoring questions"], "answer": 1},
+  {"question": "What is 'paralanguage'?", "options": ["Body movement", "Voice tone and pitch", "Words used", "Facial expression"], "answer": 1},
+  {"question": "Which of the following is a barrier to effective communication?", "options": ["Clarity", "Feedback", "Noise", "Appropriate medium"], "answer": 2},
+  {"question": "What does the acronym 'SMART' stand for in goal setting?", "options": ["Specific, Measurable, Achievable, Relevant, Time-bound", "Simple, Measurable, Accurate, Relevant, Timely", "Specific, Meaningful, Achievable, Relevant, Time-bound", "Simple, Measurable, Achievable, Relevant, Timely"], "answer": 0},
+  {"question": "Which is an example of upward communication?", "options": ["Manager to staff", "Staff to manager", "Peer to peer", "Company to customer"], "answer": 1}
+]

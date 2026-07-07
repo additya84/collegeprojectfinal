@@ -1,0 +1,17 @@
+[
+  {"question": "Which CSS property is used to change font size?", "options": ["font-size", "text-size", "font-style", "size"], "answer": 0},
+  {"question": "Which HTML element is used to define an unordered list?", "options": ["<ul>", "<ol>", "<li>", "<list>"], "answer": 0},
+  {"question": "JavaScript code is written inside which tag?", "options": ["<script>", "<js>", "<javascript>", "<code>"], "answer": 0},
+  {"question": "What does the <div> tag do in HTML?", "options": ["Defines a division or section", "Defines a heading", "Defines a paragraph", "Defines a table"], "answer": 0},
+  {"question": "What is web hosting?", "options": ["Service that stores website files", "Designing a website", "Writing HTML code", "Creating graphics"], "answer": 0},
+  {"question": "Which of the following is a CSS selector?", "options": [".class", "#id", "element", "All of the above"], "answer": 3},
+  {"question": "What is the correct HTML for a table row?", "options": ["<tr>", "<td>", "<th>", "<table>"], "answer": 0},
+  {"question": "What does the <form> tag in HTML create?", "options": ["User input form", "Table", "Image", "Link"], "answer": 0},
+  {"question": "Which attribute defines an image source?", "options": ["src", "href", "link", "source"], "answer": 0},
+  {"question": "What is a domain name?", "options": ["Human-readable website address", "IP address", "Server location", "File name"], "answer": 0},
+  {"question": "Which CSS property is used for background color?", "options": ["background-color", "bgcolor", "color", "background"], "answer": 0},
+  {"question": "Which HTML tag is used for bold text?", "options": ["<b>", "<strong>", "<bold>", "Both A and B"], "answer": 3},
+  {"question": "What is the purpose of a web browser?", "options": ["To display web pages", "To write HTML", "To host websites", "To design websites"], "answer": 0},
+  {"question": "Which tag is used for italic text in HTML?", "options": ["<i>", "<italic>", "<em>", "Both A and C"], "answer": 3},
+  {"question": "What does WWW stand for?", "options": ["World Wide Web", "World Web Wide", "Web World Wide", "Wide World Web"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "Which of the following is a liquidity ratio?", "options": ["Quick ratio", "Gross profit ratio", "Operating ratio", "Return on investment"], "answer": 0},
+  {"question": "The journal entry for cash sales is:", "options": ["Debit Cash, Credit Sales", "Debit Sales, Credit Cash", "Debit Cash, Credit Purchases", "Debit Purchases, Credit Cash"], "answer": 0},
+  {"question": "What is a contra entry?", "options": ["Entry affecting both cash and bank", "Entry affecting only cash", "Entry affecting only bank", "Entry for depreciation"], "answer": 0},
+  {"question": "Which of the following ratios measures profitability?", "options": ["Net profit ratio", "Current ratio", "Quick ratio", "Debt-equity ratio"], "answer": 0},
+  {"question": "A company's debt-equity ratio is 2:1. This indicates:", "options": ["High financial leverage", "Low financial leverage", "High liquidity", "Low liquidity"], "answer": 0},
+  {"question": "The cost of goods sold is calculated as:", "options": ["Opening stock + Purchases - Closing stock", "Opening stock + Purchases + Closing stock", "Sales + Closing stock - Opening stock", "Sales - Opening stock + Purchases"], "answer": 0},
+  {"question": "Which of the following is a solvency ratio?", "options": ["Debt-equity ratio", "Current ratio", "Stock turnover ratio", "Gross profit ratio"], "answer": 0},
+  {"question": "What is the purpose of creating a reserve?", "options": ["To strengthen financial position", "To pay expenses", "To distribute profit", "To buy assets"], "answer": 0},
+  {"question": "Accrual concept recognizes revenue when:", "options": ["Earned, not when received", "Received, not when earned", "Paid, not when incurred", "Recorded in cash book"], "answer": 0},
+  {"question": "Which of the following is an activity ratio?", "options": ["Stock turnover ratio", "Current ratio", "Debt-equity ratio", "Net profit ratio"], "answer": 0},
+  {"question": "The rule for nominal account is:", "options": ["Debit all expenses, credit all incomes", "Debit the receiver, credit the giver", "Debit what comes in, credit what goes out", "Debit the giver, credit the receiver"], "answer": 0},
+  {"question": "What does a debit balance in a personal account indicate?", "options": ["Amount receivable", "Amount payable", "Expense", "Income"], "answer": 0},
+  {"question": "Which of the following is a tool of financial analysis?", "options": ["Ratio analysis", "Journal entry", "Ledger posting", "Trial balance"], "answer": 0},
+  {"question": "What is a subsidiary book?", "options": ["Book for recording specific types of transactions", "Main ledger", "Trial balance", "Balance sheet"], "answer": 0},
+  {"question": "Depreciation is calculated on:", "options": ["Fixed assets", "Current assets", "Intangible assets", "Liquid assets"], "answer": 0}
+]

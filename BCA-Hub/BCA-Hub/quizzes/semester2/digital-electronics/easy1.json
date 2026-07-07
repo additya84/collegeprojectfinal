@@ -1,0 +1,17 @@
+[
+  {"question": "Which number system uses only 0 and 1?", "options": ["Decimal", "Binary", "Octal", "Hexadecimal"], "answer": 1},
+  {"question": "What is the binary equivalent of decimal 10?", "options": ["1010", "1001", "1100", "1011"], "answer": 0},
+  {"question": "What is the hexadecimal equivalent of decimal 15?", "options": ["E", "F", "G", "10"], "answer": 1},
+  {"question": "What is the decimal equivalent of binary 1011?", "options": ["10", "11", "12", "13"], "answer": 1},
+  {"question": "Which gate gives output 1 only when both inputs are 1?", "options": ["OR", "AND", "NAND", "NOR"], "answer": 1},
+  {"question": "Which gate gives output 1 when at least one input is 1?", "options": ["AND", "OR", "NAND", "XNOR"], "answer": 1},
+  {"question": "What is the output of a NOT gate when input is 1?", "options": ["0", "1", "High impedance", "Error"], "answer": 0},
+  {"question": "Which gate is the complement of AND gate?", "options": ["OR", "NAND", "NOR", "XOR"], "answer": 1},
+  {"question": "Which gate gives output 1 when inputs are different?", "options": ["AND", "OR", "XOR", "XNOR"], "answer": 2},
+  {"question": "What is the output of a NAND gate when both inputs are 1?", "options": ["0", "1", "High impedance", "Undefined"], "answer": 0},
+  {"question": "What is De Morgan's theorem?", "options": ["(A+B)' = A' * B'", "(A*B)' = A' + B'", "Both a and b", "None"], "answer": 2},
+  {"question": "Which logic family has the highest speed?", "options": ["TTL", "CMOS", "ECL", "RTL"], "answer": 2},
+  {"question": "What is a flip-flop?", "options": ["A combinational circuit", "A sequential circuit", "A logic gate", "A multiplexer"], "answer": 1},
+  {"question": "How many inputs does an SR flip-flop have?", "options": ["1", "2", "3", "4"], "answer": 1},
+  {"question": "What is the race condition in JK flip-flop?", "options": ["Output oscillates", "Output is stable", "Output is zero", "Output is one"], "answer": 0}
+]

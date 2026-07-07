@@ -1,0 +1,17 @@
+[
+  {"question": "What is the V-Model in software engineering?", "options": ["Verification and Validation model", "Vector model", "Vertical model", "Virtual model"], "answer": 0},
+  {"question": "What is the Spiral Model known for?", "options": ["Risk-driven iterative development", "Linear sequential development", "Incremental delivery", "Customer collaboration"], "answer": 0},
+  {"question": "What is Agile methodology?", "options": ["Iterative development with customer collaboration", "Documentation-heavy approach", "Linear sequence approach", "One-time delivery"], "answer": 0},
+  {"question": "What is a user story in Agile?", "options": ["A brief description of a feature from user perspective", "A technical specification", "A design document", "A test case"], "answer": 0},
+  {"question": "What is a sprint in Scrum?", "options": ["A time-boxed development cycle", "A meeting", "A document", "A testing phase"], "answer": 0},
+  {"question": "What is the role of a Scrum Master?", "options": ["Facilitate Scrum process and remove obstacles", "Manage the team", "Write code", "Test software"], "answer": 0},
+  {"question": "What is a product backlog?", "options": ["List of features and requirements", "A code repository", "A bug tracker", "A design document"], "answer": 0},
+  {"question": "What is refactoring?", "options": ["Improving code structure without changing behavior", "Rewriting code completely", "Adding new features", "Testing code"], "answer": 0},
+  {"question": "What is a design pattern?", "options": ["A reusable solution to a common problem", "A programming language", "A test strategy", "A deployment plan"], "answer": 0},
+  {"question": "What is UML?", "options": ["Unified Modeling Language", "Universal Markup Language", "Unified Markup Language", "Universal Modeling Language"], "answer": 0},
+  {"question": "What is a use case diagram used for?", "options": ["Showing interactions between actors and system", "Showing database schema", "Showing network topology", "Showing code structure"], "answer": 0},
+  {"question": "What is a class diagram?", "options": ["Showing classes and relationships in OOP", "Showing use cases", "Showing sequences", "Showing activities"], "answer": 0},
+  {"question": "What is a sequence diagram?", "options": ["Showing object interactions over time", "Showing class hierarchy", "Showing data flow", "Showing deployment"], "answer": 0},
+  {"question": "What is software quality assurance?", "options": ["Process to ensure software meets quality standards", "Writing code", "Designing UI", "Managing projects"], "answer": 0},
+  {"question": "What is a software metric?", "options": ["A measure of software characteristics", "A type of software", "A testing tool", "A programming language"], "answer": 0}
+]

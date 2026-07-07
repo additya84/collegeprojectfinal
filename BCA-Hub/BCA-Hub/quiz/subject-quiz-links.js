@@ -31,14 +31,6 @@
     }
 
     function getDataPath(quizId) {
-        if (semester === "semester1") {
-            return `../quizzes/${semester}/${dataSubject}/${quizId}.json`;
-        }
-
-        if (semester === "semester2") {
-            return `../semester2/${dataSubject}/${quizId}.json`;
-        }
-
         return `../quizzes/${semester}/${dataSubject}/${quizId}.json`;
     }
 

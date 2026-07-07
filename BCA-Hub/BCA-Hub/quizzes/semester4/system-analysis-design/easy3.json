@@ -1,0 +1,17 @@
+[
+  {"question": "What is the full form of CASE in system design?", "options": ["Computer Aided Software Engineering", "Computer Automated System Engineering", "Code Analysis and System Evaluation", "Computer Application System Environment"], "answer": 0},
+  {"question": "Which diagram shows the physical flow of data?", "options": ["System flowchart", "Data flow diagram", "Entity relationship diagram", "Structure chart"], "answer": 0},
+  {"question": "What is a data store in DFD?", "options": ["Repository where data is stored", "External entity", "Process", "Data flow"], "answer": 0},
+  {"question": "What is white box testing?", "options": ["Testing internal structure and code", "Testing functionality only", "User acceptance testing", "System testing"], "answer": 0},
+  {"question": "What is the goal of maintenance phase?", "options": ["To modify system after deployment", "To design the system", "To test the system", "To gather requirements"], "answer": 0},
+  {"question": "Which of the following is a structured analysis tool?", "options": ["DFD", "Pie chart", "Bar chart", "Histogram"], "answer": 0},
+  {"question": "What is a feasibility report?", "options": ["Document summarizing feasibility analysis", "Testing report", "Design specification", "User manual"], "answer": 0},
+  {"question": "What is a Gantt chart used for?", "options": ["Project scheduling", "Data flow analysis", "Database design", "Code structure"], "answer": 0},
+  {"question": "Which phase of SDLC produces the system design specification?", "options": ["Design phase", "Requirement phase", "Testing phase", "Implementation phase"], "answer": 0},
+  {"question": "What is the purpose of a system flowchart?", "options": ["To show overall system operation", "To show data relationships", "To show program logic", "To show database structure"], "answer": 0},
+  {"question": "What is a stakeholder in system analysis?", "options": ["Anyone affected by the system", "System developer only", "End user only", "Manager only"], "answer": 0},
+  {"question": "The spiral model combines:", "options": ["Prototyping and waterfall model", "Waterfall and agile model", "Agile and scrum", "V-model and waterfall"], "answer": 0},
+  {"question": "What is output design?", "options": ["Designing reports and displays", "Designing input screens", "Designing databases", "Designing network"], "answer": 0},
+  {"question": "Which feasibility considers cost-benefit analysis?", "options": ["Economic feasibility", "Technical feasibility", "Operational feasibility", "Legal feasibility"], "answer": 0},
+  {"question": "What is a use case diagram?", "options": ["Diagram showing system-user interactions", "Data flow diagram", "Flowchart", "Structure chart"], "answer": 0}
+]

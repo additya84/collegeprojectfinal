@@ -1,0 +1,17 @@
+[
+  {"question": "What is statistics?", "options": ["Science of collecting and analyzing data", "Study of computers", "Study of languages", "Study of history"], "answer": 0},
+  {"question": "What is the mean of a dataset?", "options": ["Sum of values divided by count", "Middle value", "Most frequent value", "Range of values"], "answer": 0},
+  {"question": "What is the median?", "options": ["Middle value when sorted", "Average of all values", "Most common value", "Difference of extremes"], "answer": 0},
+  {"question": "What is the mode?", "options": ["Most frequently occurring value", "Average value", "Middle value", "Largest value"], "answer": 0},
+  {"question": "What is the range in statistics?", "options": ["Difference between max and min", "Sum of all values", "Middle value", "Average value"], "answer": 0},
+  {"question": "What is variance?", "options": ["Measure of data spread", "Center of data", "Most common value", "Data count"], "answer": 0},
+  {"question": "What is standard deviation?", "options": ["Square root of variance", "Square of variance", "Mean of data", "Median of data"], "answer": 0},
+  {"question": "What is probability?", "options": ["Likelihood of an event occurring", "Certainty of an event", "Impossible event", "Data collection"], "answer": 0},
+  {"question": "What is correlation?", "options": ["Relationship between two variables", "Difference of variables", "Sum of variables", "Product of variables"], "answer": 0},
+  {"question": "What is a frequency distribution?", "options": ["Table showing frequency of values", "Pie chart", "Bar graph", "Line graph"], "answer": 0},
+  {"question": "What is a histogram?", "options": ["Bar graph of frequency distribution", "Pie chart", "Line graph", "Scatter plot"], "answer": 0},
+  {"question": "What is a sample in statistics?", "options": ["Subset of population", "Entire population", "Data point", "Statistical measure"], "answer": 0},
+  {"question": "What is a population in statistics?", "options": ["Entire group being studied", "Subset of group", "Sample data", "Individual element"], "answer": 0},
+  {"question": "What is the coefficient of correlation range?", "options": ["-1 to +1", "0 to 1", "-inf to +inf", "0 to 100"], "answer": 0},
+  {"question": "What is regression analysis?", "options": ["Modeling relationship between variables", "Counting frequency", "Sorting data", "Deleting data"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is the .NET Framework?", "options": ["Software development platform by Microsoft", "Operating system", "Web browser", "Database server"], "answer": 0},
+  {"question": "What is a namespace in .NET?", "options": ["Logical grouping of classes", "File folder", "Database schema", "Network address"], "answer": 0},
+  {"question": "What is the Common Language Runtime?", "options": ["Execution engine for .NET applications", "Web server", "Database engine", "File system"], "answer": 0},
+  {"question": "What is a compiled language in .NET context?", "options": ["Code converted to IL then machine code", "Interpreted code", "Script code", "Markup code"], "answer": 0},
+  {"question": "What is an assembly in .NET?", "options": ["Compiled code library", "Hardware component", "Network device", "Database table"], "answer": 0},
+  {"question": "What is a Web Service Description Language used for?", "options": ["Describe web service interfaces", "Design web pages", "Manage databases", "Configure servers"], "answer": 0},
+  {"question": "What is SOAP in web services?", "options": ["XML-based messaging protocol", "Database protocol", "File transfer protocol", "Email protocol"], "answer": 0},
+  {"question": "What is REST in web services?", "options": ["Architectural style for APIs", "Database system", "File format", "Hardware standard"], "answer": 0},
+  {"question": "What is a DataSet in ADO.NET?", "options": ["In-memory cache of data", "Database table", "File on disk", "Network connection"], "answer": 0},
+  {"question": "What is a DataReader in ADO.NET?", "options": ["Forward-only read-only data stream", "In-memory table", "Database writer", "File reader"], "answer": 0},
+  {"question": "What is a Connection object in ADO.NET?", "options": ["Manages database connection", "Web page connection", "Network socket", "File handle"], "answer": 0},
+  {"question": "What is a Command object in ADO.NET?", "options": ["Executes SQL queries", "Opens files", "Sends emails", "Creates web pages"], "answer": 0},
+  {"question": "What is a DataAdapter in ADO.NET?", "options": ["Bridges DataSet and database", "Network adapter", "File adapter", "Web adapter"], "answer": 0},
+  {"question": "What is a GridView control?", "options": ["Data display in tabular format", "Drawing tool", "Layout container", "Navigation menu"], "answer": 0},
+  {"question": "What is a Repeater control?", "options": ["Data-bound list with custom templates", "Database replication tool", "Network repeater", "File copier"], "answer": 0}
+]

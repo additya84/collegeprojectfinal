@@ -1,0 +1,17 @@
+[
+  {"question": "Which level of DFD provides detailed view of a process?", "options": ["Level 1 DFD", "Context diagram", "Level 0 DFD", "Level 2 DFD"], "answer": 0},
+  {"question": "What is the difference between logical and physical DFD?", "options": ["Logical shows what system does; physical shows how", "Physical shows what; logical shows how", "Both are the same", "Neither is used in system analysis"], "answer": 0},
+  {"question": "Which testing method checks individual modules in isolation?", "options": ["Unit testing", "Integration testing", "System testing", "Acceptance testing"], "answer": 0},
+  {"question": "The V-model in SDLC emphasizes:", "options": ["Verification and validation", "Speed of development", "Cost reduction", "User involvement"], "answer": 0},
+  {"question": "What is a decision tree in system analysis?", "options": ["Graphical representation of decision logic", "Tree data structure", "Binary tree", "Database index"], "answer": 0},
+  {"question": "Which of the following is a structured English representation?", "options": ["Pseudocode", "DFD", "ER diagram", "Flowchart"], "answer": 0},
+  {"question": "What is the main purpose of a feasibility study?", "options": ["To determine if project is worth undertaking", "To write code", "To design the system", "To test the system"], "answer": 0},
+  {"question": "Which of the following is a fact-finding technique?", "options": ["Interview", "Coding", "Testing", "Debugging"], "answer": 0},
+  {"question": "What is a balanced line in DFD?", "options": ["Equal inputs and outputs between levels", "Equal number of processes", "Equal data stores", "Equal external entities"], "answer": 0},
+  {"question": "Which design approach decomposes system into modules?", "options": ["Structured design", "Object-oriented design", "Data-centered design", "Interface design"], "answer": 0},
+  {"question": "What is a PERT chart used for?", "options": ["Project management and scheduling", "Data flow analysis", "Code documentation", "Database design"], "answer": 0},
+  {"question": "Which type of cohesion is considered strongest?", "options": ["Functional cohesion", "Sequential cohesion", "Communicational cohesion", "Temporal cohesion"], "answer": 0},
+  {"question": "What is coupling in system design?", "options": ["Measure of interdependence between modules", "Measure of internal cohesion", "Data flow between processes", "Module hierarchy"], "answer": 0},
+  {"question": "Which of the following is an agile methodology?", "options": ["Scrum", "Waterfall", "Spiral", "V-model"], "answer": 0},
+  {"question": "What is the function of a repository in CASE tools?", "options": ["Central storage for system information", "Code generation", "Testing automation", "Database management"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "Which of the following is a nominal account?", "options": ["Salary account", "Cash account", "Bank account", "Capital account"], "answer": 0},
+  {"question": "What is the full form of GAAP?", "options": ["Generally Accepted Accounting Principles", "General Accounting and Auditing Procedures", "Generally Applied Accounting Policies", "General Agreement on Accounting Practices"], "answer": 0},
+  {"question": "The process of recording transactions in a journal is called:", "options": ["Journalizing", "Posting", "Balancing", "Closing"], "answer": 0},
+  {"question": "A trial balance is prepared to check:", "options": ["Arithmetical accuracy of accounts", "Profit or loss", "Financial position", "Cash flow"], "answer": 0},
+  {"question": "Which of the following is a current liability?", "options": ["Creditors", "Capital", "Building", "Machinery"], "answer": 0},
+  {"question": "What is revenue?", "options": ["Income earned from business activities", "Cost of goods sold", "Investment made", "Loan taken"], "answer": 0},
+  {"question": "What is an expense?", "options": ["Cost incurred to earn revenue", "Income earned", "Asset purchased", "Liability paid"], "answer": 0},
+  {"question": "Gross profit is calculated as:", "options": ["Sales - Cost of Goods Sold", "Sales - Expenses", "Revenue - Liabilities", "Income - Assets"], "answer": 0},
+  {"question": "Net profit is:", "options": ["Gross profit - Operating expenses", "Sales - Cost of goods sold", "Revenue - Liabilities", "Income - Assets"], "answer": 0},
+  {"question": "Which of the following is a fixed asset?", "options": ["Building", "Cash", "Debtors", "Inventory"], "answer": 0},
+  {"question": "The matching principle states:", "options": ["Expenses matched with revenues", "Assets matched with liabilities", "Debits matched with credits", "Income matched with expenses"], "answer": 0},
+  {"question": "What is a creditor?", "options": ["Person to whom money is owed", "Person who owes money", "Owner of the business", "Manager of the business"], "answer": 0},
+  {"question": "What is a debtor?", "options": ["Person who owes money to the business", "Person to whom money is owed", "Owner of the business", "Bank manager"], "answer": 0},
+  {"question": "Cash book is a:", "options": ["Subsidiary book as well as ledger", "Only a subsidiary book", "Only a ledger", "Financial statement"], "answer": 0},
+  {"question": "Purchase returns are also known as:", "options": ["Returns outward", "Returns inward", "Sales returns", "Credit returns"], "answer": 0}
+]

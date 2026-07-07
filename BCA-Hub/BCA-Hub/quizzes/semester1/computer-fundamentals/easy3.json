@@ -105,14 +105,18 @@
     "answer": 1
   },
   {
-    "question": "Which printer is an impact printer?",
-    "options": [
-      "Laser Printer",
-      "Inkjet Printer",
-      "Dot Matrix Printer",
-      "Thermal Printer"
-    ],
+    "question": "Which device is used to produce large-format drawings and blueprints?",
+    "options": ["Printer", "Plotter", "Scanner", "Projector"],
+    "answer": 1
+  },
+  {
+    "question": "Which device can function as both an input and output device?",
+    "options": ["Touch Screen", "Keyboard", "Mouse", "Printer"],
+    "answer": 0
+  },
+  {
+    "question": "Which device is used to read data from a magnetic stripe card?",
+    "options": ["MICR", "OMR", "Card Reader", "OCR"],
     "answer": 2
   }
 ]
-  

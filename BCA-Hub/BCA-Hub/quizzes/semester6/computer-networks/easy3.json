@@ -1,0 +1,17 @@
+[
+  {"question": "What is a subnet mask used for?", "options": ["Identifying network and host portions", "Encrypting data", "Routing packets", "Assigning MAC addresses"], "answer": 0},
+  {"question": "Which protocol provides reliable data transfer?", "options": ["UDP", "TCP", "IP", "ICMP"], "answer": 1},
+  {"question": "What is the function of the Session layer?", "options": ["Data encryption", "Session management", "Routing", "Error correction"], "answer": 1},
+  {"question": "Which topology is most fault-tolerant?", "options": ["Bus", "Star", "Ring", "Mesh"], "answer": 3},
+  {"question": "What does NAT stand for?", "options": ["Network Address Translation", "Network Access Technology", "Node Address Table", "Network Allocation Table"], "answer": 0},
+  {"question": "Which protocol is used to resolve domain names to IP addresses?", "options": ["DHCP", "DNS", "ARP", "RARP"], "answer": 1},
+  {"question": "What is the maximum data rate of Cat5e cable?", "options": ["100 Mbps", "1 Gbps", "10 Gbps", "100 Mbps"], "answer": 1},
+  {"question": "Which layer of the OSI model is responsible for data formatting?", "options": ["Application", "Presentation", "Session", "Transport"], "answer": 1},
+  {"question": "What does CSMA/CD stand for?", "options": ["Carrier Sense Multiple Access with Collision Detection", "Code Shift Multiple Access with Collision Detection", "Carrier Sense Media Access with Collision Detection", "Carrier Sense Multiple Access with Collision Avoidance"], "answer": 0},
+  {"question": "Which device operates at Layer 2 of the OSI model?", "options": ["Router", "Switch", "Hub", "Modem"], "answer": 1},
+  {"question": "What is a VPN used for?", "options": ["Virtual private networking", "Increasing bandwidth", "Assigning IPs", "Blocking viruses"], "answer": 0},
+  {"question": "Which protocol is used for real-time streaming?", "options": ["TCP", "UDP", "HTTP", "FTP"], "answer": 1},
+  {"question": "What is the loopback IP address?", "options": ["0.0.0.0", "127.0.0.1", "192.168.0.1", "10.0.0.1"], "answer": 1},
+  {"question": "Which layer of TCP/IP model handles application data?", "options": ["Network Access", "Internet", "Transport", "Application"], "answer": 3},
+  {"question": "What is a proxy server?", "options": ["A server that relays requests between clients and servers", "A server that assigns IP addresses", "A server that stores email", "A server that routes packets"], "answer": 0}
+]

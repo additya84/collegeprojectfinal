@@ -1,0 +1,17 @@
+[
+  {"question": "What is a trigger in SQL?", "options": ["Automated action on table events", "A query", "A constraint", "An index"], "answer": 0},
+  {"question": "What is a stored procedure?", "options": ["Precompiled SQL code", "A query", "A trigger", "A view"], "answer": 0},
+  {"question": "What is data integrity?", "options": ["Accuracy and consistency of data", "Data volume", "Data speed", "Data format"], "answer": 0},
+  {"question": "Which integrity constraint ensures uniqueness?", "options": ["PRIMARY KEY", "FOREIGN KEY", "CHECK", "NOT NULL"], "answer": 0},
+  {"question": "Which language is used to define database structure?", "options": ["DDL", "DML", "DCL", "TCL"], "answer": 0},
+  {"question": "Which SQL statement is used to add a new column?", "options": ["ALTER TABLE", "UPDATE", "MODIFY TABLE", "ADD COLUMN"], "answer": 0},
+  {"question": "What is a subquery?", "options": ["A query nested inside another query", "A small query", "A query without FROM", "A query with no result"], "answer": 0},
+  {"question": "What is the difference between DELETE and TRUNCATE?", "options": ["DELETE can be rolled back, TRUNCATE cannot", "Both are same", "TRUNCATE can be rolled back", "DELETE is faster"], "answer": 0},
+  {"question": "What is a natural join?", "options": ["Join based on common columns", "Join with all columns", "Cross join", "Outer join"], "answer": 0},
+  {"question": "What is the purpose of the GROUP BY clause?", "options": ["To group rows with same values", "To sort results", "To filter rows", "To join tables"], "answer": 0},
+  {"question": "What is the aggregate function to count rows?", "options": ["COUNT()", "SUM()", "AVG()", "MAX()"], "answer": 0},
+  {"question": "Which SQL function returns the average value?", "options": ["AVG()", "SUM()", "COUNT()", "MEAN()"], "answer": 0},
+  {"question": "What is a cursor in DBMS?", "options": ["A pointer to a result set", "A table", "A query", "An index"], "answer": 0},
+  {"question": "What is a dirty read?", "options": ["Reading uncommitted data", "Reading committed data", "Reading deleted data", "Reading corrupted data"], "answer": 0},
+  {"question": "What is serializability in DBMS?", "options": ["Ensuring concurrent execution is equivalent to serial", "Running transactions one by one", "Parallel execution", "Interleaved execution"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "Which algorithm is used for drawing a circle?", "options": ["Midpoint Circle Algorithm", "Bresenham's Line Algorithm", "Flood Fill Algorithm", "Cohen-Sutherland Algorithm"], "answer": 0},
+  {"question": "What is anti-aliasing?", "options": ["Smoothing jagged edges in graphics", "Removing colors", "Increasing resolution", "Adding noise"], "answer": 0},
+  {"question": "What is the refresh rate of a monitor?", "options": ["Number of times the screen is redrawn per second", "Number of pixels on screen", "Color depth", "Screen size"], "answer": 0},
+  {"question": "What is a raster display?", "options": ["A display that uses a grid of pixels", "A vector display", "A printer", "A plotter"], "answer": 0},
+  {"question": "What is a vector display?", "options": ["A display that draws lines directly", "A display that uses pixels", "An image sensor", "A touch screen"], "answer": 0},
+  {"question": "What is the Z-buffer used for?", "options": ["Hidden surface removal", "Color blending", "Texture mapping", "Anti-aliasing"], "answer": 0},
+  {"question": "What is texture mapping?", "options": ["Applying an image to a 3D surface", "Removing textures", "Creating textures", "Compressing textures"], "answer": 0},
+  {"question": "What is shading in computer graphics?", "options": ["Computing light intensity on surfaces", "Drawing shadows", "Adding colors", "Applying textures"], "answer": 0},
+  {"question": "What is Gouraud shading?", "options": ["Interpolating vertex colors across polygons", "Pixel-by-pixel shading", "Ray tracing", "Flat shading"], "answer": 0},
+  {"question": "What is Phong shading?", "options": ["Interpolating surface normals for realistic lighting", "Flat shading", "No shading", "Wireframe rendering"], "answer": 0},
+  {"question": "What is a wireframe model?", "options": ["Object represented by lines and vertices", "Solid object rendering", "Textured object", "Transparent object"], "answer": 0},
+  {"question": "What is clipping in computer graphics?", "options": ["Removing parts outside a viewing area", "Scaling objects", "Rotating objects", "Coloring objects"], "answer": 0},
+  {"question": "What is the viewport?", "options": ["The area on the screen where graphics are displayed", "The world coordinate system", "A type of projection", "A graphics card component"], "answer": 0},
+  {"question": "What is a graphical user interface (GUI)?", "options": ["Visual interface using icons and windows", "Command-line interface", "Touch interface", "Voice interface"], "answer": 0},
+  {"question": "What is the aspect ratio?", "options": ["Ratio of width to height", "Number of pixels", "Color depth", "Refresh rate"], "answer": 0}
+]

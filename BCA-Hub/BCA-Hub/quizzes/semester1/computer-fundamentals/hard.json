@@ -148,55 +148,5 @@
       "Tape Drive"
     ],
     "answer": 1
-  },
-  {
-    "question": "1 KB equals:",
-    "options": [
-      "1000 Bytes",
-      "1024 Bytes",
-      "2048 Bytes",
-      "512 Bytes"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "1 MB equals:",
-    "options": [
-      "1000 KB",
-      "1024 KB",
-      "2048 KB",
-      "512 KB"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "The smallest unit of data is:",
-    "options": [
-      "Byte",
-      "Bit",
-      "Nibble",
-      "Word"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A nibble contains:",
-    "options": [
-      "2 bits",
-      "4 bits",
-      "8 bits",
-      "16 bits"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which generation computers introduced Artificial Intelligence?",
-    "options": [
-      "Third",
-      "Fourth",
-      "Fifth",
-      "Second"
-    ],
-    "answer": 2
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {"question": "Which of the following is a type of operating system?", "options": ["Real-time OS", "Spreadsheet", "Compiler", "Database"], "answer": 0},
+  {"question": "What is the main function of the operating system?", "options": ["Manage resources", "Edit documents", "Browse internet", "Compile code"], "answer": 0},
+  {"question": "Which scheduling algorithm assigns the CPU to the process with the smallest burst time?", "options": ["FCFS", "SJF", "Round Robin", "Priority"], "answer": 1},
+  {"question": "What is a process?", "options": ["A running program", "A file on disk", "A network packet", "A hardware device"], "answer": 0},
+  {"question": "Which of the following is a volatile memory?", "options": ["RAM", "ROM", "Hard Disk", "Flash Drive"], "answer": 0},
+  {"question": "What is a deadlock?", "options": ["Processes waiting indefinitely", "Normal termination", "High CPU usage", "Memory overflow"], "answer": 0},
+  {"question": "Which algorithm is used to avoid deadlock?", "options": ["Banker's Algorithm", "LRU", "SCAN", "FCFS"], "answer": 0},
+  {"question": "What is paging?", "options": ["Memory management scheme", "Process scheduling", "File compression", "Network routing"], "answer": 0},
+  {"question": "Which page replacement algorithm replaces the oldest page?", "options": ["FIFO", "LRU", "Optimal", "Clock"], "answer": 0},
+  {"question": "What is a file system used for?", "options": ["Organize and store files", "Manage processes", "Schedule tasks", "Handle interrupts"], "answer": 0},
+  {"question": "Which of the following is a disk scheduling algorithm?", "options": ["SCAN", "SJF", "FCFS", "Round Robin"], "answer": 0},
+  {"question": "What is a semaphore?", "options": ["Synchronization tool", "Hardware device", "File type", "Network protocol"], "answer": 0},
+  {"question": "What is the kernel?", "options": ["Core part of OS", "A type of file", "A network device", "A user interface"], "answer": 0},
+  {"question": "Which memory allocation strategy uses fixed-size partitions?", "options": ["Contiguous", "Paging", "Segmentation", "Virtual memory"], "answer": 0},
+  {"question": "What is thrashing?", "options": ["Excessive paging", "Fast processing", "Network delay", "Disk failure"], "answer": 0}
+]

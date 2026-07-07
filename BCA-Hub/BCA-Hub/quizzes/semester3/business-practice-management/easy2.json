@@ -1,0 +1,17 @@
+[
+  {"question": "What is the function of organizing in management?", "options": ["Grouping activities and resources", "Setting goals", "Measuring performance", "Hiring employees"], "answer": 0},
+  {"question": "Who proposed the 14 principles of management?", "options": ["F.W. Taylor", "Henry Fayol", "Peter Drucker", "Abraham Maslow"], "answer": 1},
+  {"question": "What is human resource management about?", "options": ["Managing people", "Managing money", "Managing machines", "Managing materials"], "answer": 0},
+  {"question": "Which type of planning covers 3-5 years?", "options": ["Strategic planning", "Tactical planning", "Operational planning", "Contingency planning"], "answer": 0},
+  {"question": "What is a partnership deed?", "options": ["Written agreement among partners", "Company registration document", "Employment contract", "Insurance policy"], "answer": 0},
+  {"question": "Which leadership theory focuses on traits?", "options": ["Great Man Theory", "Situational Theory", "Contingency Theory", "Behavioral Theory"], "answer": 0},
+  {"question": "What does MBO stand for?", "options": ["Management by Objectives", "Management by Organization", "Motivation by Objectives", "Measurement by Outcomes"], "answer": 0},
+  {"question": "What is the role of a middle manager?", "options": ["Implement policies", "Set long-term goals", "Supervise daily tasks", "Hire workers"], "answer": 0},
+  {"question": "Which department handles recruitment?", "options": ["Finance", "Marketing", "Human Resources", "Production"], "answer": 2},
+  {"question": "What is the centralization principle?", "options": ["Concentration of authority at top", "Distributing authority equally", "Delegating all authority", "No authority structure"], "answer": 0},
+  {"question": "What does a mission statement define?", "options": ["Company's purpose", "Company's profit target", "Employee count", "Location details"], "answer": 0},
+  {"question": "Which style of management is employee-centered?", "options": ["Autocratic", "Democratic", "Laissez-faire", "Bureaucratic"], "answer": 1},
+  {"question": "What is the meaning of 'Scalar Chain'?", "options": ["Line of authority from top to bottom", "Team hierarchy", "Supply chain", "Communication network"], "answer": 0},
+  {"question": "Which theory of motivation is based on hierarchy of needs?", "options": ["Maslow's", "Herzberg's", "McGregor's", "Vroom's"], "answer": 0},
+  {"question": "What is a business policy?", "options": ["Guidelines for decision making", "Legal document", "Financial statement", "Job description"], "answer": 0}
+]

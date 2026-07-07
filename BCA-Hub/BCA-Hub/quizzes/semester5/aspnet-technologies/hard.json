@@ -1,0 +1,17 @@
+[
+  {"question": "Compare ASP.NET Web Forms, MVC, and Core architectures.", "options": ["Different approaches: event-driven, MVC pattern, cross-platform", "All identical", "Only one exists", "No differences"], "answer": 0},
+  {"question": "How does the Page event lifecycle work in detail?", "options": ["PreInit, Init, InitComplete, PreLoad, Load, PostBack events, Render", "Only Load event", "No events", "Only Render"], "answer": 0},
+  {"question": "Explain the difference between early and late binding in .NET.", "options": ["Early binding at compile time; late binding at runtime", "Both at compile time", "Both at runtime", "No difference"], "answer": 0},
+  {"question": "How does garbage collection work in .NET?", "options": ["Automatic memory management with generations", "Manual memory management", "No memory management", "Reference counting"], "answer": 0},
+  {"question": "What is the role of the Global Assembly Cache?", "options": ["Store shared assemblies system-wide", "Store web pages", "Store databases", "Store images"], "answer": 0},
+  {"question": "How does the ViewState work internally?", "options": ["Serialized as hidden field with Base64 encoding", "Stored in server memory", "Stored in database", "No storage"], "answer": 0},
+  {"question": "Explain the concept of cross-page posting in ASP.NET.", "options": ["Submit form data to a different page", "Submit to same page", "No cross-page support", "Redirect only"], "answer": 0},
+  {"question": "How does the SqlCacheDependency work?", "options": ["Invalidates cache when database data changes", "Never invalidates", "Timer-based invalidation", "Manual invalidation"], "answer": 0},
+  {"question": "What is the difference between Trace and Debug in .NET?", "options": ["Trace works in release; Debug works in debug mode", "Both same", "Debug works in release", "Trace works only in debug"], "answer": 0},
+  {"question": "How does the web service work with SOAP and WSDL?", "options": ["SOAP for messaging, WSDL for description, UDDI for discovery", "No description needed", "Only SOAP", "Only WSDL"], "answer": 0},
+  {"question": "Explain the concept of dependency injection in ASP.NET.", "options": ["Inversion of control for loosely coupled components", "Tight coupling", "No dependency management", "Manual instantiation"], "answer": 0},
+  {"question": "How does output caching work in ASP.NET?", "options": ["Caches rendered HTML for specified duration", "No caching", "Caches only data", "Caches only images"], "answer": 0},
+  {"question": "What is the difference between SQL injection and parameterized queries?", "options": ["Parameterized queries prevent SQL injection", "Both same", "SQL injection is safe", "Parameterized queries are unsafe"], "answer": 0},
+  {"question": "How does the RoleProvider work with authorization?", "options": ["Manages roles and checks permissions for users", "No role management", "Only user management", "Only permissions"], "answer": 0},
+  {"question": "Explain the concept of Windows Communication Foundation.", "options": ["Unified framework for building service-oriented applications", "Web forms only", "Database only", "File system only"], "answer": 0}
+]

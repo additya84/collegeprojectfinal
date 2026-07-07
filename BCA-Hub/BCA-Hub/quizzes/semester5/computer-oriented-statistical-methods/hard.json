@@ -1,0 +1,17 @@
+[
+  {"question": "Compare parametric and non-parametric statistical tests.", "options": ["Parametric assumes distribution; non-parametric does not", "Both assume distribution", "Both no assumptions", "No difference"], "answer": 0},
+  {"question": "How does the F-test work in ANOVA?", "options": ["Compares variance between groups to variance within groups", "Compares means directly", "Compares medians", "Compares modes"], "answer": 0},
+  {"question": "Explain the difference between fixed and random effects models.", "options": ["Fixed: specific levels; Random: random sample of levels", "Both same", "Fixed is random", "Random is fixed"], "answer": 0},
+  {"question": "How does the Bayesian approach differ from frequentist statistics?", "options": ["Bayesian uses prior probabilities; frequentist uses data only", "Both same", "Bayesian uses no priors", "Frequentist uses priors"], "answer": 0},
+  {"question": "What is the principle of maximum likelihood estimation?", "options": ["Find parameters maximizing likelihood of observed data", "Minimize likelihood", "Random parameter selection", "Average parameters"], "answer": 0},
+  {"question": "How does the Bootstrap method work?", "options": ["Resampling with replacement for inference", "Sampling without replacement", "Parametric estimation", "Bayesian estimation"], "answer": 0},
+  {"question": "Explain the concept of interaction effects in ANOVA.", "options": ["Combined effect of two factors different from sum of individual", "Only individual effects", "No combined effect", "Same as main effects"], "answer": 0},
+  {"question": "What is the Durbin-Watson test used for?", "options": ["Test for autocorrelation in residuals", "Test for normality", "Test for homoscedasticity", "Test for multicollinearity"], "answer": 0},
+  {"question": "How do you handle missing data in statistical analysis?", "options": ["Deletion, imputation, or model-based methods", "Ignore missing data", "Delete all cases", "Only imputation"], "answer": 0},
+  {"question": "Explain the concept of confounding variables.", "options": ["Variables affecting both dependent and independent variables", "No effect variables", "Controlled variables", "Random variables"], "answer": 0},
+  {"question": "What is the difference between forward and backward stepwise regression?", "options": ["Forward adds predictors; backward removes predictors", "Both add predictors", "Both remove predictors", "No difference"], "answer": 0},
+  {"question": "How does principal component analysis work?", "options": ["Reduces dimensionality by creating new uncorrelated variables", "Increases dimensionality", "Correlation analysis", "Regression analysis"], "answer": 0},
+  {"question": "Explain the concept of time series analysis.", "options": ["Analyzing data points collected over time", "Cross-sectional analysis", "Random data analysis", "Categorical analysis"], "answer": 0},
+  {"question": "What is the difference between AR and MA models?", "options": ["AR uses past values; MA uses past forecast errors", "Both use same", "AR uses errors", "MA uses past values"], "answer": 0},
+  {"question": "How does the Kolmogorov-Smirnov test work?", "options": ["Tests if sample follows specified distribution", "Tests mean difference", "Tests correlation", "Tests variance"], "answer": 0}
+]

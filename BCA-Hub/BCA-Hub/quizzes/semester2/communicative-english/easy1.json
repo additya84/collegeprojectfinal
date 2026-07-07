@@ -1,0 +1,17 @@
+[
+  {"question": "What is the full form of LSRW?", "options": ["Listening, Speaking, Reading, Writing", "Learning, Speaking, Reading, Writing", "Listening, Speaking, Repeating, Writing", "Listening, Speaking, Reading, Watching"], "answer": 0},
+  {"question": "Which of the following is a form of communication?", "options": ["Speaking", "Listening", "Writing", "All of the above"], "answer": 3},
+  {"question": "Which type of communication uses body language?", "options": ["Verbal", "Non-verbal", "Written", "Formal"], "answer": 1},
+  {"question": "A memo is an example of which communication?", "options": ["Oral", "Written", "Informal", "Non-verbal"], "answer": 1},
+  {"question": "What is the main purpose of communication?", "options": ["Exchange of ideas", "Entertainment", "Competition", "Isolation"], "answer": 0},
+  {"question": "Which barrier to communication is due to language differences?", "options": ["Psychological", "Semantic", "Physical", "Cultural"], "answer": 1},
+  {"question": "What does 'Kinesics' refer to?", "options": ["Eye contact", "Body language", "Voice pitch", "Personal space"], "answer": 1},
+  {"question": "Which of the following is a communication network pattern?", "options": ["Wheel", "Chain", "Circle", "All of the above"], "answer": 3},
+  {"question": "The sender encodes a message using:", "options": ["Channel", "Code", "Noise", "Feedback"], "answer": 1},
+  {"question": "Which of these is an example of downward communication?", "options": ["Manager to employee", "Employee to manager", "Peer to peer", "Employee to customer"], "answer": 0},
+  {"question": "Which is NOT an element of the communication process?", "options": ["Sender", "Message", "Receiver", "Budget"], "answer": 3},
+  {"question": "What is 'noise' in communication?", "options": ["Loud sound", "Any interference", "Feedback", "Channel"], "answer": 1},
+  {"question": "A group discussion is a form of which communication?", "options": ["Intrapersonal", "Interpersonal", "Mass", "Small group"], "answer": 3},
+  {"question": "What is the grapevine communication?", "options": ["Formal", "Informal", "Written", "Official"], "answer": 1},
+  {"question": "Which of the following improves listening skills?", "options": ["Interrupting", "Maintaining eye contact", "Daydreaming", "Judging early"], "answer": 1}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "Which of the following is an SDLC model?", "options": ["Spiral model", "Circular model", "Square model", "Random model"], "answer": 0},
+  {"question": "A context diagram in DFD represents:", "options": ["Entire system as a single process", "Detailed processes", "Data stores", "External entities"], "answer": 0},
+  {"question": "What is a module in system design?", "options": ["Self-contained component of a system", "Whole system", "Data element", "User interface"], "answer": 0},
+  {"question": "Which testing is done by the end users?", "options": ["User acceptance testing", "Unit testing", "Integration testing", "System testing"], "answer": 0},
+  {"question": "What is meant by 'input design'?", "options": ["Designing data entry screens", "Designing output reports", "Designing database", "Designing network"], "answer": 0},
+  {"question": "What is a structure chart?", "options": ["Diagram showing program hierarchy", "Data flow diagram", "Entity relationship diagram", "Flowchart"], "answer": 0},
+  {"question": "Which of the following is not a phase of SDLC?", "options": ["Marketing", "Requirement analysis", "Design", "Testing"], "answer": 0},
+  {"question": "What is the purpose of system documentation?", "options": ["To provide system information for future reference", "To market the system", "To sell the software", "To train users"], "answer": 0},
+  {"question": "What is a decision table?", "options": ["Table showing conditions and actions", "Table for financial decisions", "Database table", "Spreadsheet"], "answer": 0},
+  {"question": "What is the goal of system analysis?", "options": ["To determine system requirements", "To write code", "To test software", "To install hardware"], "answer": 0},
+  {"question": "Which of the following is an external entity in DFD?", "options": ["Customer", "Database", "Process", "Data flow"], "answer": 0},
+  {"question": "What is a process in DFD?", "options": ["Transformation of input to output", "Data storage", "External agent", "Data flow"], "answer": 0},
+  {"question": "Black box testing is also known as:", "options": ["Functional testing", "Structural testing", "White box testing", "Unit testing"], "answer": 0},
+  {"question": "What is an entity relationship diagram?", "options": ["Diagram showing data relationships", "Data flow diagram", "System flowchart", "Program flowchart"], "answer": 0},
+  {"question": "Which feasibility assesses if the system will be used?", "options": ["Operational feasibility", "Technical feasibility", "Economic feasibility", "Schedule feasibility"], "answer": 0}
+]

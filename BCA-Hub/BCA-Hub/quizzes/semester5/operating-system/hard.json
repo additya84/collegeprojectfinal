@@ -1,0 +1,17 @@
+[
+  {"question": "What is the difference between monolithic kernel and microkernel?", "options": ["Monolithic runs all in kernel space, microkernel runs minimal", "No difference", "Microkernel is larger", "Monolithic is slower"], "answer": 0},
+  {"question": "How does the Banker's Algorithm detect deadlock?", "options": ["Checks safe state using available resources", "Monitors CPU usage", "Tracks file access", "Measures network speed"], "answer": 0},
+  {"question": "What is the relationship between TLB and page table?", "options": ["TLB caches page table entries", "TLB replaces page table", "Same thing", "No relationship"], "answer": 0},
+  {"question": "Explain the concept of copy-on-write in memory management.", "options": ["Pages shared until written to", "Copied immediately", "Never copied", "Deleted after use"], "answer": 0},
+  {"question": "What is the purpose of the ACPI in modern OS?", "options": ["Power management interface", "File system type", "Network protocol", "Security module"], "answer": 0},
+  {"question": "How does the C-LOOK disk scheduling differ from LOOK?", "options": ["C-LOOK goes to one end then jumps", "Same algorithm", "LOOK is faster", "C-LOOK is obsolete"], "answer": 0},
+  {"question": "What is the concept of mapped files?", "options": ["Files mapped to virtual memory", "Copied files", "Compressed files", "Encrypted files"], "answer": 0},
+  {"question": "Explain the Producer-Consumer problem.", "options": ["Synchronization between producer and consumer processes", "File sharing problem", "Memory allocation problem", "Network routing problem"], "answer": 0},
+  {"question": "What is the purpose of the inode in Unix file systems?", "options": ["Store file metadata", "Store file content", "Store directory name", "Store network address"], "answer": 0},
+  {"question": "How does the LRU page replacement algorithm work?", "options": ["Replaces least recently used page", "Replaces most recently used page", "Replaces random page", "Replaces first page"], "answer": 0},
+  {"question": "What is the difference between symmetric and asymmetric multiprocessing?", "options": ["Symmetric: all CPUs equal; Asymmetric: one master", "No difference", "Asymmetric is newer", "Symmetric is obsolete"], "answer": 0},
+  {"question": "Explain the concept of remote procedure call (RPC).", "options": ["Call function on remote system", "Call local function", "Network protocol", "File transfer method"], "answer": 0},
+  {"question": "What is the purpose of the GRUB bootloader?", "options": ["Boot multiple OS choices", "Compile the kernel", "Manage files", "Handle networking"], "answer": 0},
+  {"question": "How does dynamic linking work?", "options": ["Libraries linked at runtime", "Libraries linked at compile time", "No libraries used", "Manual linking"], "answer": 0},
+  {"question": "What is the significance of the dirty bit in paging?", "options": ["Indicates page was modified", "Indicates page is new", "Indicates page is empty", "Indicates page error"], "answer": 0}
+]

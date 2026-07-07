@@ -1,0 +1,17 @@
+[
+  {"question": "What is the difference between shallow copy and deep copy?", "options": ["Shallow copies pointers, deep copies pointed data", "They are the same", "Deep copy is faster", "Shallow copy is safer"], "answer": 0},
+  {"question": "Which type of class cannot be a base class?", "options": ["Final class", "Abstract class", "Virtual class", "Static class"], "answer": 0},
+  {"question": "What is the purpose of a virtual destructor?", "options": ["Ensure proper cleanup of derived objects through base pointer", "Destroy base class only", "Prevent destruction", "Speed up destruction"], "answer": 0},
+  {"question": "Which C++ mechanism allows multiple inheritance?", "options": ["Inheriting from multiple base classes", "Using interfaces", "Using templates", "Using friend functions"], "answer": 0},
+  {"question": "What is function overriding?", "options": ["Redefining base class function in derived class", "Overloading a function", "Hiding a function", "Deleting a function"], "answer": 0},
+  {"question": "What does RTTI stand for?", "options": ["Run-Time Type Information", "Real Time Type Interface", "Runtime Template Integration", "Reduced Type Identification"], "answer": 0},
+  {"question": "Which operator cannot be overloaded in C++?", "options": [". (dot)", "+", "-", "*"], "answer": 0},
+  {"question": "What is the order of constructor call in multilevel inheritance?", "options": ["Base to derived", "Derived to base", "Depends on compiler", "Random order"], "answer": 0},
+  {"question": "What is the role of an initializer list in C++?", "options": ["Initialize base class and const members", "Initialize static data", "Create objects", "Delete objects"], "answer": 0},
+  {"question": "What does the 'mutable' keyword allow?", "options": ["Modify a const object's member", "Change class definition", "Make variable constant", "Make function virtual"], "answer": 0},
+  {"question": "Which binding happens at compile time?", "options": ["Early binding", "Late binding", "Dynamic binding", "Virtual binding"], "answer": 0},
+  {"question": "What is a function object (functor)?", "options": ["An object that acts like a function", "A function that returns an object", "A static function", "An inline function"], "answer": 0},
+  {"question": "How does a copy constructor differ from assignment operator?", "options": ["Copy constructor creates new object, assignment copies to existing", "They are the same", "Assignment creates new object", "Copy constructor is faster"], "answer": 0},
+  {"question": "What is the Standard Template Library (STL)?", "options": ["Collection of template classes and functions", "C++ standard input/output", "Library for graphics", "String manipulation library"], "answer": 0},
+  {"question": "Which type of inheritance is used when a class has two base classes?", "options": ["Multiple inheritance", "Multilevel inheritance", "Hierarchical", "Hybrid"], "answer": 0}
+]

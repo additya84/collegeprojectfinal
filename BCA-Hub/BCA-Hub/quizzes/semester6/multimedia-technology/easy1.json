@@ -1,0 +1,17 @@
+[
+  {"question": "What is multimedia?", "options": ["Integration of text, graphics, audio, video", "Only text and images", "Only audio and video", "Only animations"], "answer": 0},
+  {"question": "Which of the following is a multimedia element?", "options": ["Text", "Audio", "Video", "All of the above"], "answer": 3},
+  {"question": "What is compression in multimedia?", "options": ["Reducing file size", "Increasing file size", "Changing file format", "Encrypting data"], "answer": 0},
+  {"question": "Which format is commonly used for text documents?", "options": [".txt", ".jpg", ".mp3", ".avi"], "answer": 0},
+  {"question": "What does JPEG stand for?", "options": ["Joint Photographic Experts Group", "Java Photo Encoding Group", "Joint Picture Enhancement Group", "Java Program Execution Group"], "answer": 0},
+  {"question": "Which format is used for images with lossless compression?", "options": ["JPEG", "PNG", "BMP", "GIF"], "answer": 1},
+  {"question": "What is an audio sample?", "options": ["A discrete measurement of sound amplitude", "A continuous sound wave", "A music note", "An audio file"], "answer": 0},
+  {"question": "What does MP3 stand for?", "options": ["MPEG Audio Layer 3", "Media Player 3", "Multi-Protocol 3", "Music Processing 3"], "answer": 0},
+  {"question": "Which file format is used for video?", "options": [".mp4", ".jpg", ".png", ".txt"], "answer": 0},
+  {"question": "What is the frame rate in video?", "options": ["Number of frames per second", "Number of pixels per frame", "Size of each frame", "Color depth"], "answer": 0},
+  {"question": "What is lossless compression?", "options": ["No data is lost during compression", "Some data is lost", "File size increases", "Quality degrades"], "answer": 0},
+  {"question": "What does GIF stand for?", "options": ["Graphics Interchange Format", "General Image Format", "Graphics Image File", "Graphical Interface Format"], "answer": 0},
+  {"question": "Which tool is used for creating multimedia presentations?", "options": ["PowerPoint", "Photoshop", "Audacity", "Blender"], "answer": 0},
+  {"question": "What is resolution in images?", "options": ["Number of pixels in an image", "File size of an image", "Color of an image", "Compression ratio"], "answer": 0},
+  {"question": "What is bitmap image?", "options": ["Image made of pixels", "Image made of mathematical formulas", "Image made of text", "Image made of vectors"], "answer": 0}
+]

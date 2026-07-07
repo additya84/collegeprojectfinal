@@ -1,0 +1,17 @@
+[
+  {"question": "Which network topology requires the least amount of cabling?", "options": ["Star", "Mesh", "Bus", "Ring"], "answer": 2},
+  {"question": "What is the full form of DNS?", "options": ["Domain Name System", "Digital Network Service", "Data Network Security", "Domain Network Server"], "answer": 0},
+  {"question": "Which layer of OSI model handles error detection and correction?", "options": ["Physical", "Data Link", "Network", "Transport"], "answer": 1},
+  {"question": "What type of cable is commonly used for Ethernet networks?", "options": ["Coaxial", "Twisted Pair", "Fiber Optic", "Ribbon Cable"], "answer": 1},
+  {"question": "Which protocol converts IP addresses to MAC addresses?", "options": ["DNS", "DHCP", "ARP", "ICMP"], "answer": 2},
+  {"question": "What is the size of an IPv4 address?", "options": ["16 bits", "32 bits", "64 bits", "128 bits"], "answer": 1},
+  {"question": "Which device regenerates signals to extend network range?", "options": ["Switch", "Router", "Repeater", "Bridge"], "answer": 2},
+  {"question": "What does WAN stand for?", "options": ["Wide Area Network", "Web Access Network", "Wireless Area Network", "World Access Network"], "answer": 0},
+  {"question": "Which protocol is used for web browsing?", "options": ["FTP", "SMTP", "HTTP", "Telnet"], "answer": 2},
+  {"question": "What is a firewall used for?", "options": ["Speed up network", "Block unauthorized access", "Assign IP addresses", "Route packets"], "answer": 1},
+  {"question": "Which layer of OSI model provides services to end users?", "options": ["Session", "Presentation", "Application", "Transport"], "answer": 2},
+  {"question": "What is the default port for HTTPS?", "options": ["80", "443", "8080", "8443"], "answer": 1},
+  {"question": "Which network type covers a city?", "options": ["LAN", "MAN", "WAN", "PAN"], "answer": 1},
+  {"question": "What does ICMP stand for?", "options": ["Internet Control Message Protocol", "Internet Connection Management Protocol", "Inter-network Communication Protocol", "Internal Control Message Protocol"], "answer": 0},
+  {"question": "Which device is used to connect devices within the same network?", "options": ["Router", "Modem", "Switch", "Gateway"], "answer": 2}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is the Newton-Raphson formula for root finding?", "options": ["x₁ = x₀ - f(x₀)/f'(x₀)", "x₁ = x₀ + f(x₀)/f'(x₀)", "x₁ = f(x₀)/f'(x₀)", "x₁ = x₀ - f'(x₀)/f(x₀)"], "answer": 0},
+  {"question": "Which method is a direct method for solving linear equations?", "options": ["Gauss elimination", "Gauss-Seidel", "Jacobi", "Power method"], "answer": 0},
+  {"question": "What is the condition for the bisection method to work?", "options": ["f(a) × f(b) < 0", "f(a) × f(b) > 0", "f(a) = f(b)", "f'(a) = f'(b)"], "answer": 0},
+  {"question": "What is Simpson's 1/3 rule formula?", "options": ["(h/3)(f(x₀) + 4f(x₁) + f(x₂))", "(h/2)(f(x₀) + 2f(x₁) + f(x₂))", "(h/3)(f(x₀) + f(x₁) + f(x₂))", "h(f(x₀) + f(x₁) + f(x₂))"], "answer": 0},
+  {"question": "Which interpolation method uses a polynomial passing through all points?", "options": ["Lagrange interpolation", "Least squares", "Linear interpolation", "Spline"], "answer": 0},
+  {"question": "What is the standard normal distribution's mean and variance?", "options": ["Mean=0, Variance=1", "Mean=1, Variance=0", "Mean=0, Variance=0", "Mean=1, Variance=1"], "answer": 0},
+  {"question": "Which order is the classical Runge-Kutta method?", "options": ["4th order", "2nd order", "1st order", "3rd order"], "answer": 0},
+  {"question": "What is the difference between correlation and regression?", "options": ["Correlation measures association, regression predicts", "They are the same", "Regression measures association", "Correlation predicts"], "answer": 0},
+  {"question": "What is the Cramer's rule condition for unique solution?", "options": ["Det(A) ≠ 0", "Det(A) = 0", "Matrix is singular", "Matrix is rectangular"], "answer": 0},
+  {"question": "Which test checks goodness of fit?", "options": ["Chi-square test", "t-test", "z-test", "F-test"], "answer": 0},
+  {"question": "What is the LU decomposition used for?", "options": ["Solving multiple systems with same coefficient matrix", "Finding eigenvalues", "Root finding", "Numerical integration"], "answer": 0},
+  {"question": "What is the order of convergence of Newton-Raphson?", "options": ["Quadratic (2)", "Linear (1)", "Cubic (3)", "Superlinear"], "answer": 0},
+  {"question": "Which smoothing technique fits a line through data points?", "options": ["Least squares regression", "Spline interpolation", "Newton interpolation", "Lagrange interpolation"], "answer": 0},
+  {"question": "What is the concept of 'ill-conditioned' matrix?", "options": ["Small changes in input cause large changes in output", "Matrix is not invertible", "Matrix is symmetric", "Matrix is sparse"], "answer": 0},
+  {"question": "Which numerical method uses Forward Euler for ODEs?", "options": ["y₁ = y₀ + h × f(x₀, y₀)", "y₁ = y₀ - h × f(x₀, y₀)", "y₁ = h × f(x₀, y₀)", "y₁ = y₀ + h² × f(x₀, y₀)"], "answer": 0}
+]

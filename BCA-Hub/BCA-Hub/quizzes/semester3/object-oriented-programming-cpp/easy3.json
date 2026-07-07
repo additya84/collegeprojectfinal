@@ -1,0 +1,17 @@
+[
+  {"question": "What is a template in C++?", "options": ["Generic programming tool", "A class only", "A function only", "A variable"], "answer": 0},
+  {"question": "Which type of polymorphism is implemented via virtual functions?", "options": ["Runtime polymorphism", "Compile-time polymorphism", "Static polymorphism", "Early binding"], "answer": 0},
+  {"question": "What is the syntax for defining a class template?", "options": ["template <class T>", "template <T>", "<template T>", "template(T)"], "answer": 0},
+  {"question": "Which type of inheritance leads to diamond problem?", "options": ["Multiple inheritance", "Single inheritance", "Multilevel", "Hierarchical"], "answer": 0},
+  {"question": "How is the diamond problem resolved in C++?", "options": ["Using virtual base class", "Using friend function", "Using static members", "Using templates"], "answer": 0},
+  {"question": "What does the 'const' keyword do in a member function?", "options": ["Prevents modification of object", "Makes function static", "Makes function virtual", "Prevents inheritance"], "answer": 0},
+  {"question": "Which loop is guaranteed to execute at least once?", "options": ["do-while", "while", "for", "if"], "answer": 0},
+  {"question": "What is a static member variable?", "options": ["Shared by all objects of the class", "Unique to each object", "Local to a function", "Private to class"], "answer": 0},
+  {"question": "Which of these is a type of constructor?", "options": ["Copy constructor", "Default constructor", "Parameterized constructor", "All of the above"], "answer": 3},
+  {"question": "What is encapsulation?", "options": ["Binding data and functions together", "Separating data from functions", "Inheriting properties", "Overloading operators"], "answer": 0},
+  {"question": "Which operator is used for dynamic memory allocation in C++?", "options": ["new", "malloc()", "calloc()", "alloc()"], "answer": 0},
+  {"question": "What is a namespace in C++?", "options": ["Container for identifiers", "A class", "A function", "A variable"], "answer": 0},
+  {"question": "Which C++ feature supports code reusability the most?", "options": ["Inheritance", "Encapsulation", "Abstraction", "Polymorphism"], "answer": 0},
+  {"question": "What is the difference between struct and class in C++?", "options": ["Default access: struct is public, class is private", "They are identical", "Struct has no functions", "Class cannot have data"], "answer": 0},
+  {"question": "Which function is used for input in C++?", "options": ["cin", "cout", "scanf", "getchar"], "answer": 0}
+]

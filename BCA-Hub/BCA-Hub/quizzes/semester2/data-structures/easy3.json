@@ -1,0 +1,17 @@
+[
+  {"question": "Which type of linked list has no end?", "options": ["Singly linked", "Doubly linked", "Circular linked", "None"], "answer": 2},
+  {"question": "What is the minimum number of nodes in a binary tree of height h?", "options": ["h", "h+1", "2^h - 1", "2^h"], "answer": 1},
+  {"question": "Which traversal is used to get sorted elements from a BST?", "options": ["Preorder", "Inorder", "Postorder", "Level order"], "answer": 1},
+  {"question": "What is the balance factor in an AVL tree?", "options": ["Height of left subtree - height of right subtree", "Height of right subtree - height of left subtree", "Number of nodes", "Depth of tree"], "answer": 0},
+  {"question": "Which operation is performed on a priority queue?", "options": ["Insert in order", "Delete highest priority", "Both insert and delete highest priority", "Sort elements"], "answer": 2},
+  {"question": "What is a heap?", "options": ["A complete binary tree", "A BST", "A balanced tree", "A linked list"], "answer": 0},
+  {"question": "In a max-heap, the root element is:", "options": ["Minimum", "Maximum", "Average", "Median"], "answer": 1},
+  {"question": "What is the time complexity of heapify?", "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"], "answer": 0},
+  {"question": "What is the best case time complexity of insertion sort?", "options": ["O(n)", "O(n^2)", "O(log n)", "O(n log n)"], "answer": 0},
+  {"question": "Which sorting algorithm is not comparison-based?", "options": ["Radix sort", "Merge sort", "Quick sort", "Heap sort"], "answer": 0},
+  {"question": "What is the space complexity of merge sort?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": 1},
+  {"question": "Which is the slowest sorting algorithm among these?", "options": ["Quick sort", "Merge sort", "Bubble sort", "Heap sort"], "answer": 2},
+  {"question": "What is a file structure?", "options": ["Organization of data on disk", "A type of algorithm", "A programming construct", "A data type"], "answer": 0},
+  {"question": "Which is a sequential access method?", "options": ["Array", "Linked list", "Tape", "Hard disk"], "answer": 2},
+  {"question": "What is indexing in file structures?", "options": ["Creating pointers to data", "Sorting data", "Compressing data", "Encrypting data"], "answer": 0}
+]

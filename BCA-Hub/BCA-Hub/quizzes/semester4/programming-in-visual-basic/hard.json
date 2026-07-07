@@ -1,0 +1,17 @@
+[
+  {"question": "What is the difference between a structure and a class in VB.NET?", "options": ["Structure is value type; class is reference type", "Class is value type; structure is reference type", "Both are value types", "Both are reference types"], "answer": 0},
+  {"question": "Which ADO.NET object is used to establish a connection to SQL Server?", "options": ["SqlConnection", "OleDbConnection", "Connection", "DbConnection"], "answer": 0},
+  {"question": "What is the purpose of the 'Overrides' keyword in VB.NET?", "options": ["To override a base class method", "To hide a base class method", "To create new method", "To delete method"], "answer": 0},
+  {"question": "Which collection class stores key-value pairs?", "options": ["Dictionary", "ArrayList", "List", "Stack"], "answer": 0},
+  {"question": "What is the purpose of the 'Using' statement in VB.NET?", "options": ["To ensure proper disposal of resources", "To import namespaces", "To create objects", "To handle exceptions"], "answer": 0},
+  {"question": "Which property of a Connection object is required to open a database connection?", "options": ["ConnectionString", "Database", "DataSource", "Provider"], "answer": 0},
+  {"question": "What is the difference between Shared and Instance members?", "options": ["Shared belongs to type; instance belongs to object", "Instance belongs to type; shared belongs to object", "Both belong to type", "Both belong to object"], "answer": 0},
+  {"question": "Which command object is used to execute a stored procedure?", "options": ["SqlCommand with CommandType.StoredProcedure", "SqlStoredProcedure", "ProcedureCommand", "StoredProcedureCommand"], "answer": 0},
+  {"question": "What is the purpose of the 'MustInherit' keyword?", "options": ["Creates an abstract class that cannot be instantiated", "Creates a sealed class", "Creates a static class", "Creates a partial class"], "answer": 0},
+  {"question": "Which data provider is used for SQL Server in ADO.NET?", "options": ["System.Data.SqlClient", "System.Data.OleDb", "System.Data.Odbc", "System.Data.OracleClient"], "answer": 0},
+  {"question": "What is a partial class in VB.NET?", "options": ["Class split across multiple files", "Class with partial implementation", "Incomplete class", "Abstract class"], "answer": 0},
+  {"question": "Which method of DataAdapter fills a DataSet?", "options": ["Fill()", "Update()", "Read()", "Load()"], "answer": 0},
+  {"question": "What is the purpose of the 'Handles' keyword in VB.NET?", "options": ["To associate an event with an event handler", "To handle exceptions", "To manage resources", "To control access"], "answer": 0},
+  {"question": "Which of the following is a .NET security feature?", "options": ["Code Access Security (CAS)", "Firewall", "Antivirus", "Encryption only"], "answer": 0},
+  {"question": "What is the GAC in .NET?", "options": ["Global Assembly Cache for shared assemblies", "Global Application Cache", "General Access Control", "Graphical Application Component"], "answer": 0}
+]

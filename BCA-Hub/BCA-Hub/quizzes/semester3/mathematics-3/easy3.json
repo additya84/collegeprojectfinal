@@ -1,0 +1,17 @@
+[
+  {"question": "What is the value of log₁₀(100)?", "options": ["2", "10", "100", "1"], "answer": 0},
+  {"question": "Which method is used for solving ordinary differential equations?", "options": ["Runge-Kutta", "Simpson", "Trapezoidal", "Newton-Raphson"], "answer": 0},
+  {"question": "What is a diagonal matrix?", "options": ["Non-zero only on main diagonal", "All zeros", "All ones", "Symmetric only"], "answer": 0},
+  {"question": "What is the derivative of sin x?", "options": ["cos x", "-cos x", "sin x", "-sin x"], "answer": 0},
+  {"question": "Which type of average is most affected by outliers?", "options": ["Mean", "Median", "Mode", "Range"], "answer": 0},
+  {"question": "What is the rank of a matrix?", "options": ["Number of linearly independent rows", "Number of rows", "Number of columns", "Determinant value"], "answer": 0},
+  {"question": "What is the condition number of a matrix used for?", "options": ["Measuring sensitivity to errors", "Finding determinant", "Finding inverse", "Checking symmetry"], "answer": 0},
+  {"question": "Which probability distribution models rare events?", "options": ["Poisson", "Normal", "Uniform", "Exponential"], "answer": 0},
+  {"question": "What is the trapezoidal rule's basic formula?", "options": ["(h/2)(f(x₀) + f(x₁))", "h(f(x₀) + f(x₁))", "(h/3)(f(x₀) + f(x₁))", "2h(f(x₀) + f(x₁))"], "answer": 0},
+  {"question": "What is a random variable?", "options": ["A variable whose values are random outcomes", "A constant", "A fixed number", "An equation"], "answer": 0},
+  {"question": "Which method solves linear equations iteratively?", "options": ["Gauss-Seidel", "Cramer's rule", "Matrix inversion", "LU decomposition"], "answer": 0},
+  {"question": "What is the range of a dataset?", "options": ["Maximum minus minimum", "Average deviation", "Middle value", "Sum of values"], "answer": 0},
+  {"question": "What is the integral of eˣ?", "options": ["eˣ + C", "ln(x) + C", "x + C", "1 + C"], "answer": 0},
+  {"question": "Which method finds interpolated values using divided differences?", "options": ["Newton's forward/backward", "Lagrange", "Gauss", "Stirling"], "answer": 0},
+  {"question": "What is covariance?", "options": ["Measure of joint variability of two variables", "Standard deviation", "Variance", "Correlation"], "answer": 0}
+]

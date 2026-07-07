@@ -1,0 +1,17 @@
+[
+  {"question": "What does management involve?", "options": ["Planning", "Organizing", "Controlling", "All of the above"], "answer": 3},
+  {"question": "Who is known as the father of scientific management?", "options": ["Henry Fayol", "F.W. Taylor", "Max Weber", "Elton Mayo"], "answer": 1},
+  {"question": "What is the first function of management?", "options": ["Organizing", "Staffing", "Planning", "Controlling"], "answer": 2},
+  {"question": "Which type of business organization has limited liability?", "options": ["Sole proprietorship", "Partnership", "Joint Hindu family", "Company"], "answer": 3},
+  {"question": "What is a plan?", "options": ["A future course of action", "A past activity", "An employee list", "A budget report"], "answer": 0},
+  {"question": "Which skill is most important for top managers?", "options": ["Technical", "Conceptual", "Human", "Physical"], "answer": 1},
+  {"question": "What does the term 'delegation' refer to?", "options": ["Assigning tasks", "Taking all decisions", "Avoiding work", "Monitoring only"], "answer": 0},
+  {"question": "Which leadership style involves no interference?", "options": ["Autocratic", "Democratic", "Laissez-faire", "Bureaucratic"], "answer": 2},
+  {"question": "What is the span of control?", "options": ["Number of subordinates a manager can supervise", "Length of work hours", "Manager's salary range", "Company's market share"], "answer": 0},
+  {"question": "Which document is an agreement between employer and employee?", "options": ["Articles of Association", "Memorandum of Association", "Prospectus", "Contract of Employment"], "answer": 3},
+  {"question": "What does SWOT stand for in strategic planning?", "options": ["Strengths, Weaknesses, Opportunities, Threats", "Sales, Workforce, Operations, Targets", "Strategy, Work, Output, Time", "System, Web, Output, Task"], "answer": 0},
+  {"question": "Which principle states 'unity of command'?", "options": ["Each employee should receive orders from one superior", "One plan for one goal", "Fair treatment", "Division of work"], "answer": 0},
+  {"question": "What is the purpose of a business practice?", "options": ["To standardize operations", "To reduce profits", "To avoid competition", "To limit employees"], "answer": 0},
+  {"question": "Which form of business has perpetual succession?", "options": ["Sole proprietorship", "Partnership", "Company", "Joint Hindu family"], "answer": 2},
+  {"question": "What is a budget?", "options": ["A financial plan", "An employee list", "A sales report", "A marketing strategy"], "answer": 0}
+]

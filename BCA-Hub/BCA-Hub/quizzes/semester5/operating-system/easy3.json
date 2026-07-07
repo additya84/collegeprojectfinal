@@ -1,0 +1,17 @@
+[
+  {"question": "Which OS component manages hardware devices?", "options": ["Device Manager", "File Manager", "Memory Manager", "Process Manager"], "answer": 0},
+  {"question": "What is the full form of PCB?", "options": ["Process Control Block", "Program Control Block", "Processor Control Block", "Process Control Buffer"], "answer": 0},
+  {"question": "Which scheduling algorithm is preemptive?", "options": ["Round Robin", "SJF", "FCFS", "Priority Non-preemptive"], "answer": 0},
+  {"question": "What is a thread?", "options": ["Lightweight process", "Heavyweight process", "Kernel module", "File system"], "answer": 0},
+  {"question": "Which command is used to list files in Linux?", "options": ["ls", "dir", "list", "show"], "answer": 0},
+  {"question": "What is virtual memory?", "options": ["Memory abstraction using disk", "Physical RAM", "Cache memory", "Register memory"], "answer": 0},
+  {"question": "What is an interrupt?", "options": ["Signal to CPU", "Memory write", "Disk read", "File open"], "answer": 0},
+  {"question": "Which of the following is not a state of a process?", "options": ["Compiled", "Running", "Ready", "Waiting"], "answer": 0},
+  {"question": "What is a mutex?", "options": ["Mutual exclusion lock", "Memory unit", "File type", "Network address"], "answer": 0},
+  {"question": "Which of the following is a type of system call?", "options": ["File operations", "Spreadsheet", "Web browser", "Text editor"], "answer": 0},
+  {"question": "What is the role of a bootloader?", "options": ["Load the OS", "Compile code", "Manage files", "Handle network"], "answer": 0},
+  {"question": "What is fragmentation?", "options": ["Wasted memory space", "File splitting", "Network error", "Process termination"], "answer": 0},
+  {"question": "Which disk scheduling algorithm is also called elevator algorithm?", "options": ["SCAN", "FCFS", "SSTF", "LOOK"], "answer": 0},
+  {"question": "What is a critical section?", "options": ["Shared resource access region", "High priority process", "Kernel code", "File system area"], "answer": 0},
+  {"question": "Which of the following is an example of a real-time OS?", "options": ["VxWorks", "Windows 10", "macOS", "Ubuntu"], "answer": 0}
+]

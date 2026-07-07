@@ -1,0 +1,17 @@
+[
+  {"question": "What is the difference between process and spot colors?", "options": ["Process uses CMYK mix, spot uses pre-mixed ink", "Both use pre-mixed ink", "Spot uses CMYK", "Process uses single ink"], "answer": 0},
+  {"question": "Which technique creates the illusion of continuous tone in printing?", "options": ["Halftone screening", "Blending", "Gradient", "Feathering"], "answer": 0},
+  {"question": "What is the purpose of a RIP (Raster Image Processor)?", "options": ["Converts vector to raster for printing", "Increases resolution", "Manages colors", "Edits images"], "answer": 0},
+  {"question": "Which Unicode encoding is most common for web DTP?", "options": ["UTF-8", "UTF-16", "ASCII", "ISO-8859-1"], "answer": 0},
+  {"question": "What is the gamut of a device in color management?", "options": ["Range of colors it can reproduce", "Maximum resolution", "Color depth", "Print speed"], "answer": 0},
+  {"question": "Which page size is 1/2 of A4?", "options": ["A5", "A3", "B5", "Letter"], "answer": 0},
+  {"question": "What does preflighting mean in DTP workflow?", "options": ["Checking files before printing", "Previewing layout", "Color correction", "Image resizing"], "answer": 0},
+  {"question": "Which compression is best for photographic images in print?", "options": ["Lossless (TIFF/LZW)", "JPEG high compression", "GIF", "PNG-8"], "answer": 0},
+  {"question": "What is the role of DPI in laser printing?", "options": ["Determines sharpness of output", "Sets color profile", "Adjusts speed", "Manages memory"], "answer": 0},
+  {"question": "Which binding method uses metal or plastic coils?", "options": ["Spiral binding", "Perfect binding", "Saddle stitching", "Case binding"], "answer": 0},
+  {"question": "What causes moire patterns in printing?", "options": ["Improper halftone screen angles", "Low resolution", "Wrong color mode", "Over-inking"], "answer": 0},
+  {"question": "What is the critical difference between lossy and lossless compression?", "options": ["Lossy discards data, lossless preserves all data", "Lossless discards data", "Both discard data", "Neither discards data"], "answer": 0},
+  {"question": "Which PostScript level supports transparency?", "options": ["PostScript 3", "PostScript 1", "PostScript 2", "EPS"], "answer": 0},
+  {"question": "What is 'dot gain' in offset printing?", "options": ["Halftone dots enlarge on paper", "Dot matrix fading", "Resolution loss", "Color shifting"], "answer": 0},
+  {"question": "Which term describes the process of separating an image into color channels?", "options": ["Color separation", "Image trace", "Rasterization", "Downsampling"], "answer": 0}
+]

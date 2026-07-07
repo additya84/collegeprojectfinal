@@ -1,0 +1,17 @@
+[
+  {"question": "What is trapping in printing?", "options": ["Overlapping colors to prevent gaps", "Color separation", "Image resolution", "Paper cutting"], "answer": 0},
+  {"question": "Which color space has the widest gamut?", "options": ["Lab", "CMYK", "RGB", "HSB"], "answer": 0},
+  {"question": "What does the term 'resolution' mean in DTP?", "options": ["Number of pixels per inch", "Screen brightness", "Color depth", "File size"], "answer": 0},
+  {"question": "Which PageMaker feature creates automatic page numbering?", "options": ["Auto page numbering on master page", "Manual typing", "Headers/Footers", "Insert symbol"], "answer": 0},
+  {"question": "What is the difference between RGB and CMYK?", "options": ["RGB for screen, CMYK for print", "Both for print", "Both for screen", "CMYK for screen only"], "answer": 0},
+  {"question": "What is a TIFF file format best used for?", "options": ["High-quality print images", "Web graphics", "Animation", "3D models"], "answer": 0},
+  {"question": "Which printing method uses plates?", "options": ["Offset printing", "Inkjet printing", "Laser printing", "Dot matrix"], "answer": 0},
+  {"question": "What is the purpose of the color palette in PageMaker?", "options": ["Manage and apply colors", "Draw shapes", "Add text", "Crop images"], "answer": 0},
+  {"question": "What does 'halftone' refer to in printing?", "options": ["Simulating continuous tone with dots", "Half color printing", "Draft quality", "Line art"], "answer": 0},
+  {"question": "Which layout element repeats on every page?", "options": ["Master page items", "Text frames", "Images", "Guides"], "answer": 0},
+  {"question": "What is the Pantone Matching System used for?", "options": ["Standardized color reproduction", "Font matching", "Paper selection", "Image compression"], "answer": 0},
+  {"question": "What does the term 'imposition' mean in printing?", "options": ["Arranging pages for printing on a sheet", "Adding images", "Formatting text", "Setting margins"], "answer": 0},
+  {"question": "Which graphic format supports transparency?", "options": ["PNG", "JPEG", "BMP", "GIF"], "answer": 0},
+  {"question": "What is the purpose of a registration mark?", "options": ["Align color separations", "Page numbering", "Crop area", "Bind edge"], "answer": 0},
+  {"question": "Which DTP element defines the printable area boundaries?", "options": ["Margin guides", "Column guides", "Ruler guides", "Grid"], "answer": 0}
+]

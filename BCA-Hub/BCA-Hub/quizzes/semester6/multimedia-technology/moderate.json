@@ -1,0 +1,17 @@
+[
+  {"question": "What is the compression ratio?", "options": ["Original size / Compressed size", "Compressed size / Original size", "Original size - Compressed size", "Original size + Compressed size"], "answer": 0},
+  {"question": "Which transform is used in JPEG compression?", "options": ["DCT (Discrete Cosine Transform)", "FFT (Fast Fourier Transform)", "Wavelet Transform", "Hadamard Transform"], "answer": 0},
+  {"question": "What is quantization in JPEG compression?", "options": ["Reducing precision of DCT coefficients", "Sampling the image", "Converting color space", "Encoding the image"], "answer": 0},
+  {"question": "What is run-length encoding used for?", "options": ["Compressing data with repeated values", "Encrypting data", "Error correction", "Color conversion"], "answer": 0},
+  {"question": "What is the principle of MPEG video compression?", "options": ["Interframe prediction and motion compensation", "Intraframe compression only", "Audio compression only", "Text compression"], "answer": 0},
+  {"question": "What is a keyframe in MPEG compression?", "options": ["A fully encoded reference frame", "A frame that is skipped", "A frame with low quality", "The last frame of video"], "answer": 0},
+  {"question": "What is PCM in audio?", "options": ["Pulse Code Modulation", "Phase Code Modulation", "Pulse Compression Modulation", "Primary Code Modulation"], "answer": 0},
+  {"question": "What is the bit rate in multimedia?", "options": ["Number of bits per second in media stream", "Number of bytes per file", "Resolution of media", "Color depth"], "answer": 0},
+  {"question": "What is the Nyquist sampling theorem?", "options": ["Sampling rate must be at least 2x maximum frequency", "Sampling rate must equal maximum frequency", "Sampling rate must be less than maximum frequency", "Sampling rate is irrelevant"], "answer": 0},
+  {"question": "What is aliasing in audio?", "options": ["Distortion from undersampling", "Signal amplification", "Noise reduction", "Frequency filtering"], "answer": 0},
+  {"question": "What is the function of a multimedia database?", "options": ["Store and manage multimedia data", "Compress media files", "Play media files", "Capture media"], "answer": 0},
+  {"question": "What is virtual reality in multimedia?", "options": ["Immersive computer-generated environment", "2D image display", "Text-based interaction", "Audio-only experience"], "answer": 0},
+  {"question": "Which standard is used for lossless audio compression?", "options": ["FLAC", "MP3", "AAC", "WMA"], "answer": 0},
+  {"question": "What is OCR in multimedia?", "options": ["Optical Character Recognition", "Optical Code Recognition", "Output Control Routine", "Open Compression Ratio"], "answer": 0},
+  {"question": "What is the purpose of a multimedia database query language?", "options": ["Retrieve multimedia content based on features", "Edit multimedia files", "Compress database files", "Create presentations"], "answer": 0}
+]

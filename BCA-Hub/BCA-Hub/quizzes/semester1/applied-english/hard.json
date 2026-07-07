@@ -93,40 +93,5 @@
 "question":"Choose the correct spelling.",
 "options":["Conscience","Concience","Consience","Conscince"],
 "answer":0
-},
-{
-"question":"Choose the correctly punctuated sentence.",
-"options":[
-"My hobbies are reading, travelling, and photography.",
-"My hobbies are reading travelling and photography.",
-"My hobbies are, reading travelling and photography.",
-"My hobbies are reading; travelling and photography."
-],
-"answer":0
-},
-{
-"question":"Choose the correct meaning of 'Once in a blue moon'.",
-"options":["Very frequently","Rarely","Every month","Daily"],
-"answer":1
-},
-{
-"question":"Choose the correct one-word substitution for 'A speech delivered without preparation'.",
-"options":["Debate","Extempore","Lecture","Monologue"],
-"answer":1
-},
-{
-"question":"Choose the correct sentence.",
-"options":[
-"No sooner did he arrive when the meeting started.",
-"No sooner had he arrived than the meeting started.",
-"No sooner he arrived than meeting started.",
-"No sooner had arrived he than meeting started."
-],
-"answer":1
-},
-{
-"question":"Choose the correct figure of speech: 'The stars danced in the sky.'",
-"options":["Personification","Simile","Metaphor","Irony"],
-"answer":0
 }
 ]

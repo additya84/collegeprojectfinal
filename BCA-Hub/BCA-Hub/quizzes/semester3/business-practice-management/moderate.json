@@ -1,0 +1,17 @@
+[
+  {"question": "Which type of plan is flexible and allows adjustments?", "options": ["Standing plan", "Single-use plan", "Contingency plan", "Operational plan"], "answer": 2},
+  {"question": "What is the difference between authority and responsibility?", "options": ["Authority is power, responsibility is obligation", "They are the same", "Responsibility is power", "Authority is duty"], "answer": 0},
+  {"question": "Which leadership model includes task and relationship orientation?", "options": ["Blake and Mouton's Managerial Grid", "Fiedler's Contingency Model", "Path-Goal Theory", "Situational Leadership"], "answer": 0},
+  {"question": "What is the key feature of the Matrix organization?", "options": ["Dual reporting relationships", "Single chain of command", "Flat structure", "No hierarchy"], "answer": 0},
+  {"question": "Which HR function involves identifying training needs?", "options": ["Training and development", "Recruitment", "Performance appraisal", "Compensation"], "answer": 0},
+  {"question": "What does 'span of management' refer to?", "options": ["Number of direct reports", "Manager's jurisdiction", "Department size", "Company reach"], "answer": 0},
+  {"question": "Which Fayol principle emphasizes division of work?", "options": ["Division of labor", "Unity of command", "Scalar chain", "Equity"], "answer": 0},
+  {"question": "What is a procedure in management?", "options": ["Step-by-step method", "Broad guideline", "Company policy", "Mission statement"], "answer": 0},
+  {"question": "Which type of business combines features of partnership and company?", "options": ["Limited Liability Partnership", "Sole proprietorship", "Joint venture", "Franchise"], "answer": 0},
+  {"question": "What is the purpose of the directing function?", "options": ["Guide and motivate employees", "Set organizational structure", "Measure outcomes", "Create budgets"], "answer": 0},
+  {"question": "Which decision-making model assumes perfect information?", "options": ["Rational model", "Bounded rationality", "Garbage can model", "Intuitive model"], "answer": 0},
+  {"question": "What does the term 'downward communication' mean?", "options": ["From superior to subordinate", "From subordinate to superior", "Between peers", "External communication"], "answer": 0},
+  {"question": "Which need is at the top of Maslow's hierarchy?", "options": ["Self-actualization", "Esteem", "Social", "Safety"], "answer": 0},
+  {"question": "What is the key characteristic of a mechanistic organization?", "options": ["High formalization", "Low formalization", "Flexible structure", "Decentralized"], "answer": 0},
+  {"question": "Which type of control is proactive?", "options": ["Feedforward control", "Concurrent control", "Feedback control", "Post-action control"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is C2C e-commerce?", "options": ["Consumer to Consumer", "Computer to Computer", "Cloud to Cloud", "Client to Client"], "answer": 0},
+  {"question": "What is encryption used for in e-commerce?", "options": ["Secure data transmission", "Delete data", "Format data", "Duplicate data"], "answer": 0},
+  {"question": "What is a merchant account?", "options": ["Account to accept credit card payments", "Bank savings account", "Email account", "Social media account"], "answer": 0},
+  {"question": "What is dropshipping?", "options": ["Supplier ships directly to customer", "Customer picks up", "Store delivers", "Manufacturer rejects"], "answer": 0},
+  {"question": "What is an affiliate marketing model?", "options": ["Earn commission by promoting products", "Sell own products", "Buy in bulk", "Manufacture goods"], "answer": 0},
+  {"question": "What is the role of a certificate authority?", "options": ["Issue digital certificates", "Issue domain names", "Host websites", "Process payments"], "answer": 0},
+  {"question": "What is a virtual private network used for?", "options": ["Secure remote access", "Faster internet", "File compression", "Email hosting"], "answer": 0},
+  {"question": "What is a transaction fee?", "options": ["Charge for processing payment", "Annual subscription", "Shipping cost", "Tax amount"], "answer": 0},
+  {"question": "What is a chargeback?", "options": ["Disputed transaction refund", "Bank deposit", "Interest payment", "Overdraft fee"], "answer": 0},
+  {"question": "What is a cookie in web context?", "options": ["Data stored by browser", "A baked food", "A virus", "A hardware chip"], "answer": 0},
+  {"question": "What is a banner ad?", "options": ["Online advertisement on websites", "A physical banner", "A file type", "A network protocol"], "answer": 0},
+  {"question": "What is the meaning of IoT in e-commerce?", "options": ["Internet of Things", "Internal Order Transfer", "Input Output Terminal", "International Online Trading"], "answer": 0},
+  {"question": "What is SEO?", "options": ["Search Engine Optimization", "System Enhancement Operation", "Server Execution Order", "Secure Electronic Output"], "answer": 0},
+  {"question": "What is a content management system?", "options": ["Software to manage web content", "Database system", "Payment system", "Security system"], "answer": 0},
+  {"question": "What is a call to action?", "options": ["Prompt for user response", "Phone call", "Legal notice", "Network request"], "answer": 0}
+]

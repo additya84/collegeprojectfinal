@@ -1,0 +1,17 @@
+[
+  {"question": "What is a data structure?", "options": ["A way to store and organize data", "A programming language", "A type of hardware", "An algorithm"], "answer": 0},
+  {"question": "Which of the following is a linear data structure?", "options": ["Array", "Tree", "Graph", "Hash table"], "answer": 0},
+  {"question": "What is the time complexity of accessing an element in an array by index?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": 0},
+  {"question": "What does LIFO stand for?", "options": ["Last In First Out", "First In Last Out", "Last In First Order", "Least In First Out"], "answer": 0},
+  {"question": "Which data structure uses LIFO?", "options": ["Queue", "Stack", "Array", "Linked list"], "answer": 1},
+  {"question": "What is a queue based on?", "options": ["LIFO", "FIFO", "LIFO and FIFO", "None"], "answer": 1},
+  {"question": "What is the time complexity of inserting at the beginning of a linked list?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": 0},
+  {"question": "Which data structure is used for implementing recursion?", "options": ["Queue", "Stack", "Array", "Graph"], "answer": 1},
+  {"question": "What is a binary tree?", "options": ["A tree with at most 2 children per node", "A tree with exactly 2 children", "A tree with 2 nodes", "A linear structure"], "answer": 0},
+  {"question": "What is the height of a tree with only a root?", "options": ["0", "1", "-1", "2"], "answer": 0},
+  {"question": "Which traversal visits root first in a binary tree?", "options": ["Inorder", "Preorder", "Postorder", "Level order"], "answer": 1},
+  {"question": "What is a complete binary tree?", "options": ["All levels are completely filled", "Every node has 2 children", "Height is minimum", "Leaves are at same level"], "answer": 0},
+  {"question": "What is the worst-case time complexity of searching in a linked list?", "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"], "answer": 1},
+  {"question": "Which of the following is a non-linear data structure?", "options": ["Array", "Stack", "Queue", "Graph"], "answer": 3},
+  {"question": "What is a graph?", "options": ["A set of nodes and edges", "A linear structure", "A sorted list", "A type of array"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is the concept of CSS specificity?", "options": ["Determines which CSS rule applies", "Specific CSS syntax", "CSS file naming", "CSS framework"], "answer": 0},
+  {"question": "Which JavaScript feature allows asynchronous programming?", "options": ["Promises and async/await", "Loops", "Conditional statements", "Variables"], "answer": 0},
+  {"question": "What is the purpose of HTML5 local storage?", "options": ["To store data in the browser", "To store data on the server", "To store data in the database", "To store cookies only"], "answer": 0},
+  {"question": "Which HTTP method is used to submit form data?", "options": ["POST", "GET", "PUT", "DELETE"], "answer": 0},
+  {"question": "What is the difference between cookies and sessionStorage?", "options": ["SessionStorage is cleared when tab closes", "Cookies are cleared when tab closes", "Both are the same", "Neither persists data"], "answer": 0},
+  {"question": "Which CSS pseudo-class selects the first child element?", "options": [":first-child", ":first-of-type", ":nth-child(1)", ":first"], "answer": 0},
+  {"question": "What is the purpose of the 'defer' attribute in a script tag?", "options": ["Defers script execution until HTML parsed", "Defers script downloading", "Deletes the script", "Disables the script"], "answer": 0},
+  {"question": "Which JavaScript method prevents the default action of an event?", "options": ["preventDefault()", "stopPropagation()", "cancelEvent()", "stopDefault()"], "answer": 0},
+  {"question": "What is a CDN in web development?", "options": ["Content Delivery Network for faster loading", "Code Development Network", "Central Database Network", "Content Development Node"], "answer": 0},
+  {"question": "Which CSS property creates a 3D transform?", "options": ["transform: rotateY()", "transform: rotate()", "perspective", "Both A and C"], "answer": 3},
+  {"question": "What is the difference between == and === in JavaScript?", "options": ["=== checks value and type; == checks only value", "== checks both; === checks only value", "Both are the same", "Neither is used in modern JS"], "answer": 0},
+  {"question": "Which HTML form attribute defines how form data is sent?", "options": ["method", "action", "type", "enctype"], "answer": 0},
+  {"question": "What is a progressive web app (PWA)?", "options": ["Web app that behaves like a native app", "Website with progressive loading", "App with animations", "Website with only HTML"], "answer": 0},
+  {"question": "Which CSS property creates an animation?", "options": ["@keyframes", "transition", "animation", "All of the above"], "answer": 3},
+  {"question": "What is the purpose of the 'viewport' meta tag?", "options": ["Controls layout on mobile devices", "Defines website view", "Sets page title", "Adds author info"], "answer": 0}
+]

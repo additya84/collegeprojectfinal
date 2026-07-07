@@ -1,0 +1,17 @@
+[
+  {"question": "What is the first step in the communication process?", "options": ["Encoding", "Feedback", "Decoding", "Idea generation"], "answer": 3},
+  {"question": "Which of the following is NOT a principle of effective communication?", "options": ["Clarity", "Conciseness", "Completeness", "Complexity"], "answer": 3},
+  {"question": "What does '7 Cs of communication' include?", "options": ["Clarity, Concise, Correct", "Complete, Concrete, Courteous", "Consideration", "All of the above"], "answer": 3},
+  {"question": "Which type of reading involves rapid reading for main ideas?", "options": ["Scanning", "Skimming", "Intensive reading", "Extensive reading"], "answer": 1},
+  {"question": "What is a précis?", "options": ["A summary", "A letter", "A report", "An essay"], "answer": 0},
+  {"question": "What is the purpose of a topic sentence?", "options": ["States the main idea of a paragraph", "Concludes the paragraph", "Introduces a new topic", "Provides examples"], "answer": 0},
+  {"question": "Which of the following is an adverb?", "options": ["Quickly", "Quick", "Quickness", "Quicken"], "answer": 0},
+  {"question": "What is a phrase?", "options": ["A group of words without a finite verb", "A complete sentence", "A clause", "A word"], "answer": 0},
+  {"question": "What is a clause?", "options": ["A group of words with a subject and verb", "A phrase", "A sentence fragment", "A word group"], "answer": 0},
+  {"question": "Which punctuation is used to join two independent clauses?", "options": ["Comma", "Semicolon", "Colon", "Full stop"], "answer": 1},
+  {"question": "What is the function of an adjective?", "options": ["Describes a noun", "Describes a verb", "Shows action", "Connects sentences"], "answer": 0},
+  {"question": "Which of these is a compound sentence?", "options": ["I went home.", "I went home because I was tired.", "I went home and I slept.", "Going home."], "answer": 2},
+  {"question": "What is a memorandum?", "options": ["A short written message used in offices", "A long report", "A formal letter", "A contract"], "answer": 0},
+  {"question": "What is the purpose of a notice?", "options": ["To inform or announce", "To persuade", "To entertain", "To describe"], "answer": 0},
+  {"question": "Which of the following is a type of report?", "options": ["Progress report", "Feasibility report", "Incident report", "All of the above"], "answer": 3}
+]

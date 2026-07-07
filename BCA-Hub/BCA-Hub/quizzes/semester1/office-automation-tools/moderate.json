@@ -103,35 +103,5 @@
       "Formatting text"
     ],
     "answer": 1
-  },
-  {
-    "question": "Which Word feature is used for repetitive formatting?",
-    "options": ["Template", "Macro", "Mail Merge", "Header"],
-    "answer": 0
-  },
-  {
-    "question": "Which feature creates automatic table of contents?",
-    "options": ["Styles", "References", "Header", "Review"],
-    "answer": 1
-  },
-  {
-    "question": "Which tab contains Spell Check in Word 2007?",
-    "options": ["Home", "Insert", "Review", "View"],
-    "answer": 2
-  },
-  {
-    "question": "Pivot Table is mainly used for:",
-    "options": [
-      "Drawing charts",
-      "Summarizing and analyzing data",
-      "Printing worksheets",
-      "Creating slides"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which feature allows jumping to another slide or website?",
-    "options": ["Animation", "Transition", "Hyperlink", "Theme"],
-    "answer": 2
   }
 ]

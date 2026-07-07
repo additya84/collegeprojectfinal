@@ -1,0 +1,17 @@
+[
+    {"question": "What is an operating system?", "options": ["A software that manages hardware and software resources", "A hardware component", "A type of application software", "A database management system"], "answer": 0},
+    {"question": "Which of the following is an example of a single-user operating system?", "options": ["MS-DOS", "Linux", "Unix", "Windows Server"], "answer": 0},
+    {"question": "What is the kernel of an operating system?", "options": ["The core component that manages system resources", "A shell program", "A file system", "A device driver"], "answer": 0},
+    {"question": "Which operating system is open-source?", "options": ["Linux", "Windows", "macOS", "MS-DOS"], "answer": 0},
+    {"question": "What is the function of a bootloader?", "options": ["To load the operating system into memory", "To compile programs", "To manage files", "To connect to the internet"], "answer": 0},
+    {"question": "Which of the following is a type of operating system interface?", "options": ["CLI and GUI", "API only", "USB interface", "Bluetooth interface"], "answer": 0},
+    {"question": "What is a process in operating system terms?", "options": ["A program in execution", "A file stored on disk", "A system call", "A hardware device"], "answer": 0},
+    {"question": "Which scheduling algorithm is non-preemptive?", "options": ["FCFS", "Round Robin", "SRTF", "Priority (preemptive)"], "answer": 0},
+    {"question": "What is the term for the technique where the CPU executes multiple processes by switching between them?", "options": ["Multitasking", "Multiprocessing", "Multithreading", "Parallel computing"], "answer": 0},
+    {"question": "What is virtual memory?", "options": ["A memory management technique that uses disk space as an extension of RAM", "A type of physical memory", "A cache memory", "A register"], "answer": 0},
+    {"question": "Which of the following is a file system used by Windows?", "options": ["NTFS", "ext4", "APFS", "ZFS"], "answer": 0},
+    {"question": "What is a deadlock in operating systems?", "options": ["A situation where processes are blocked waiting for each other indefinitely", "A system crash", "A file access error", "A memory overflow"], "answer": 0},
+    {"question": "What is the role of a device driver?", "options": ["To allow the OS to communicate with hardware devices", "To manage user accounts", "To compile code", "To secure the network"], "answer": 0},
+    {"question": "Which of the following is a real-time operating system?", "options": ["VxWorks", "Windows 10", "macOS", "Ubuntu"], "answer": 0},
+    {"question": "What is a system call?", "options": ["An interface between a process and the operating system", "A type of interrupt", "A hardware instruction", "A programming language construct"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "Which of the following is a demand forecasting technique in HRP?", "options": ["Trend analysis", "Ratio analysis", "Funds flow", "Break-even analysis"], "answer": 0},
+  {"question": "The process of matching the right person to the right job is called:", "options": ["Placement", "Recruitment", "Selection", "Training"], "answer": 0},
+  {"question": "What is the difference between training and development?", "options": ["Training is job-specific; development is career-oriented", "Training is for managers only", "Development is for workers only", "Both are the same"], "answer": 0},
+  {"question": "Which of the following is a qualitative method of HR forecasting?", "options": ["Delphi technique", "Regression analysis", "Markov analysis", "Workforce analysis"], "answer": 0},
+  {"question": "The concept of 'hire and fire' is associated with:", "options": ["Classical management theory", "Human relations theory", "Systems theory", "Contingency theory"], "answer": 0},
+  {"question": "What is a participative management style?", "options": ["Involving employees in decision-making", "Autocratic decision-making", "Delegating all decisions", "Ignoring employee input"], "answer": 0},
+  {"question": "The Hawthorne studies are associated with:", "options": ["Human relations movement", "Scientific management", "Administrative management", "Bureaucratic management"], "answer": 0},
+  {"question": "Which of the following is a separation function in HRM?", "options": ["Retirement", "Recruitment", "Training", "Induction"], "answer": 0},
+  {"question": "What is a psychological contract?", "options": ["Unwritten expectations between employer and employee", "Legal employment contract", "Union agreement", "Salary contract"], "answer": 0},
+  {"question": "Job enrichment involves:", "options": ["Adding more meaningful tasks to a job", "Adding more similar tasks", "Reducing job responsibilities", "Rotating jobs"], "answer": 0},
+  {"question": "Which of the following best describes 'right-sizing'?", "options": ["Optimizing workforce size", "Increasing workforce size", "Reducing workforce size", "Maintaining current size"], "answer": 0},
+  {"question": "The concept of 'glass ceiling' refers to:", "options": ["Invisible barrier to advancement", "Transparent management", "Open communication", "Clear promotion criteria"], "answer": 0},
+  {"question": "What is a cafeteria-style benefit plan?", "options": ["Flexible benefits chosen by employees", "Free lunch for employees", "Mandatory benefits", "Government benefits"], "answer": 0},
+  {"question": "Which theory is proposed by Maslow?", "options": ["Hierarchy of Needs", "Theory X and Theory Y", "Two-Factor Theory", "Equity Theory"], "answer": 0},
+  {"question": "Strike is a tool used by:", "options": ["Workers to pressurize management", "Management to discipline workers", "Government to regulate industry", "Customers to protest"], "answer": 0}
+]

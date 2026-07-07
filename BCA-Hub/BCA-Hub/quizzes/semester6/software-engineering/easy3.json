@@ -1,0 +1,17 @@
+[
+  {"question": "What is feasibility study in software engineering?", "options": ["Assessing if a project is viable", "Writing code", "Testing software", "Deploying software"], "answer": 0},
+  {"question": "What is a feasibility report?", "options": ["Document analyzing project viability", "A design document", "A user manual", "A test plan"], "answer": 0},
+  {"question": "What is functional requirement?", "options": ["What the system should do", "How the system performs", "System constraints", "Security aspects"], "answer": 0},
+  {"question": "What is non-functional requirement?", "options": ["Performance, security, usability constraints", "User features", "Business logic", "Data storage"], "answer": 0},
+  {"question": "What is a software prototype?", "options": ["An early version of software", "A final product", "A design document", "A test suite"], "answer": 0},
+  {"question": "What is RAD model?", "options": ["Rapid Application Development", "Random Application Design", "Rational Application Development", "Rapid Agile Deployment"], "answer": 0},
+  {"question": "What is CASE tool?", "options": ["Computer-Aided Software Engineering tool", "Code Analysis System", "Computer Application Software", "Code Automation System"], "answer": 0},
+  {"question": "What is version control?", "options": ["Managing changes to source code over time", "Controlling software versions", "Software licensing", "Release management"], "answer": 0},
+  {"question": "What is Git used for?", "options": ["Distributed version control", "Compiling code", "Testing software", "Deploying applications"], "answer": 0},
+  {"question": "What is a repository in version control?", "options": ["A storage location for source code", "A database server", "A testing environment", "A deployment server"], "answer": 0},
+  {"question": "What is a commit in Git?", "options": ["A snapshot of changes in repository", "A merge operation", "A branch operation", "A tag operation"], "answer": 0},
+  {"question": "What is branching in version control?", "options": ["Creating independent lines of development", "Merging code", "Tagging versions", "Deleting code"], "answer": 0},
+  {"question": "What is software configuration management?", "options": ["Tracking and controlling software changes", "Managing hardware", "Network administration", "Database management"], "answer": 0},
+  {"question": "What is a software license?", "options": ["Legal terms for using software", "A programming tool", "An encryption key", "A user manual"], "answer": 0},
+  {"question": "What is open-source software?", "options": ["Software with publicly accessible source code", "Free software only", "Shareware", "Trial software"], "answer": 0}
+]

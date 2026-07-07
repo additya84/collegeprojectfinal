@@ -1,0 +1,17 @@
+[
+  {"question": "What is a structured decision?", "options": ["Routine, repetitive decision with known procedure", "Unique, complex decision", "Random guess", "Intuitive choice"], "answer": 0},
+  {"question": "What is an unstructured decision?", "options": ["Novel, non-routine decision with no clear procedure", "Everyday decision", "Simple choice", "Automatic decision"], "answer": 0},
+  {"question": "What is a semi-structured decision?", "options": ["Partially routine, requires judgment", "Fully automated", "Completely random", "No data needed"], "answer": 0},
+  {"question": "Which level of management uses strategic information?", "options": ["Top management", "Middle management", "Lower management", "All levels"], "answer": 0},
+  {"question": "What is an executive support system?", "options": ["System for top-level strategic decisions", "System for payroll", "System for inventory", "System for billing"], "answer": 0},
+  {"question": "What is the role of MIS in planning?", "options": ["Provides data for planning decisions", "Executes the plan", "Hires planners", "Builds factories"], "answer": 0},
+  {"question": "What is a functional information system?", "options": ["System serving a specific department", "Company-wide system", "Cloud system", "Network system"], "answer": 0},
+  {"question": "What is a marketing information system used for?", "options": ["Track sales and customer data", "Manage payroll", "Handle inventory", "Process orders"], "answer": 0},
+  {"question": "What is a human resource information system?", "options": ["Manages employee data and payroll", "Manages products", "Manages customers", "Manages suppliers"], "answer": 0},
+  {"question": "What is a financial information system?", "options": ["Manages financial transactions and reports", "Manages inventory", "Manages marketing", "Manages production"], "answer": 0},
+  {"question": "What is a production information system?", "options": ["Manages manufacturing operations", "Manages sales", "Manages HR", "Manages finance"], "answer": 0},
+  {"question": "What is data warehousing?", "options": ["Storage of large historical data for analysis", "Daily transaction storage", "Temporary cache", "File backup"], "answer": 0},
+  {"question": "What is data mining?", "options": ["Extracting patterns from large data", "Data deletion", "Data entry", "Data backup"], "answer": 0},
+  {"question": "What is an expert system?", "options": ["AI system mimicking human expertise", "A database system", "A file system", "A network system"], "answer": 0},
+  {"question": "What is the difference between data and information?", "options": ["Data is raw; information is processed data", "Both are same", "Information is raw", "Data is processed"], "answer": 0}
+]

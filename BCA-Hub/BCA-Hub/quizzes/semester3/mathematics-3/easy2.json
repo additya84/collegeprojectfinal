@@ -1,0 +1,17 @@
+[
+  {"question": "What is interpolation?", "options": ["Estimating values between known data points", "Finding roots", "Calculating derivative", "Integrating a function"], "answer": 0},
+  {"question": "Which formula calculates the mean of grouped data?", "options": ["Σfx/Σf", "Σx/n", "√(Σ(x-x̄)²/n)", "Σ(x-x̄)"], "answer": 0},
+  {"question": "What is the determinant of a 2x2 identity matrix?", "options": ["1", "0", "2", "-1"], "answer": 0},
+  {"question": "Which method uses secant lines to find roots?", "options": ["Secant method", "Bisection method", "Newton-Raphson", "False position"], "answer": 0},
+  {"question": "What is the integral of 2x dx?", "options": ["x² + C", "2x² + C", "x + C", "x²/2 + C"], "answer": 0},
+  {"question": "Which measure shows relationship between two variables?", "options": ["Correlation", "Mean", "Variance", "Standard deviation"], "answer": 0},
+  {"question": "What is a singular matrix?", "options": ["Matrix with determinant zero", "Matrix with all ones", "Identity matrix", "Null matrix"], "answer": 0},
+  {"question": "What is the formula for variance?", "options": ["σ²", "σ", "σ³", "√σ"], "answer": 0},
+  {"question": "Which rule approximates definite integrals using trapezoids?", "options": ["Trapezoidal rule", "Simpson's rule", "Euler's method", "Runge-Kutta"], "answer": 0},
+  {"question": "What is the probability of rolling a 6 on a fair die?", "options": ["1/6", "1/2", "1/3", "1/4"], "answer": 0},
+  {"question": "What type of matrix has A = Aᵀ?", "options": ["Symmetric", "Skew-symmetric", "Diagonal", "Orthogonal"], "answer": 0},
+  {"question": "Which method finds the largest eigenvalue?", "options": ["Power method", "Bisection", "Newton", "Gauss-Seidel"], "answer": 0},
+  {"question": "What is the factorial of 5?", "options": ["120", "25", "60", "100"], "answer": 0},
+  {"question": "What does the term 'convergence' mean in numerical analysis?", "options": ["Approaching a limit as iterations increase", "Diverging from solution", "Error decreasing", "Reaching zero"], "answer": 0},
+  {"question": "Which distribution is bell-shaped?", "options": ["Normal distribution", "Uniform distribution", "Poisson distribution", "Binomial distribution"], "answer": 0}
+]

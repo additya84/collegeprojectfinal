@@ -1,0 +1,17 @@
+[
+  {"question": "What does HRM stand for?", "options": ["Human Resource Management", "Human Relations Management", "Human Resource Manual", "High Resource Management"], "answer": 0},
+  {"question": "Which of the following is a function of HRM?", "options": ["Recruitment", "Accounting", "Marketing", "Production"], "answer": 0},
+  {"question": "Personnel management focuses on:", "options": ["Managing people at work", "Managing finances", "Managing inventory", "Managing sales"], "answer": 0},
+  {"question": "The first step in the recruitment process is:", "options": ["Job analysis", "Selection", "Placement", "Training"], "answer": 0},
+  {"question": "Which of the following is an internal source of recruitment?", "options": ["Promotion", "Campus recruitment", "Employment exchange", "Consultants"], "answer": 0},
+  {"question": "Training helps employees to:", "options": ["Improve skills", "Reduce salary", "Increase workload", "Terminate employment"], "answer": 0},
+  {"question": "Industrial relations refer to relationships between:", "options": ["Management and workers", "Employer and customer", "Supplier and company", "Government and public"], "answer": 0},
+  {"question": "What is a job description?", "options": ["Summary of job duties", "Employee salary details", "Company policy", "Training schedule"], "answer": 0},
+  {"question": "Which act regulates industrial disputes in India?", "options": ["Industrial Disputes Act, 1947", "Factories Act, 1948", "Minimum Wages Act, 1948", "Bonus Act, 1965"], "answer": 0},
+  {"question": "HR planning is also known as:", "options": ["Manpower planning", "Financial planning", "Production planning", "Strategic planning"], "answer": 0},
+  {"question": "Which of the following is a method of training?", "options": ["On-the-job training", "Auditing", "Budgeting", "Selling"], "answer": 0},
+  {"question": "The term 'personnel' refers to:", "options": ["Employees of an organization", "Customers of a company", "Shareholders", "Suppliers"], "answer": 0},
+  {"question": "What is selection in HRM?", "options": ["Choosing the right candidate", "Advertising a job", "Conducting training", "Paying salary"], "answer": 0},
+  {"question": "Which of the following is a type of interview?", "options": ["Panel interview", "Cash interview", "Paper interview", "Online interview"], "answer": 0},
+  {"question": "The main objective of HRM is:", "options": ["Optimum utilization of human resources", "Maximizing profit", "Reducing cost", "Increasing production"], "answer": 0}
+]

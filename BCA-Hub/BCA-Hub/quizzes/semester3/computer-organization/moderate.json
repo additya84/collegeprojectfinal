@@ -1,0 +1,17 @@
+[
+  {"question": "Which addressing mode uses the operand value directly?", "options": ["Immediate", "Direct", "Indirect", "Register"], "answer": 0},
+  {"question": "What is the function of a decoder in digital electronics?", "options": ["Converts binary to decimal", "Converts n inputs to 2^n outputs", "Converts analog to digital", "Converts serial to parallel"], "answer": 1},
+  {"question": "How many address lines are needed for 1KB memory?", "options": ["8", "10", "12", "16"], "answer": 1},
+  {"question": "Which flip-flop has no undefined state?", "options": ["SR", "JK", "D", "T"], "answer": 2},
+  {"question": "What is a cache hit?", "options": ["Data found in cache", "Data not found in cache", "Cache memory full", "Cache disabled"], "answer": 0},
+  {"question": "Which bus transfers data between CPU and memory?", "options": ["Data bus", "Address bus", "Control bus", "System bus"], "answer": 0},
+  {"question": "What is the Gray code equivalent of binary 0011?", "options": ["0010", "0110", "0011", "0101"], "answer": 0},
+  {"question": "Which type of ROM can be erased by UV light?", "options": ["PROM", "EPROM", "EEPROM", "Mask ROM"], "answer": 1},
+  {"question": "What is pipelining in computer architecture?", "options": ["Overlapping execution of instructions", "Increasing clock speed", "Adding more ALUs", "Storing data in pipeline"], "answer": 0},
+  {"question": "Which register holds the address of the next instruction?", "options": ["MAR", "PC", "IR", "MBR"], "answer": 1},
+  {"question": "What does the term 'little endian' mean?", "options": ["LSB stored at lowest address", "MSB stored at lowest address", "Byte order doesn't matter", "Word size is 8 bits"], "answer": 0},
+  {"question": "How many flip-flops are needed for a mod-8 counter?", "options": ["2", "3", "4", "8"], "answer": 1},
+  {"question": "Which DMA transfer mode blocks the CPU?", "options": ["Burst mode", "Cycle stealing", "Transparent mode", "Interleaved mode"], "answer": 0},
+  {"question": "What is the Hamming distance between 1010 and 1100?", "options": ["1", "2", "3", "4"], "answer": 1},
+  {"question": "Which type of interrupt has the highest priority?", "options": ["Power failure", "I/O device", "Timer", "Software interrupt"], "answer": 0}
+]

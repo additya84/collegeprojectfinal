@@ -1,0 +1,17 @@
+[
+  {"question": "Which loop executes at least once in VB.NET?", "options": ["Do...Loop While", "For...Next", "While...End While", "For Each...Next"], "answer": 0},
+  {"question": "What is the purpose of the 'If...Then...Else' statement?", "options": ["Conditional execution of code", "Looping", "Variable declaration", "Exception handling"], "answer": 0},
+  {"question": "Which control is used to select multiple options?", "options": ["CheckBox", "RadioButton", "ListBox", "ComboBox"], "answer": 0},
+  {"question": "What is a class in VB.NET?", "options": ["Blueprint for creating objects", "A form", "A variable", "A control"], "answer": 0},
+  {"question": "Which symbol is used for comments in VB.NET?", "options": ["' (apostrophe)", "//", "#", "/*"], "answer": 0},
+  {"question": "What is the ComboBox control?", "options": ["Dropdown list with text input", "A list of checkboxes", "A radio button group", "A text area"], "answer": 0},
+  {"question": "Which property of TextBox hides the typed characters?", "options": ["PasswordChar", "HideChar", "MaskChar", "SecretChar"], "answer": 0},
+  {"question": "What is the purpose of a Timer control?", "options": ["To execute code at intervals", "To measure time taken", "To create delay", "To stop execution"], "answer": 0},
+  {"question": "Which data type stores true or false values?", "options": ["Boolean", "Integer", "String", "Double"], "answer": 0},
+  {"question": "What is the default control to accept single-line text input?", "options": ["TextBox", "Label", "RichTextBox", "MaskedTextBox"], "answer": 0},
+  {"question": "Which method is used to convert string to integer in VB.NET?", "options": ["Integer.Parse()", "String.ToInt()", "Convert.ToInteger()", "Integer.Convert()"], "answer": 0},
+  {"question": "What is an event in VB.NET?", "options": ["Action triggered by user or system", "A variable", "A method", "A property"], "answer": 0},
+  {"question": "Which property determines if a control is visible?", "options": ["Visible", "Enabled", "Show", "Display"], "answer": 0},
+  {"question": "What is the purpose of the 'End' statement in VB.NET?", "options": ["Terminates program execution", "Ends a loop", "Ends a function", "Closes a file"], "answer": 0},
+  {"question": "Which window shows the list of controls added to a form?", "options": ["Toolbox", "Properties window", "Solution Explorer", "Code editor"], "answer": 0}
+]

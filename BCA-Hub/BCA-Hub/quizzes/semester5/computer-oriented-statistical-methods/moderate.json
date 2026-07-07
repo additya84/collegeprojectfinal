@@ -1,0 +1,17 @@
+[
+  {"question": "Explain the difference between descriptive and inferential statistics.", "options": ["Descriptive summarizes data; inferential draws conclusions", "Both are same", "Descriptive draws conclusions", "Inferential summarizes"], "answer": 0},
+  {"question": "How does the Central Limit Theorem work?", "options": ["Sample means approach normal distribution as n increases", "Population is always normal", "Sample means are always normal", "No theorem exists"], "answer": 0},
+  {"question": "What is the difference between covariance and correlation?", "options": ["Correlation is standardized covariance", "Both are same", "Covariance is standardized", "No difference"], "answer": 0},
+  {"question": "How do you calculate the standard error of the mean?", "options": ["Standard deviation divided by square root of n", "Standard deviation times n", "Variance divided by n", "Mean divided by n"], "answer": 0},
+  {"question": "What is the difference between a parameter and a statistic?", "options": ["Parameter describes population; statistic describes sample", "Both describe sample", "Both describe population", "No difference"], "answer": 0},
+  {"question": "Explain the concept of degrees of freedom.", "options": ["Number of independent values in calculation", "Free variables", "Unlimited values", "Sample size"], "answer": 0},
+  {"question": "How do you interpret a correlation coefficient of 0.8?", "options": ["Strong positive linear relationship", "Weak positive relationship", "No relationship", "Strong negative relationship"], "answer": 0},
+  {"question": "What is the difference between interpolation and extrapolation?", "options": ["Interpolation within data range; extrapolation beyond", "Both within range", "Both beyond range", "No difference"], "answer": 0},
+  {"question": "How does the method of least squares work in regression?", "options": ["Minimizes sum of squared residuals", "Maximizes squared residuals", "Minimizes absolute residuals", "Maximizes correlation"], "answer": 0},
+  {"question": "What is a residual in regression analysis?", "options": ["Difference between observed and predicted values", "Predicted value", "Observed value", "Average value"], "answer": 0},
+  {"question": "Explain the concept of heteroscedasticity.", "options": ["Non-constant variance of residuals", "Constant variance", "Zero variance", "Increasing mean"], "answer": 0},
+  {"question": "What is multicollinearity in multiple regression?", "options": ["High correlation between predictor variables", "No correlation between predictors", "Low correlation", "Zero correlation"], "answer": 0},
+  {"question": "How do you calculate the coefficient of determination?", "options": ["Square of correlation coefficient", "Square root of correlation", "Correlation divided by n", "Correlation times n"], "answer": 0},
+  {"question": "What is the difference between one-tailed and two-tailed tests?", "options": ["One-tailed tests directional effect; two-tailed tests any difference", "Both test same", "One-tailed tests both directions", "No difference"], "answer": 0},
+  {"question": "Explain the concept of statistical power.", "options": ["Probability of correctly rejecting false null hypothesis", "Probability of type I error", "Sample size", "Effect size"], "answer": 0}
+]

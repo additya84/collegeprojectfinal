@@ -1,0 +1,17 @@
+[
+  {"question": "Compare and contrast B2B, B2C, C2C, and G2C e-commerce models.", "options": ["Each serves different audience segments with distinct features", "All are identical", "Only B2B exists", "Only one model"], "answer": 0},
+  {"question": "How does blockchain technology impact e-commerce transactions?", "options": ["Decentralized, transparent, secure transactions", "Centralized database", "No impact", "Slows down transactions"], "answer": 0},
+  {"question": "Analyze the security challenges in e-commerce and their solutions.", "options": ["Fraud, data breaches, identity theft; solved by encryption, SSL, 2FA", "No challenges exist", "Only one challenge", "Easy to solve all"], "answer": 0},
+  {"question": "Explain the complete transaction process through a payment gateway.", "options": ["Customer -> Merchant -> Gateway -> Processor -> Bank", "Direct customer to bank", "No processing needed", "Cash only"], "answer": 0},
+  {"question": "What is the role of artificial intelligence in modern e-commerce?", "options": ["Recommendation engines, chatbots, personalization", "No role", "Only payments", "Only shipping"], "answer": 0},
+  {"question": "Compare different EDI implementation approaches (traditional vs web-based).", "options": ["Traditional EDI uses VAN; web-based uses internet protocols", "Both are same", "Web-based is older", "Traditional is newer"], "answer": 0},
+  {"question": "How does tokenization work in payment security?", "options": ["Replace card data with unique tokens", "Encrypt the card number", "Store card in plain text", "Delete card data"], "answer": 0},
+  {"question": "Analyze the impact of GDPR on e-commerce businesses.", "options": ["Strict data protection and privacy requirements", "No impact", "Only affects US companies", "Relaxed rules"], "answer": 0},
+  {"question": "Explain the concept of customer lifetime value in e-commerce.", "options": ["Total revenue from a customer over entire relationship", "One-time purchase value", "Only acquisition cost", "Marketing expense"], "answer": 0},
+  {"question": "What are the challenges of cross-border e-commerce?", "options": ["Customs, currency, regulations, shipping complexity", "No challenges", "Same as local", "Only payment issues"], "answer": 0},
+  {"question": "How does a recommendation engine use collaborative filtering?", "options": ["Analyze user behavior patterns to suggest products", "Random product suggestions", "Only based on price", "Manual selection"], "answer": 0},
+  {"question": "Compare subscription-based and transaction-based e-commerce models.", "options": ["Subscription has recurring revenue; transaction is per purchase", "Both give same revenue", "No difference", "Subscription is obsolete"], "answer": 0},
+  {"question": "Explain the role of API integration in e-commerce platforms.", "options": ["Connect different systems for seamless operations", "No integration needed", "Only manual work", "Only database queries"], "answer": 0},
+  {"question": "How does voice commerce impact online shopping behavior?", "options": ["Voice-activated purchases increase convenience", "No impact", "Reduces sales", "Only for search"], "answer": 0},
+  {"question": "Analyze the effectiveness of social media marketing in e-commerce.", "options": ["High reach and targeted advertising benefits", "No effectiveness", "Only brand awareness", "Only sales"], "answer": 0}
+]

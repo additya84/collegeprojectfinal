@@ -1,0 +1,17 @@
+[
+  {"question": "Which feature allows a derived class to access base class members?", "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"], "answer": 0},
+  {"question": "What is a friend function?", "options": ["A non-member function with access to private members", "A member function", "A static function", "A virtual function"], "answer": 0},
+  {"question": "Which keyword is used to define a class in C++?", "options": ["class", "struct", "union", "All of the above"], "answer": 3},
+  {"question": "What does the 'this' pointer point to?", "options": ["Current object", "Base class", "Derived class", "Global data"], "answer": 0},
+  {"question": "Which type of inheritance has one base and multiple derived classes?", "options": ["Hierarchical", "Single", "Multiple", "Multilevel"], "answer": 0},
+  {"question": "What is function overloading?", "options": ["Multiple functions with same name but different parameters", "Functions with different names", "Reusing a function", "Calling a function"], "answer": 0},
+  {"question": "Which keyword prevents a class from being inherited?", "options": ["final", "sealed", "static", "abstract"], "answer": 0},
+  {"question": "What is the output of 'cout << 5 + 3'?", "options": ["8", "53", "5+3", "Error"], "answer": 0},
+  {"question": "Which of these is a valid C++ comment style?", "options": ["// comment", "/* comment */", "Both", "None"], "answer": 2},
+  {"question": "What is a virtual function?", "options": ["A function that can be overridden in derived class", "A static function", "A private function", "A global function"], "answer": 0},
+  {"question": "Which header is needed for cout?", "options": ["iostream", "stdio.h", "conio.h", "fstream"], "answer": 0},
+  {"question": "What is data abstraction?", "options": ["Showing only essential features", "Hiding all data", "Making everything public", "Removing functions"], "answer": 0},
+  {"question": "Which operator can be overloaded in C++?", "options": ["+", "-", "*", "All of the above"], "answer": 3},
+  {"question": "What is a pure virtual function?", "options": ["A virtual function with no body", "A virtual function with body", "A static function", "An inline function"], "answer": 0},
+  {"question": "Which class cannot be instantiated?", "options": ["Abstract class", "Base class", "Derived class", "Friend class"], "answer": 0}
+]

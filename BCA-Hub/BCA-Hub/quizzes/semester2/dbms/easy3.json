@@ -1,0 +1,17 @@
+[
+  {"question": "What is an index in DBMS?", "options": ["A structure for fast data access", "A table", "A constraint", "A view"], "answer": 0},
+  {"question": "Which is a type of index?", "options": ["B-tree index", "Hash index", "Clustered index", "All of the above"], "answer": 3},
+  {"question": "What is a clustered index?", "options": ["Determines physical order of data", "Does not affect order", "Is a secondary index", "Is a hash index"], "answer": 0},
+  {"question": "What is data abstraction in DBMS?", "options": ["Hiding complexity from users", "Data encryption", "Data compression", "Data duplication"], "answer": 0},
+  {"question": "What are the levels of data abstraction?", "options": ["Physical, Conceptual, View", "Low, Medium, High", "Simple, Complex, Advanced", "Base, Derived, Virtual"], "answer": 0},
+  {"question": "What is a data model?", "options": ["A framework for organizing data", "A programming language", "A database", "A query"], "answer": 0},
+  {"question": "Which model is used in modern DBMS?", "options": ["Hierarchical", "Network", "Relational", "Object-oriented"], "answer": 2},
+  {"question": "Who proposed the relational model?", "options": ["Charles Bachman", "Edgar Codd", "James Gray", "Michael Stonebraker"], "answer": 1},
+  {"question": "What is a relation in relational model?", "options": ["A table", "A query", "A key", "An attribute"], "answer": 0},
+  {"question": "What is a tuple in relational model?", "options": ["A row", "A column", "A table", "A database"], "answer": 0},
+  {"question": "What is a domain in relational model?", "options": ["Set of allowed values for an attribute", "A table", "A database", "A key"], "answer": 0},
+  {"question": "What is functional dependency?", "options": ["Relationship between attributes", "A key constraint", "A foreign key", "A table relationship"], "answer": 0},
+  {"question": "What is 2NF?", "options": ["No partial dependency", "No transitive dependency", "No repeating groups", "All keys defined"], "answer": 0},
+  {"question": "What is 3NF?", "options": ["No transitive dependency", "No partial dependency", "No repeating groups", "All keys defined"], "answer": 0},
+  {"question": "What is BCNF?", "options": ["A stricter form of 3NF", "Same as 1NF", "Same as 2NF", "Same as 3NF"], "answer": 0}
+]

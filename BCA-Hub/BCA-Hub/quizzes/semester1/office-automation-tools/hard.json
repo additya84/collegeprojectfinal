@@ -128,45 +128,5 @@
       "File deletion"
     ],
     "answer": 1
-  },
-  {
-    "question": "Redirection operator '<' is used for:",
-    "options": [
-      "Input redirection",
-      "Output redirection",
-      "Sorting",
-      "Formatting"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which wildcard matches exactly one character?",
-    "options": ["*", "?", "&", "#"],
-    "answer": 1
-  },
-  {
-    "question": "Which wildcard matches multiple characters?",
-    "options": ["*", "?", "#", "&"],
-    "answer": 0
-  },
-  {
-    "question": "Pivot Tables are mainly used in:",
-    "options": [
-      "MS Word",
-      "MS Excel",
-      "MS PowerPoint",
-      "DOS"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which Office application is best suited for data analysis?",
-    "options": [
-      "MS Word",
-      "MS Excel",
-      "PowerPoint",
-      "Paint"
-    ],
-    "answer": 1
   }
 ]

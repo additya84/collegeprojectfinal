@@ -103,45 +103,5 @@
 "Lets eat, grandma."
 ],
 "answer":2
-},
-{
-"question":"Choose the correct one-word substitution for 'One who knows many languages'.",
-"options":["Linguist","Polyglot","Scholar","Translator"],
-"answer":1
-},
-{
-"question":"Choose the correct voice: 'People speak English all over the world.'",
-"options":[
-"English is spoken all over the world.",
-"English was spoken all over the world.",
-"English has spoken all over the world.",
-"English speaks all over the world."
-],
-"answer":0
-},
-{
-"question":"Choose the correct form: Hardly had he arrived ___ it started raining.",
-"options":["when","than","then","and"],
-"answer":0
-},
-{
-"question":"Choose the correct idiom meaning of 'Break the ice'.",
-"options":[
-"Destroy something",
-"Start a conversation",
-"Win a competition",
-"End an argument"
-],
-"answer":1
-},
-{
-"question":"Choose the correct sentence.",
-"options":[
-"Each of the players have arrived.",
-"Each of the players has arrived.",
-"Each player have arrived.",
-"Each player are arrived."
-],
-"answer":1
 }
 ]

@@ -1,0 +1,17 @@
+[
+  {"question": "The Markov analysis in HRP is used to:", "options": ["Predict employee movement between job states", "Analyze market trends", "Evaluate training programs", "Calculate salary budgets"], "answer": 0},
+  {"question": "Which of the following is a validity measure in selection tests?", "options": ["Construct validity", "Face validity", "Content validity", "All of the above"], "answer": 3},
+  {"question": "The critical incident technique is used in:", "options": ["Performance appraisal", "Recruitment", "Training", "Job design"], "answer": 0},
+  {"question": "What does the term 'escalation of commitment' mean in HR context?", "options": ["Continuing investment in a failing course of action", "Increasing salary commitments", "Committing to training budgets", "Raising recruitment targets"], "answer": 0},
+  {"question": "The Tripartite Industrial Committee consists of:", "options": ["Government, employers and workers", "Employers, customers and suppliers", "Management, shareholders and directors", "Workers, unions and politicians"], "answer": 0},
+  {"question": "Which of the following is a quantitative technique for HR demand forecasting?", "options": ["Regression analysis", "Nominal group technique", "Delphi technique", "Brainstorming"], "answer": 0},
+  {"question": "The concept of 'employer branding' refers to:", "options": ["Company's reputation as an employer", "Corporate logo design", "Product branding strategy", "Marketing campaign"], "answer": 0},
+  {"question": "BARS stands for:", "options": ["Behaviorally Anchored Rating Scales", "Basic Assessment Rating System", "Behavioral Appraisal Review Scale", "Balanced Assessment Rating Score"], "answer": 0},
+  {"question": "Which of the following is a disadvantage of internal recruitment?", "options": ["Promotes inbreeding", "Higher cost", "Longer time", "Lower employee morale"], "answer": 0},
+  {"question": "The concept of 'job enlargement' refers to:", "options": ["Adding more tasks of similar level", "Adding more meaningful tasks", "Promoting to higher position", "Reducing job scope"], "answer": 0},
+  {"question": "What is a 'golden handshake'?", "options": ["Early retirement incentive package", "Annual bonus", "Salary increment", "Signing bonus"], "answer": 0},
+  {"question": "Which of the following is a HR accounting method?", "options": ["Historical cost method", "FIFO method", "LIFO method", "Weighted average method"], "answer": 0},
+  {"question": "The concept of 'flexi-time' refers to:", "options": ["Flexible work hours", "Fixed working hours", "Part-time work", "Shift work"], "answer": 0},
+  {"question": "Which of the following is not a type of organizational structure?", "options": ["Centralized structure", "Functional structure", "Divisional structure", "Matrix structure"], "answer": 0},
+  {"question": "The Wagner Act is related to:", "options": ["Labor relations in the USA", "Industrial disputes in India", "Trade unions in UK", "Wages in Germany"], "answer": 0}
+]

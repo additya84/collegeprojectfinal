@@ -1,0 +1,17 @@
+[
+  {"question": "What is the error term in Simpson's 1/3 rule?", "options": ["-h^5/90 * f''''(c)", "-h^3/12 * f''(c)", "h^5/2880 * f''''(c)", "-h^7/945 * f''''''(c)"], "answer": 0},
+  {"question": "What is the A-stability condition for numerical ODE solvers?", "options": ["Stable for all step sizes for stable problems", "Stable only for small step sizes", "Stable for linear problems only", "Unstable for stiff equations"], "answer": 0},
+  {"question": "What is the convergence rate of the Secant method?", "options": ["1.618", "2", "1", "3"], "answer": 0},
+  {"question": "What is the formula for Gaussian quadrature?", "options": ["Sum of wi * f(xi) at optimal points", "h/2 * sum of f at endpoints", "h * sum of f at all points", "Random sampling of points"], "answer": 0},
+  {"question": "How many points are used in Gauss-Legendre quadrature for exact integration of polynomials up to degree 5?", "options": ["3", "4", "5", "6"], "answer": 0},
+  {"question": "What is the main advantage of the QR algorithm for eigenvalues?", "options": ["Computes all eigenvalues simultaneously", "Finds only the largest eigenvalue", "Only works for symmetric matrices", "Requires matrix inversion"], "answer": 0},
+  {"question": "What is the formula for Newton's forward difference interpolation?", "options": ["Sum of (u choose k) * Delta^k f0", "Sum of Lagrange basis polynomials", "Sum of divided differences", "Sum of backward differences"], "answer": 0},
+  {"question": "What is the purpose of Richardson extrapolation?", "options": ["Improve accuracy by combining approximations at different step sizes", "Find roots of equations", "Solve linear systems", "Compute eigenvalues"], "answer": 0},
+  {"question": "What is the global error of the trapezoidal method for ODEs?", "options": ["O(h^2)", "O(h)", "O(h^3)", "O(h^4)"], "answer": 0},
+  {"question": "Which method is used to solve stiff ODEs?", "options": ["Implicit methods like Backward Euler", "Explicit Euler", "RK4", "Adam-Bashforth"], "answer": 0},
+  {"question": "What is the condition number of the Hilbert matrix?", "options": ["Very large for moderate dimensions", "Always 1", "Very small", "Zero"], "answer": 0},
+  {"question": "What is the Chebyshev polynomial used for in numerical analysis?", "options": ["Minimizing interpolation error", "Solving linear systems", "Numerical integration", "Eigenvalue computation"], "answer": 0},
+  {"question": "What is the number of multiplications in naive Gauss elimination for an n x n system?", "options": ["O(n^3/3)", "O(n^2)", "O(n)", "O(n^4)"], "answer": 0},
+  {"question": "What is the CFL condition in numerical PDEs?", "options": ["Stability condition relating step sizes", "Convergence condition", "Error bound", "Initial condition requirement"], "answer": 0},
+  {"question": "What is the fundamental theorem of numerical analysis regarding error?", "options": ["Error = Truncation error + Round-off error", "Error decreases with step size", "Error is always positive", "Error is independent of method"], "answer": 0}
+]

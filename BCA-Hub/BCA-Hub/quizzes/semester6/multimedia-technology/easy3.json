@@ -1,0 +1,17 @@
+[
+  {"question": "What is an authoring tool in multimedia?", "options": ["Software for creating multimedia content", "A type of hardware", "A compression algorithm", "A file format"], "answer": 0},
+  {"question": "Which of the following is an authoring tool?", "options": ["Adobe Director", "Adobe Photoshop", "Audacity", "VLC Media Player"], "answer": 0},
+  {"question": "What is hypermedia?", "options": ["Multimedia with hyperlinks", "Text only", "Images only", "Linear media"], "answer": 0},
+  {"question": "What is morphing in animation?", "options": ["Transforming one shape into another", "Moving an object", "Changing color", "Scaling an object"], "answer": 0},
+  {"question": "What is a storyboard in multimedia production?", "options": ["Sequence of sketches showing key scenes", "A script document", "A budget plan", "A timeline"], "answer": 0},
+  {"question": "Which file format is used for animations?", "options": [".gif", ".jpg", ".png", ".bmp"], "answer": 0},
+  {"question": "What is an MIDI file?", "options": ["Musical Instrument Digital Interface file", "Compressed audio file", "Video file", "Image file"], "answer": 0},
+  {"question": "What is the difference between MIDI and digital audio?", "options": ["MIDI stores instructions; digital audio stores waveforms", "MIDI stores waveforms; digital audio stores instructions", "Both store waveforms", "Both store instructions"], "answer": 0},
+  {"question": "What is the color model RGB stands for?", "options": ["Red Green Blue", "Red Gray Blue", "Raster Graphics Bitmap", "Random Graphics Buffer"], "answer": 0},
+  {"question": "Which color model is used in printing?", "options": ["CMYK", "RGB", "HSV", "YUV"], "answer": 0},
+  {"question": "What is dithering in image processing?", "options": ["Creating the illusion of colors using patterns", "Removing colors", "Reducing resolution", "Rotating the image"], "answer": 0},
+  {"question": "What is anti-aliasing in graphics?", "options": ["Smoothing jagged edges", "Removing noise", "Adding colors", "Increasing resolution"], "answer": 0},
+  {"question": "What is the function of a multimedia player?", "options": ["Play media files", "Edit media files", "Compress media files", "Capture media files"], "answer": 0},
+  {"question": "Which of the following is a video editing software?", "options": ["Adobe Premiere Pro", "Audacity", "Photoshop", "Notepad"], "answer": 0},
+  {"question": "What is compositing in multimedia?", "options": ["Combining multiple visual elements into one", "Compressing a file", "Converting file formats", "Deleting frames"], "answer": 0}
+]

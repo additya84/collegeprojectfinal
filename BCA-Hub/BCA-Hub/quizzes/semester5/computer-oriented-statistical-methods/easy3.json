@@ -1,0 +1,17 @@
+[
+  {"question": "What is a hypothesis in statistics?", "options": ["Assumption to be tested", "Proven fact", "Data point", "Statistical measure"], "answer": 0},
+  {"question": "What is the null hypothesis?", "options": ["Default assumption of no effect", "Alternative assumption", "Proven hypothesis", "Research hypothesis"], "answer": 0},
+  {"question": "What is the alternative hypothesis?", "options": ["Opposite of null hypothesis", "Same as null hypothesis", "Only hypothesis", "No hypothesis"], "answer": 0},
+  {"question": "What is a p-value?", "options": ["Probability of observing results if null is true", "Probability null is true", "Significance level", "Test statistic"], "answer": 0},
+  {"question": "What is the significance level alpha?", "options": ["Threshold for rejecting null hypothesis", "Probability value", "Test statistic", "Effect size"], "answer": 0},
+  {"question": "What is a Type I error?", "options": ["Rejecting true null hypothesis", "Accepting false null hypothesis", "Data entry error", "Calculation error"], "answer": 0},
+  {"question": "What is a Type II error?", "options": ["Accepting false null hypothesis", "Rejecting true null hypothesis", "Data collection error", "Sampling error"], "answer": 0},
+  {"question": "What is a t-test used for?", "options": ["Compare means of two groups", "Compare variances", "Test correlation", "Test proportions"], "answer": 0},
+  {"question": "What is a chi-square test used for?", "options": ["Test association between categorical variables", "Compare means", "Test variances", "Test correlation"], "answer": 0},
+  {"question": "What is ANOVA used for?", "options": ["Compare means of three or more groups", "Compare two groups", "Test proportions", "Test correlation"], "answer": 0},
+  {"question": "What is a confidence interval?", "options": ["Range containing population parameter with certain confidence", "Point estimate", "Standard deviation", "Sample mean"], "answer": 0},
+  {"question": "What is the Pearson correlation coefficient?", "options": ["Measures linear relationship between variables", "Means difference", "Variance measure", "Probability measure"], "answer": 0},
+  {"question": "What is the Spearman rank correlation?", "options": ["Non-parametric correlation measure", "Parametric correlation", "Mean comparison", "Variance test"], "answer": 0},
+  {"question": "What is a simple linear regression?", "options": ["Model with one predictor variable", "Multiple predictors", "No predictors", "Categorical predictors"], "answer": 0},
+  {"question": "What is R-squared in regression?", "options": ["Proportion of variance explained by model", "Correlation coefficient", "Standard error", "Mean squared error"], "answer": 0}
+]

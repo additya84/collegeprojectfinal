@@ -1,0 +1,17 @@
+[
+  {"question": "What is the purpose of the rulers in PageMaker?", "options": ["Measure and align objects", "Change font size", "Edit colors", "Save files"], "answer": 0},
+  {"question": "Which term describes the space between paragraphs?", "options": ["Paragraph spacing", "Leading", "Kerning", "Tracking"], "answer": 0},
+  {"question": "What is a graphic?", "options": ["Visual representation on a surface", "A text file", "A sound file", "A video format"], "answer": 0},
+  {"question": "Which option flips an image horizontally?", "options": ["Mirror", "Rotate", "Scale", "Skew"], "answer": 0},
+  {"question": "What is the standard page size for A4?", "options": ["210 x 297 mm", "216 x 279 mm", "176 x 250 mm", "250 x 353 mm"], "answer": 0},
+  {"question": "Which part of PageMaker shows page icons?", "options": ["Pasteboard", "Toolbox", "Control palette", "Scrapbook"], "answer": 0},
+  {"question": "What does the eyedropper tool do?", "options": ["Picks up color from an object", "Drops text", "Crops images", "Draws lines"], "answer": 0},
+  {"question": "Which color model is best for print projects?", "options": ["CMYK", "RGB", "HSB", "Grayscale"], "answer": 0},
+  {"question": "What is a clipping path used for?", "options": ["To hide parts of an image", "To connect paths", "To create text", "To apply filters"], "answer": 0},
+  {"question": "Which menu contains text formatting options?", "options": ["Type", "File", "Element", "Utilities"], "answer": 0},
+  {"question": "What is a spot color in printing?", "options": ["A single custom ink color", "Screen display color", "Grayscale", "Default black"], "answer": 0},
+  {"question": "Which term refers to the slant of characters?", "options": ["Italic", "Bold", "Underline", "Strikethrough"], "answer": 0},
+  {"question": "What is the advantage of vector graphics?", "options": ["Scalable without loss of quality", "Better for photos", "Small file size for photos", "Easy to rasterize"], "answer": 0},
+  {"question": "What is a style sheet in PageMaker?", "options": ["Predefined formatting settings", "Sheet of paper", "A graphic style", "A template file"], "answer": 0},
+  {"question": "Which tool draws freehand lines in PageMaker?", "options": ["Pencil tool", "Line tool", "Rectangle tool", "Oval tool"], "answer": 0}
+]

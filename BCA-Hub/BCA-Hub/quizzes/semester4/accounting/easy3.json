@@ -1,0 +1,17 @@
+[
+  {"question": "Which of the following is not a type of account?", "options": ["Suspense account", "Real account", "Personal account", "Nominal account"], "answer": 0},
+  {"question": "The rule 'debit the receiver, credit the giver' applies to:", "options": ["Personal accounts", "Real accounts", "Nominal accounts", "All accounts"], "answer": 0},
+  {"question": "What is a voucher?", "options": ["Documentary evidence of a transaction", "Financial statement", "Ledger account", "Journal entry"], "answer": 0},
+  {"question": "Trading account shows:", "options": ["Gross profit or loss", "Net profit or loss", "Financial position", "Cash flows"], "answer": 0},
+  {"question": "Profit and loss account shows:", "options": ["Net profit or loss", "Gross profit or loss", "Financial position", "Cash position"], "answer": 0},
+  {"question": "The balance sheet is prepared on:", "options": ["A specific date", "A period of time", "Throughout the year", "Monthly basis"], "answer": 0},
+  {"question": "Which of the following is a liquidity ratio?", "options": ["Current ratio", "Gross profit ratio", "Net profit ratio", "Debt-equity ratio"], "answer": 0},
+  {"question": "What does a high current ratio indicate?", "options": ["Good liquidity position", "Low profitability", "High debt", "Low sales"], "answer": 0},
+  {"question": "Stock is valued at:", "options": ["Cost or market price whichever is lower", "Cost price only", "Market price only", "Selling price"], "answer": 0},
+  {"question": "What is capital?", "options": ["Owner's investment in the business", "Loan from bank", "Creditors amount", "Revenue earned"], "answer": 0},
+  {"question": "Drawings refer to:", "options": ["Money or goods withdrawn by the owner", "Salary paid to employees", "Rent paid", "Purchases made"], "answer": 0},
+  {"question": "Which of the following is an intangible asset?", "options": ["Goodwill", "Building", "Machinery", "Furniture"], "answer": 0},
+  {"question": "Bad debts are:", "options": ["Unrecoverable amounts from debtors", "Discounted sales", "Purchase returns", "Expenses paid"], "answer": 0},
+  {"question": "What is a provision?", "options": ["Amount set aside for a known liability", "Amount paid as expense", "Revenue received", "Asset purchased"], "answer": 0},
+  {"question": "The concept of 'going concern' assumes:", "options": ["Business will continue indefinitely", "Business will close soon", "Business is new", "Business has no assets"], "answer": 0}
+]

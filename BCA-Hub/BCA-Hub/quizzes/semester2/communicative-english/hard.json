@@ -1,0 +1,17 @@
+[
+  {"question": "What is a thesis statement?", "options": ["Main argument of an essay", "A concluding remark", "An introduction", "A supporting detail"], "answer": 0},
+  {"question": "What is the difference between active and passive voice?", "options": ["Subject performs vs receives action", "Present vs past tense", "Singular vs plural subject", "Formal vs informal tone"], "answer": 0},
+  {"question": "Which of the following is a dangling modifier?", "options": ["Walking home, the rain started.", "Walking home, I saw rain.", "While walking home, it rained.", "I walked home in rain."], "answer": 0},
+  {"question": "What is a gerund?", "options": ["A verb form ending in -ing used as a noun", "A past participle", "A present participle", "An infinitive"], "answer": 0},
+  {"question": "What is an infinitive?", "options": ["To + base form of verb", "Verb + ing", "Past tense verb", "Present tense verb"], "answer": 0},
+  {"question": "Which of the following is a complex sentence?", "options": ["I went home.", "I went home and slept.", "Because I was tired, I went home.", "I went home, and I slept."], "answer": 2},
+  {"question": "What is coherence in writing?", "options": ["Logical connection between ideas", "Grammatical correctness", "Proper punctuation", "Word choice"], "answer": 0},
+  {"question": "What is a euphemism?", "options": ["A mild expression used in place of a harsh one", "A figure of speech", "A synonym", "An antonym"], "answer": 0},
+  {"question": "What is the purpose of a business letter?", "options": ["Formal professional communication", "Personal chat", "Entertainment", "Informal discussion"], "answer": 0},
+  {"question": "Which of the following is NOT a type of listening?", "options": ["Critical listening", "Empathetic listening", "Appreciative listening", "Hearing"], "answer": 3},
+  {"question": "What is feedback in communication?", "options": ["Response from the receiver", "The original message", "The channel used", "The encoding process"], "answer": 0},
+  {"question": "What is the correct format of a formal email?", "options": ["Subject, Salutation, Body, Closing, Signature", "Body, Signature, Subject", "Salutation, Body, Signature, Subject", "Closing, Body, Salutation, Subject"], "answer": 0},
+  {"question": "What is a qualifier in grammar?", "options": ["A word that limits another word", "A question word", "A conjunction", "An interjection"], "answer": 0},
+  {"question": "What is a run-on sentence?", "options": ["Two independent clauses joined without proper punctuation", "A very long sentence", "A sentence with no verb", "A sentence fragment"], "answer": 0},
+  {"question": "What is the purpose of an agenda in a meeting?", "options": ["To list topics to be discussed", "To record minutes", "To introduce participants", "To conclude the meeting"], "answer": 0}
+]

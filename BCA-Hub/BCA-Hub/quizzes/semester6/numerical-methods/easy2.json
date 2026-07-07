@@ -1,0 +1,17 @@
+[
+  {"question": "What is the formula for Simpson's 1/3 rule?", "options": ["h/3 * (f0 + 4f1 + f2)", "h/2 * (f0 + f1)", "h/3 * (f0 + 2f1 + 2f2 + f3)", "h * (f0 + f1)"], "answer": 0},
+  {"question": "How many initial guesses are needed in the Bisection method?", "options": ["1", "2", "3", "4"], "answer": 1},
+  {"question": "What is a polynomial interpolation?", "options": ["Finding a polynomial that passes through given points", "Finding the derivative of a polynomial", "Integrating a polynomial", "Factoring a polynomial"], "answer": 0},
+  {"question": "What is the Lagrange interpolation formula used for?", "options": ["Constructing a polynomial from given points", "Solving differential equations", "Finding eigenvalues", "Minimizing functions"], "answer": 0},
+  {"question": "Which method is used for numerical differentiation?", "options": ["Forward Difference Method", "Bisection Method", "Newton-Raphson Method", "Gauss-Seidel Method"], "answer": 0},
+  {"question": "What is the formula for forward difference?", "options": ["f(x+h) - f(x)", "f(x) - f(x-h)", "f(x+h) - f(x-h)", "f(x+h) + f(x)"], "answer": 0},
+  {"question": "What is the order of error in the forward difference formula?", "options": ["O(h)", "O(h^2)", "O(h^3)", "O(1)"], "answer": 0},
+  {"question": "What is central difference formula used for?", "options": ["Approximating derivatives with higher accuracy", "Finding roots", "Interpolating values", "Integrating functions"], "answer": 0},
+  {"question": "Which method is used for solving ordinary differential equations?", "options": ["Runge-Kutta Method", "Bisection Method", "Gauss Elimination", "Newton-Raphson"], "answer": 0},
+  {"question": "What is Euler's method used for?", "options": ["Solving ODEs numerically", "Finding roots of equations", "Interpolating data", "Integrating functions"], "answer": 0},
+  {"question": "What is the order of Euler's method?", "options": ["First order", "Second order", "Third order", "Fourth order"], "answer": 0},
+  {"question": "What does the term 'iteration' mean in numerical methods?", "options": ["Repeating a process to get closer to the solution", "One-time calculation", "Error estimation", "Initial guess"], "answer": 0},
+  {"question": "What is a convergent method?", "options": ["A method that approaches the true solution", "A method that diverges", "A method that gives exact answer", "A method that fails"], "answer": 0},
+  {"question": "What is the Gauss-Seidel method used for?", "options": ["Solving systems of linear equations iteratively", "Finding roots of nonlinear equations", "Numerical integration", "Numerical differentiation"], "answer": 0},
+  {"question": "What is a matrix norm?", "options": ["A measure of the size of a matrix", "The determinant of a matrix", "The inverse of a matrix", "The rank of a matrix"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is the numerical value of Euler's number e?", "options": ["2.718", "3.141", "1.618", "2.414"], "answer": 0},
+  {"question": "Which method is used to find roots of equations?", "options": ["Newton-Raphson", "Euler's method", "Runge-Kutta", "Simpson's rule"], "answer": 0},
+  {"question": "What is a matrix with all zero elements called?", "options": ["Zero matrix", "Unit matrix", "Identity matrix", "Null matrix"], "answer": 3},
+  {"question": "What is the order of a 3x3 matrix?", "options": ["3", "9", "6", "1"], "answer": 0},
+  {"question": "Which measure of central tendency is the middle value?", "options": ["Median", "Mean", "Mode", "Range"], "answer": 0},
+  {"question": "What does the symbol Σ represent?", "options": ["Summation", "Product", "Integration", "Differentiation"], "answer": 0},
+  {"question": "What is the probability of getting heads in a fair coin toss?", "options": ["0.5", "1", "0", "0.25"], "answer": 0},
+  {"question": "Which statistical measure shows spread of data?", "options": ["Standard deviation", "Mean", "Median", "Mode"], "answer": 0},
+  {"question": "What is a square matrix where all diagonal elements are 1 called?", "options": ["Identity matrix", "Zero matrix", "Diagonal matrix", "Symmetric matrix"], "answer": 0},
+  {"question": "Which method solves systems of linear equations?", "options": ["Gauss elimination", "Newton-Raphson", "Bisection", "Secant"], "answer": 0},
+  {"question": "What is the derivative of x²?", "options": ["2x", "x", "2", "x²"], "answer": 0},
+  {"question": "Which numerical integration method uses parabolic arcs?", "options": ["Simpson's rule", "Trapezoidal rule", "Euler's method", "Midpoint rule"], "answer": 0},
+  {"question": "What is the mode in statistics?", "options": ["Most frequent value", "Middle value", "Average value", "Difference between max and min"], "answer": 0},
+  {"question": "What does the term 'iteration' mean in numerical methods?", "options": ["Repeating a process to get closer to a solution", "A single calculation", "A type of matrix", "A statistical test"], "answer": 0},
+  {"question": "What is the range of correlation coefficient?", "options": ["-1 to 1", "0 to 1", "-∞ to ∞", "0 to 100"], "answer": 0}
+]

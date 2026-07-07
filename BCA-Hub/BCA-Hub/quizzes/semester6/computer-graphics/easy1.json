@@ -1,0 +1,17 @@
+[
+  {"question": "What is computer graphics?", "options": ["Creating and manipulating visual content using computers", "Writing text documents", "Programming databases", "Network administration"], "answer": 0},
+  {"question": "Which algorithm is used for drawing a line in computer graphics?", "options": ["Bresenham's Line Algorithm", "Flood Fill Algorithm", "Scanline Algorithm", "Z-buffer Algorithm"], "answer": 0},
+  {"question": "What is a pixel?", "options": ["Smallest addressable element in a display", "A type of printer", "A file format", "A graphics card"], "answer": 0},
+  {"question": "What is resolution in computer graphics?", "options": ["Number of pixels in a display", "Color depth", "Refresh rate", "File size"], "answer": 0},
+  {"question": "What does RGB stand for?", "options": ["Red Green Blue", "Raster Graphics Buffer", "Random Graphics Bitmap", "Revised Graphics Board"], "answer": 0},
+  {"question": "Which device is used to display graphics?", "options": ["Monitor", "Keyboard", "Mouse", "Printer"], "answer": 0},
+  {"question": "What is a polygon in computer graphics?", "options": ["A closed shape with straight edges", "A type of curve", "A color gradient", "A text font"], "answer": 0},
+  {"question": "What is transformation in computer graphics?", "options": ["Changing position, size, or orientation of objects", "Changing colors", "Deleting objects", "Copying objects"], "answer": 0},
+  {"question": "What is translation in graphics?", "options": ["Moving an object from one position to another", "Rotating an object", "Scaling an object", "Reflecting an object"], "answer": 0},
+  {"question": "What is rotation in computer graphics?", "options": ["Turning an object around an axis", "Moving an object", "Resizing an object", "Shearing an object"], "answer": 0},
+  {"question": "What is scaling in computer graphics?", "options": ["Changing the size of an object", "Rotating an object", "Moving an object", "Reflecting an object"], "answer": 0},
+  {"question": "What is 2D graphics?", "options": ["Graphics with two dimensions (x and y)", "Graphics with three dimensions", "Graphics with one dimension", "Graphics with no dimensions"], "answer": 0},
+  {"question": "What is 3D graphics?", "options": ["Graphics with three dimensions (x, y, and z)", "Graphics with two dimensions", "Graphics with animation", "Graphics with sound"], "answer": 0},
+  {"question": "What is a vertex in computer graphics?", "options": ["A point in 3D space", "A color value", "A line segment", "A texture"], "answer": 0},
+  {"question": "What is the color depth of 8-bit color?", "options": ["256 colors", "16 colors", "16.7 million colors", "65536 colors"], "answer": 0}
+]

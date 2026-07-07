@@ -1,0 +1,17 @@
+[
+  {"question": "Which flip-flop is used as a frequency divider?", "options": ["SR", "JK", "D", "T"], "answer": 3},
+  {"question": "What is a multiplexer?", "options": ["Selects one of many inputs", "Converts analog to digital", "Stores data", "Counts pulses"], "answer": 0},
+  {"question": "How many select lines does a 4:1 multiplexer have?", "options": ["1", "2", "3", "4"], "answer": 1},
+  {"question": "What is a demultiplexer?", "options": ["Routes one input to many outputs", "Selects one of many inputs", "Adds numbers", "Stores data"], "answer": 0},
+  {"question": "What is a decoder?", "options": ["Converts binary to decimal", "Converts decimal to binary", "Encodes data", "Selects data"], "answer": 0},
+  {"question": "How many outputs does a 3-to-8 decoder have?", "options": ["3", "8", "16", "32"], "answer": 1},
+  {"question": "What is an encoder?", "options": ["Converts decimal to binary", "Converts binary to decimal", "Selects data", "Stores data"], "answer": 0},
+  {"question": "What is a half adder?", "options": ["Adds two bits", "Adds three bits", "Subtracts bits", "Multiplies bits"], "answer": 0},
+  {"question": "How many outputs does a half adder have?", "options": ["1", "2", "3", "4"], "answer": 1},
+  {"question": "What is a full adder?", "options": ["Adds three bits", "Adds two bits", "Adds four bits", "Subtracts bits"], "answer": 0},
+  {"question": "What is a ripple carry adder?", "options": ["Carry propagates through stages", "Carry is computed in parallel", "No carry is used", "Carry is ignored"], "answer": 0},
+  {"question": "What is a comparator?", "options": ["Compares two numbers", "Adds numbers", "Subtracts numbers", "Multiplies numbers"], "answer": 0},
+  {"question": "What is a counter?", "options": ["Counts clock pulses", "Adds numbers", "Stores data", "Generates clock"], "answer": 0},
+  {"question": "How many states does a 3-bit counter have?", "options": ["3", "4", "8", "16"], "answer": 2},
+  {"question": "What is a synchronous counter?", "options": ["All flip-flops share the same clock", "Flip-flops have different clocks", "No clock is used", "Uses asynchronous inputs"], "answer": 0}
+]

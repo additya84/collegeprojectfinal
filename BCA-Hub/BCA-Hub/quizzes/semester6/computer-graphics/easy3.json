@@ -1,0 +1,17 @@
+[
+  {"question": "What is a frame buffer?", "options": ["Memory used to store pixel data for display", "A type of processor", "A graphics cable", "A display device"], "answer": 0},
+  {"question": "What is a scan line?", "options": ["A single row of pixels on screen", "A vertical column", "A diagonal line", "A curved line"], "answer": 0},
+  {"question": "What is the Cohen-Sutherland algorithm used for?", "options": ["Line clipping", "Circle drawing", "Polygon filling", "Hidden surface removal"], "answer": 0},
+  {"question": "What is the Sutherland-Hodgman algorithm used for?", "options": ["Polygon clipping", "Line drawing", "Circle drawing", "Transformations"], "answer": 0},
+  {"question": "What is homogeneous coordinate representation?", "options": ["Representing n-dimensional points with n+1 coordinates", "A 2D coordinate system", "A color model", "A projection method"], "answer": 0},
+  {"question": "What is a 2D transformation matrix for translation?", "options": ["[1 0 tx; 0 1 ty; 0 0 1]", "[cos sin; -sin cos]", "[sx 0; 0 sy]", "[1 0; 0 1]"], "answer": 0},
+  {"question": "What is the rotation matrix for an angle theta?", "options": ["[cos -sin; sin cos]", "[sin cos; -sin cos]", "[1 0; 0 1]", "[0 -1; 1 0]"], "answer": 0},
+  {"question": "What is reflection in computer graphics?", "options": ["Creating a mirror image of an object", "Rotating an object", "Scaling an object", "Translating an object"], "answer": 0},
+  {"question": "What is shearing in computer graphics?", "options": ["Distorting an object along an axis", "Scaling uniformly", "Rotating completely", "Moving horizontally"], "answer": 0},
+  {"question": "What is the cathode ray tube (CRT)?", "options": ["An older display technology", "A modern LCD display", "A printer type", "A input device"], "answer": 0},
+  {"question": "What is an LCD display?", "options": ["Liquid Crystal Display", "Light Crystal Diode", "Liquid Crystal Diode", "Light Cathode Display"], "answer": 0},
+  {"question": "What is a plotter used for?", "options": ["Printing vector graphics on large paper", "Scanning images", "Displaying graphics", "Editing images"], "answer": 0},
+  {"question": "What is a graphics card?", "options": ["Hardware for rendering graphics", "Type of monitor", "Input device", "Storage device"], "answer": 0},
+  {"question": "What is OpenGL?", "options": ["A cross-platform graphics API", "A graphics card", "An image format", "A display type"], "answer": 0},
+  {"question": "What is DirectX?", "options": ["Microsoft's multimedia API", "A file format", "A display standard", "A graphics card"], "answer": 0}
+]

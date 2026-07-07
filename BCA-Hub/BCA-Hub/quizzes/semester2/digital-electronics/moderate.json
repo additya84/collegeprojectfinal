@@ -1,0 +1,17 @@
+[
+  {"question": "What is a PAL?", "options": ["Programmable Array Logic", "Programmed Array Logic", "Primary Array Logic", "Parallel Array Logic"], "answer": 0},
+  {"question": "What is a sequential circuit?", "options": ["Output depends on present and past inputs", "Output depends only on present inputs", "No memory elements", "Only combinational"], "answer": 0},
+  {"question": "What is a combinational circuit?", "options": ["Output depends only on present inputs", "Output depends on past inputs", "Has memory", "Uses flip-flops"], "answer": 0},
+  {"question": "What is a Karnaugh map used for?", "options": ["Simplifying Boolean expressions", "Adding numbers", "Counting", "Storing data"], "answer": 0},
+  {"question": "What is a don't care condition in K-map?", "options": ["Optional input values", "Required input values", "Invalid outputs", "Always 1"], "answer": 0},
+  {"question": "What is the binary equivalent of octal 7?", "options": ["111", "110", "101", "011"], "answer": 0},
+  {"question": "What is the octal equivalent of binary 110?", "options": ["6", "7", "5", "4"], "answer": 0},
+  {"question": "What is the hexadecimal equivalent of binary 1111?", "options": ["F", "E", "D", "C"], "answer": 0},
+  {"question": "What is a parity bit?", "options": ["A bit added for error detection", "A data bit", "A control bit", "A stop bit"], "answer": 0},
+  {"question": "What is even parity?", "options": ["Number of 1s in data including parity is even", "Number of 1s is odd", "No parity", "Always zero"], "answer": 0},
+  {"question": "What is an astable multivibrator?", "options": ["A circuit with no stable state", "A circuit with one stable state", "A circuit with two stable states", "A memory element"], "answer": 0},
+  {"question": "What is a monostable multivibrator?", "options": ["A circuit with one stable state", "A circuit with no stable state", "A circuit with two stable states", "A counter"], "answer": 0},
+  {"question": "What is a bistable multivibrator?", "options": ["A circuit with two stable states", "A circuit with one stable state", "A circuit with no stable state", "An oscillator"], "answer": 0},
+  {"question": "What is the fan-out of a logic gate?", "options": ["Number of inputs it can drive", "Number of outputs it has", "Power consumed", "Speed of operation"], "answer": 0},
+  {"question": "What is propagation delay?", "options": ["Time taken for output to change after input change", "Time to power on", "Time to program", "Time to reset"], "answer": 0}
+]

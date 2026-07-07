@@ -1,0 +1,17 @@
+[
+  {"question": "What does B-tree stand for?", "options": ["Binary tree", "Balanced tree", "Bayer tree", "Breadth tree"], "answer": 2},
+  {"question": "What is the degree of a B-tree?", "options": ["Number of children each node can have", "Height of tree", "Number of leaves", "Number of keys"], "answer": 0},
+  {"question": "Which of the following is a type of tree used for indexing?", "options": ["B+ tree", "AVL tree", "Red-black tree", "All of the above"], "answer": 3},
+  {"question": "What is amortized analysis?", "options": ["Average time per operation over a sequence", "Worst-case time of an operation", "Best-case time", "Space analysis"], "answer": 0},
+  {"question": "What is the main memory used for in data structures?", "options": ["Storing data temporarily", "Permanent storage", "Data transmission", "Output generation"], "answer": 0},
+  {"question": "What is the worst-case time complexity of quicksort?", "options": ["O(n^2)", "O(n log n)", "O(n)", "O(log n)"], "answer": 0},
+  {"question": "What is a spanning tree?", "options": ["A tree that connects all vertices of a graph", "A tree with no edges", "A disconnected tree", "A single node"], "answer": 0},
+  {"question": "Which algorithm finds the minimum spanning tree?", "options": ["Kruskal's algorithm", "Dijkstra's algorithm", "Floyd-Warshall algorithm", "Bellman-Ford algorithm"], "answer": 0},
+  {"question": "What is the time complexity of binary search?", "options": ["O(log n)", "O(n)", "O(n log n)", "O(n^2)"], "answer": 0},
+  {"question": "What is the advantage of a circular queue over a linear queue?", "options": ["Better memory utilization", "Faster insertion", "Faster deletion", "Easier implementation"], "answer": 0},
+  {"question": "What is a dequeue?", "options": ["A queue where insertion and deletion occur at both ends", "A stack", "A priority queue", "A circular queue"], "answer": 0},
+  {"question": "What is the number of edges in a complete graph of n vertices?", "options": ["n(n-1)/2", "n-1", "n", "n^2"], "answer": 0},
+  {"question": "What is the postfix expression of (A+B)*C?", "options": ["AB+C*", "ABC*+", "AB*C+", "A+BC*"], "answer": 0},
+  {"question": "What is the prefix expression of A+B*C?", "options": ["+A*BC", "A+BC*", "*+ABC", "+*ABC"], "answer": 0},
+  {"question": "Which data structure is used for expression evaluation?", "options": ["Stack", "Queue", "Tree", "Graph"], "answer": 0}
+]

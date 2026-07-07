@@ -1,0 +1,17 @@
+[
+    {"question": "Which cache level is smallest and fastest?", "options": ["L1", "L2", "L3", "RAM"], "answer": 0},
+    {"question": "What is the binary equivalent of decimal 10?", "options": ["1010", "1100", "1001", "1110"], "answer": 0},
+    {"question": "Which gate gives output 1 when at least one input is 1?", "options": ["AND", "OR", "NAND", "XOR"], "answer": 1},
+    {"question": "What type of device is a hard disk?", "options": ["Primary storage", "Secondary storage", "Cache", "Register"], "answer": 1},
+    {"question": "How many bytes are in a kilobyte?", "options": ["100", "512", "1024", "2048"], "answer": 2},
+    {"question": "Which register holds the address of the next instruction?", "options": ["Accumulator", "Program Counter", "Memory Address Register", "Instruction Register"], "answer": 1},
+    {"question": "What does the XOR gate produce when both inputs are same?", "options": ["0", "1", "Depends on inputs", "High impedance"], "answer": 0},
+    {"question": "Which is not a type of computer memory?", "options": ["RAM", "ROM", "Cache", "ALU"], "answer": 3},
+    {"question": "What is the base of the octal number system?", "options": ["2", "8", "10", "16"], "answer": 1},
+    {"question": "Which component stores data temporarily for quick access by CPU?", "options": ["Hard Disk", "RAM", "SSD", "DVD"], "answer": 1},
+    {"question": "What does a bus in computer architecture refer to?", "options": ["A communication pathway", "A type of memory", "A processor core", "A power supply"], "answer": 0},
+    {"question": "Which Boolean algebra law states A + A' = 1?", "options": ["Identity Law", "Complement Law", "Idempotent Law", "Distributive Law"], "answer": 1},
+    {"question": "What is a nibble?", "options": ["2 bits", "4 bits", "8 bits", "16 bits"], "answer": 1},
+    {"question": "Which of the following is an input device?", "options": ["Monitor", "Printer", "Keyboard", "Speaker"], "answer": 2},
+    {"question": "What is the purpose of a compiler?", "options": ["Execute code directly", "Translate high-level to machine code", "Manage memory", "Connect to internet"], "answer": 1}
+]

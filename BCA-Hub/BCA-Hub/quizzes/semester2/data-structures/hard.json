@@ -1,0 +1,17 @@
+[
+  {"question": "What is a Red-Black tree?", "options": ["A self-balancing BST", "A binary tree", "A heap", "A B-tree"], "answer": 0},
+  {"question": "Which property is true for a Red-Black tree?", "options": ["Root is always black", "All leaves are red", "Red node can have red child", "Every node is red"], "answer": 0},
+  {"question": "What is the maximum height of a Red-Black tree with n nodes?", "options": ["2*log(n+1)", "log(n)", "n", "n/2"], "answer": 0},
+  {"question": "What is the time complexity of searching in a hash table with chaining?", "options": ["O(1) average, O(n) worst", "O(log n)", "O(n log n)", "O(n^2)"], "answer": 0},
+  {"question": "What is a trie data structure used for?", "options": ["String searching and prefix matching", "Sorting numbers", "Graph traversal", "Matrix operations"], "answer": 0},
+  {"question": "What is a skip list?", "options": ["A probabilistic data structure for sorted data", "A linked list variant", "A balanced tree", "A hash table"], "answer": 0},
+  {"question": "What is the Fibonacci heap known for?", "options": ["Fast decrease-key operation", "Fast sorting", "Fast search", "Easy implementation"], "answer": 0},
+  {"question": "What is splay tree?", "options": ["A self-adjusting BST", "A balanced BST", "A complete tree", "A heap"], "answer": 0},
+  {"question": "What is the difference between B-tree and B+ tree?", "options": ["B+ tree stores all data in leaves", "B-tree stores data in leaves only", "Both are same", "B+ tree has no root"], "answer": 0},
+  {"question": "What is topological sorting?", "options": ["Ordering of vertices in a DAG", "Sorting numbers", "Sorting strings", "Sorting edges"], "answer": 0},
+  {"question": "What is the Floyd-Warshall algorithm used for?", "options": ["All-pairs shortest path", "Single-source shortest path", "Minimum spanning tree", "Graph coloring"], "answer": 0},
+  {"question": "What is articulation point in a graph?", "options": ["A vertex whose removal disconnects the graph", "A bridge", "A cycle", "A leaf node"], "answer": 0},
+  {"question": "What is the traveling salesman problem?", "options": ["Finding shortest Hamiltonian cycle", "Finding MST", "Finding shortest path", "Finding max flow"], "answer": 0},
+  {"question": "What is the 0/1 knapsack problem?", "options": ["Items cannot be broken into fractions", "Items can be broken", "Items are unlimited", "Items are free"], "answer": 0},
+  {"question": "What is dynamic programming?", "options": ["Solving problems by breaking into overlapping subproblems", "Recursion without memoization", "Iterative approach only", "Greedy approach"], "answer": 0}
+]

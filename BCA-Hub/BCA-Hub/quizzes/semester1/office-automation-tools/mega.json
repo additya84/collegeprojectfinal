@@ -249,9 +249,4 @@
     "options": ["FIND", "SORT", "MORE", "TREE"],
     "answer": 0
   },
-  {
-    "question": "MORE command displays output:",
-    "options": ["Page by Page", "Line by Line", "Word by Word", "Character by Character"],
-    "answer": 0
-  }
 ]

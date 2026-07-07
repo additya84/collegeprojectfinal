@@ -1,0 +1,17 @@
+[
+  {"question": "What is the control function in management?", "options": ["Monitoring performance", "Setting goals", "Hiring staff", "Creating products"], "answer": 0},
+  {"question": "Which type of organization has no separate legal entity?", "options": ["Company", "Sole proprietorship", "Cooperative", "Trust"], "answer": 1},
+  {"question": "What does the term 'line organization' mean?", "options": ["Direct chain of command", "Staff specialists", "Matrix structure", "Project based teams"], "answer": 0},
+  {"question": "Who is a manager?", "options": ["A person who coordinates resources", "A worker", "A shareholder", "A customer"], "answer": 0},
+  {"question": "What is the purpose of performance appraisal?", "options": ["Evaluate employee performance", "Set company goals", "Prepare budgets", "Design products"], "answer": 0},
+  {"question": "Which management function comes after planning?", "options": ["Organizing", "Controlling", "Staffing", "Directing"], "answer": 0},
+  {"question": "What is a cooperative society?", "options": ["Voluntary association for mutual benefit", "Government entity", "Profit-making company", "Sole business"], "answer": 0},
+  {"question": "What does the term 'authority' mean?", "options": ["Right to give orders", "Ability to work", "Skill to lead", "Knowledge of rules"], "answer": 0},
+  {"question": "Which skill is crucial for first-line managers?", "options": ["Technical", "Conceptual", "Design", "Diagnostic"], "answer": 0},
+  {"question": "What is a short-term plan called?", "options": ["Tactical plan", "Strategic plan", "Long-range plan", "Vision"], "answer": 0},
+  {"question": "Which principle advocates fair pay to workers?", "options": ["Remuneration of employees", "Unity of direction", "Order", "Equity"], "answer": 0},
+  {"question": "What is the role of leadership in management?", "options": ["Influence people to achieve goals", "Prepare financial accounts", "Design products", "Maintain equipment"], "answer": 0},
+  {"question": "Which document shows a company's financial position?", "options": ["Balance sheet", "Memo", "Invoice", "Receipt"], "answer": 0},
+  {"question": "What is the meaning of 'esprit de corps'?", "options": ["Team spirit", "Individual effort", "Competition", "Profit sharing"], "answer": 0},
+  {"question": "What type of manager focuses on long-term strategy?", "options": ["Top manager", "Middle manager", "First-line manager", "Supervisor"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is the condition for convergence in the Newton-Raphson method?", "options": ["f'(x) should not be zero", "f(x) should be zero", "f''(x) should be zero", "f(x) should be linear"], "answer": 0},
+  {"question": "Which integration rule is more accurate: Trapezoidal or Simpson's?", "options": ["Trapezoidal", "Simpson's", "Both are same", "Depends on function"], "answer": 1},
+  {"question": "What is the formula for backward difference?", "options": ["f(x) - f(x-h)", "f(x+h) - f(x)", "f(x+h) - f(x-h)", "f(x-h) - f(x)"], "answer": 0},
+  {"question": "What does O(h^2) mean?", "options": ["Error proportional to h squared", "Error proportional to h", "Error is h squared", "Error is constant"], "answer": 0},
+  {"question": "What is the fixed-point iteration method used for?", "options": ["Finding roots by rewriting f(x)=0 as x=g(x)", "Integrating functions", "Differentiating functions", "Solving differential equations"], "answer": 0},
+  {"question": "What is the condition for convergence of fixed-point iteration?", "options": ["|g'(x)| < 1", "|g'(x)| > 1", "|g'(x)| = 0", "|g'(x)| = 1"], "answer": 0},
+  {"question": "What is the formula for Simpson's 3/8 rule?", "options": ["3h/8 * (f0 + 3f1 + 3f2 + f3)", "h/3 * (f0 + 4f1 + f2)", "h/2 * (f0 + f1)", "h * (f0 + f1 + f2)"], "answer": 0},
+  {"question": "What is numerical stability?", "options": ["How errors propagate through a computation", "How fast a method converges", "How accurate a method is", "How simple a method is"], "answer": 0},
+  {"question": "What is the condition number of a problem?", "options": ["Sensitivity of solution to input changes", "Number of iterations needed", "The rank of the matrix", "The determinant of the matrix"], "answer": 0},
+  {"question": "Which method is used for eigenvalue problems?", "options": ["Power Method", "Bisection Method", "Newton-Raphson", "Euler's Method"], "answer": 0},
+  {"question": "What is the forward difference method for first derivative?", "options": ["(f(x+h) - f(x))/h", "(f(x) - f(x-h))/h", "(f(x+h) - f(x-h))/(2h)", "(f(x+2h) - f(x))/h"], "answer": 0},
+  {"question": "What is the central difference formula for first derivative?", "options": ["(f(x+h) - f(x-h))/(2h)", "(f(x+h) - f(x))/h", "(f(x) - f(x-h))/h", "(f(x+2h) - f(x-2h))/(4h)"], "answer": 0},
+  {"question": "How many function evaluations are needed in RK4 method per step?", "options": ["1", "2", "3", "4"], "answer": 3},
+  {"question": "What is a difference table used for?", "options": ["Organizing finite differences for interpolation", "Displaying function values", "Comparing methods", "Calculating errors"], "answer": 0},
+  {"question": "What does LU decomposition stand for?", "options": ["Lower-Upper triangular decomposition", "Linear-Unit decomposition", "Large-Upper decomposition", "Log-Unit decomposition"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What does DTP stand for?", "options": ["Desktop Publishing", "Digital Text Processing", "Data Transfer Protocol", "Desktop Processing"], "answer": 0},
+  {"question": "Which software is popular for DTP?", "options": ["PageMaker", "Photoshop", "Excel", "Chrome"], "answer": 0},
+  {"question": "What is a page layout?", "options": ["Arrangement of text and graphics on a page", "A type of printer", "A file format", "A font style"], "answer": 0},
+  {"question": "Which unit is used to measure font size?", "options": ["Points", "Pixels", "Inches", "Em"], "answer": 0},
+  {"question": "What is the default page orientation in PageMaker?", "options": ["Portrait", "Landscape", "Square", "Custom"], "answer": 0},
+  {"question": "Which tool is used for drawing shapes in PageMaker?", "options": ["Rectangle tool", "Text tool", "Crop tool", "Hand tool"], "answer": 0},
+  {"question": "What is a master page in PageMaker?", "options": ["Template for consistent page elements", "First page of document", "Table of contents", "Cover page"], "answer": 0},
+  {"question": "Which of these is a type of graphic format?", "options": ["JPEG", "DOCX", "XLSX", "HTML"], "answer": 0},
+  {"question": "What does CMYK stand for?", "options": ["Cyan, Magenta, Yellow, Black", "Cyan, Mint, Yellow, Key", "Color, Mix, Yellow, Key", "Cyan, Magenta, Yonder, Kite"], "answer": 0},
+  {"question": "Which tool adds text in PageMaker?", "options": ["Text tool", "Line tool", "Eyedropper", "Magic wand"], "answer": 0},
+  {"question": "What is a column guide in PageMaker?", "options": ["Lines that define column boundaries", "A type of font", "A graphic element", "A page number"], "answer": 0},
+  {"question": "Which resolution is best for print quality in DTP?", "options": ["300 DPI", "72 DPI", "96 DPI", "150 DPI"], "answer": 0},
+  {"question": "What is the purpose of the crop tool?", "options": ["To trim images", "To enlarge images", "To rotate images", "To color correct images"], "answer": 0},
+  {"question": "What is kerning in typography?", "options": ["Space between characters", "Space between lines", "Font style", "Text alignment"], "answer": 0},
+  {"question": "Which file extension does PageMaker use?", "options": [".pmd", ".doc", ".psd", ".indd"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is numerical analysis primarily concerned with?", "options": ["Approximate solutions to mathematical problems", "Exact symbolic solutions", "Theoretical proofs", "Data visualization"], "answer": 0},
+  {"question": "What is an error in numerical methods?", "options": ["Difference between exact and approximate value", "A bug in the code", "A syntax mistake", "A runtime exception"], "answer": 0},
+  {"question": "What is absolute error?", "options": ["|Exact - Approximate|", "|Exact + Approximate|", "Exact / Approximate", "Exact * Approximate"], "answer": 0},
+  {"question": "What is relative error?", "options": ["Absolute error / Exact value", "Absolute error * Exact value", "Exact value / Absolute error", "Exact value - Absolute error"], "answer": 0},
+  {"question": "Which method is used to find roots of a function?", "options": ["Bisection Method", "Trapezoidal Rule", "Runge-Kutta Method", "Simpson's Rule"], "answer": 0},
+  {"question": "What is interpolation?", "options": ["Estimating values between known data points", "Finding derivatives", "Calculating integrals", "Solving differential equations"], "answer": 0},
+  {"question": "Which formula is used for linear interpolation?", "options": ["Lagrange formula", "Newton-Raphson formula", "Trapezoidal formula", "Simpson's formula"], "answer": 0},
+  {"question": "What is the order of convergence of the Bisection method?", "options": ["Linear", "Quadratic", "Cubic", "Exponential"], "answer": 0},
+  {"question": "What does the Newton-Raphson method require?", "options": ["Derivative of the function", "Second derivative", "Integral of the function", "Function values at endpoints"], "answer": 0},
+  {"question": "What is numerical integration used for?", "options": ["Approximating definite integrals", "Finding roots", "Solving linear equations", "Interpolating data"], "answer": 0},
+  {"question": "Which rule is the simplest numerical integration method?", "options": ["Trapezoidal Rule", "Simpson's Rule", "Newton-Cotes", "Gauss-Legendre"], "answer": 0},
+  {"question": "What is the step size in numerical methods?", "options": ["Difference between successive x values", "The number of iterations", "The error tolerance", "The initial guess"], "answer": 0},
+  {"question": "What is truncation error?", "options": ["Error from approximating an infinite process", "Error from rounding numbers", "Error from input mistakes", "Error from hardware limitations"], "answer": 0},
+  {"question": "What is round-off error?", "options": ["Error from finite precision representation", "Error from truncating a series", "Error from incorrect algorithm", "Error from data loss"], "answer": 0},
+  {"question": "Which method is used for solving linear systems?", "options": ["Gauss Elimination", "Newton-Raphson", "Bisection", "Runge-Kutta"], "answer": 0}
+]

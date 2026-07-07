@@ -1,0 +1,17 @@
+[
+  {"question": "What does e-commerce stand for?", "options": ["Electronic Commerce", "Efficient Commerce", "External Commerce", "Extended Commerce"], "answer": 0},
+  {"question": "Which of the following is a type of e-commerce?", "options": ["B2B", "RAM", "CPU", "SQL"], "answer": 0},
+  {"question": "What is a payment gateway?", "options": ["Service to process online payments", "A physical door", "A file type", "A network cable"], "answer": 0},
+  {"question": "What is EDI?", "options": ["Electronic Data Interchange", "Extended Data Interface", "Electronic Device Integration", "External Data Input"], "answer": 0},
+  {"question": "Which of the following is an e-commerce platform?", "options": ["Amazon", "Windows", "Linux", "MS Word"], "answer": 0},
+  {"question": "What is a digital signature used for?", "options": ["Verify authenticity of documents", "Create documents", "Delete files", "Format disks"], "answer": 0},
+  {"question": "What is B2C e-commerce?", "options": ["Business to Consumer", "Business to Computer", "Browser to Client", "Backup to Cloud"], "answer": 0},
+  {"question": "What is SSL in e-commerce?", "options": ["Secure Socket Layer", "Simple System Language", "Server Side Logic", "System Security Link"], "answer": 0},
+  {"question": "What is a shopping cart?", "options": ["Software for online purchases", "A physical cart", "A file folder", "A network tool"], "answer": 0},
+  {"question": "Which of the following is an advantage of e-commerce?", "options": ["Global reach", "Limited hours", "Physical store needed", "Slow transactions"], "answer": 0},
+  {"question": "What is a B2B model?", "options": ["Business to Business", "Business to Browser", "Backup to Backup", "Buyer to Bank"], "answer": 0},
+  {"question": "What is an electronic wallet?", "options": ["Digital payment tool", "A leather wallet", "A bank locker", "A file system"], "answer": 0},
+  {"question": "What is a firewall in e-commerce?", "options": ["Security system for networks", "A physical wall", "A heating system", "A cooling system"], "answer": 0},
+  {"question": "What is a supply chain in e-commerce?", "options": ["Flow of goods from supplier to customer", "A chain of stores", "A network cable", "A payment method"], "answer": 0},
+  {"question": "What is a domain name?", "options": ["Website address", "File name", "Network cable", "Hardware part"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What is the basis of Bresenham's line algorithm?", "options": ["Using integer arithmetic for efficiency", "Using floating-point calculations", "Using differential equations", "Using matrix multiplication"], "answer": 0},
+  {"question": "What is the midpoint circle algorithm decision parameter?", "options": ["Based on the midpoint between two pixels", "Based on the circle's center", "Based on the radius only", "Based on the circumference"], "answer": 0},
+  {"question": "What is parallel projection?", "options": ["Projecting with parallel lines to the projection plane", "Projecting with converging lines", "Perspective projection", "Orthographic projection"], "answer": 0},
+  {"question": "What is perspective projection?", "options": ["Projecting with lines converging at a point", "Parallel projection", "Isometric projection", "Orthographic projection"], "answer": 0},
+  {"question": "What is the vanishing point in perspective projection?", "options": ["Point where parallel lines appear to meet", "Center of projection", "Projection plane origin", "Viewpoint location"], "answer": 0},
+  {"question": "What is the composition of transformations?", "options": ["Applying multiple transformations in sequence", "A single transformation", "The inverse of a transformation", "Deleting transformations"], "answer": 0},
+  {"question": "What is the order of transformations when rotating an object about its center?", "options": ["Translate to origin, rotate, translate back", "Rotate first, then translate", "Scale first, then translate", "Only rotate"], "answer": 0},
+  {"question": "What is the scanline fill algorithm used for?", "options": ["Filling polygons with color", "Drawing lines", "Clipping polygons", "Hidden surface removal"], "answer": 0},
+  {"question": "What is the flood fill algorithm?", "options": ["Filling an area by spreading from a seed point", "Drawing a circle", "Clipping a line", "Removing hidden surfaces"], "answer": 0},
+  {"question": "What is the boundary fill algorithm?", "options": ["Filling an area until a boundary color is encountered", "Filling with a pattern", "Drawing a polygon", "Clipping a shape"], "answer": 0},
+  {"question": "What is the depth buffer algorithm?", "options": ["Using a Z-buffer for hidden surface removal", "Using color buffer", "Using stencil buffer", "Using accumulation buffer"], "answer": 0},
+  {"question": "What is the painter's algorithm?", "options": ["Sorting polygons by depth and drawing back to front", "Drawing from front to back", "Drawing randomly", "Using Z-buffer"], "answer": 0},
+  {"question": "What is the BSP tree used for?", "options": ["Binary space partitioning for visibility ordering", "Rendering textures", "Modeling curves", "Animation"], "answer": 0},
+  {"question": "What is ray tracing?", "options": ["Tracing light paths for photorealistic rendering", "Drawing lines", "Scanning images", "Hidden surface removal"], "answer": 0},
+  {"question": "What is radiosity in computer graphics?", "options": ["Modeling diffuse interreflection of light", "Specular reflection", "Refraction", "Shadow mapping"], "answer": 0}
+]

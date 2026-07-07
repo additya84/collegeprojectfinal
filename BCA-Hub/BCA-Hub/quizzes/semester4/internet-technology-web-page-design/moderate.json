@@ -1,0 +1,17 @@
+[
+  {"question": "What is the difference between <div> and <span> in HTML?", "options": ["<div> is block-level, <span> is inline", "<span> is block-level, <div> is inline", "Both are block-level", "Both are inline"], "answer": 0},
+  {"question": "Which CSS property is used to create a grid layout?", "options": ["display: grid", "display: flex", "position: absolute", "float: left"], "answer": 0},
+  {"question": "What does the JavaScript 'DOM' stand for?", "options": ["Document Object Model", "Data Object Model", "Document Oriented Model", "Dynamic Object Management"], "answer": 0},
+  {"question": "Which HTML5 element is used for navigation links?", "options": ["<nav>", "<menu>", "<header>", "<footer>"], "answer": 0},
+  {"question": "What is the purpose of CSS media queries?", "options": ["To create responsive designs", "To style tables", "To add animations", "To validate forms"], "answer": 0},
+  {"question": "Which JavaScript method adds an element to the end of an array?", "options": ["push()", "pop()", "shift()", "unshift()"], "answer": 0},
+  {"question": "What does 'localhost' refer to?", "options": ["Local computer's loopback address", "Remote server", "Internet gateway", "DNS server"], "answer": 0},
+  {"question": "Which CSS property creates space between elements?", "options": ["margin", "padding", "border", "spacing"], "answer": 0},
+  {"question": "What is the correct way to link a CSS file in HTML?", "options": ["<link rel='stylesheet' href='style.css'>", "<style src='style.css'>", "<css>style.css</css>", "<stylesheet>style.css</stylesheet>"], "answer": 0},
+  {"question": "Which JavaScript event is triggered when a user clicks an element?", "options": ["onclick", "onchange", "onmouseover", "onsubmit"], "answer": 0},
+  {"question": "What is the function of DNS?", "options": ["Converts domain names to IP addresses", "Hosts websites", "Provides internet connection", "Encrypts data"], "answer": 0},
+  {"question": "Which HTML5 element is used for an article or post?", "options": ["<article>", "<section>", "<div>", "<main>"], "answer": 0},
+  {"question": "What is a responsive website?", "options": ["Website that adapts to screen size", "Website that responds quickly", "Website with animations", "Website with forms"], "answer": 0},
+  {"question": "Which JavaScript method is used to write to the console?", "options": ["console.log()", "document.write()", "alert()", "print()"], "answer": 0},
+  {"question": "What does the CSS 'flexbox' layout allow?", "options": ["Flexible alignment of elements", "Fixed positioning", "Grid layout only", "Table layout"], "answer": 0}
+]

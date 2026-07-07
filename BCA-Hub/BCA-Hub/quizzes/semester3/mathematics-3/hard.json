@@ -1,0 +1,17 @@
+[
+  {"question": "What is the error term in the Lagrange interpolation polynomial?", "options": ["f⁽ⁿ⁾(ξ)/(n!) × Π(x - xᵢ)", "h²/12 × f''(ξ)", "h⁴/180 × f⁽⁴⁾(ξ)", "O(h)"], "answer": 0},
+  {"question": "Which method handles stiff ODEs effectively?", "options": ["Backward Euler", "Forward Euler", "Classical Runge-Kutta", "Trapezoidal method"], "answer": 0},
+  {"question": "What is the condition for diagonal dominance ensuring Gauss-Seidel convergence?", "options": ["|aᵢᵢ| ≥ Σ|aᵢⱼ| for all i", "|aᵢᵢ| ≤ Σ|aᵢⱼ|", "Matrix is symmetric", "Matrix is identity"], "answer": 0},
+  {"question": "Which factorization is A = Q×R where Q is orthogonal?", "options": ["QR decomposition", "LU decomposition", "Cholesky decomposition", "SVD"], "answer": 0},
+  {"question": "What is the critical value approach in hypothesis testing?", "options": ["Compare test statistic to critical value from tables", "Calculate p-value only", "Use confidence intervals only", "Graphical method"], "answer": 0},
+  {"question": "Which error measure is used in numerical differentiation?", "options": ["Truncation error from Taylor series", "Random error", "Systematic error", "Absolute error"], "answer": 0},
+  {"question": "What is the Romberg integration based on?", "options": ["Richardson extrapolation of trapezoidal rule", "Simpson's rule", "Gaussian quadrature", "Monte Carlo"], "answer": 0},
+  {"question": "Which distribution arises from the ratio of two variances?", "options": ["F-distribution", "t-distribution", "Chi-square", "Normal"], "answer": 0},
+  {"question": "What is the power method's convergence rate dependent on?", "options": ["Ratio of largest two eigenvalues", "Matrix size", "Number of iterations", "Initial guess"], "answer": 0},
+  {"question": "Which technique estimates parameters by maximizing likelihood?", "options": ["Maximum Likelihood Estimation", "Least squares", "Method of moments", "Bayesian estimation"], "answer": 0},
+  {"question": "What is the condition number of a matrix mathematically?", "options": ["║A║ × ║A⁻¹║", "Det(A)", "Trace(A)", "Rank(A)"], "answer": 0},
+  {"question": "Which quadrature formula uses optimally spaced points?", "options": ["Gaussian quadrature", "Simpson's rule", "Trapezoidal", "Midpoint"], "answer": 0},
+  {"question": "What does ANOVA test?", "options": ["Difference between group means", "Correlation", "Normality", "Homogeneity"], "answer": 0},
+  {"question": "Which method gives the best approximation in least squares?", "options": ["Minimizes sum of squared residuals", "Minimizes absolute residuals", "Minimizes max residual", "Maximizes R²"], "answer": 0},
+  {"question": "What is the cubic spline's key property?", "options": ["C² continuity at knots", "C¹ continuity only", "Polynomial degree 4", "Discontinuous derivative"], "answer": 0}
+]

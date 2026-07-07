@@ -1,0 +1,17 @@
+[
+  {"question": "Which design pattern is the basis for the << operator in C++?", "options": ["Decorator", "Singleton", "Factory", "Observer"], "answer": 0},
+  {"question": "What is SFINAE in C++ templates?", "options": ["Substitution Failure Is Not An Error", "Standard Function Inline Analysis", "Systematic Function Integration", "Substitution Failure Is A Error"], "answer": 0},
+  {"question": "Which C++11 feature allows type inference?", "options": ["auto", "decltype", "Both", "typedef"], "answer": 2},
+  {"question": "What is a move constructor in C++11?", "options": ["Transfers resources from temporary objects", "Copies everything", "Deletes the object", "Creates a permanent copy"], "answer": 0},
+  {"question": "Which smart pointer uses reference counting?", "options": ["shared_ptr", "unique_ptr", "weak_ptr", "auto_ptr"], "answer": 0},
+  {"question": "What does the C++ 'export' keyword do after C++11?", "options": ["Removed from the standard", "Exports templates", "Exports classes", "Exports variables"], "answer": 0},
+  {"question": "What is the concept of 'policy-based design' in C++?", "options": ["Using templates to compose behavior", "Using inheritance for all design", "Using virtual functions only", "Using macros for configuration"], "answer": 0},
+  {"question": "Which exception handling block is optional?", "options": ["catch", "try", "throw", "finally"], "answer": 0},
+  {"question": "What is the rule of three/five in C++?", "options": ["If you define destructor, copy constructor, copy assignment, define all", "Three virtual functions per class", "Five members minimum", "Three inheritance levels maximum"], "answer": 0},
+  {"question": "Which container in STL is implemented as a red-black tree?", "options": ["set", "map", "multiset", "All of the above"], "answer": 3},
+  {"question": "What is the advantage of 'constexpr' over const?", "options": ["Evaluated at compile time", "Can be changed at runtime", "Stored in heap", "Larger memory footprint"], "answer": 0},
+  {"question": "What is CRTP (Curiously Recurring Template Pattern)?", "options": ["Derived class passes itself as template argument to base", "Template with multiple parameters", "Recursive template instantiation", "Template specialization"], "answer": 0},
+  {"question": "Which C++ casting operator is safest?", "options": ["dynamic_cast", "static_cast", "reinterpret_cast", "const_cast"], "answer": 0},
+  {"question": "What is the purpose of allocators in STL?", "options": ["Manage memory allocation for containers", "Allocate CPU time", "Manage thread pools", "Handle file operations"], "answer": 0},
+  {"question": "Which feature enables RAII (Resource Acquisition Is Initialization)?", "options": ["Destructors guarantee cleanup", "Constructors allocate resources", "Smart pointers", "Exception handling"], "answer": 0}
+]

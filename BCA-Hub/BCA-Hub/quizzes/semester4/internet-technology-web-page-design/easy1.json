@@ -1,0 +1,17 @@
+[
+  {"question": "What does HTML stand for?", "options": ["HyperText Markup Language", "HighText Markup Language", "HyperText Marking Language", "HyperTransfer Markup Language"], "answer": 0},
+  {"question": "Which tag is used to create a hyperlink in HTML?", "options": ["<a>", "<link>", "<href>", "<url>"], "answer": 0},
+  {"question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"], "answer": 0},
+  {"question": "Which tag is used to insert an image in HTML?", "options": ["<img>", "<image>", "<pic>", "<src>"], "answer": 0},
+  {"question": "JavaScript is a:", "options": ["Client-side scripting language", "Server-side only language", "Database language", "Markup language"], "answer": 0},
+  {"question": "Which HTML tag is used for the largest heading?", "options": ["<h1>", "<h6>", "<heading>", "<head>"], "answer": 0},
+  {"question": "What is the correct CSS syntax to change text color to red?", "options": ["color: red;", "text-color: red;", "font-color: red;", "text: red;"], "answer": 0},
+  {"question": "Which of the following is a web browser?", "options": ["Chrome", "HTML", "CSS", "JavaScript"], "answer": 0},
+  {"question": "What does URL stand for?", "options": ["Uniform Resource Locator", "Unified Resource Locator", "Universal Resource Link", "Uniform Reference Link"], "answer": 0},
+  {"question": "Which protocol is used for web communication?", "options": ["HTTP", "FTP", "SMTP", "TCP"], "answer": 0},
+  {"question": "What is the full form of ISP?", "options": ["Internet Service Provider", "Internet Service Protocol", "Internal Service Provider", "Internet Support Provider"], "answer": 0},
+  {"question": "Which tag creates a paragraph in HTML?", "options": ["<p>", "<para>", "<paragraph>", "<text>"], "answer": 0},
+  {"question": "What is the correct HTML for creating a line break?", "options": ["<br>", "<lb>", "<break>", "<line>"], "answer": 0},
+  {"question": "Which attribute specifies the URL in an anchor tag?", "options": ["href", "src", "link", "url"], "answer": 0},
+  {"question": "What is the extension of an HTML file?", "options": [".html", ".txt", ".css", ".js"], "answer": 0}
+]

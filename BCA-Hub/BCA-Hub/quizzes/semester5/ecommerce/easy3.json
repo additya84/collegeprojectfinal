@@ -1,0 +1,17 @@
+[
+  {"question": "What is a B2G model?", "options": ["Business to Government", "Business to Graphics", "Backup to Gateway", "Browser to Gateway"], "answer": 0},
+  {"question": "What is cross-border e-commerce?", "options": ["International online trade", "Local trade", "National trade", "State trade"], "answer": 0},
+  {"question": "What is an omnichannel strategy?", "options": ["Multiple channel integration", "Single channel", "No channel", "Offline only"], "answer": 0},
+  {"question": "What is SSL certificate used for?", "options": ["Encrypt website communication", "Host website", "Design webpage", "Create database"], "answer": 0},
+  {"question": "What is a payment processor?", "options": ["Service handling transactions", "Hardware machine", "File system", "Web browser"], "answer": 0},
+  {"question": "What is the meaning of 3D Secure?", "options": ["Authentication protocol for online payments", "3D graphics protocol", "Database protocol", "Network protocol"], "answer": 0},
+  {"question": "What is a product SKU?", "options": ["Stock Keeping Unit", "System Kernel Unit", "Service Key Utility", "Software Kit Update"], "answer": 0},
+  {"question": "What is a fulfillment center?", "options": ["Warehouse processing orders", "Call center", "Data center", "Office building"], "answer": 0},
+  {"question": "What is subscription-based e-commerce?", "options": ["Recurring purchase model", "One-time purchase", "Free service", "Barter system"], "answer": 0},
+  {"question": "What is a mobile commerce?", "options": ["E-commerce via mobile devices", "Commerce on desktop", "Commerce in stores", "Commerce by mail"], "answer": 0},
+  {"question": "What is a digital product?", "options": ["Intangible goods delivered electronically", "Physical item", "Raw material", "Heavy machinery"], "answer": 0},
+  {"question": "What is a payment gateway's main function?", "options": ["Authorize and process payments", "Design websites", "Host servers", "Create content"], "answer": 0},
+  {"question": "What is social commerce?", "options": ["Selling via social media", "Social networking", "Event management", "Group discussion"], "answer": 0},
+  {"question": "What is a marketplace model?", "options": ["Platform connecting buyers and sellers", "Single seller store", "Manufacturing unit", "Distribution center"], "answer": 0},
+  {"question": "What is a return policy?", "options": ["Rules for product returns", "Investment policy", "Security policy", "Privacy policy"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What does DBMS stand for?", "options": ["Database Management System", "Data Backup Management System", "Database Maintenance System", "Data Binary Management System"], "answer": 0},
+  {"question": "Which of the following is a type of DBMS?", "options": ["Hierarchical", "Network", "Relational", "All of the above"], "answer": 3},
+  {"question": "What is a primary key?", "options": ["Unique identifier for a record", "A foreign key", "An index", "A candidate key"], "answer": 0},
+  {"question": "What is a foreign key?", "options": ["Key from another table", "Primary key of same table", "A unique key", "A composite key"], "answer": 0},
+  {"question": "What is SQL?", "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "System Query Language"], "answer": 0},
+  {"question": "Which SQL command is used to retrieve data?", "options": ["INSERT", "SELECT", "UPDATE", "DELETE"], "answer": 1},
+  {"question": "What is a join in SQL?", "options": ["Combining rows from two tables", "Adding columns", "Deleting data", "Sorting data"], "answer": 0},
+  {"question": "Which join returns only matching rows?", "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL OUTER JOIN"], "answer": 2},
+  {"question": "What is normalization?", "options": ["Organizing data to reduce redundancy", "Adding redundant data", "Encrypting data", "Backing up data"], "answer": 0},
+  {"question": "What is the first normal form (1NF)?", "options": ["No repeating groups", "No partial dependencies", "No transitive dependencies", "All keys defined"], "answer": 0},
+  {"question": "What is a transaction?", "options": ["A unit of work in DBMS", "A query", "A table", "A database"], "answer": 0},
+  {"question": "What does ACID stand for?", "options": ["Atomicity, Consistency, Isolation, Durability", "Accuracy, Consistency, Isolation, Durability", "Atomicity, Consistency, Integrity, Durability", "Atomicity, Consistency, Isolation, Data"], "answer": 0},
+  {"question": "Which property ensures a transaction is fully completed?", "options": ["Atomicity", "Consistency", "Isolation", "Durability"], "answer": 0},
+  {"question": "What is a deadlock in DBMS?", "options": ["Two transactions waiting for each other", "Transaction failure", "System crash", "Data corruption"], "answer": 0},
+  {"question": "What is a schedule in DBMS?", "options": ["Order of execution of transactions", "A table structure", "A query plan", "A backup plan"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+    {"question": "What is the basic building block of a computer's processing unit?", "options": ["Transistor", "Resistor", "Capacitor", "Diode"], "answer": 0},
+    {"question": "Which number system is used by computers internally?", "options": ["Decimal", "Binary", "Octal", "Hexadecimal"], "answer": 1},
+    {"question": "What does CPU stand for?", "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Unit", "Core Processing Unit"], "answer": 0},
+    {"question": "Which gate gives output 1 only when both inputs are 1?", "options": ["OR gate", "AND gate", "NOR gate", "XOR gate"], "answer": 1},
+    {"question": "What is the smallest unit of data in a computer?", "options": ["Byte", "Nibble", "Bit", "Word"], "answer": 2},
+    {"question": "Which memory is volatile?", "options": ["ROM", "RAM", "Hard Disk", "Flash Drive"], "answer": 1},
+    {"question": "What does ALU stand for?", "options": ["Arithmetic Logic Unit", "Array Logic Unit", "Application Logic Unit", "Arithmetic Local Unit"], "answer": 0},
+    {"question": "Which gate is known as the universal gate?", "options": ["AND gate", "OR gate", "NAND gate", "XOR gate"], "answer": 2},
+    {"question": "What is the full form of I/O?", "options": ["Input/Output", "Internal/External", "Insert/Overwrite", "Integer/Octal"], "answer": 0},
+    {"question": "Which component performs arithmetic calculations in a CPU?", "options": ["Control Unit", "ALU", "Cache", "Register"], "answer": 1},
+    {"question": "How many bits are in a byte?", "options": ["4", "8", "16", "32"], "answer": 1},
+    {"question": "What is the function of the Control Unit?", "options": ["Performs calculations", "Manages and coordinates components", "Stores data permanently", "Displays output"], "answer": 1},
+    {"question": "Which of the following is an output device?", "options": ["Keyboard", "Mouse", "Monitor", "Scanner"], "answer": 2},
+    {"question": "What does ROM stand for?", "options": ["Random Only Memory", "Read Only Memory", "Run Only Memory", "Read Output Memory"], "answer": 1},
+    {"question": "Which Boolean expression represents AND operation?", "options": ["A + B", "A - B", "A * B", "A / B"], "answer": 2}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "Which scheduling algorithm may cause starvation?", "options": ["SJF", "FCFS", "Round Robin", "Multilevel Queue"], "answer": 0},
+  {"question": "What is a page fault in virtual memory?", "options": ["Page not in memory", "Page not in cache", "Page corrupted", "Page write protected"], "answer": 0},
+  {"question": "Which technique resolves register name conflicts in pipelining?", "options": ["Register renaming", "Branch prediction", "Speculative execution", "Out-of-order execution"], "answer": 0},
+  {"question": "What is the speed advantage of cache over main memory?", "options": ["10-100x faster", "2x faster", "Same speed", "Slower"], "answer": 0},
+  {"question": "Which RAID level uses mirroring?", "options": ["RAID 0", "RAID 1", "RAID 5", "RAID 10"], "answer": 1},
+  {"question": "What is write-back cache policy?", "options": ["Write to cache and memory at once", "Write only to cache, update memory later", "Write only to memory", "Skip cache writes"], "answer": 1},
+  {"question": "Which addressing mode is best for arrays?", "options": ["Indexed", "Indirect", "Direct", "Relative"], "answer": 0},
+  {"question": "How does a 4-way set associative cache map blocks?", "options": ["4 blocks per set", "4 sets per block", "Direct mapping", "Fully associative"], "answer": 0},
+  {"question": "What is the TLB used for?", "options": ["Translate virtual to physical address", "Cache instructions", "Store page table entries", "Both A and C"], "answer": 3},
+  {"question": "Which circuit converts BCD to 7-segment display?", "options": ["Encoder", "Decoder", "Multiplexer", "Demultiplexer"], "answer": 1},
+  {"question": "What is control hazard in pipelining?", "options": ["Branch instructions disrupt pipeline", "Data dependencies", "Resource conflicts", "Memory latency"], "answer": 0},
+  {"question": "Which memory technology has the shortest access time?", "options": ["SRAM", "DRAM", "Magnetic disk", "Flash"], "answer": 0},
+  {"question": "What does VLIW stand for?", "options": ["Very Long Instruction Word", "Variable Length Instruction Word", "Very Large Instruction Width", "Vertical Logic Instruction Word"], "answer": 0},
+  {"question": "Which technique allows multiple programs to share memory?", "options": ["Paging", "Segmentation", "Virtual memory", "All of the above"], "answer": 3},
+  {"question": "What is the Booth algorithm used for?", "options": ["Binary multiplication", "Binary division", "Binary addition", "Floating-point addition"], "answer": 0}
+]

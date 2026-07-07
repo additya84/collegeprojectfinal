@@ -1,0 +1,17 @@
+[
+  {"question": "What is the full form of CPU?", "options": ["Central Processing Unit", "Central Program Unit", "Computer Personal Unit", "Central Processor Unit"], "answer": 0},
+  {"question": "Which gate gives output 1 only when both inputs are 1?", "options": ["OR", "AND", "NOR", "XOR"], "answer": 1},
+  {"question": "What is the binary equivalent of decimal 5?", "options": ["101", "110", "100", "111"], "answer": 0},
+  {"question": "Which memory is non-volatile?", "options": ["RAM", "Cache", "ROM", "Register"], "answer": 2},
+  {"question": "What does ALU stand for?", "options": ["Arithmetic Logic Unit", "Array Logic Unit", "Application Logic Unit", "Arithmetic Local Unit"], "answer": 0},
+  {"question": "How many bits are in a byte?", "options": ["4", "8", "16", "32"], "answer": 1},
+  {"question": "Which logic gate is also called an inverter?", "options": ["AND", "OR", "NOT", "NAND"], "answer": 2},
+  {"question": "What is the base of the hexadecimal number system?", "options": ["8", "10", "16", "2"], "answer": 2},
+  {"question": "Which device is used for permanent data storage?", "options": ["RAM", "Hard Disk", "Cache", "Register"], "answer": 1},
+  {"question": "What is the output of OR gate when inputs are 0 and 0?", "options": ["0", "1", "Error", "Undefined"], "answer": 0},
+  {"question": "Which component fetches and executes instructions?", "options": ["ALU", "CPU", "Memory", "I/O Unit"], "answer": 1},
+  {"question": "What is the hexadecimal equivalent of binary 1111?", "options": ["E", "F", "G", "H"], "answer": 1},
+  {"question": "Which type of RAM needs periodic refresh?", "options": ["SRAM", "DRAM", "ROM", "EPROM"], "answer": 1},
+  {"question": "What does the NOR gate output when both inputs are 0?", "options": ["0", "1", "Error", "Floating"], "answer": 1},
+  {"question": "What is the one's complement of binary 1010?", "options": ["0101", "1011", "0110", "1101"], "answer": 0}
+]

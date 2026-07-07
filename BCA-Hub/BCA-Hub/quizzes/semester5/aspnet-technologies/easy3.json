@@ -1,0 +1,17 @@
+[
+  {"question": "What is a Validation control in ASP.NET?", "options": ["Ensures user input meets requirements", "Database validation", "Server health check", "File verification"], "answer": 0},
+  {"question": "What is a RequiredFieldValidator?", "options": ["Ensures field is not empty", "Checks data type", "Validates range", "Compares values"], "answer": 0},
+  {"question": "What is a CompareValidator?", "options": ["Compares two values", "Checks required field", "Validates range", "Checks pattern"], "answer": 0},
+  {"question": "What is a RangeValidator?", "options": ["Checks value within range", "Compares values", "Required field check", "Pattern match"], "answer": 0},
+  {"question": "What is a RegularExpressionValidator?", "options": ["Validates against a pattern", "Range check", "Required check", "Comparison check"], "answer": 0},
+  {"question": "What is a CustomValidator?", "options": ["User-defined validation logic", "Built-in validation", "Database validation", "Server validation"], "answer": 0},
+  {"question": "What is the ValidationSummary control?", "options": ["Displays all validation errors", "Summary of database", "Page overview", "Error log"], "answer": 0},
+  {"question": "What is an ASP.NET Theme?", "options": ["Collection of skins and CSS", "Database schema", "Server configuration", "Network settings"], "answer": 0},
+  {"question": "What is a Skin in ASP.NET?", "options": ["Visual appearance definition for controls", "File type", "Database table", "Network protocol"], "answer": 0},
+  {"question": "What is the SiteMapPath control?", "options": ["Navigation breadcrumb trail", "Database path", "File path", "Network route"], "answer": 0},
+  {"question": "What is the TreeView control?", "options": ["Hierarchical navigation tree", "Data table", "File explorer", "Network topology"], "answer": 0},
+  {"question": "What is the Menu control?", "options": ["Navigation menu for web pages", "Restaurant menu", "File menu", "Database menu"], "answer": 0},
+  {"question": "What is a SqlDataSource control?", "options": ["Declarative data binding to SQL database", "File data source", "Network data source", "Web service source"], "answer": 0},
+  {"question": "What is a LinqDataSource control?", "options": ["Data binding using LINQ queries", "SQL data binding", "XML data binding", "Object data binding"], "answer": 0},
+  {"question": "What is an ObjectDataSource control?", "options": ["Binds data from business objects", "Database object", "File object", "Network object"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "What does OOP stand for?", "options": ["Object-Oriented Programming", "Object-Oriented Protocol", "Operational Object Programming", "Output-Oriented Process"], "answer": 0},
+  {"question": "Which of the following is a class access specifier in C++?", "options": ["private", "public", "protected", "All of the above"], "answer": 3},
+  {"question": "What is an object in OOP?", "options": ["Instance of a class", "A variable", "A function", "A data type"], "answer": 0},
+  {"question": "Which symbol is used for scope resolution in C++?", "options": ["::", "->", ".", ":"], "answer": 0},
+  {"question": "What is a constructor?", "options": ["A special member function", "A destructor", "A regular function", "A variable"], "answer": 0},
+  {"question": "Which feature allows a class to have multiple forms?", "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"], "answer": 0},
+  {"question": "What is the default access specifier in a C++ class?", "options": ["private", "public", "protected", "global"], "answer": 0},
+  {"question": "Which is the correct way to create an object in C++?", "options": ["ClassName obj;", "new ClassName();", "create ClassName;", "object ClassName;"], "answer": 0},
+  {"question": "What does the 'new' keyword do in C++?", "options": ["Allocates memory dynamically", "Creates a new class", "Deletes an object", "Calls a function"], "answer": 0},
+  {"question": "Which concept means hiding internal details?", "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"], "answer": 0},
+  {"question": "Which of these is not a pillar of OOP?", "options": ["Compilation", "Inheritance", "Polymorphism", "Encapsulation"], "answer": 0},
+  {"question": "What is a class?", "options": ["Blue-print for objects", "A variable", "A function", "A loop"], "answer": 0},
+  {"question": "Which operator is used for member access via pointer?", "options": ["->", ".", "::", "&"], "answer": 0},
+  {"question": "What is the purpose of a destructor?", "options": ["Clean up resources", "Create objects", "Copy objects", "Display data"], "answer": 0},
+  {"question": "Which stream is used for standard output in C++?", "options": ["cout", "cin", "cerr", "clog"], "answer": 0}
+]

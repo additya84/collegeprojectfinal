@@ -1,0 +1,17 @@
+[
+  {"question": "What is a Johnson counter?", "options": ["A ring counter with complemented feedback", "A ripple counter", "A synchronous counter", "An asynchronous counter"], "answer": 0},
+  {"question": "What is a ring counter?", "options": ["A shift register with feedback", "A ripple counter", "A Johnson counter", "A binary counter"], "answer": 0},
+  {"question": "What is the difference between latch and flip-flop?", "options": ["Latch is level-sensitive, flip-flop is edge-sensitive", "Both are same", "Flip-flop is level-sensitive", "Latch is edge-sensitive"], "answer": 0},
+  {"question": "What is the setup time of a flip-flop?", "options": ["Time data must be stable before clock edge", "Time data must be stable after clock edge", "Clock period", "Propagation delay"], "answer": 0},
+  {"question": "What is hold time of a flip-flop?", "options": ["Time data must be stable after clock edge", "Time data must be stable before clock edge", "Clock period", "Propagation delay"], "answer": 0},
+  {"question": "What is a Schmitt trigger?", "options": ["A comparator with hysteresis", "A flip-flop", "A logic gate", "An oscillator"], "answer": 0},
+  {"question": "What is an ADC?", "options": ["Analog to Digital Converter", "Digital to Analog Converter", "Amplitude to Digital Converter", "Analog to Decimal Converter"], "answer": 0},
+  {"question": "What is a DAC?", "options": ["Digital to Analog Converter", "Analog to Digital Converter", "Decimal to Analog Converter", "Digital to Amplitude Converter"], "answer": 0},
+  {"question": "What is resolution of an ADC?", "options": ["Number of bits used for conversion", "Speed of conversion", "Accuracy of conversion", "Power consumption"], "answer": 0},
+  {"question": "What is a sample and hold circuit?", "options": ["Captures and holds analog voltage", "Stores digital data", "Converts analog to digital", "Amplifies signal"], "answer": 0},
+  {"question": "What is the function of a voltage regulator?", "options": ["Maintains constant output voltage", "Increases voltage", "Decreases voltage", "Converts AC to DC"], "answer": 0},
+  {"question": "What is an operational amplifier?", "options": ["A high-gain differential amplifier", "A logic gate", "A flip-flop", "A counter"], "answer": 0},
+  {"question": "What is a comparator in analog electronics?", "options": ["Compares two voltages", "Adds voltages", "Subtracts voltages", "Multiplies voltages"], "answer": 0},
+  {"question": "What is the difference between active and passive filters?", "options": ["Active filters use op-amps, passive use RLC", "Passive filters use op-amps", "Both are same", "Active filters do not need power"], "answer": 0},
+  {"question": "What is an oscillator?", "options": ["Generates periodic waveforms", "Amplifies signals", "Filters noise", "Converts signals"], "answer": 0}
+]

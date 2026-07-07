@@ -1,0 +1,17 @@
+[
+  {"question": "Explain the difference between MIS and DSS.", "options": ["MIS provides structured reports; DSS supports semi-structured decisions", "Both are same", "DSS provides structured reports", "MIS supports unstructured decisions"], "answer": 0},
+  {"question": "How does ERP integrate different business functions?", "options": ["Single database connecting all departments", "Separate systems for each department", "No integration", "Manual data transfer"], "answer": 0},
+  {"question": "What is the role of MIS in strategic planning?", "options": ["Provide external and internal data for long-term plans", "Only operational data", "No planning support", "Short-term data only"], "answer": 0},
+  {"question": "Compare the three levels of management information needs.", "options": ["Strategic, tactical, operational with different detail levels", "All same needs", "One level only", "No information needed"], "answer": 0},
+  {"question": "How does a decision support system use models?", "options": ["Mathematical and analytical models to evaluate alternatives", "No models used", "Only raw data", "Only reports"], "answer": 0},
+  {"question": "Explain the concept of a data warehouse in business intelligence.", "options": ["Central repository of historical data for analysis", "Live transaction database", "Backup storage", "Temporary cache"], "answer": 0},
+  {"question": "What is the role of MIS in customer relationship management?", "options": ["Track customer interactions and improve service", "Ignore customers", "Only sales data", "Only complaints"], "answer": 0},
+  {"question": "How does MIS support supply chain management?", "options": ["Track inventory, orders, and logistics", "Only billing", "Only shipping", "No support"], "answer": 0},
+  {"question": "Compare the waterfall and agile system development methodologies.", "options": ["Waterfall sequential; agile iterative with customer feedback", "Both same", "Agile is sequential", "Waterfall is iterative"], "answer": 0},
+  {"question": "What is the purpose of a system flowchart?", "options": ["Visual representation of system processes", "Database design", "Network diagram", "Hardware layout"], "answer": 0},
+  {"question": "How does an executive support system differ from MIS?", "options": ["ESS for top executives with external focus; MIS for middle management", "Both serve same level", "ESS replaces MIS", "No difference"], "answer": 0},
+  {"question": "Explain the concept of business process reengineering.", "options": ["Radical redesign of business processes for improvement", "Incremental changes", "No changes", "System replacement"], "answer": 0},
+  {"question": "What is the role of information in managerial decision making?", "options": ["Reduces uncertainty and supports choices", "Increases confusion", "No impact", "Only documentation"], "answer": 0},
+  {"question": "How does a transaction processing system feed data to MIS?", "options": ["TPS captures daily transactions; MIS aggregates and reports", "No connection", "MIS replaces TPS", "TPS is independent"], "answer": 0},
+  {"question": "What are the characteristics of useful information?", "options": ["Accurate, timely, relevant, complete, concise", "Random, delayed, irrelevant", "Only accurate", "Only timely"], "answer": 0}
+]

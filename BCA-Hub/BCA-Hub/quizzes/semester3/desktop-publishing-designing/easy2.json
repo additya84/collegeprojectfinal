@@ -1,0 +1,17 @@
+[
+  {"question": "What is leading in typography?", "options": ["Space between lines", "Space between characters", "Font weight", "Text alignment"], "answer": 0},
+  {"question": "Which color model is used for digital screens?", "options": ["RGB", "CMYK", "HSB", "LAB"], "answer": 0},
+  {"question": "What is a raster image made of?", "options": ["Pixels", "Vectors", "Paths", "Nodes"], "answer": 0},
+  {"question": "Which tool is used to move objects in PageMaker?", "options": ["Pointer tool", "Text tool", "Pencil tool", "Brush tool"], "answer": 0},
+  {"question": "What does WYSIWYG stand for?", "options": ["What You See Is What You Get", "What You Select Is What You Get", "Where You See Is Where You Get", "What You Save Is What You Get"], "answer": 0},
+  {"question": "Which menu contains the Print option in PageMaker?", "options": ["File", "Edit", "View", "Layout"], "answer": 0},
+  {"question": "What is the function of the pasteboard in PageMaker?", "options": ["Work area outside the page", "Color palette", "Text formatting bar", "Layer manager"], "answer": 0},
+  {"question": "Which type of font is scaleable?", "options": ["TrueType", "Bitmap", "PostScript", "Both A and C"], "answer": 3},
+  {"question": "What is a vector graphic?", "options": ["Image made of mathematical paths", "Image made of pixels", "Photograph", "Scanned image"], "answer": 0},
+  {"question": "Which alignment centers text on both left and right?", "options": ["Justified", "Left", "Right", "Center"], "answer": 0},
+  {"question": "What is the bleed area in printing?", "options": ["Extra area beyond trim edge", "White margin", "Image area", "Text boundary"], "answer": 0},
+  {"question": "Which term refers to the darkness of a font?", "options": ["Weight", "Size", "Serif", "Tracking"], "answer": 0},
+  {"question": "What is a layer in DTP?", "options": ["Stackable level for organizing elements", "A type of filter", "A color mode", "A font family"], "answer": 0},
+  {"question": "Which key is a shortcut for Save in PageMaker?", "options": ["Ctrl+S", "Ctrl+N", "Ctrl+O", "Ctrl+P"], "answer": 0},
+  {"question": "What is the grid function used for?", "options": ["Aligning objects", "Printing faster", "Saving files", "Changing colors"], "answer": 0}
+]

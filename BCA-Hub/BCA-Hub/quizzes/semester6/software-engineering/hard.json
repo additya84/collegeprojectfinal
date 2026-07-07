@@ -1,0 +1,17 @@
+[
+  {"question": "What is the Capability Maturity Model (CMM)?", "options": ["Framework for improving software processes", "Testing maturity model", "Programming capability model", "Design maturity model"], "answer": 0},
+  {"question": "How many levels are in CMM?", "options": ["5", "4", "6", "3"], "answer": 0},
+  {"question": "What is the highest CMM level?", "options": ["Optimizing", "Managed", "Defined", "Repeatable"], "answer": 0},
+  {"question": "What is extreme programming (XP)?", "options": ["An Agile methodology emphasizing engineering practices", "A type of compiler", "A testing tool", "A project management tool"], "answer": 0},
+  {"question": "What is pair programming in XP?", "options": ["Two programmers working together at one workstation", "One programmer testing another's code", "Online collaboration", "Code review"], "answer": 0},
+  {"question": "What is test-driven development (TDD)?", "options": ["Writing tests before code", "Writing code before tests", "Testing after deployment", "Manual testing"], "answer": 0},
+  {"question": "What is continuous integration?", "options": ["Frequently merging code and running automated tests", "Integrating all modules at once", "Manual build process", "Deploying weekly"], "answer": 0},
+  {"question": "What is the Liskov Substitution Principle?", "options": ["Subtypes must be substitutable for base types", "Classes should be open for extension", "Depend on abstractions", "Single responsibility"], "answer": 0},
+  {"question": "What is the Single Responsibility Principle?", "options": ["A class should have only one reason to change", "A class should do everything", "One class per module", "One function per class"], "answer": 0},
+  {"question": "What is the Open-Closed Principle?", "options": ["Open for extension, closed for modification", "Open for modification, closed for extension", "Open for all changes", "Closed for all changes"], "answer": 0},
+  {"question": "What is the Dependency Inversion Principle?", "options": ["Depend on abstractions, not concretions", "Depend on low-level modules", "Use concrete implementations", "Avoid interfaces"], "answer": 0},
+  {"question": "What is the Interface Segregation Principle?", "options": ["Many specific interfaces are better than one general interface", "One large interface is better", "No interfaces needed", "Only abstract classes"], "answer": 0},
+  {"question": "What is software re-engineering?", "options": ["Examining and altering existing software to improve it", "Building new software", "Testing software", "Deploying software"], "answer": 0},
+  {"question": "What is reverse engineering?", "options": ["Analyzing software to understand its structure", "Building software", "Testing software", "Compiling software"], "answer": 0},
+  {"question": "What is forward engineering?", "options": ["Creating software from requirements", "Analyzing existing code", "Decompiling binaries", "Extracting data"], "answer": 0}
+]

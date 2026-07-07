@@ -1,0 +1,17 @@
+[
+  {"question": "What is the basic accounting equation?", "options": ["Assets = Liabilities + Capital", "Assets = Liabilities - Capital", "Assets + Liabilities = Capital", "Assets = Capital - Liabilities"], "answer": 0},
+  {"question": "A journal is also known as:", "options": ["Book of original entry", "Book of final entry", "Ledger", "Trial balance"], "answer": 0},
+  {"question": "Which of the following is a type of account?", "options": ["Personal account", "Individual account", "Group account", "Section account"], "answer": 0},
+  {"question": "What is a ledger?", "options": ["Principal book of accounts", "Book of original entry", "Subsidiary book", "Cash book"], "answer": 0},
+  {"question": "Trial balance is a statement of:", "options": ["Debit and credit balances", "Profit and loss", "Assets and liabilities", "Income and expenses"], "answer": 0},
+  {"question": "The golden rule for real accounts is:", "options": ["Debit what comes in, credit what goes out", "Debit the receiver, credit the giver", "Debit all expenses, credit all incomes", "Debit the giver, credit the receiver"], "answer": 0},
+  {"question": "What does the term 'debit' mean?", "options": ["Left side of an account", "Right side of an account", "Increase in account", "Decrease in account"], "answer": 0},
+  {"question": "Final accounts include:", "options": ["Trading, Profit & Loss A/c and Balance Sheet", "Journal and Ledger", "Trial balance and Journal", "Cash book and Ledger"], "answer": 0},
+  {"question": "What is a balance sheet?", "options": ["Statement of financial position", "Statement of profit", "Statement of cash flows", "Statement of changes in equity"], "answer": 0},
+  {"question": "Ratio analysis is used to:", "options": ["Analyze financial statements", "Prepare journal entries", "Make ledger accounts", "Calculate depreciation"], "answer": 0},
+  {"question": "Which of the following is a current asset?", "options": ["Cash", "Building", "Machinery", "Land"], "answer": 0},
+  {"question": "What is depreciation?", "options": ["Reduction in value of fixed assets", "Increase in value of assets", "Cost of goods sold", "Revenue earned"], "answer": 0},
+  {"question": "The accounting period concept assumes:", "options": ["Life of business is divided into periods", "Business will continue forever", "Revenue is recognized when earned", "Cost is matched with revenue"], "answer": 0},
+  {"question": "What is a liability?", "options": ["Amount owed by the business", "Amount owned by the business", "Income earned", "Expense incurred"], "answer": 0},
+  {"question": "Double-entry bookkeeping means:", "options": ["Every transaction affects two accounts", "Two books are maintained", "Two entries are made", "Two persons are involved"], "answer": 0}
+]

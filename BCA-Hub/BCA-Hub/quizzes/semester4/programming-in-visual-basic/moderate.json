@@ -1,0 +1,17 @@
+[
+  {"question": "What is inheritance in VB.NET?", "options": ["Deriving a class from a base class", "Creating a new object", "Implementing interfaces", "Handling events"], "answer": 0},
+  {"question": "Which access modifier makes a member accessible only within the class?", "options": ["Private", "Public", "Protected", "Friend"], "answer": 0},
+  {"question": "What is the purpose of ADO.NET DataSet?", "options": ["In-memory cache of data from database", "To connect to database", "To execute SQL queries", "To create database tables"], "answer": 0},
+  {"question": "Which control is used for database navigation in VB.NET?", "options": ["BindingNavigator", "DataGridView", "DataView", "DataSet"], "answer": 0},
+  {"question": "What does 'polymorphism' mean in OOP?", "options": ["Many forms of a method", "Single form of method", "Multiple classes", "Single class"], "answer": 0},
+  {"question": "Which statement handles exceptions in VB.NET?", "options": ["Try...Catch...Finally", "If...Then...Else", "Select Case", "For Each"], "answer": 0},
+  {"question": "What is a constructor in VB.NET?", "options": ["Special method called when object is created", "Method to destroy object", "Property initializer", "Event handler"], "answer": 0},
+  {"question": "Which property of DataGridView displays the data source?", "options": ["DataSource", "DataMember", "DataBind", "DataSet"], "answer": 0},
+  {"question": "What is a delegate in VB.NET?", "options": ["Type-safe function pointer", "Event handler", "Class member", "Data type"], "answer": 0},
+  {"question": "Which control is used to create a tabbed interface?", "options": ["TabControl", "Panel", "GroupBox", "SplitContainer"], "answer": 0},
+  {"question": "What is the purpose of the 'My' object in VB.NET?", "options": ["Provides easy access to common .NET features", "Custom object creation", "Database connection", "Error handling"], "answer": 0},
+  {"question": "Which method executes a SQL command on a database?", "options": ["ExecuteNonQuery()", "ExecuteQuery()", "RunQuery()", "ExecuteSQL()"], "answer": 0},
+  {"question": "What is the Panel control used for?", "options": ["Container for grouping other controls", "Displaying text", "Creating buttons", "Showing images"], "answer": 0},
+  {"question": "Which keyword is used to create a new object in VB.NET?", "options": ["New", "Create", "Object", "Dim"], "answer": 0},
+  {"question": "What is a MDI form in VB.NET?", "options": ["Multiple Document Interface form", "Modal Dialog Interface", "Main Document Interface", "Multiple Data Interface"], "answer": 0}
+]

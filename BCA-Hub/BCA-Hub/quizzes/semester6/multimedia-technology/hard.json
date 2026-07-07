@@ -1,0 +1,17 @@
+[
+  {"question": "What is the discrete cosine transform used for in image compression?", "options": ["Transform spatial data to frequency domain", "Transform frequency data to spatial domain", "Encrypt image data", "Quantize image data"], "answer": 0},
+  {"question": "What is motion estimation in video compression?", "options": ["Finding motion vectors between frames", "Estimating audio delay", "Calculating frame rate", "Determining color distribution"], "answer": 0},
+  {"question": "What is SSIM in image quality assessment?", "options": ["Structural Similarity Index", "Signal-to-Noise Ratio", "Peak Signal-to-Noise Ratio", "Mean Squared Error"], "answer": 0},
+  {"question": "What is the difference between CBR and VBR encoding?", "options": ["Constant vs Variable Bit Rate", "Compressed vs Variable Bit Rate", "Constant vs Variable Compression", "Constant vs Variable Resolution"], "answer": 0},
+  {"question": "What is the H.264 codec known for?", "options": ["High compression efficiency for video", "High audio quality", "Lossless image compression", "Text compression"], "answer": 0},
+  {"question": "What is the zigzag scanning in JPEG used for?", "options": ["Organizing DCT coefficients by frequency", "Scanning image pixels", "Color conversion", "File encryption"], "answer": 0},
+  {"question": "What is perceptual coding in audio compression?", "options": ["Removing sounds masked by louder sounds", "Removing all high frequencies", "Removing all low frequencies", "Reducing bit depth"], "answer": 0},
+  {"question": "What is the psychoacoustic model used by MP3?", "options": ["Models human hearing to remove inaudible sounds", "Models sound wave propagation", "Models room acoustics", "Models speaker response"], "answer": 0},
+  {"question": "What is the difference between progressive and interlaced video?", "options": ["Progressive: all lines sequentially; Interlaced: alternating fields", "Progressive: alternating; Interlaced: sequential", "Both are same", "Progressive has lower quality"], "answer": 0},
+  {"question": "What is chroma subsampling in video?", "options": ["Reducing color resolution while keeping luminance", "Reducing luminance resolution", "Removing all color", "Increasing color depth"], "answer": 0},
+  {"question": "What is the YCbCr color space used for?", "options": ["Separating luminance from chrominance for compression", "Printer color representation", "Display color representation", "Color image capture"], "answer": 0},
+  {"question": "What is the function of a media server?", "options": ["Stream multimedia content over networks", "Edit multimedia files", "Compress multimedia files", "Capture multimedia data"], "answer": 0},
+  {"question": "What is QoS in multimedia streaming?", "options": ["Quality of Service - ensuring smooth delivery", "Quantity of Service", "Quality of Sound", "Quantity of Storage"], "answer": 0},
+  {"question": "What is the difference between streaming and progressive download?", "options": ["Streaming plays in real-time; progressive download saves locally", "Both are same", "Streaming saves locally", "Progressive download plays in real-time"], "answer": 0},
+  {"question": "What is the mathematical basis for the JPEG 2000 standard?", "options": ["Wavelet Transform", "Discrete Cosine Transform", "Fast Fourier Transform", "Hadamard Transform"], "answer": 0}
+]

@@ -1,0 +1,17 @@
+[
+  {"question": "Explain the ASP.NET page lifecycle stages.", "options": ["Init, Load, PostBack events, Render, Unload", "Only Load and Render", "Only Init and Load", "No lifecycle"], "answer": 0},
+  {"question": "What is the difference between session state and view state?", "options": ["Session is server-side; view state is client-side", "Both are client-side", "Both are server-side", "No difference"], "answer": 0},
+  {"question": "How does ADO.NET support disconnected data access?", "options": ["DataSet works without active connection", "Always connected", "Never disconnects", "No support"], "answer": 0},
+  {"question": "Compare Web Forms and MVC architecture.", "options": ["Web Forms: event-driven; MVC: separation of concerns", "Both same", "MVC is event-driven", "Web Forms has separation"], "answer": 0},
+  {"question": "What is the role of the HTTP pipeline in ASP.NET?", "options": ["Processes requests through modules and handlers", "Sends emails", "Manages files", "Configures network"], "answer": 0},
+  {"question": "How does caching improve web application performance?", "options": ["Stores frequently accessed data in memory", "Slows down requests", "No impact", "Uses more CPU"], "answer": 0},
+  {"question": "What is the difference between Response.Redirect and Server.Transfer?", "options": ["Redirect: 302 to client; Transfer: server-side forward", "Both same", "Transfer sends to client", "Redirect stays server-side"], "answer": 0},
+  {"question": "Explain the concept of state management in ASP.NET.", "options": ["Techniques to maintain state across requests", "No state management", "Only cookies", "Only session"], "answer": 0},
+  {"question": "How does authentication work in ASP.NET?", "options": ["Forms authentication, Windows authentication, OAuth", "No authentication", "Only passwords", "Only login page"], "answer": 0},
+  {"question": "What is the role of the Membership provider in ASP.NET?", "options": ["Manages user accounts and roles", "Database connection", "File management", "Email service"], "answer": 0},
+  {"question": "How does URL routing work in ASP.NET?", "options": ["Maps URLs to handlers or pages", "Direct file access", "No routing", "Only query strings"], "answer": 0},
+  {"question": "What is the difference between LINQ to SQL and Entity Framework?", "options": ["EF is more feature-rich ORM; LINQ to SQL is simpler", "Both same", "LINQ to SQL is newer", "EF is older"], "answer": 0},
+  {"question": "Explain the concept of async programming in ASP.NET.", "options": ["Non-blocking operations improve scalability", "Blocking operations", "No async support", "Same as sync"], "answer": 0},
+  {"question": "How does the Application state work in ASP.NET?", "options": ["Global data shared across all users", "Per-user data", "Per-session data", "No application state"], "answer": 0},
+  {"question": "What is the purpose of the App_Code folder?", "options": ["Store shared class files", "Store web pages", "Store images", "Store databases"], "answer": 0}
+]

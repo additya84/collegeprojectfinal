@@ -1,0 +1,17 @@
+[
+  {"question": "What is the difference between management and administration?", "options": ["Management implements policies, administration sets them", "They are identical", "Administration is lower level", "Management is only about people"], "answer": 0},
+  {"question": "Which theory contrasts Theory X and Theory Y assumptions?", "options": ["McGregor's Theory", "Maslow's Theory", "Herzberg's Theory", "Vroom's Theory"], "answer": 0},
+  {"question": "What is the critical path in PERT/CPM?", "options": ["Longest path in the network", "Shortest path", "Path with most resources", "Path with least cost"], "answer": 0},
+  {"question": "Which budgeting method starts from zero base?", "options": ["Zero-based budgeting", "Incremental budgeting", "Activity-based budgeting", "Flexible budgeting"], "answer": 0},
+  {"question": "What does the term 'economies of scale' mean?", "options": ["Cost advantage from increased production", "Reducing employee count", "Increasing prices", "Expanding product range"], "answer": 0},
+  {"question": "Which organizational structure is best for a dynamic environment?", "options": ["Organic structure", "Mechanistic structure", "Bureaucracy", "Line structure"], "answer": 0},
+  {"question": "What is the concept of 'management by exception'?", "options": ["Focus on significant deviations", "Manage every minor detail", "Delegate all decisions", "Ignore all problems"], "answer": 0},
+  {"question": "Which type of leadership is based on rewards and punishments?", "options": ["Transactional", "Transformational", "Charismatic", "Servant"], "answer": 0},
+  {"question": "What is the purpose of a Gantt chart?", "options": ["Schedule and track project tasks", "Organize company hierarchy", "Show financial data", "Map communication flow"], "answer": 0},
+  {"question": "Which decision-making environment has unknown probabilities?", "options": ["Uncertainty", "Certainty", "Risk", "Ambiguity"], "answer": 0},
+  {"question": "What is the key principle of scientific management?", "options": ["Science, not rule of thumb", "Unity of command", "Span of control", "Centralization"], "answer": 0},
+  {"question": "Which type of power comes from a manager's position?", "options": ["Legitimate power", "Expert power", "Referent power", "Coercive power"], "answer": 0},
+  {"question": "What does HRP stand for?", "options": ["Human Resource Planning", "Human Resource Policy", "High Resource Planning", "Human Retention Program"], "answer": 0},
+  {"question": "Which technique evaluates work by measuring time?", "options": ["Time study", "Motion study", "Work sampling", "Method study"], "answer": 0},
+  {"question": "What is the break-even point?", "options": ["Revenue equals total cost", "Profit is maximum", "Loss is minimum", "Production stops"], "answer": 0}
+]

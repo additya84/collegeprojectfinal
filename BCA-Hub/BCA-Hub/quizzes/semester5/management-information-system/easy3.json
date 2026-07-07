@@ -1,0 +1,17 @@
+[
+  {"question": "What is a knowledge management system?", "options": ["System to capture and share knowledge", "System to delete files", "System to browse internet", "System to edit photos"], "answer": 0},
+  {"question": "What is the role of MIS in controlling?", "options": ["Monitor performance and take corrective action", "Ignore performance", "Only record data", "Delete data"], "answer": 0},
+  {"question": "What is a system development life cycle?", "options": ["Process of developing information systems", "A hardware cycle", "A network protocol", "A database query"], "answer": 0},
+  {"question": "What is feasibility study in system development?", "options": ["Assessment of project viability", "Final testing", "Coding phase", "Installation phase"], "answer": 0},
+  {"question": "What is system analysis?", "options": ["Study existing system and identify requirements", "Write code", "Install hardware", "Test software"], "answer": 0},
+  {"question": "What is system design?", "options": ["Create detailed system specifications", "Remove system", "Ignore requirements", "Delete files"], "answer": 0},
+  {"question": "What is system implementation?", "options": ["Deploy and install the new system", "Only design", "Only analysis", "Only testing"], "answer": 0},
+  {"question": "What is system testing?", "options": ["Verify system meets requirements", "Delete the system", "Ignore bugs", "Skip validation"], "answer": 0},
+  {"question": "What is system maintenance?", "options": ["Ongoing support and updates", "Initial development", "System removal", "Data deletion"], "answer": 0},
+  {"question": "What is a prototype in system development?", "options": ["Working model of the system", "Final product", "Documentation", "Hardware device"], "answer": 0},
+  {"question": "What is CASE tool?", "options": ["Computer-Aided Software Engineering tool", "A hardware tool", "A network device", "A storage device"], "answer": 0},
+  {"question": "What is the role of MIS in competitive advantage?", "options": ["Provide strategic information for advantage", "No role", "Increase costs", "Reduce efficiency"], "answer": 0},
+  {"question": "What is a management report?", "options": ["Report for managerial decision making", "Random data dump", "Customer invoice", "Shipping label"], "answer": 0},
+  {"question": "What is exception reporting?", "options": ["Report highlighting deviations from normal", "Regular daily report", "Weekly summary", "Annual report"], "answer": 0},
+  {"question": "What is demand reporting?", "options": ["Report generated on user request", "Automated periodic report", "Scheduled report", "System-generated report"], "answer": 0}
+]

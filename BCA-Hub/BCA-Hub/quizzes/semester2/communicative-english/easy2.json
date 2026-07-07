@@ -1,0 +1,17 @@
+[
+  {"question": "What is an abstract?", "options": ["Full paper", "Summary of a document", "A letter", "A report"], "answer": 1},
+  {"question": "Which tense is used to express universal truths?", "options": ["Past", "Present continuous", "Present indefinite", "Future"], "answer": 2},
+  {"question": "What is a synonym of 'Abundant'?", "options": ["Scarce", "Plentiful", "Rare", "Limited"], "answer": 1},
+  {"question": "What is an antonym of 'Generous'?", "options": ["Kind", "Selfish", "Benevolent", "Charitable"], "answer": 1},
+  {"question": "Identify the noun in: 'She gave him a book.'", "options": ["She", "Gave", "Him", "Book"], "answer": 3},
+  {"question": "Which is a demonstrative pronoun?", "options": ["Who", "This", "Someone", "Myself"], "answer": 1},
+  {"question": "What is the past participle of 'Write'?", "options": ["Wrote", "Written", "Writing", "Writes"], "answer": 1},
+  {"question": "Choose the correct preposition: 'He is good ___ mathematics.'", "options": ["In", "At", "With", "On"], "answer": 1},
+  {"question": "What is the plural of 'Child'?", "options": ["Childs", "Childes", "Children", "Childrens"], "answer": 2},
+  {"question": "Which sentence is in passive voice?", "options": ["The cat chased the mouse.", "The mouse was chased by the cat.", "The cat is chasing.", "The mouse chases."], "answer": 1},
+  {"question": "What is a paragraph?", "options": ["A word", "A group of related sentences", "A single sentence", "A chapter"], "answer": 1},
+  {"question": "Which of the following is NOT a type of letter?", "options": ["Formal", "Informal", "Semi-formal", "Verbal"], "answer": 3},
+  {"question": "What is the tone of a formal letter?", "options": ["Casual", "Polite and professional", "Humorous", "Emotional"], "answer": 1},
+  {"question": "Which part of a letter contains the main message?", "options": ["Salutation", "Body", "Closing", "Signature"], "answer": 1},
+  {"question": "What is a report?", "options": ["A short story", "A factual account", "A poem", "A novel"], "answer": 1}
+]

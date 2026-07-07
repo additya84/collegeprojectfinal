@@ -1,0 +1,17 @@
+[
+  {"question": "What is the two-phase locking (2PL) protocol?", "options": ["Growing phase followed by shrinking phase", "Shrinking phase followed by growing phase", "No locking", "Random locking"], "answer": 0},
+  {"question": "What is strict 2PL?", "options": ["All locks released after commit", "Locks released during transaction", "No locks used", "Shared locks only"], "answer": 0},
+  {"question": "What is a conflict in schedule?", "options": ["Two operations accessing same data item", "Two operations on different data", "Read-only operations", "Write-only operations"], "answer": 0},
+  {"question": "What is a view serializable schedule?", "options": ["A schedule that is view equivalent to a serial schedule", "Same as conflict serializable", "Not a valid schedule", "A parallel schedule"], "answer": 0},
+  {"question": "What is timestamp-based concurrency control?", "options": ["Assigns timestamps to transactions to order execution", "Uses locks", "Uses semaphores", "Uses queues"], "answer": 0},
+  {"question": "What is Thomas write rule?", "options": ["Ignore outdated writes", "Ignore all writes", "Ignore reads", "Ignore commits"], "answer": 0},
+  {"question": "What is multiversion concurrency control (MVCC)?", "options": ["Keeps multiple versions of data items", "Keeps single version", "No versions", "Locks data"], "answer": 0},
+  {"question": "What is a recovery system in DBMS?", "options": ["Restores database to consistent state after failure", "Backs up data", "Encrypts data", "Compresses data"], "answer": 0},
+  {"question": "What is the log-based recovery?", "options": ["Using logs to undo/redo transactions", "Using backups", "Using mirrors", "Using cache"], "answer": 0},
+  {"question": "What is checkpoint in DBMS?", "options": ["A point where all data is written to disk", "A backup point", "A restore point", "A save point"], "answer": 0},
+  {"question": "What is the ARIES recovery algorithm?", "options": ["Algorithm for transaction recovery using logs", "A backup algorithm", "A compression algorithm", "A sorting algorithm"], "answer": 0},
+  {"question": "What is data fragmentation in distributed DBMS?", "options": ["Dividing database into smaller parts", "Merging databases", "Replicating database", "Encrypting database"], "answer": 0},
+  {"question": "What is horizontal fragmentation?", "options": ["Splitting table by rows", "Splitting table by columns", "Splitting table by keys", "Splitting table by indexes"], "answer": 0},
+  {"question": "What is vertical fragmentation?", "options": ["Splitting table by columns", "Splitting table by rows", "Splitting table by keys", "Splitting table by indexes"], "answer": 0},
+  {"question": "What is data replication in a distributed database?", "options": ["Copying data to multiple sites", "Deleting data from sites", "Moving data between sites", "Encrypting data at sites"], "answer": 0}
+]

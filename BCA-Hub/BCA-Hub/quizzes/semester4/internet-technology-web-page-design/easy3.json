@@ -1,0 +1,17 @@
+[
+  {"question": "Which CSS property is used to add spacing between text lines?", "options": ["line-height", "letter-spacing", "word-spacing", "spacing"], "answer": 0},
+  {"question": "Which HTML tag is used to define an ordered list?", "options": ["<ol>", "<ul>", "<li>", "<list>"], "answer": 0},
+  {"question": "What is the correct way to comment in CSS?", "options": ["/* comment */", "// comment", "# comment", "<!-- comment -->"], "answer": 0},
+  {"question": "What does the 'var' keyword declare in JavaScript?", "options": ["Variable", "Function", "Object", "Array"], "answer": 0},
+  {"question": "Which HTML attribute specifies the destination of a link?", "options": ["href", "src", "target", "rel"], "answer": 0},
+  {"question": "What is the purpose of JavaScript in a web page?", "options": ["To add interactivity", "To structure content", "To style content", "To host content"], "answer": 0},
+  {"question": "Which tag is used for inserting a horizontal rule in HTML?", "options": ["<hr>", "<br>", "<line>", "<rule>"], "answer": 0},
+  {"question": "What is a static website?", "options": ["Website with fixed content", "Website that changes dynamically", "Website with animations", "Website with database"], "answer": 0},
+  {"question": "Which CSS property is used to make text bold?", "options": ["font-weight", "font-style", "font-size", "text-decoration"], "answer": 0},
+  {"question": "Which HTML element is used for a dropdown list?", "options": ["<select>", "<dropdown>", "<list>", "<option>"], "answer": 0},
+  {"question": "What does FTP stand for?", "options": ["File Transfer Protocol", "File Transmission Protocol", "Fast Transfer Protocol", "File Transfer Process"], "answer": 0},
+  {"question": "Which tag is used to define a table header cell?", "options": ["<th>", "<td>", "<tr>", "<thead>"], "answer": 0},
+  {"question": "What is the correct JavaScript syntax for a function?", "options": ["function myFunction()", "function:myFunction()", "def myFunction()", "func myFunction()"], "answer": 0},
+  {"question": "Which CSS value makes an element invisible?", "options": ["display: none", "visibility: hidden", "opacity: 0", "All of the above"], "answer": 3},
+  {"question": "What is the purpose of the <head> element in HTML?", "options": ["Contains metadata and title", "Contains page content", "Contains scripts only", "Contains styles only"], "answer": 0}
+]

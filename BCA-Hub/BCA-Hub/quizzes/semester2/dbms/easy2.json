@@ -1,0 +1,17 @@
+[
+  {"question": "Which is a concurrency control mechanism?", "options": ["Locking", "Timestamp ordering", "Multiversion", "All of the above"], "answer": 3},
+  {"question": "What is a shared lock?", "options": ["Allows read only", "Allows read and write", "No access", "Exclusive access"], "answer": 0},
+  {"question": "What is an exclusive lock?", "options": ["Allows read only", "Allows read and write to one transaction", "Allows all transactions", "No access"], "answer": 1},
+  {"question": "What is an entity in ER model?", "options": ["A real-world object", "A table", "A relation", "An attribute"], "answer": 0},
+  {"question": "What is an attribute in ER model?", "options": ["A property of an entity", "A record", "A table", "A key"], "answer": 0},
+  {"question": "What is a relationship in ER model?", "options": ["Association between entities", "A constraint", "A key", "A table"], "answer": 0},
+  {"question": "What is cardinality in ER model?", "options": ["Number of entities in a relationship", "Number of attributes", "Number of tables", "Number of keys"], "answer": 0},
+  {"question": "Which is a valid relationship cardinality?", "options": ["One-to-one", "One-to-many", "Many-to-many", "All of the above"], "answer": 3},
+  {"question": "What is a super key?", "options": ["A set of attributes that uniquely identifies a tuple", "A primary key", "A foreign key", "A composite key"], "answer": 0},
+  {"question": "What is a candidate key?", "options": ["Minimal super key", "Primary key", "Foreign key", "Alternate key"], "answer": 0},
+  {"question": "What is a composite key?", "options": ["Key with multiple attributes", "A single attribute key", "A foreign key", "A unique key"], "answer": 0},
+  {"question": "Which SQL clause is used to filter records?", "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"], "answer": 0},
+  {"question": "Which SQL clause is used to group rows?", "options": ["WHERE", "ORDER BY", "GROUP BY", "HAVING"], "answer": 2},
+  {"question": "What is the difference between WHERE and HAVING?", "options": ["WHERE filters rows, HAVING filters groups", "Both are same", "HAVING filters rows", "WHERE filters groups"], "answer": 0},
+  {"question": "What is a view in SQL?", "options": ["A virtual table", "A real table", "An index", "A constraint"], "answer": 0}
+]

@@ -118,55 +118,5 @@
       "Desktop"
     ],
     "answer": 0
-  },
-  {
-    "question": "MS Word belongs to:",
-    "options": [
-      "Word Processing Software",
-      "Spreadsheet Software",
-      "Presentation Software",
-      "Utility Software"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "MS PowerPoint is used for:",
-    "options": [
-      "Programming",
-      "Presentations",
-      "Operating System",
-      "Database Management"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "MS Excel is primarily used for:",
-    "options": [
-      "Programming",
-      "Spreadsheets",
-      "Operating Systems",
-      "Image Editing"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "A collection of related files is called:",
-    "options": [
-      "Directory",
-      "Register",
-      "Sector",
-      "Block"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which operating system is open source?",
-    "options": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "MS-DOS"
-    ],
-    "answer": 1
   }
 ]

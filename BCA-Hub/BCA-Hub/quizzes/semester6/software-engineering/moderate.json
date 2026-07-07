@@ -1,0 +1,17 @@
+[
+  {"question": "What is the Waterfall model's main disadvantage?", "options": ["Difficult to accommodate changes", "Too flexible", "Too fast", "Requires too many people"], "answer": 0},
+  {"question": "What is the Spiral model's main advantage?", "options": ["Risk management is built in", "Very simple model", "No documentation needed", "Fast delivery"], "answer": 0},
+  {"question": "What is the difference between verification and validation?", "options": ["Verification: building product right; Validation: building right product", "Both are same", "Validation is technical; Verification is business", "Verification is testing"], "answer": 0},
+  {"question": "What is white-box testing?", "options": ["Testing based on internal code structure", "Testing based on requirements only", "Testing by end users", "Testing documentation"], "answer": 0},
+  {"question": "What is black-box testing?", "options": ["Testing based on requirements without internal knowledge", "Testing based on code structure", "Testing by developers only", "Testing performance only"], "answer": 0},
+  {"question": "What is cyclomatic complexity?", "options": ["Metric for program complexity based on control flow", "Number of lines of code", "Number of classes", "Number of test cases"], "answer": 0},
+  {"question": "What is McCabe's cyclomatic complexity formula?", "options": ["M = E - N + 2P", "M = N - E + 2", "M = E + N - 2", "M = E - N - 2P"], "answer": 0},
+  {"question": "What is a functional point in software metrics?", "options": ["Measure of functionality delivered to users", "A test case", "A bug report", "A feature request"], "answer": 0},
+  {"question": "What is COCOMO model?", "options": ["Constructive Cost Model for effort estimation", "Code Complexity Model", "Cost of Maintenance Model", "Configuration Management Model"], "answer": 0},
+  {"question": "What is the difference between basic, intermediate, and detailed COCOMO?", "options": ["Increasing accuracy with more parameters", "Different project sizes only", "Different languages", "Different team sizes"], "answer": 0},
+  {"question": "What is a data flow diagram (DFD)?", "options": ["Graphical representation of data flow in a system", "Class diagram", "Use case diagram", "Deployment diagram"], "answer": 0},
+  {"question": "What is an entity-relationship diagram (ERD)?", "options": ["Shows entities and relationships in a database", "Shows data flow", "Shows object classes", "Shows user interactions"], "answer": 0},
+  {"question": "What is a state transition diagram?", "options": ["Shows states and transitions of a system", "Shows data flow", "Shows class hierarchy", "Shows deployment"], "answer": 0},
+  {"question": "What is risk management in software engineering?", "options": ["Identifying and mitigating project risks", "Managing development team", "Version control", "Testing"], "answer": 0},
+  {"question": "What is the purpose of a software project management plan?", "options": ["Outline project scope, schedule, resources, and risks", "Describe software architecture", "Define user requirements", "Design test cases"], "answer": 0}
+]

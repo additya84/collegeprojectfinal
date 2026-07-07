@@ -1,0 +1,17 @@
+[
+  {"question": "What is software engineering?", "options": ["Systematic approach to software development", "Writing code without planning", "Hardware maintenance", "Network configuration"], "answer": 0},
+  {"question": "What is the software development life cycle (SDLC)?", "options": ["A process for building software", "The lifespan of software", "A type of license", "A testing tool"], "answer": 0},
+  {"question": "Which SDLC model is linear and sequential?", "options": ["Waterfall Model", "Spiral Model", "Agile Model", "V-Model"], "answer": 0},
+  {"question": "What is the first phase of SDLC?", "options": ["Requirements Gathering", "Design", "Implementation", "Testing"], "answer": 0},
+  {"question": "What is a requirement in software engineering?", "options": ["A condition needed by the user", "A piece of code", "A test case", "A design document"], "answer": 0},
+  {"question": "What is the purpose of testing in software engineering?", "options": ["Finding defects in software", "Writing code", "Designing interfaces", "Collecting requirements"], "answer": 0},
+  {"question": "What is maintenance in software engineering?", "options": ["Modifying software after delivery", "Initial development", "Requirements gathering", "Design phase"], "answer": 0},
+  {"question": "Which model emphasizes iterative development?", "options": ["Agile Model", "Waterfall Model", "V-Model", "Big Bang Model"], "answer": 0},
+  {"question": "What is unit testing?", "options": ["Testing individual components", "Testing entire system", "Testing user acceptance", "Testing performance"], "answer": 0},
+  {"question": "What is integration testing?", "options": ["Testing interactions between components", "Testing code coverage", "Testing individual units", "Testing user interface"], "answer": 0},
+  {"question": "What is system testing?", "options": ["Testing the complete integrated system", "Testing a single module", "Testing hardware", "Testing documentation"], "answer": 0},
+  {"question": "What is acceptance testing?", "options": ["Testing by end users to validate requirements", "Testing by developers", "Automated testing", "Performance testing"], "answer": 0},
+  {"question": "What is a bug in software?", "options": ["A defect or error in code", "A feature request", "A server", "A programming language"], "answer": 0},
+  {"question": "What is debugging?", "options": ["Finding and fixing defects", "Writing new code", "Testing code", "Deploying software"], "answer": 0},
+  {"question": "What is software documentation?", "options": ["Written information about the software", "Source code only", "Test cases only", "Binary files"], "answer": 0}
+]

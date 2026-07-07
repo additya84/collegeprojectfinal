@@ -1,0 +1,17 @@
+[
+  {"question": "What does VB.NET stand for?", "options": ["Visual Basic .NET", "Visual Basic Network", "Very Basic .NET", "Visual Binary .NET"], "answer": 0},
+  {"question": "Which framework does VB.NET use?", "options": [".NET Framework", "Java Framework", "Python Framework", "C++ Framework"], "answer": 0},
+  {"question": "What is a form in VB.NET?", "options": ["A window for user interface", "A data table", "A code file", "A database"], "answer": 0},
+  {"question": "Which of the following is a control in VB.NET?", "options": ["Button", "Printer", "Monitor", "Keyboard"], "answer": 0},
+  {"question": "What is the default event of a Button control?", "options": ["Click", "Load", "TextChanged", "MouseEnter"], "answer": 0},
+  {"question": "Which property is used to set text on a Label control?", "options": ["Text", "Name", "Caption", "Value"], "answer": 0},
+  {"question": "What does ADO.NET stand for?", "options": ["ActiveX Data Objects .NET", "Advanced Data Objects .NET", "Active Data Operations .NET", "Automatic Data Objects .NET"], "answer": 0},
+  {"question": "Which data type is used to store whole numbers in VB.NET?", "options": ["Integer", "String", "Double", "Boolean"], "answer": 0},
+  {"question": "What is the purpose of the 'MsgBox' function?", "options": ["To display a message dialog", "To read input", "To write to console", "To create a form"], "answer": 0},
+  {"question": "Which control is used to display a list of items?", "options": ["ListBox", "TextBox", "Label", "Button"], "answer": 0},
+  {"question": "What is the extension of a VB.NET form file?", "options": [".vb", ".cs", ".aspx", ".xml"], "answer": 0},
+  {"question": "Which keyword is used to declare a variable in VB.NET?", "options": ["Dim", "Var", "Let", "Define"], "answer": 0},
+  {"question": "What is the TextBox control used for?", "options": ["To accept user input", "To display images", "To show lists", "To create buttons"], "answer": 0},
+  {"question": "Which property sets the name of a control in VB.NET?", "options": ["Name", "ID", "Title", "Caption"], "answer": 0},
+  {"question": "What is the .NET Framework?", "options": ["A software development platform by Microsoft", "A database system", "An operating system", "A web server"], "answer": 0}
+]

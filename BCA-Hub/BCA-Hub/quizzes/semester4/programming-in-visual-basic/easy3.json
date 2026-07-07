@@ -1,0 +1,17 @@
+[
+  {"question": "What is the full form of CLR in .NET?", "options": ["Common Language Runtime", "Common Language Runner", "Central Language Runtime", "Common Library Runtime"], "answer": 0},
+  {"question": "Which of the following is an arithmetic operator in VB.NET?", "options": ["+", "&", "And", "Or"], "answer": 0},
+  {"question": "What is the purpose of the 'With...End With' statement?", "options": ["To simplify multiple property assignments", "To create loops", "To handle errors", "To declare variables"], "answer": 0},
+  {"question": "Which control is used to display a progress bar?", "options": ["ProgressBar", "StatusBar", "TrackBar", "Bar"], "answer": 0},
+  {"question": "What is a namespace in .NET?", "options": ["Container for related classes", "A variable scope", "A file location", "A database"], "answer": 0},
+  {"question": "Which method is used to show a form in VB.NET?", "options": ["Show()", "Open()", "Display()", "Load()"], "answer": 0},
+  {"question": "What is a RadioButton control used for?", "options": ["Selecting one option from a set", "Selecting multiple options", "Entering text", "Displaying images"], "answer": 0},
+  {"question": "Which operator concatenates strings in VB.NET?", "options": ["&", "+", ".", ","], "answer": 0},
+  {"question": "What is the base class for all .NET classes?", "options": ["System.Object", "System.Base", "System.Class", "System.Root"], "answer": 0},
+  {"question": "What does IDE stand for?", "options": ["Integrated Development Environment", "Internal Development Engine", "Integrated Design Environment", "Interface Development Environment"], "answer": 0},
+  {"question": "Which property of a Form sets its title bar text?", "options": ["Text", "Title", "Caption", "Name"], "answer": 0},
+  {"question": "What is the MessageBox control used for?", "options": ["Displaying information dialogs", "Taking user input", "Displaying forms", "Creating menus"], "answer": 0},
+  {"question": "Which statement is used to exit a For loop early?", "options": ["Exit For", "Break", "Stop", "End For"], "answer": 0},
+  {"question": "What is a property in VB.NET?", "options": ["Attribute of an object", "A method", "An event", "A variable"], "answer": 0},
+  {"question": "Which file extension is used for VB.NET code files?", "options": [".vb", ".vbs", ".bas", ".net"], "answer": 0}
+]

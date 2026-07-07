@@ -1,0 +1,17 @@
+[
+  {"question": "What does SDLC stand for?", "options": ["Software Development Life Cycle", "System Design Life Cycle", "Software Deployment Life Cycle", "System Development Life Cycle"], "answer": 0},
+  {"question": "Which is the first phase of SDLC?", "options": ["Requirement analysis", "Design", "Implementation", "Testing"], "answer": 0},
+  {"question": "What is a system?", "options": ["Set of interrelated components working together", "Single component", "Computer hardware", "Software program"], "answer": 0},
+  {"question": "DFD stands for:", "options": ["Data Flow Diagram", "Data Function Diagram", "Design Flow Diagram", "Digital Flow Diagram"], "answer": 0},
+  {"question": "Which phase of SDLC involves coding?", "options": ["Implementation", "Design", "Testing", "Maintenance"], "answer": 0},
+  {"question": "What is feasibility study?", "options": ["Assessment of practicality of a project", "Testing of software", "Design of system", "Implementation plan"], "answer": 0},
+  {"question": "Which of the following is a type of feasibility?", "options": ["Technical feasibility", "Financial feasibility", "Operational feasibility", "All of the above"], "answer": 3},
+  {"question": "What is a data dictionary?", "options": ["Central repository of data elements", "Dictionary for data entry", "Programming dictionary", "Database table"], "answer": 0},
+  {"question": "What is testing in SDLC?", "options": ["Evaluating software for defects", "Writing code", "Designing system", "Gathering requirements"], "answer": 0},
+  {"question": "Which of the following is a system analyst's role?", "options": ["Bridge between users and developers", "Writing code only", "Managing finances", "Designing hardware"], "answer": 0},
+  {"question": "What is a prototype?", "options": ["Preliminary model of the system", "Final product", "Testing tool", "Design document"], "answer": 0},
+  {"question": "Waterfall model is:", "options": ["Sequential model", "Iterative model", "Spiral model", "Agile model"], "answer": 0},
+  {"question": "What is the main advantage of using DFD?", "options": ["Easy to understand system flow", "Shows detailed code", "Replaces coding", "Eliminates testing"], "answer": 0},
+  {"question": "System analysis is the process of:", "options": ["Studying existing system for improvement", "Building a new system", "Testing software", "Writing documentation"], "answer": 0},
+  {"question": "What is system design?", "options": ["Planning the architecture of the system", "Writing the code", "Testing the software", "Maintaining the system"], "answer": 0}
+]

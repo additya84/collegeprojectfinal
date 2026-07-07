@@ -1,0 +1,17 @@
+[
+  {"question": "How many layers are in the OSI model?", "options": ["5", "6", "7", "4"], "answer": 2},
+  {"question": "Which algorithm is used by TCP for congestion control?", "options": ["Slow Start", "Leaky Bucket", "Token Bucket", "Stop and Wait"], "answer": 0},
+  {"question": "What is the range of Class B IP addresses?", "options": ["0-127", "128-191", "192-223", "224-239"], "answer": 1},
+  {"question": "Which protocol is used for secure web browsing?", "options": ["HTTP", "HTTPS", "FTP", "SFTP"], "answer": 1},
+  {"question": "What is the purpose of a routing algorithm?", "options": ["To find the best path for data transmission", "To encrypt data", "To assign IP addresses", "To manage sessions"], "answer": 0},
+  {"question": "Which type of encryption uses a pair of keys?", "options": ["Symmetric", "Asymmetric", "Hash-based", "Stream"], "answer": 1},
+  {"question": "What does SSL stand for?", "options": ["Secure Sockets Layer", "System Security Layer", "Secure Session Layer", "Standard Security Layer"], "answer": 0},
+  {"question": "Which protocol is used for network management?", "options": ["SNMP", "SMTP", "HTTP", "FTP"], "answer": 0},
+  {"question": "What is the maximum segment size of TCP?", "options": ["536 bytes", "1460 bytes", "65535 bytes", "1500 bytes"], "answer": 2},
+  {"question": "What is a demilitarized zone (DMZ) in networking?", "options": ["A network segment that exposes external services", "A secure internal network", "A wireless network", "A VPN tunnel"], "answer": 0},
+  {"question": "Which layer of OSI model provides logical addressing?", "options": ["Data Link", "Network", "Transport", "Session"], "answer": 1},
+  {"question": "What is the purpose of ARP?", "options": ["Map IP to MAC", "Map MAC to IP", "Resolve domain names", "Assign IPs dynamically"], "answer": 0},
+  {"question": "Which type of network attack floods a server with traffic?", "options": ["Phishing", "DDoS", "Spoofing", "Man-in-the-Middle"], "answer": 1},
+  {"question": "What is the function of the Transport layer?", "options": ["End-to-end communication and reliability", "Routing and addressing", "Physical signal transmission", "Data formatting"], "answer": 0},
+  {"question": "What is CIDR notation used for?", "options": ["Representing IP addresses with prefix length", "Encrypting IP packets", "Assigning MAC addresses", "Managing DNS records"], "answer": 0}
+]

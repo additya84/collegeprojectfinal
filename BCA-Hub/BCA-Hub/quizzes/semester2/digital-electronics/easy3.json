@@ -1,0 +1,17 @@
+[
+  {"question": "What is an asynchronous counter?", "options": ["Flip-flops do not share common clock", "All flip-flops share clock", "No flip-flops used", "Uses synchronous inputs"], "answer": 0},
+  {"question": "What is a register?", "options": ["A group of flip-flops for storage", "A counter", "A multiplexer", "A decoder"], "answer": 0},
+  {"question": "What is a shift register?", "options": ["Shifts data left or right", "Counts pulses", "Adds numbers", "Encodes data"], "answer": 0},
+  {"question": "What is the universal shift register?", "options": ["Can shift both directions and parallel load", "Can only shift right", "Can only shift left", "Can only load"], "answer": 0},
+  {"question": "What is a logic gate?", "options": ["A digital circuit with binary inputs and output", "An analog device", "A power supply", "A memory unit"], "answer": 0},
+  {"question": "What is a truth table?", "options": ["Lists all input-output combinations", "A type of memory", "A counter", "A register"], "answer": 0},
+  {"question": "What is Boolean algebra used for?", "options": ["Simplifying logic circuits", "Adding numbers", "Storing data", "Generating clock"], "answer": 0},
+  {"question": "What is the identity law in Boolean algebra?", "options": ["A + 0 = A", "A + 1 = 1", "A * 0 = 0", "A * 1 = 1"], "answer": 0},
+  {"question": "What is the complement law?", "options": ["A + A' = 1", "A * A' = 0", "Both a and b", "None"], "answer": 2},
+  {"question": "What is the commutative law?", "options": ["A + B = B + A", "A + (B + C) = (A + B) + C", "A * (B + C) = (A * B) + (A * C)", "None"], "answer": 0},
+  {"question": "What is the distributive law?", "options": ["A + B = B + A", "A + (B + C) = (A + B) + C", "A * (B + C) = (A * B) + (A * C)", "A * B = B * A"], "answer": 2},
+  {"question": "What is a RAM?", "options": ["Random Access Memory", "Read Access Memory", "Read All Memory", "Random All Memory"], "answer": 0},
+  {"question": "What is a ROM?", "options": ["Read Only Memory", "Random Only Memory", "Read Output Memory", "Run Only Memory"], "answer": 0},
+  {"question": "What is the difference between SRAM and DRAM?", "options": ["SRAM is faster, DRAM needs refresh", "DRAM is faster", "Both are same", "SRAM needs refresh"], "answer": 0},
+  {"question": "What is a PLA?", "options": ["Programmable Logic Array", "Programmed Logic Array", "Primary Logic Array", "Parallel Logic Array"], "answer": 0}
+]

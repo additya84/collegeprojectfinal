@@ -1,0 +1,17 @@
+[
+  {"question": "What is the convergence order of the Newton-Raphson method?", "options": ["Linear", "Quadratic", "Cubic", "Quartic"], "answer": 1},
+  {"question": "Which formula is used for Newton's forward interpolation?", "options": ["When x values are equally spaced near the beginning", "When x values are unequally spaced", "For central differences", "For backward interpolation"], "answer": 0},
+  {"question": "What is the error term in the Trapezoidal rule?", "options": ["-h^3/12 * f''(c)", "-h^5/90 * f''''(c)", "h^3/12 * f''(c)", "h^5/90 * f''''(c)"], "answer": 0},
+  {"question": "What is the advantage of Gauss Elimination over matrix inversion?", "options": ["Less computational cost", "More accurate", "Works for all matrices", "Simpler to understand"], "answer": 0},
+  {"question": "What is the condition for a matrix to be diagonally dominant?", "options": ["|a_ii| >= sum of |a_ij| for j != i", "|a_ii| <= sum of |a_ij|", "Det(A) = 0", "A is symmetric"], "answer": 0},
+  {"question": "Which method is used for the solution of tridiagonal systems?", "options": ["Thomas Algorithm", "Gauss-Seidel", "Jacobi Method", "LU Decomposition"], "answer": 0},
+  {"question": "What is the global error in Euler's method?", "options": ["O(h)", "O(h^2)", "O(h^3)", "O(1)"], "answer": 0},
+  {"question": "What is the formula for the second derivative using central differences?", "options": ["(f(x+h) - 2f(x) + f(x-h))/h^2", "(f(x+h) - f(x))/h^2", "(f(x) - 2f(x-h) + f(x-2h))/h^2", "(f(x+2h) - 2f(x) + f(x-2h))/h^2"], "answer": 0},
+  {"question": "Which interpolation formula is used for unequally spaced data?", "options": ["Lagrange Interpolation", "Newton Forward", "Newton Backward", "Gauss Forward"], "answer": 0},
+  {"question": "What is the degree of the interpolating polynomial for n+1 points?", "options": ["n", "n+1", "2n", "n-1"], "answer": 0},
+  {"question": "What is the Runge phenomenon?", "options": ["Oscillation at edges of high-degree polynomial interpolation", "Divergence of Newton's method", "Instability of Euler's method", "Convergence of Gauss-Seidel"], "answer": 0},
+  {"question": "What is the order of the Runge-Kutta method (classical RK4)?", "options": ["O(h^4)", "O(h^2)", "O(h^3)", "O(h)"], "answer": 0},
+  {"question": "What is the Jacobi method used for?", "options": ["Iterative solution of linear systems", "Finding eigenvalues", "Root finding", "Numerical integration"], "answer": 0},
+  {"question": "What is the spectral radius of a matrix?", "options": ["Maximum absolute eigenvalue", "Sum of all eigenvalues", "Determinant of the matrix", "Trace of the matrix"], "answer": 0},
+  {"question": "What is the condition for convergence of Jacobi method?", "options": ["Matrix must be diagonally dominant", "Matrix must be symmetric", "Matrix must be positive definite", "Matrix must be singular"], "answer": 0}
+]

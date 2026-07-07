@@ -1,0 +1,17 @@
+[
+  {"question": "What is the difference between a process and a program?", "options": ["Process is active, program is passive", "Both are same", "Program is active, process is passive", "Neither exists"], "answer": 0},
+  {"question": "Which page replacement algorithm suffers from Belady's anomaly?", "options": ["FIFO", "LRU", "Optimal", "MRU"], "answer": 0},
+  {"question": "What is the purpose of the ready queue?", "options": ["Hold processes ready to execute", "Hold terminated processes", "Hold blocked processes", "Hold new processes"], "answer": 0},
+  {"question": "Explain the concept of time-sharing systems.", "options": ["Multiple users share CPU time", "Single user at a time", "No user interaction", "Batch processing"], "answer": 0},
+  {"question": "What is the working set model used for?", "options": ["Control thrashing", "Schedule processes", "Manage files", "Handle networking"], "answer": 0},
+  {"question": "What is the difference between paging and segmentation?", "options": ["Fixed vs variable size partitions", "Same concept", "Segmentation is newer", "Paging is obsolete"], "answer": 0},
+  {"question": "Which of the following is a necessary condition for deadlock?", "options": ["Mutual exclusion", "Preemption", "High CPU speed", "Large memory"], "answer": 0},
+  {"question": "What is the purpose of the 'nice' value in Linux?", "options": ["Set process priority", "Set memory limit", "Set file permissions", "Set network speed"], "answer": 0},
+  {"question": "What is the difference between internal and external fragmentation?", "options": ["Internal is within partitions, external between", "Same thing", "External is within partitions", "Neither exists"], "answer": 0},
+  {"question": "Which algorithm ensures bounded waiting in critical section problem?", "options": ["Peterson's solution", "FCFS", "SJF", "Round Robin"], "answer": 0},
+  {"question": "What is a system call interface?", "options": ["Bridge between user and kernel", "Hardware component", "Network protocol", "File system"], "answer": 0},
+  {"question": "How does the SCAN disk scheduling algorithm work?", "options": ["Disk arm moves in one direction", "Random access", "Shortest seek first", "Circular movement"], "answer": 0},
+  {"question": "What is the purpose of virtual memory?", "options": ["Run larger programs than physical memory", "Increase RAM speed", "Replace CPU", "Improve network"], "answer": 0},
+  {"question": "What is a race condition?", "options": ["Multiple processes accessing shared data concurrently", "CPU race", "Memory race", "Disk race"], "answer": 0},
+  {"question": "Explain the concept of spooling.", "options": ["Simultaneous peripheral operation online", "File compression", "Memory cleanup", "Process scheduling"], "answer": 0}
+]

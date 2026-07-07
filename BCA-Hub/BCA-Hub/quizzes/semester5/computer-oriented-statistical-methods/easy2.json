@@ -1,0 +1,17 @@
+[
+  {"question": "What is a bar chart used for?", "options": ["Comparing categorical data", "Showing trends over time", "Showing proportions", "Correlation analysis"], "answer": 0},
+  {"question": "What is a pie chart used for?", "options": ["Showing parts of a whole", "Comparing categories", "Showing trends", "Distribution shapes"], "answer": 0},
+  {"question": "What is a scatter plot?", "options": ["Graph showing relationship between variables", "Bar graph", "Pie chart", "Line graph"], "answer": 0},
+  {"question": "What is the central tendency?", "options": ["Mean, median, mode collectively", "Only mean", "Only median", "Only mode"], "answer": 0},
+  {"question": "What is skewness?", "options": ["Asymmetry in data distribution", "Data center", "Data spread", "Data count"], "answer": 0},
+  {"question": "What is kurtosis?", "options": ["Peakedness of data distribution", "Data center", "Data spread", "Data symmetry"], "answer": 0},
+  {"question": "What is a quartile?", "options": ["Divides data into four equal parts", "Divides data in half", "Divides data into ten parts", "Divides data into percentiles"], "answer": 0},
+  {"question": "What is an outlier?", "options": ["Value significantly different from others", "Average value", "Middle value", "Most common value"], "answer": 0},
+  {"question": "What is a cumulative frequency?", "options": ["Running total of frequencies", "Individual frequency", "Average frequency", "Maximum frequency"], "answer": 0},
+  {"question": "What is a probability distribution?", "options": ["Function describing probabilities of outcomes", "Single probability", "Data table", "Frequency chart"], "answer": 0},
+  {"question": "What is a normal distribution?", "options": ["Bell-shaped symmetric distribution", "Skewed distribution", "Uniform distribution", "Bimodal distribution"], "answer": 0},
+  {"question": "What is a binomial distribution?", "options": ["Discrete distribution for binary outcomes", "Continuous distribution", "Uniform distribution", "Normal distribution"], "answer": 0},
+  {"question": "What is a Poisson distribution?", "options": ["Distribution for rare events", "Normal distribution", "Binomial distribution", "Uniform distribution"], "answer": 0},
+  {"question": "What is a z-score?", "options": ["Number of standard deviations from mean", "Data value", "Probability value", "Correlation value"], "answer": 0},
+  {"question": "What is the empirical rule?", "options": ["68-95-99.7 rule for normal distribution", "Counting rule", "Probability rule", "Correlation rule"], "answer": 0}
+]
