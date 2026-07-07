@@ -55,7 +55,7 @@ public class AuthService : IAuthService
             Email = dto.Email,
             RollNumber = dto.RollNumber,
             Semester = dto.Semester,
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password, BCrypt.Net.SaltRevision.Revision2A)
         };
 
         await _context.Users.InsertOneAsync(user);
@@ -94,12 +94,12 @@ public class AuthService : IAuthService
             .Find(x => x.Email == dto.Email)
             .FirstOrDefaultAsync();
 
-        if (user == null)
+        if (user == null || string.IsNullOrEmpty(user.PasswordHash))
         {
             return new AuthResult { Success = false, Message = "Invalid email or password" };
         }
 
-        if (!BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
+        if (!BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash.Trim()))
         {
             return new AuthResult { Success = false, Message = "Invalid email or password" };
         }
