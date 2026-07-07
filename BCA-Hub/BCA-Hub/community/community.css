@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.hero {
+    background: linear-gradient(135deg, #6d5dfc, #4338ca);
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.hero-left {
+    width: 60%;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: white;
+    color: #111827;
+    padding: 20px 25px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.stat-card h2 {
+    font-size: 32px;
+    color: #6d5dfc;
+}
+
+.stat-card span {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.hero-right {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right i {
+    font-size: 180px;
+    opacity: 0.3;
+}
+
+.features-section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.section-title i {
+    font-size: 30px;
+    color: #6d5dfc;
+}
+
+.section-title h2 {
+    font-size: 38px;
+    color: #111827;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin: 0 auto 20px;
+}
+
+.feature-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+.feature-card p {
+    color: #6b7280;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.purple-bg {
+    background: #ede9fe;
+    color: #7c3aed;
+}
+
+.blue-bg {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.green-bg {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.orange-bg {
+    background: #fef3c7;
+    color: #f59e0b;
+}
+
+.red-bg {
+    background: #fee2e2;
+    color: #ef4444;
+}
+
+.cyan-bg {
+    background: #cffafe;
+    color: #06b6d4;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border-radius: 30px;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.cta-section h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    color: #94a3b8;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #6d5dfc, #4f46e5);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(109, 93, 252, 0.3);
+}
+
+/* ---------- Contact Section ---------- */
+.contact-section {
+    margin-bottom: 50px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    border-radius: 25px;
+    padding: 40px 30px;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.whatsapp .contact-icon {
+    background: #dcfce7;
+    color: #25d366;
+}
+
+.email .contact-icon {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.contact-card h3 {
+    font-size: 26px;
+    margin-bottom: 12px;
+    color: #111827;
+}
+
+.contact-card p {
+    color: #6b7280;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.whatsapp .contact-btn {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.email .contact-btn {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.contact-card:hover .contact-btn i {
+    transform: translateX(4px);
+}
+
+.contact-btn i {
+    transition: 0.3s;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #6b7280;
+    font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .hero-stats {
+        justify-content: center;
+    }
+
+    .hero-right i {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-section {
+        padding: 40px 20px;
+    }
+
+    .cta-section h2 {
+        font-size: 28px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-card {
+        padding: 30px 20px;
+    }
+}
