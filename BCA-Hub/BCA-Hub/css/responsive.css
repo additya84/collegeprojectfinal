@@ -2,10 +2,6 @@
    RESPONSIVE.CSS — shared mobile styles for all pages
    ============================ */
 
-/* Scrollbar hide (global) */
-* { scrollbar-width: none; -ms-overflow-style: none; }
-*::-webkit-scrollbar { display: none; }
-
 /* ---------- Sidebar Hamburger (dashboard, semester pages) ---------- */
 .sidebar-toggle {
   display: none;

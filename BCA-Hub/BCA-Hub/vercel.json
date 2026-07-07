@@ -28,6 +28,18 @@
     {
       "source": "/coding",
       "destination": "/pages/coding/index.html"
+    },
+    {
+      "source": "/papers",
+      "destination": "/papers/index.html"
+    },
+    {
+      "source": "/placement",
+      "destination": "/placement/index.html"
+    },
+    {
+      "source": "/quiz",
+      "destination": "/quiz/index.html"
     }
   ]
 }
