@@ -1,11 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["BCAHubAPI.csproj", "."]
-RUN dotnet restore
+COPY ["BCA-Hub/backend/BCAHubAPI/BCAHubAPI.csproj", "BCA-Hub/backend/BCAHubAPI/"]
+RUN dotnet restore "BCA-Hub/backend/BCAHubAPI/BCAHubAPI.csproj"
 
 COPY . .
-RUN dotnet publish --no-restore -c Release -o /app/publish
+RUN dotnet publish "BCA-Hub/backend/BCAHubAPI/BCAHubAPI.csproj" --no-restore -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
