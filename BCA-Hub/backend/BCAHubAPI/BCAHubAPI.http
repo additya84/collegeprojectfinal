@@ -1,6 +1,46 @@
 @BCAHubAPI_HostAddress = http://localhost:5059
 
-GET {{BCAHubAPI_HostAddress}}/weatherforecast/
-Accept: application/json
+### Register a new user
+POST {{BCAHubAPI_HostAddress}}/api/auth/register
+Content-Type: application/json
 
-###
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "password123",
+  "rollNumber": "BCA2024001",
+  "semester": "3"
+}
+
+### Login
+POST {{BCAHubAPI_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "john@example.com",
+  "password": "password123"
+}
+
+### Get profile (replace TOKEN with actual JWT)
+GET {{BCAHubAPI_HostAddress}}/api/profile/me
+Authorization: Bearer TOKEN
+
+### Update profile (replace TOKEN with actual JWT)
+PUT {{BCAHubAPI_HostAddress}}/api/profile/me
+Content-Type: application/json
+Authorization: Bearer TOKEN
+
+{
+  "fullName": "John Doe Updated",
+  "email": "john@example.com",
+  "rollNumber": "BCA2024001",
+  "college": "Example College",
+  "course": "BCA",
+  "semester": "4",
+  "completedCourses": "5",
+  "quizScore": "85",
+  "progress": "60",
+  "skills": "C#, Python",
+  "about": "A passionate developer",
+  "avatar": "../assets/images/profile.png"
+}

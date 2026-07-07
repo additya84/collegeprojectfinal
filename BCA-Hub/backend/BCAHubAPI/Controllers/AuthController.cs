@@ -1,8 +1,6 @@
-using BCAHubAPI.Data;
 using BCAHubAPI.DTOs;
-using BCAHubAPI.Models;
+using BCAHubAPI.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using MongoDB.Driver;
 
 namespace BCAHubAPI.Controllers;
 
@@ -10,99 +8,46 @@ namespace BCAHubAPI.Controllers;
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
-    private readonly MongoDbContext _context;
+    private readonly IAuthService _authService;
 
-    public AuthController(MongoDbContext context)
+    public AuthController(IAuthService authService)
     {
-        _context = context;
+        _authService = authService;
     }
 
-    // REGISTER API
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterDto dto)
     {
-        dto.Email = dto.Email.Trim().ToLowerInvariant();
+        var result = await _authService.RegisterAsync(dto);
 
-        if (string.IsNullOrWhiteSpace(dto.Name) ||
-            string.IsNullOrWhiteSpace(dto.Email) ||
-            string.IsNullOrWhiteSpace(dto.Password))
+        if (!result.Success)
         {
-            return BadRequest(new
-            {
-                message = "Name, email and password are required"
-            });
+            return BadRequest(new { message = result.Message });
         }
-
-        var existingUser = await _context.Users
-            .Find(x => x.Email == dto.Email)
-            .FirstOrDefaultAsync();
-
-        if (existingUser != null)
-        {
-            return BadRequest(new
-            {
-                message = "User already exists"
-            });
-        }
-
-        var user = new User
-        {
-            Name = dto.Name.Trim(),
-            Email = dto.Email,
-            RollNumber = dto.RollNumber.Trim(),
-            Semester = dto.Semester.Trim(),
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
-        };
-
-        await _context.Users.InsertOneAsync(user);
 
         return Ok(new
         {
-            message = "User registered successfully"
+            message = result.Message,
+            token = result.Token,
+            user = result.User
         });
     }
 
-    // LOGIN API
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginDto dto)
     {
-        dto.Email = dto.Email.Trim().ToLowerInvariant();
+        var result = await _authService.LoginAsync(dto);
 
-        var user = await _context.Users
-            .Find(x => x.Email == dto.Email)
-            .FirstOrDefaultAsync();
-
-        if (user == null)
+        if (!result.Success)
         {
-            return BadRequest(new
-            {
-                message = "Invalid email or password"
-            });
-        }
-
-        bool isPasswordCorrect =
-            BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash);
-
-        if (!isPasswordCorrect)
-        {
-            return BadRequest(new
-            {
-                message = "Invalid email or password"
-            });
+            return BadRequest(new { message = result.Message });
         }
 
         return Ok(new
         {
-            message = "Login successful",
-            token = user.Id,
-            user = new
-            {
-                user.Id,
-                user.Name,
-                user.Email,
-                user.RollNumber,
-                user.Semester
-            }
+            message = result.Message,
+            token = result.Token,
+            user = result.User
         });
     }
 }

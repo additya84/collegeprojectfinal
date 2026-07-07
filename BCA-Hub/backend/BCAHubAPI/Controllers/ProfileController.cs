@@ -1,6 +1,8 @@
+using System.Security.Claims;
 using BCAHubAPI.Data;
 using BCAHubAPI.DTOs;
 using BCAHubAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 
@@ -8,6 +10,7 @@ namespace BCAHubAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class ProfileController : ControllerBase
 {
     private readonly MongoDbContext _context;
@@ -40,18 +43,20 @@ public class ProfileController : ControllerBase
             return Unauthorized(new { message = "Login required" });
         }
 
+        dto.Sanitize();
+
         var update = Builders<User>.Update
-            .Set(x => x.Name, dto.FullName.Trim())
-            .Set(x => x.Email, dto.Email.Trim().ToLowerInvariant())
-            .Set(x => x.RollNumber, dto.RollNumber.Trim())
-            .Set(x => x.College, dto.College.Trim())
-            .Set(x => x.Course, dto.Course.Trim())
-            .Set(x => x.Semester, dto.Semester.Trim())
-            .Set(x => x.CompletedCourses, dto.CompletedCourses.Trim())
-            .Set(x => x.QuizScore, dto.QuizScore.Trim())
-            .Set(x => x.Progress, dto.Progress.Trim())
-            .Set(x => x.Skills, dto.Skills.Trim())
-            .Set(x => x.About, dto.About.Trim())
+            .Set(x => x.Name, dto.FullName)
+            .Set(x => x.Email, dto.Email.ToLowerInvariant())
+            .Set(x => x.RollNumber, dto.RollNumber)
+            .Set(x => x.College, dto.College)
+            .Set(x => x.Course, dto.Course)
+            .Set(x => x.Semester, dto.Semester)
+            .Set(x => x.CompletedCourses, dto.CompletedCourses)
+            .Set(x => x.QuizScore, dto.QuizScore)
+            .Set(x => x.Progress, dto.Progress)
+            .Set(x => x.Skills, dto.Skills)
+            .Set(x => x.About, dto.About)
             .Set(x => x.Avatar, dto.Avatar);
 
         await _context.Users.UpdateOneAsync(x => x.Id == user.Id, update);
@@ -59,6 +64,11 @@ public class ProfileController : ControllerBase
         var updatedUser = await _context.Users
             .Find(x => x.Id == user.Id)
             .FirstOrDefaultAsync();
+
+        if (updatedUser == null)
+        {
+            return NotFound(new { message = "User not found after update" });
+        }
 
         return Ok(new
         {
@@ -69,17 +79,14 @@ public class ProfileController : ControllerBase
 
     private async Task<User?> GetCurrentUser()
     {
-        var token = Request.Headers.Authorization
-            .ToString()
-            .Replace("Bearer ", string.Empty)
-            .Trim();
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-        if (string.IsNullOrWhiteSpace(token))
+        if (string.IsNullOrWhiteSpace(userId))
         {
             return null;
         }
 
-        return await _context.Users.Find(x => x.Id == token).FirstOrDefaultAsync();
+        return await _context.Users.Find(x => x.Id == userId).FirstOrDefaultAsync();
     }
 
     private static object ToProfileResponse(User user)

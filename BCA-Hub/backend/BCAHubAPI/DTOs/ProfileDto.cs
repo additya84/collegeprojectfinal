@@ -14,4 +14,20 @@ public class ProfileDto
     public string Skills { get; set; } = string.Empty;
     public string About { get; set; } = string.Empty;
     public string Avatar { get; set; } = "../assets/images/profile.png";
+
+    public void Sanitize()
+    {
+        FullName = (FullName ?? string.Empty).Trim();
+        Email = (Email ?? string.Empty).Trim();
+        RollNumber = (RollNumber ?? string.Empty).Trim();
+        College = (College ?? string.Empty).Trim();
+        Course = (Course ?? string.Empty).Trim();
+        Semester = (Semester ?? string.Empty).Trim();
+        CompletedCourses = (CompletedCourses ?? string.Empty).Trim();
+        QuizScore = (QuizScore ?? string.Empty).Trim();
+        Progress = (Progress ?? string.Empty).Trim();
+        Skills = (Skills ?? string.Empty).Trim();
+        About = (About ?? string.Empty).Trim();
+        Avatar = Avatar ?? string.Empty;
+    }
 }
