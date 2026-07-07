@@ -77,4 +77,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapGet("/", () => Results.Ok(new { message = "BCA Hub API is running", status = "healthy" }));
+
 app.Run();
