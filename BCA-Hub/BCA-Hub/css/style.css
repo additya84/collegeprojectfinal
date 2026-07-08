@@ -84,7 +84,7 @@ ul { list-style: none; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 8%;
+  padding: 50px 8%;
 }
 .hero-content { width: 50%; }
 .hero-content span {
@@ -97,8 +97,8 @@ ul { list-style: none; }
 }
 .hero-content h1 {
   margin-top: 25px;
-  font-size: 72px;
-  line-height: 80px;
+  font-size: 52px;
+  line-height: 60px;
   color: #08123d;
 }
 .hero-content p {

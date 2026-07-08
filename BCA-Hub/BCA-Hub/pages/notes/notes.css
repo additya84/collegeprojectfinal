@@ -383,7 +383,7 @@ body{
 
     width:100%;
 
-    min-height:320px;
+    min-height:200px;
 
     background:linear-gradient(135deg,#2563eb,#3b82f6);
 
@@ -428,7 +428,7 @@ body{
 
 .hero-left h1{
 
-    font-size:46px;
+    font-size:38px;
 
     color:white;
 
