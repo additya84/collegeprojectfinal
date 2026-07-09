@@ -134,7 +134,7 @@
   position: fixed;
   top: 15px;
   left: 15px;
-  z-index: 1001;
+  z-index: 9999;
   width: 42px;
   height: 42px;
   border: none;
@@ -186,8 +186,10 @@ input, select, textarea { max-width: 100%; }
     z-index: 1000 !important;
     padding: 20px !important;
   }
-  .sidebar.open { left: 0 !important; }
-  .sidebar-overlay.show { display: block; }
+  .sidebar.open { left: 0 !important; z-index: 1002 !important; }
+  .sidebar-overlay.show { display: block; z-index: 1001; }
+  .sidebar.open ~ .main-content nav.navbar,
+  .sidebar.open ~ .main-content .navbar { opacity: 0; pointer-events: none; }
   .sidebar .logo,
   .sidebar .sidebar-card { display: none !important; }
 
