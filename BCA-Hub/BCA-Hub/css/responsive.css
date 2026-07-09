@@ -219,7 +219,7 @@ input, select, textarea { max-width: 100%; }
   .subject-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
-/* ---------- Mobile ---------- */
+/* ---------- Mobile (<=768px) ---------- */
 @media (max-width: 768px) {
   .sidebar-toggle { display: flex; }
   .sidebar {
@@ -229,9 +229,12 @@ input, select, textarea { max-width: 100%; }
     height: 100vh !important;
     transition: left 0.3s ease !important;
     z-index: 1000 !important;
+    padding: 20px !important;
   }
   .sidebar.open { left: 0 !important; }
   .sidebar-overlay.show { display: block; }
+  .sidebar .logo,
+  .sidebar .sidebar-card { display: none !important; }
 
   .main-content,
   .dashboard > .container,
@@ -239,44 +242,54 @@ input, select, textarea { max-width: 100%; }
   .dashboard > .result-container {
     width: 100% !important;
     margin-left: 0 !important;
-    padding: 20px 15px !important;
+    padding: 15px !important;
   }
 
-  .top-navbar {
-    flex-direction: column !important;
+  /* ---- Navbars (compact) ---- */
+  nav.navbar {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    padding: 10px 15px !important;
+    gap: 8px !important;
     height: auto !important;
-    padding: 20px !important;
-    gap: 15px !important;
-    text-align: center !important;
   }
-  .top-center { width: 100% !important; max-width: none !important; margin: 0 !important; }
-  .top-center input { width: 100% !important; }
+  nav.navbar .logo h2 { font-size: 18px !important; }
+  nav.navbar .logo i { font-size: 22px !important; }
+  nav.navbar .nav-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin-top: 6px !important;
+  }
+  nav.navbar .nav-links li a {
+    font-size: 13px !important;
+    padding: 6px 12px !important;
+    white-space: nowrap !important;
+  }
+  nav.navbar .profile-icon { font-size: 22px !important; }
 
+  /* top-navbar (dashboard style) */
+  .top-navbar {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    padding: 12px 15px !important;
+    height: auto !important;
+    gap: 10px !important;
+  }
+  .top-left h1 { font-size: 18px !important; }
+  .top-left p { font-size: 13px !important; }
+  .top-center { width: 100% !important; order: 3 !important; }
+  .top-center input {
+    width: 100% !important;
+    padding: 10px 16px !important;
+    font-size: 14px !important;
+  }
   .profile-text { display: none !important; }
+  .profile img { width: 36px !important; height: 36px !important; }
 
-  .sidebar .logo,
-  .sidebar .sidebar-card { display: none !important; }
-  .sidebar .menu {
-    flex-direction: column !important;
-    overflow-x: visible !important;
-    white-space: normal !important;
-  }
-
-  /* Grids -> single column */
-  .stats-container,
-  .bottom-row,
-  .content-row { grid-template-columns: 1fr !important; }
-  .subjects-grid,
-  .semester-grid,
-  .papers-grid,
-  .quiz-grid,
-  .subject-grid { grid-template-columns: 1fr !important; }
-  .semester-stats { grid-template-columns: 1fr !important; }
-
-  /* Quiz section grids */
-  .semester-grid.quiz-grid { grid-template-columns: 1fr !important; }
-
-  /* Banners / Heroes - shrink padding and font-size */
+  /* ---- Banners (very compact) ---- */
   .welcome-banner,
   .semester-banner,
   .papers-hero,
@@ -286,10 +299,11 @@ input, select, textarea { max-width: 100%; }
   .hero-section {
     flex-direction: column !important;
     text-align: center !important;
-    padding: 30px 20px !important;
+    padding: 20px 18px !important;
     min-height: auto !important;
+    border-radius: 16px !important;
+    margin-bottom: 20px !important;
   }
-
   .welcome-left,
   .welcome-right,
   .banner-left,
@@ -297,91 +311,10 @@ input, select, textarea { max-width: 100%; }
   .hero-left,
   .hero-right,
   .hero-content,
-  .hero-image {
-    width: 100% !important;
-  }
+  .hero-image { width: 100% !important; }
   .banner-right,
   .welcome-right,
-  .hero-right { margin-top: 25px !important; }
-
-  .welcome-left h1 { font-size: 36px !important; line-height: 48px !important; }
-  .banner-left h1 { font-size: 36px !important; line-height: 48px !important; }
-
-  .welcome-left h1,
-  .hero h1,
-  .hero-content h1,
-  .hero-left h1,
-  .coding-hero h1,
-  .notes-hero h1,
-  .papers-hero h1,
-  .banner-left h1,
-  .semester-banner h1,
-  .hero-section h1 {
-    font-size: 32px !important;
-    line-height: 42px !important;
-  }
-
-  .hero p,
-  .hero-content p,
-  .hero-left p,
-  .hero-section p {
-    font-size: 16px !important;
-    line-height: 1.6 !important;
-  }
-
-  .banner-buttons { flex-direction: column !important; }
-  .btn1, .btn2 { width: 100% !important; }
-
-  /* Cards */
-  .stat-card,
-  .stats-card,
-  .note-card,
-  .recent-item,
-  .study-card,
-  .subject-card,
-  .semester-card,
-  .paper-card { flex-direction: column !important; text-align: center !important; }
-  .stats-card { flex-direction: column !important; text-align: center !important; }
-  .note-content,
-  .recent-item div { margin: 10px 0 !important; margin-left: 0 !important; }
-
-  .study-card { gap: 20px !important; }
-  .recent-item { gap: 15px !important; }
-
-  .section-title { flex-direction: column !important; gap: 8px !important; }
-
-  /* Request section */
-  .request-content { flex-direction: column !important; text-align: center !important; gap: 15px !important; }
-
-  /* Stats section in papers */
-  .stats-section { grid-template-columns: repeat(2, 1fr) !important; }
-
-  /* FAQ / search */
-  .search-box { width: 100% !important; }
-  .search-box input { width: 100% !important; }
-
-  /* Coding pages */
-  .coding-header,
-  .topic-header { flex-direction: column !important; text-align: center !important; }
-  .code-block { font-size: 13px !important; }
-
-  /* Quiz specifics */
-  .hero-stats { flex-direction: column !important; align-items: center !important; }
-  .stats { justify-content: center !important; flex-wrap: wrap !important; }
-  .semester-card { gap: 20px !important; }
-
-  /* Syllabus */
-  .semester-buttons { flex-direction: column !important; align-items: center !important; }
-
-  /* Placement aptitude */
-  .video-card,
-  .pdf-card { padding: 15px !important; }
-}
-
-/* ---------- Small phones ---------- */
-@media (max-width: 480px) {
-  .main-content { padding: 12px !important; }
-  .stats-card { flex-direction: column !important; text-align: center !important; }
+  .hero-right { margin-top: 15px !important; }
 
   .welcome-left h1,
   .hero h1,
@@ -394,31 +327,201 @@ input, select, textarea { max-width: 100%; }
   .semester-banner h1,
   .hero-section h1 {
     font-size: 26px !important;
-    line-height: 36px !important;
+    line-height: 34px !important;
+    margin-top: 8px !important;
+  }
+  .hero p,
+  .hero-content p,
+  .hero-left p,
+  .hero-section p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 15px !important;
+  }
+  .badge { font-size: 12px !important; padding: 6px 14px !important; }
+  .banner-buttons { flex-direction: column !important; gap: 8px !important; }
+  .btn1, .btn2 {
+    width: 100% !important;
+    padding: 12px 20px !important;
+    font-size: 14px !important;
+  }
+  .hero-btn { padding: 12px 20px !important; font-size: 14px !important; }
+  .hero-right img { width: 220px !important; }
+  .hero-right i { font-size: 80px !important; }
+
+  /* ---- Grids -> single column ---- */
+  .stats-container,
+  .bottom-row,
+  .content-row,
+  .subjects-grid,
+  .semester-grid,
+  .papers-grid,
+  .quiz-grid,
+  .subject-grid,
+  .semester-stats,
+  .feature-grid,
+  .contact-grid,
+  .resource-grid { grid-template-columns: 1fr !important; gap: 14px !important; }
+  .quiz-grid { grid-template-columns: 1fr !important; }
+
+  /* ---- Cards (compact) ---- */
+  .stat-card,
+  .stats-card,
+  .note-card,
+  .recent-item,
+  .study-card,
+  .subject-card,
+  .semester-card,
+  .paper-card,
+  .feature-card,
+  .contact-card,
+  .resource-card {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 16px !important;
+  }
+  .stat-card h2 { font-size: 22px !important; }
+  .stat-card h3,
+  .note-card h3,
+  .semester-card h3,
+  .subject-card h3,
+  .paper-card h3 { font-size: 17px !important; }
+  .note-card p,
+  .semester-card p,
+  .subject-card p,
+  .paper-card p { font-size: 13px !important; }
+  .note-content,
+  .recent-item div { margin: 8px 0 !important; margin-left: 0 !important; }
+  .study-card { gap: 12px !important; }
+  .recent-item { gap: 10px !important; }
+  .stats-card { padding: 16px !important; }
+  .semester-icon { width: 50px !important; height: 50px !important; }
+  .semester-icon i { font-size: 20px !important; }
+
+  /* ---- Sections ---- */
+  .section-title {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    margin-bottom: 15px !important;
+  }
+  .section-title h2 { font-size: 20px !important; }
+  .section-title p { font-size: 13px !important; }
+  .request-content {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 12px !important;
+    padding: 20px !important;
   }
 
-  .stat-card { padding: 15px !important; }
-  .stat-card h2 { font-size: 22px !important; }
-  .stats-section { grid-template-columns: 1fr !important; }
-  .semester-card,
-  .subject-card,
-  .paper-card { padding: 20px !important; }
-  .hero-btn,
-  .btn1, .btn2 { padding: 12px 22px !important; font-size: 14px !important; }
+  /* ---- Footer ---- */
+  .footer { flex-direction: column !important; text-align: center !important; font-size: 13px !important; padding: 20px !important; }
 
-  /* Quiz */
-  .quiz-option { font-size: 14px !important; padding: 12px !important; }
+  /* ---- Quiz specific ---- */
+  .hero-stats { flex-direction: row !important; flex-wrap: wrap !important; justify-content: center !important; gap: 10px !important; }
+  .hero-stats .stat-card { padding: 12px !important; min-width: 80px !important; }
+  .hero-stats .stat-card h2 { font-size: 20px !important; }
+  .hero-stats .stat-card span { font-size: 12px !important; }
+  .stats { justify-content: center !important; flex-wrap: wrap !important; }
+  .quiz-option { font-size: 14px !important; padding: 12px 14px !important; }
   .quiz-question h3 { font-size: 16px !important; }
-  .hero-right img { width: 200px !important; }
+  .quiz-topbar { padding: 10px 15px !important; }
+  .quiz-topbar-left span { font-size: 15px !important; }
 
-  .badge { font-size: 14px !important; padding: 8px 16px !important; }
-  .section-title h2 { font-size: 24px !important; }
+  /* ---- Coding ---- */
+  .coding-header,
+  .topic-header {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 15px !important;
+  }
+  .code-block { font-size: 12px !important; padding: 12px !important; }
+  .hero-search {
+    width: 100% !important;
+    padding: 10px 14px !important;
+    margin-top: 12px !important;
+  }
+  .hero-search input { font-size: 14px !important; }
+
+  /* ---- Syllabus ---- */
+  .semester-buttons { flex-direction: column !important; align-items: center !important; gap: 8px !important; }
+  .semester-buttons button { width: 100% !important; padding: 10px !important; font-size: 14px !important; }
+
+  /* ---- Placement specific ---- */
+  .video-card,
+  .pdf-card { padding: 12px !important; }
+  .video-card h3,
+  .pdf-card h3 { font-size: 16px !important; }
+  .download-btn { padding: 8px 16px !important; font-size: 13px !important; }
+
+  /* ---- Community ---- */
+  .cta-section { padding: 30px 20px !important; }
+  .cta-section h2 { font-size: 22px !important; }
+  .cta-section p { font-size: 14px !important; }
+  .cta-btn { padding: 12px 24px !important; font-size: 15px !important; }
+
+  /* ---- Search box ---- */
+  .search-box { width: 100% !important; }
+  .search-box input {
+    width: 100% !important;
+    padding: 10px 16px !important;
+    font-size: 14px !important;
+  }
 }
 
-/* ---------- Extra small (320px) ---------- */
-@media (max-width: 360px) {
-  .sidebar { width: 260px !important; }
+/* ---------- Small phones (<=400px) ---------- */
+@media (max-width: 400px) {
   .main-content { padding: 10px !important; }
+  .welcome-banner,
+  .semester-banner,
+  .papers-hero,
+  .hero,
+  .notes-hero,
+  .coding-hero,
+  .hero-section { padding: 16px 14px !important; }
+
+  .welcome-left h1,
+  .hero h1,
+  .hero-content h1,
+  .hero-left h1,
+  .coding-hero h1,
+  .notes-hero h1,
+  .papers-hero h1,
+  .banner-left h1,
+  .semester-banner h1,
+  .hero-section h1 {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+  .hero p,
+  .hero-content p,
+  .hero-left p { font-size: 13px !important; }
+
+  .stat-card,
+  .note-card,
+  .semester-card,
+  .subject-card,
+  .paper-card,
+  .feature-card,
+  .resource-card { padding: 12px !important; }
+
+  .stat-card h2 { font-size: 20px !important; }
+  .stat-card h3,
+  .note-card h3,
   .semester-card h3,
-  .subject-card h3 { font-size: 18px !important; }
+  .subject-card h3 { font-size: 15px !important; }
+  .badge { font-size: 11px !important; padding: 5px 12px !important; }
+  .section-title h2 { font-size: 18px !important; }
+
+  nav.navbar { padding: 8px 10px !important; }
+  nav.navbar .logo h2 { font-size: 16px !important; }
+  nav.navbar .nav-links li a { font-size: 12px !important; padding: 5px 10px !important; }
+  .hero-right img { width: 160px !important; }
+  .hero-right i { font-size: 60px !important; }
+  .sidebar { width: 260px !important; padding: 15px !important; }
+  .semester-icon { width: 40px !important; height: 40px !important; }
+  .semester-icon i { font-size: 16px !important; }
+  .quiz-option { font-size: 13px !important; padding: 10px 12px !important; }
+  .quiz-question h3 { font-size: 15px !important; }
+  .top-center input { font-size: 13px !important; padding: 8px 14px !important; }
 }
