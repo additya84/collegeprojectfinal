@@ -193,8 +193,8 @@ button:active { transform: scale(0.96); }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
-  margin-bottom: 35px;
+  padding: 40px;
+  margin-bottom: 30px;
   overflow: hidden;
   position: relative;
 }
