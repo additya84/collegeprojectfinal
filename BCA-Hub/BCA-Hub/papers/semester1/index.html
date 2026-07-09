@@ -8,21 +8,17 @@
     <link rel="stylesheet" href="../semesterppr.css">
 
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="../../css/responsive.css">
-
+</head>
 
 <body>
 
 <div class="dashboard">
-<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
-  <i class="fa-solid fa-bars"></i>
-</button>
-<div class="sidebar-overlay" id="sidebarOverlay"></div>
-<div class="sidebar" id="sidebar">
+
+<div class="sidebar">
 
     <div class="logo">
         <i class="fa-solid fa-graduation-cap"></i>
@@ -56,7 +52,7 @@
         </div>
         </a>
 
-        <a href="../../pages/coding/index.html">
+        <a href="../../BCA-Hub/pages/coding/index.html">
         <div class="menu-item">
             <i class="fa-solid fa-code"></i>
             Coding
@@ -70,7 +66,7 @@
         </div>
         </a>
 
-        <a href="../../profile/profile.html">
+        <a href="../../BCA-Hub/profile/profile.html">
         <div class="menu-item">
             <i class="fa-solid fa-user"></i>
             Profile
@@ -204,24 +200,30 @@
 
     <div class="papers-grid">
 
-        <div class="paper-card"><h3>Applied English</h3>
-            <button>Download</button>
+        <div class="paper-card">
+            <h3>Applied English</h3>
+              <a href="../../qs/applied english 2023.pdf">
+            <button>Download</button></a>
         </div>
         <div class="paper-card">
             <h3>C Programming</h3>
-            <button>Download</button>
+              <a href="../../qs/C programming 2023.pdf">
+            <button>Download</button></a>
         </div>
         <div class="paper-card">
             <h3>Computer Fundamentals</h3>
-            <button>Download</button>
+              <a href="../../qs/computer fundamental 2023.pdf">
+            <button>Download</button></a>
         </div>
         <div class="paper-card">
             <h3>Mathematics-I</h3>
-            <button>Download</button>
+            <a href="../../qs/MATHS 2023.pdf">
+            <button>Download</button></a>
         </div>
         <div class="paper-card">
+            <a href="../../qs/oat 2023.pdf">
             <h3>Office Automation</h3>
-            <button>Download</button>
+            <button>Download</button></a>
         </div>
 
     </div>
@@ -245,7 +247,7 @@
         <div class="paper-card">
             <h3>Computer Fundamentals</h3>
             <a href="../../qs/bca 1 sem computer Fundamental.pdf">
-            <button>Download</button></a>
+            <button>Download</button><a>
         </div>
         <div class="paper-card">
             <h3>Mathematics-I</h3>
@@ -272,24 +274,5 @@
 </div>
 </div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  var toggle = document.getElementById("sidebarToggle");
-  var sidebar = document.getElementById("sidebar");
-  var overlay = document.getElementById("sidebarOverlay");
-  if (toggle && sidebar) {
-    toggle.addEventListener("click", function () {
-      sidebar.classList.toggle("open");
-      if (overlay) overlay.classList.toggle("show");
-    });
-    if (overlay) {
-      overlay.addEventListener("click", function () {
-        sidebar.classList.remove("open");
-        overlay.classList.remove("show");
-      });
-    }
-  }
-});
-</script>
 </body>
 </html>
