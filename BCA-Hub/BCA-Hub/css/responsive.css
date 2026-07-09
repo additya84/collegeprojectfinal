@@ -155,51 +155,6 @@
   z-index: 998;
 }
 
-/* ---------- Dark Mode ---------- */
-body.dark-mode {
-  background: #0f172a;
-  color: #e2e8f0;
-}
-body.dark-mode .main-content { background: #0f172a; }
-body.dark-mode .top-navbar,
-body.dark-mode .navbar { background: #1e293b !important; }
-body.dark-mode .search-box,
-body.dark-mode .top-center input,
-body.dark-mode .hero-search input { background: #1e293b; color: #e2e8f0; border-color: #334155; }
-body.dark-mode .stat-card,
-body.dark-mode .note-card,
-body.dark-mode .semester-card,
-body.dark-mode .paper-card,
-body.dark-mode .study-card,
-body.dark-mode .resource-card,
-body.dark-mode .feature-card,
-body.dark-mode .contact-card,
-body.dark-mode .quiz-card,
-body.dark-mode .progress-card,
-body.dark-mode .notice-card,
-body.dark-mode .quick-actions,
-body.dark-mode .subject-card,
-body.dark-mode .topic-card,
-body.dark-mode .card { background: #1e293b !important; color: #e2e8f0 !important; }
-body.dark-mode .stats-card { background: #1e293b !important; }
-body.dark-mode .section-title h2,
-body.dark-mode .stat-card h3,
-body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4,
-body.dark-mode p { color: #e2e8f0; }
-body.dark-mode .welcome-banner { background: linear-gradient(135deg, #1e293b, #334155); }
-body.dark-mode .hero,
-body.dark-mode .notes-hero,
-body.dark-mode .papers-hero,
-body.dark-mode .coding-hero,
-body.dark-mode .semester-banner { background: linear-gradient(135deg, #1e3a5f, #1e293b) !important; }
-body.dark-mode .badge { background: rgba(255,255,255,0.1); color: #93c5fd; }
-body.dark-mode .footer { background: #0a0f1a; }
-body.dark-mode .sidebar-card { background: linear-gradient(135deg, #4f46e5, #6d5dfc); }
-body.dark-mode .social-links a { background: #1e293b; color: #e2e8f0; }
-body.dark-mode .hero-stats .stat-card { background: rgba(255,255,255,0.08) !important; }
-body.dark-mode table { background: #1e293b; color: #e2e8f0; }
-body.dark-mode th, body.dark-mode td { border-color: #334155; }
-
 /* ---------- Responsive images & tables ---------- */
 img { max-width: 100%; height: auto; }
 video { max-width: 100%; }

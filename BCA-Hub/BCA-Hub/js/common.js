@@ -35,31 +35,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
-// === Theme Toggle (Day/Night) ===
-document.addEventListener("DOMContentLoaded", function () {
-  var saved = localStorage.getItem("bcaHubTheme") || "light";
-  if (saved === "dark") document.body.classList.add("dark-mode");
-
-  var toggleBtn = document.getElementById("themeToggle");
-  if (!toggleBtn) {
-    toggleBtn = document.querySelector(".sidebar .menu") ? document.createElement("div") : null;
-    if (toggleBtn) {
-      toggleBtn.id = "themeToggle";
-      toggleBtn.className = "menu-item";
-      toggleBtn.style.cssText = "cursor:pointer;margin-top:10px;";
-      toggleBtn.innerHTML = '<i class="fa-solid ' + (saved === "dark" ? "fa-sun" : "fa-moon") + '"></i><span>' + (saved === "dark" ? "Light Mode" : "Dark Mode") + '</span>';
-      var menu = document.querySelector(".sidebar .menu");
-      if (menu) menu.appendChild(toggleBtn);
-    }
-  }
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", function () {
-      document.body.classList.toggle("dark-mode");
-      var isDark = document.body.classList.contains("dark-mode");
-      localStorage.setItem("bcaHubTheme", isDark ? "dark" : "light");
-      toggleBtn.querySelector("i").className = "fa-solid " + (isDark ? "fa-sun" : "fa-moon");
-      toggleBtn.querySelector("span").textContent = isDark ? "Light Mode" : "Dark Mode";
-    });
-  }
-});
