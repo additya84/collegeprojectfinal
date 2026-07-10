@@ -1,4 +1,4 @@
-.dashboard { display: flex;
+﻿.dashboard { display: flex;
    width: 100%;
     min-height: 100vh;
    }
@@ -155,14 +155,14 @@
   z-index: 998;
 }
 
-/* ---------- Responsive images & tables ---------- */
+
 img { max-width: 100%; height: auto; }
 video { max-width: 100%; }
 table { max-width: 100%; overflow-x: auto; display: block; }
 pre, code { white-space: pre-wrap; word-break: break-word; }
 input, select, textarea { max-width: 100%; }
 
-/* ---------- Tablet ---------- */
+
 @media (max-width: 1024px) {
   .stats-container,
   .semester-stats { grid-template-columns: repeat(2, 1fr) !important; }
@@ -174,7 +174,7 @@ input, select, textarea { max-width: 100%; }
   .subject-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
-/* ---------- Mobile (<=768px) ---------- */
+
 @media (max-width: 768px) {
   .sidebar-toggle { display: flex; }
   .sidebar {
@@ -202,7 +202,7 @@ input, select, textarea { max-width: 100%; }
     padding: 15px !important;
   }
 
-  /* ---- Navbars (compact) ---- */
+  
   nav.navbar {
     flex-direction: row !important;
     flex-wrap: wrap !important;
@@ -227,7 +227,7 @@ input, select, textarea { max-width: 100%; }
   }
   nav.navbar .profile-icon { font-size: 22px !important; }
 
-  /* top-navbar (dashboard style) */
+  
   .top-navbar {
     flex-direction: row !important;
     flex-wrap: wrap !important;
@@ -246,7 +246,7 @@ input, select, textarea { max-width: 100%; }
   .profile-text { display: none !important; }
   .profile img { width: 36px !important; height: 36px !important; }
 
-  /* ---- Banners (very compact) ---- */
+  
   .welcome-banner,
   .semester-banner,
   .papers-hero,
@@ -306,7 +306,7 @@ input, select, textarea { max-width: 100%; }
   .hero-right img { width: 220px !important; }
   .hero-right i { font-size: 80px !important; }
 
-  /* ---- Grids -> single column ---- */
+  
   .stats-container,
   .bottom-row,
   .content-row,
@@ -321,7 +321,7 @@ input, select, textarea { max-width: 100%; }
   .resource-grid { grid-template-columns: 1fr !important; gap: 14px !important; }
   .quiz-grid { grid-template-columns: 1fr !important; }
 
-  /* ---- Cards (compact) ---- */
+  
   .stat-card,
   .stats-card,
   .note-card,
@@ -355,7 +355,7 @@ input, select, textarea { max-width: 100%; }
   .semester-icon { width: 50px !important; height: 50px !important; }
   .semester-icon i { font-size: 20px !important; }
 
-  /* ---- Sections ---- */
+  
   .section-title {
     flex-direction: row !important;
     flex-wrap: wrap !important;
@@ -371,10 +371,10 @@ input, select, textarea { max-width: 100%; }
     padding: 20px !important;
   }
 
-  /* ---- Footer ---- */
+  
   .footer { flex-direction: column !important; text-align: center !important; font-size: 13px !important; padding: 20px !important; }
 
-  /* ---- Quiz specific ---- */
+  
   .hero-stats { flex-direction: row !important; flex-wrap: wrap !important; justify-content: center !important; gap: 10px !important; }
   .hero-stats .stat-card { padding: 12px !important; min-width: 80px !important; }
   .hero-stats .stat-card h2 { font-size: 20px !important; }
@@ -385,7 +385,7 @@ input, select, textarea { max-width: 100%; }
   .quiz-topbar { padding: 10px 15px !important; }
   .quiz-topbar-left span { font-size: 15px !important; }
 
-  /* ---- Coding ---- */
+  
   .coding-header,
   .topic-header {
     flex-direction: column !important;
@@ -400,24 +400,24 @@ input, select, textarea { max-width: 100%; }
   }
   .hero-search input { font-size: 14px !important; }
 
-  /* ---- Syllabus ---- */
+  
   .semester-buttons { flex-direction: column !important; align-items: center !important; gap: 8px !important; }
   .semester-buttons button { width: 100% !important; padding: 10px !important; font-size: 14px !important; }
 
-  /* ---- Placement specific ---- */
+  
   .video-card,
   .pdf-card { padding: 12px !important; }
   .video-card h3,
   .pdf-card h3 { font-size: 16px !important; }
   .download-btn { padding: 8px 16px !important; font-size: 13px !important; }
 
-  /* ---- Community ---- */
+  
   .cta-section { padding: 30px 20px !important; }
   .cta-section h2 { font-size: 22px !important; }
   .cta-section p { font-size: 14px !important; }
   .cta-btn { padding: 12px 24px !important; font-size: 15px !important; }
 
-  /* ---- Search box ---- */
+  
   .search-box { width: 100% !important; }
   .search-box input {
     width: 100% !important;
@@ -426,7 +426,7 @@ input, select, textarea { max-width: 100%; }
   }
 }
 
-/* ---------- Small phones (<=400px) ---------- */
+
 @media (max-width: 400px) {
   .main-content { padding: 10px !important; }
   .welcome-banner,

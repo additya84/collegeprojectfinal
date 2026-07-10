@@ -1,4 +1,4 @@
-const learningStatsKey = "bcaHubLearningStats";
+﻿const learningStatsKey = "bcaHubLearningStats";
 const profileKey = "bcaHubProfile";
 const tokenKey = "bcaHubToken";
 const apiBaseUrl = "https://collegeprojectfinal-1.onrender.com/api";
@@ -115,7 +115,6 @@ function updateProfileProgress(progressData) {
         localStorage.setItem(profileKey, JSON.stringify(profile));
         syncProfileProgress(profile);
     } catch {
-        // Login/profile pages can rebuild this cache if it is invalid.
     }
 }
 
@@ -136,7 +135,6 @@ async function syncProfileProgress(profile) {
             body: JSON.stringify(profile)
         });
     } catch {
-        // Dashboard should still work offline; it will retry next time it renders.
     }
 }
 

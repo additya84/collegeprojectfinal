@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ASP.NET Technologies | BCA Hub</title>
+
+    <link rel="stylesheet" href="../../../css/responsive.css">
+    <link rel="stylesheet" href="../../../css/semester.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <style>
+        .unit-table { width: 100%; border-collapse: separate; border-spacing: 0 12px; margin-top: 20px; }
+        .unit-table tr td {
+            background: white; padding: 18px 22px;
+            box-shadow: 0 4px 12px rgba(0,0,0,.06); border-radius: 12px;
+        }
+        .unit-table .unit-no {
+            font-weight: 700; color: #2563eb; font-size: 15px;
+            white-space: nowrap; width: 80px;
+        }
+        .unit-table .unit-title { font-weight: 600; color: #0f172a; font-size: 16px; white-space: nowrap; width: 200px; }
+        .unit-table .unit-topics { color: #475569; font-size: 14px; line-height: 1.6; }
+        .unit-table .unit-btn { white-space: nowrap; width: 140px; text-align: right; }
+        .unit-table .unit-btn button {
+            padding: 10px 20px; border: none; border-radius: 8px;
+            background: #2563eb; color: white; font-size: 14px; cursor: pointer; transition: .3s;
+        }
+        .unit-table .unit-btn button:hover { background: #1d4ed8; }
+        @media (max-width: 900px) {
+            .unit-table, .unit-table tbody, .unit-table tr, .unit-table td { display: block; width: 100%; }
+            .unit-table tr td { margin-bottom: 0; border-radius: 0; padding: 14px 18px; }
+            .unit-table tr:first-child td:first-child { border-radius: 12px 12px 0 0; }
+            .unit-table tr:last-child td:last-child { border-radius: 0 0 12px 12px; }
+            .unit-table .unit-btn { text-align: left; padding-top: 8px; }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="sidebar" id="sidebar">
+
+    <div class="logo">
+
+        <i class="fa-solid fa-graduation-cap"></i>
+
+        <div class="logo-text">
+
+            <h2>BCA Hub</h2>
+
+            <p>Learn â€¢ Practice â€¢ Grow</p>
+
+        </div>
+
+    </div>
+
+    <div class="menu">
+
+        <a href="../../../dashboard.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Dashboard</span>
+        </div>
+        </a>
+
+        <a href="../notes.html">
+        <div class="menu-item active">
+            <i class="fa-solid fa-book"></i>
+            <span>Notes</span>
+        </div>
+        </a>
+
+        <a href="../../coding/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-code"></i>
+            <span>Coding</span>
+        </div>
+        </a>
+
+        <a href="../../../syllabus/syllabus.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Syllabus</span>
+        </div>
+        </a>
+
+        <a href="../../../papers/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Previous Papers</span>
+        </div>
+        </a>
+
+        <a href="../../../quiz/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-clipboard-question"></i>
+            <span>Quiz</span>
+        </div>
+        </a>
+
+        <a href="../../../placement/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Placement</span>
+        </div>
+        </a>
+
+        <a href="../../../community/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Community</span>
+        </div>
+        </a>
+
+        <a href="../../../profile/profile.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </div>
+        </a>
+
+    </div>
+
+    <div class="sidebar-card">
+
+        <h3>âš™ï¸ ASP.NET Technologies</h3>
+
+        <p>ASP.NET architecture, web forms, state management, ADO.NET and security.</p>
+
+        <button>Start Learning</button>
+
+    </div>
+
+</div>
+
+<div class="main-content">
+
+<div class="top-navbar">
+
+    <div class="top-left">
+
+        <h2>ASP.NET Technologies</h2>
+
+        <p>Old HPU BCA Syllabus | Semester 5</p>
+
+    </div>
+
+    <div class="top-center">
+
+        <input type="text"
+               placeholder="Search topics...">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+    </div>
+
+    <div class="top-right">
+
+        <div class="profile">
+
+            <img src="../../../assets/images/profile.png"
+                 alt="Profile">
+
+            <div>
+
+                <h4>Aditya</h4>
+
+                <span>BCA Student</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="semester-banner">
+
+    <div class="banner-left">
+
+        <span class="badge">BCA504 4 0 3</span>
+
+        <h1>ASP.NET Technologies âš™ï¸</h1>
+
+        <p>Complete unit wise notes on ASP.NET including .NET framework, web forms, state management, ADO.NET and website security for BCA Semester 5 (HPU).</p>
+
+    </div>
+
+    <div class="banner-right">
+
+        <img
+        src="../../../assets/images/banners/banner.png.png"
+        alt="ASP.NET Technologies">
+
+    </div>
+
+</div>
+
+<div style="background:linear-gradient(135deg,#2563eb,#3b82f6);border-radius:18px;padding:28px 35px;margin:20px 0;color:white;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px;">
+
+    <div>
+
+        <h3 style="font-size:20px;margin-bottom:6px;">ðŸ“š All BCA Resources in One Place</h3>
+
+        <p style="color:#e0e7ff;font-size:15px;line-height:1.6;">Question Papers, Quiz, Notes, Coding Practice &amp; Placement Prep â€” everything available here.</p>
+
+    </div>
+
+    <a href="../../../quiz/index.html" style="text-decoration:none;">
+        <button style="padding:12px 28px;border:none;border-radius:10px;background:white;color:#2563eb;font-size:15px;font-weight:600;cursor:pointer;white-space:nowrap;">
+            <i class="fa-solid fa-bolt"></i> Explore Now
+        </button>
+    </a>
+
+</div>
+
+
+
+<div class="subjects-section">
+
+    <div class="section-title">
+
+        <h2>Unit Wise Notes</h2>
+
+        <p>5 Units (As per HPU Syllabus)</p>
+
+    </div>
+
+    <table class="unit-table">
+        <tr><td>
+            <table style="width:100%"><tr>
+                <td class="unit-no">Unit 1</td>
+                <td class="unit-title">Introduction to ASP.NET</td>
+                <td class="unit-topics">Introduction to .NET Framework, CLR, CTS, CLS, Features of ASP.NET, Web Applications and ASP.NET Architecture</td>
+                <td class="unit-btn"><button><i class="fa-solid fa-download"></i> Notes</button></td>
+            </tr></table>
+        </td></tr>        <tr><td>
+            <table style="width:100%"><tr>
+                <td class="unit-no">Unit 2</td>
+                <td class="unit-title">Web Forms & Controls</td>
+                <td class="unit-topics">Web Forms, Server Controls, HTML Controls, Validation Controls and User Controls</td>
+                <td class="unit-btn"><button><i class="fa-solid fa-download"></i> Notes</button></td>
+            </tr></table>
+        </td></tr>        <tr><td>
+            <table style="width:100%"><tr>
+                <td class="unit-no">Unit 3</td>
+                <td class="unit-title">State Management</td>
+                <td class="unit-topics">State Management, View State, Session State, Cookies and Application State</td>
+                <td class="unit-btn"><button><i class="fa-solid fa-download"></i> Notes</button></td>
+            </tr></table>
+        </td></tr>        <tr><td>
+            <table style="width:100%"><tr>
+                <td class="unit-no">Unit 4</td>
+                <td class="unit-title">ADO.NET</td>
+                <td class="unit-topics">ADO.NET, Database Connectivity, Data Reader, Data Adapter, Data Set and Data Binding</td>
+                <td class="unit-btn"><button><i class="fa-solid fa-download"></i> Notes</button></td>
+            </tr></table>
+        </td></tr>        <tr><td>
+            <table style="width:100%"><tr>
+                <td class="unit-no">Unit 5</td>
+                <td class="unit-title">Security & Deployment</td>
+                <td class="unit-topics">Authentication, Authorization, Web Services, Deployment and Website Security</td>
+                <td class="unit-btn"><button><i class="fa-solid fa-download"></i> Notes</button></td>
+            </tr></table>
+        </td></tr>
+    </table>
+
+</div>
+
+
+
+<div class="recent-notes">
+
+    <div class="section-title">
+
+        <h2>Recently Added</h2>
+
+        <a href="#">View All</a>
+
+    </div>
+
+    <div class="recent-list">
+        <div class="recent-item">
+
+            <i class="fa-solid fa-file-pdf"></i>
+
+            <div>
+
+                <h3>Unit 2 - Web Forms & Controls</h3>
+
+                <p>Server controls and validation controls</p>
+
+            </div>
+
+            <button>Download</button>
+
+        </div>        <div class="recent-item">
+
+            <i class="fa-solid fa-file-pdf"></i>
+
+            <div>
+
+                <h3>Unit 3 - State Management</h3>
+
+                <p>View state, session, cookies and application state</p>
+
+            </div>
+
+            <button>Download</button>
+
+        </div>        <div class="recent-item">
+
+            <i class="fa-solid fa-file-pdf"></i>
+
+            <div>
+
+                <h3>Unit 4 - ADO.NET</h3>
+
+                <p>Database connectivity and data binding</p>
+
+            </div>
+
+            <button>Download</button>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="study-card">
+
+    <div class="study-left">
+
+        <h2>ðŸ’¡ Study Tip</h2>
+
+        <p>-studyTipText=Build a complete web application using ASP.NET. Practice database connectivity with ADO.NET and implement security features.</p>
+
+    </div>
+
+    <button>Start Coding</button>
+
+</div>
+
+
+
+<footer class="footer">
+
+    <p>&copy; 2026 BCA Hub | Old HPU BCA Notes</p>
+
+</footer>
+
+</div>
+
+</div>
+
+<script src="../../../js/common.js"></script>
+</body>
+
+</html>

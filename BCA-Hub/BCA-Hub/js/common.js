@@ -1,5 +1,4 @@
-// === Sidebar Toggle ===
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   var toggle = document.getElementById("sidebarToggle");
   var sidebar = document.getElementById("sidebar");
   var overlay = document.getElementById("sidebarOverlay");
@@ -17,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// === Search Functionality ===
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".top-center input, .search-box input, .hero-search input").forEach(function (input) {
     input.addEventListener("input", function () {

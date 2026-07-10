@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,87 @@
     <link rel="stylesheet" href="../../../css/responsive.css">
 
 <body>
+<div class="dashboard">
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="sidebar" id="sidebar">
+    <div class="logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div class="logo-text">
+            <h2>BCA Hub</h2>
+            <p>Learn • Practice • Grow</p>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="../../../dashboard.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Dashboard</span>
+        </div>
+        </a>
+        <a href="../../notes/notes.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-book"></i>
+            <span>Notes</span>
+        </div>
+        </a>
+        <a href="../index.html">
+        <div class="menu-item active">
+            <i class="fa-solid fa-code"></i>
+            <span>Coding</span>
+        </div>
+        </a>
+        <a href="../../../syllabus/syllabus.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Syllabus</span>
+        </div>
+        </a>
+        <a href="../../../papers/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Previous Papers</span>
+        </div>
+        </a>
+        <a href="../../../quiz/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-clipboard-question"></i>
+            <span>Quiz</span>
+        </div>
+        </a>
+        <a href="../../../placement/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Placement</span>
+        </div>
+        </a>
+        <a href="../../../community/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Community</span>
+        </div>
+        </a>
+        <a href="../../../profile/profile.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </div>
+        </a>
+    </div>
+    <div class="sidebar-card">
+        <h3>💻 Coding Hub</h3>
+        <p>Practice coding and improve your programming skills.</p>
+        <button>Start Coding</button>
+    </div>
+</div>
+<div class="main-content">
+
 
 <div class="container">
 
-    <!-- Hero Section -->
+    
     <section class="hero">
         <span class="badge">🏛️ Object Oriented Programming</span>
 
@@ -24,7 +101,7 @@
         </p>
     </section>
 
-    <!-- Introduction -->
+    
     <section class="section-card">
         <h2>📘 What is OOP?</h2>
 
@@ -39,7 +116,7 @@
         </div>
     </section>
 
-    <!-- Class -->
+    
     <section class="section-card">
         <h2>🏗️ Class</h2>
 
@@ -59,7 +136,7 @@ class Student
         </div>
     </section>
 
-    <!-- Object -->
+    
     <section class="section-card">
         <h2>📦 Object</h2>
 
@@ -78,7 +155,7 @@ Student s1;
         </p>
     </section>
 
-    <!-- Class and Object Example -->
+    
     <section class="section-card">
         <h2>💻 Example of Class and Object</h2>
 
@@ -122,7 +199,7 @@ Roll No: 101
         </div>
     </section>
 
-    <!-- Access Specifiers -->
+    
     <section class="section-card">
         <h2>🔐 Access Specifiers</h2>
 
@@ -137,7 +214,7 @@ Roll No: 101
         </ul>
     </section>
 
-    <!-- Encapsulation -->
+    
     <section class="section-card">
         <h2>📦 Encapsulation</h2>
 
@@ -167,7 +244,7 @@ public:
         </div>
     </section>
 
-    <!-- Abstraction -->
+    
     <section class="section-card">
         <h2>🎭 Abstraction</h2>
 
@@ -182,7 +259,7 @@ public:
         </div>
     </section>
 
-    <!-- Inheritance -->
+    
     <section class="section-card">
         <h2>👨‍👩‍👧 Inheritance</h2>
 
@@ -204,7 +281,7 @@ class Dog : public Animal
         </div>
     </section>
 
-    <!-- Polymorphism -->
+    
     <section class="section-card">
         <h2>🔄 Polymorphism</h2>
 
@@ -231,7 +308,7 @@ public:
         </div>
     </section>
 
-    <!-- Advantages -->
+    
     <section class="section-card">
         <h2>✅ Advantages of OOP</h2>
 
@@ -244,7 +321,7 @@ public:
         </ul>
     </section>
 
-    <!-- Important Questions -->
+    
     <section class="section-card">
         <h2>🎯 Important Questions</h2>
 
@@ -259,7 +336,7 @@ public:
         </ul>
     </section>
 
-    <!-- Footer -->
+    
     <footer class="footer">
         © 2026 BCA Hub • Learn • Practice • Grow 🚀
     </footer>
@@ -267,5 +344,7 @@ public:
 </div>
 
   <script src="../../../js/common.js"></script>
-</body>
+
+</div>
+</div></body>
 </html>

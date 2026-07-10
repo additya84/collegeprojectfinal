@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,87 @@
     <link rel="stylesheet" href="../../../css/responsive.css">
 
 <body>
+<div class="dashboard">
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="sidebar" id="sidebar">
+    <div class="logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div class="logo-text">
+            <h2>BCA Hub</h2>
+            <p>Learn • Practice • Grow</p>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="../../../dashboard.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Dashboard</span>
+        </div>
+        </a>
+        <a href="../../notes/notes.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-book"></i>
+            <span>Notes</span>
+        </div>
+        </a>
+        <a href="../index.html">
+        <div class="menu-item active">
+            <i class="fa-solid fa-code"></i>
+            <span>Coding</span>
+        </div>
+        </a>
+        <a href="../../../syllabus/syllabus.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Syllabus</span>
+        </div>
+        </a>
+        <a href="../../../papers/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Previous Papers</span>
+        </div>
+        </a>
+        <a href="../../../quiz/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-clipboard-question"></i>
+            <span>Quiz</span>
+        </div>
+        </a>
+        <a href="../../../placement/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Placement</span>
+        </div>
+        </a>
+        <a href="../../../community/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Community</span>
+        </div>
+        </a>
+        <a href="../../../profile/profile.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </div>
+        </a>
+    </div>
+    <div class="sidebar-card">
+        <h3>💻 Coding Hub</h3>
+        <p>Practice coding and improve your programming skills.</p>
+        <button>Start Coding</button>
+    </div>
+</div>
+<div class="main-content">
+
 
 <div class="container">
 
-    <!-- Hero Section -->
+    
     <section class="hero">
         <span class="badge">🔄 C Programming</span>
         <h1>Loops in C</h1>
@@ -21,7 +98,7 @@
         </p>
     </section>
 
-    <!-- Introduction -->
+    
     <section class="section-card">
         <h2>📘 Introduction to Loops</h2>
 
@@ -36,7 +113,7 @@
         </div>
     </section>
 
-    <!-- For Loop -->
+    
     <section class="section-card">
         <h2>🔁 For Loop</h2>
 
@@ -77,7 +154,7 @@ int main()
         </div>
     </section>
 
-    <!-- While Loop -->
+    
     <section class="section-card">
         <h2>🔄 While Loop</h2>
 
@@ -119,7 +196,7 @@ int main()
         </div>
     </section>
 
-    <!-- Do While Loop -->
+    
     <section class="section-card">
         <h2>♻️ Do While Loop</h2>
 
@@ -164,7 +241,7 @@ int main()
         </div>
     </section>
 
-    <!-- Nested Loop -->
+    
     <section class="section-card">
         <h2>🧩 Nested Loops</h2>
 
@@ -202,7 +279,7 @@ int main()
         </div>
     </section>
 
-    <!-- Program 1 -->
+    
     <section class="section-card">
         <h2>💻 Program 1: Print Table of 5</h2>
 
@@ -233,7 +310,7 @@ int main()
         </div>
     </section>
 
-    <!-- Program 2 -->
+    
     <section class="section-card">
         <h2>💻 Program 2: Sum of First 10 Numbers</h2>
 
@@ -263,7 +340,7 @@ int main()
         </div>
     </section>
 
-    <!-- Program 3 -->
+    
     <section class="section-card">
         <h2>💻 Program 3: Factorial of Number</h2>
 
@@ -293,7 +370,7 @@ int main()
         </div>
     </section>
 
-    <!-- Interview Questions -->
+    
     <section class="section-card">
         <h2>🎯 Important Interview Questions</h2>
 
@@ -306,7 +383,7 @@ int main()
         </ul>
     </section>
 
-    <!-- Important Points -->
+    
     <section class="section-card important">
         <h2>⭐ Important Points</h2>
 
@@ -325,5 +402,7 @@ int main()
 </div>
 
   <script src="../../../js/common.js"></script>
-</body>
+
+</div>
+</div></body>
 </html>

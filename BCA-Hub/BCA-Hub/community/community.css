@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -225,7 +225,7 @@ body {
     box-shadow: 0 15px 30px rgba(109, 93, 252, 0.3);
 }
 
-/* ---------- Contact Section ---------- */
+
 .contact-section {
     margin-bottom: 50px;
 }

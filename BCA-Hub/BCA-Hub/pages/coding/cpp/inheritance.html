@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,87 @@
     <link rel="stylesheet" href="../../../css/responsive.css">
 
 <body>
+<div class="dashboard">
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="sidebar" id="sidebar">
+    <div class="logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div class="logo-text">
+            <h2>BCA Hub</h2>
+            <p>Learn • Practice • Grow</p>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="../../../dashboard.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Dashboard</span>
+        </div>
+        </a>
+        <a href="../../notes/notes.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-book"></i>
+            <span>Notes</span>
+        </div>
+        </a>
+        <a href="../index.html">
+        <div class="menu-item active">
+            <i class="fa-solid fa-code"></i>
+            <span>Coding</span>
+        </div>
+        </a>
+        <a href="../../../syllabus/syllabus.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Syllabus</span>
+        </div>
+        </a>
+        <a href="../../../papers/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Previous Papers</span>
+        </div>
+        </a>
+        <a href="../../../quiz/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-clipboard-question"></i>
+            <span>Quiz</span>
+        </div>
+        </a>
+        <a href="../../../placement/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Placement</span>
+        </div>
+        </a>
+        <a href="../../../community/index.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Community</span>
+        </div>
+        </a>
+        <a href="../../../profile/profile.html">
+        <div class="menu-item">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </div>
+        </a>
+    </div>
+    <div class="sidebar-card">
+        <h3>💻 Coding Hub</h3>
+        <p>Practice coding and improve your programming skills.</p>
+        <button>Start Coding</button>
+    </div>
+</div>
+<div class="main-content">
+
 
 <div class="container">
 
-    <!-- Hero Section -->
+    
     <section class="hero">
         <span class="badge">👨‍👩‍👧 OOP Concept</span>
 
@@ -23,7 +100,7 @@
         </p>
     </section>
 
-    <!-- Introduction -->
+    
     <section class="section-card">
         <h2>📘 What is Inheritance?</h2>
 
@@ -38,7 +115,7 @@
         </div>
     </section>
 
-    <!-- Syntax -->
+    
     <section class="section-card">
         <h2>📝 Syntax of Inheritance</h2>
 
@@ -57,7 +134,7 @@ class Child : public Parent
         </div>
     </section>
 
-    <!-- Example -->
+    
     <section class="section-card">
         <h2>💻 Example of Inheritance</h2>
 
@@ -96,7 +173,7 @@ int main()
         </div>
     </section>
 
-    <!-- Types -->
+    
     <section class="section-card">
         <h2>🏛 Types of Inheritance</h2>
 
@@ -109,7 +186,7 @@ int main()
         </ul>
     </section>
 
-    <!-- Single -->
+    
     <section class="section-card">
         <h2>1️⃣ Single Inheritance</h2>
 
@@ -130,7 +207,7 @@ class B : public A
         </div>
     </section>
 
-    <!-- Multiple -->
+    
     <section class="section-card">
         <h2>2️⃣ Multiple Inheritance</h2>
 
@@ -150,7 +227,7 @@ class C : public A, public B
         </div>
     </section>
 
-    <!-- Multilevel -->
+    
     <section class="section-card">
         <h2>3️⃣ Multilevel Inheritance</h2>
 
@@ -167,7 +244,7 @@ class C : public B{};
         </div>
     </section>
 
-    <!-- Hierarchical -->
+    
     <section class="section-card">
         <h2>4️⃣ Hierarchical Inheritance</h2>
 
@@ -185,7 +262,7 @@ class C : public A{};
         </div>
     </section>
 
-    <!-- Hybrid -->
+    
     <section class="section-card">
         <h2>5️⃣ Hybrid Inheritance</h2>
 
@@ -194,7 +271,7 @@ class C : public A{};
         </p>
     </section>
 
-    <!-- Advantages -->
+    
     <section class="section-card">
         <h2>✅ Advantages of Inheritance</h2>
 
@@ -206,7 +283,7 @@ class C : public A{};
         </ul>
     </section>
 
-    <!-- Interview Questions -->
+    
     <section class="section-card">
         <h2>🎯 Important Questions</h2>
 
@@ -225,5 +302,7 @@ class C : public A{};
 </div>
 
   <script src="../../../js/common.js"></script>
-</body>
+
+</div>
+</div></body>
 </html>
