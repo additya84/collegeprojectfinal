@@ -1,742 +1,388 @@
 const syllabus = {
 
 1:{
-title:"Semester 1",
-subjects:[
-["BCA0101","Mathematics-I","30","70","100"],
-["BCA0102","Applied English","30","70","100"],
-["BCA0103","Computer Fundamentals","30","70","100"],
-["BCA0104","C Programming","30","70","100"],
-["BCA0105","Office Automation Tools","30","70","100"]
-],
-details:`
-<div class="subject">
-        <h3>BCA101 - Mathematics-I</h3>
-        <p>
-            <b>Unit 1:</b> Sets, Relations, Functions, Types of Functions, Composition of Functions, Inverse Functions.
-            <br><br>
-
-            <b>Unit 2:</b> Matrices, Types of Matrices, Matrix Operations, Determinants, Inverse of Matrix, Cramer's Rule.
-            <br><br>
-
-            <b>Unit 3:</b> Limits, Continuity, Differentiation, Rules of Differentiation, Maxima and Minima.
-            <br><br>
-
-            <b>Unit 4:</b> Integration, Methods of Integration, Definite and Indefinite Integrals, Applications of Integration.
-            <br><br>
-
-            <b>Unit 5:</b> Differential Equations, Formation of Differential Equations, Solution of First Order Differential Equations.
-        </p>
+    title:"Semester 1",
+    subjects:[
+      ["BCA0101","Mathematics-I","30","70","100"],
+      ["BCA0102","Applied English","30","70","100"],
+      ["BCA0103","Computer Fundamentals","30","70","100"],
+      ["BCA0104","C Programming","30","70","100"],
+      ["BCA0105","Office Automation Tools","30","70","100"],
+    ],
+    details:`
+    <div class="subject">
+      <h3>BCA0101 - Mathematics-I</h3>
+      <p>
+        <b>Unit 1:</b> Set theory, Relations, quadratic equations, sequence & series, binomial theorems, determinants, matrices.<br><br>
+        <b>Unit 2:</b> Rectangular co-ordinates, length of a line segment, section ratio, area of a triangle, equations of a straight line circles.<br><br>
+        <b>Unit 3:</b> Trigonometric functions, trigonometrical ratios of negative and associated angles, trigonometrical ratios of compound angles, multiple and sub multiple angles, Heights and distances.<br><br>
+        <b>Unit 4:</b> Functions, limits and continuity, Derivative of functions, Maxima & Minima, Indefinite integrals and definite integrals.<br><br>
+      </p>
     </div>
 
     <div class="subject">
-        <h3>BCA102 - Applied English</h3>
-        <p>
-            <b>Unit 1:</b> Grammar, Parts of Speech, Articles, Tenses, Voice, Narration.
-            <br><br>
-
-            <b>Unit 2:</b> Vocabulary Building, Synonyms, Antonyms, One Word Substitution, Idioms and Phrases.
-            <br><br>
-
-            <b>Unit 3:</b> Reading Comprehension, Passage Reading, Answer Writing Skills.
-            <br><br>
-
-            <b>Unit 4:</b> Letter Writing, Formal Letter, Informal Letter, Job Application Letter.
-            <br><br>
-
-            <b>Unit 5:</b> Report Writing, Communication Skills, Presentation Skills, Group Discussion.
-        </p>
+      <h3>BCA0102 - Applied English</h3>
+      <p>
+        <b>Unit 1:</b> One unseen passages of 250-300 words in length with a variety of comprehension questions including word-attack skills such as word formation and inferring meaning, finding opposites etc.<br><br>
+        <b>Unit 2:</b> Change the Number, Change the Gender, Words commonly mis-spelt, Antonyms, Synonyms, Fill up using correct determinant.<br><br>
+        <b>Unit 3:</b> Correct form types of tense, Reordering word groups, Conversion among various types of sentences.<br><br>
+        <b>Unit 4:</b> Composition on a given topic/title based on any current social, environment, health issues. Formal Letter Writing.<br><br>
+      </p>
     </div>
 
     <div class="subject">
-        <h3>BCA103 - Computer Fundamentals</h3>
-        <p>
-            <b>Unit 1:</b> Introduction to Computers, Characteristics of Computers, Generations of Computers, Types of Computers.
-            <br><br>
-
-            <b>Unit 2:</b> Input Devices, Output Devices, Memory Units, Storage Devices.
-            <br><br>
-
-            <b>Unit 3:</b> Number System, Binary, Decimal, Octal and Hexadecimal Number Systems, Conversions.
-            <br><br>
-
-            <b>Unit 4:</b> Operating System, Functions of OS, Types of Operating Systems, DOS and Windows.
-            <br><br>
-
-            <b>Unit 5:</b> Internet, WWW, Web Browser, Search Engine, Email, Computer Security.
-        </p>
+      <h3>BCA0103 - Computer Fundamentals</h3>
+      <p>
+        <b>Unit 1:</b> Characteristics, Evolution, Generations, Types of computers, Block diagram, Basic components, CPU, Instruction set, registers, processor speed.<br><br>
+        <b>Unit 2:</b> Main memory organization, RAM, ROM, EPROM, PROM, cache memory. Secondary Storage devices.<br><br>
+        <b>Unit 3:</b> Input devices, Output devices, Monitors, Printers, Plotters.<br><br>
+        <b>Unit 4:</b> Computer Software, System software, Application software, Operating system, Programming languages.<br><br>
+      </p>
     </div>
 
     <div class="subject">
-        <h3>BCA104 - C Programming</h3>
-        <p>
-            <b>Unit 1:</b> Introduction to C Language, Features of C, Structure of C Program, Character Set, Tokens, Keywords, Identifiers, Variables, Constants, Data Types.
-            <br><br>
-
-            <b>Unit 2:</b> Operators and Expressions, Arithmetic Operators, Relational Operators, Logical Operators, Assignment Operators, Increment and Decrement Operators, Type Conversion.
-            <br><br>
-
-            <b>Unit 3:</b> Decision Making and Looping Statements, if, if-else, Nested if, switch, for loop, while loop, do-while loop, break and continue statements.
-            <br><br>
-
-            <b>Unit 4:</b> Arrays, Strings, One Dimensional Array, Two Dimensional Array, String Functions, User Defined Functions, Recursion.
-            <br><br>
-
-            <b>Unit 5:</b> Pointers, Pointer Arithmetic, Structures, Union, File Handling, fopen(), fclose(), fread(), fwrite().
-        </p>
+      <h3>BCA0104 - C Programming</h3>
+      <p>
+        <b>Unit 1:</b> Types of programming languages, Introduction to C, C character Set, Identifiers and keywords, data types, constants, variables, declarations, expressions.<br><br>
+        <b>Unit 2:</b> Operators, Data Input and Output, single character input/output, gets() and puts().<br><br>
+        <b>Unit 3:</b> Control Statements, Branching, Looping, Arrays, Multidimensional arrays, Arrays and strings.<br><br>
+        <b>Unit 4:</b> Functions, Pointers, dynamic memory allocation, arrays of pointers.<br><br>
+      </p>
     </div>
 
     <div class="subject">
-        <h3>BCA105 - Office Automation Tools</h3>
-        <p>
-            <b>Unit 1:</b> Introduction to MS Office, Features of MS Office, Word Processing Concepts.
-            <br><br>
-
-            <b>Unit 2:</b> MS Word, Formatting, Tables, Mail Merge, Templates, Page Setup.
-            <br><br>
-
-            <b>Unit 3:</b> MS Excel, Worksheets, Formulas, Functions, Charts, Data Sorting and Filtering.
-            <br><br>
-
-            <b>Unit 4:</b> MS PowerPoint, Slides, Themes, Animation, Transition Effects, Presentation Creation.
-            <br><br>
-
-            <b>Unit 5:</b> Internet Applications, Web Browsing, Search Engines, Email Services, Cloud Storage.
-        </p>
+      <h3>BCA0105 - Office Automation Tools</h3>
+      <p>
+        <b>Unit 1:</b> DOS internal & external commands, Files & directories, Wild card characters, Windows 2007 features.<br><br>
+        <b>Unit 2:</b> MS Word 2007- Editing, Formatting, Styles, Templates, Mail Merge, Macros.<br><br>
+        <b>Unit 3:</b> MS Excel 2007- Worksheets, Formulas, Functions, Charts, PivotTables, Data analysis.<br><br>
+        <b>Unit 4:</b> MS PowerPoint 2007- Creating Slides, Graphics, Multimedia, Animation, Macros.<br><br>
+      </p>
     </div>
-`
-},
+
+    `
+  },
 
 2:{
-title:"Semester 2",
+    title:"Semester 2",
+    subjects:[
+      ["BCA0201","Mathematics-II","30","70","100"],
+      ["BCA0202","Communicative English","30","70","100"],
+      ["BCA0203","Digital Electronics","30","70","100"],
+      ["BCA0204","Data Structures","30","70","100"],
+      ["BCA0205","Database Management System","30","70","100"],
+    ],
+    details:`
+    <div class="subject">
+      <h3>BCA0201 - Mathematics-II</h3>
+      <p>
+        <b>Unit 1:</b> Rolle's Theorem, Lagrange's Mean Value Theorem, Cauchy's Mean Value Theorem, Successive differentiation and Leibnitz Theorem.<br><br>
+        <b>Unit 2:</b> Number system, division algorithm, GCD, LCM, congruence relation, Modular arithmetic.<br><br>
+        <b>Unit 3:</b> Group: definition, properties, cyclic Groups.<br><br>
+        <b>Unit 4:</b> Ring: commutative ring, ring with unity, Fields.<br><br>
+      </p>
+    </div>
 
-subjects:[
-["BCA201","Mathematics-II","30","70","100"],
-["BCA202","Communicative English","30","70","100"],
-["BCA203","Digital Electronics","30","70","100"],
-["BCA204","Data Structures","30","70","100"],
-["BCA205","DBMS","30","70","100"]
-],
+    <div class="subject">
+      <h3>BCA0202 - Communicative English</h3>
+      <p>
+        <b>Unit 1:</b> Vocabulary, Grammar, Conversion of tenses, Direct/Indirect speech, Active/Passive voice.<br><br>
+        <b>Unit 2:</b> Writing Skills- letters, CVs, Reports, Precis, comprehension, Paragraph writing.<br><br>
+        <b>Unit 3:</b> Secretarial Skills- communication, listening, telephone handling, meetings.<br><br>
+        <b>Unit 4:</b> Presentation and Discussion Skills- communication types, barriers, kinesics, group discussions.<br><br>
+      </p>
+    </div>
 
-details:`
+    <div class="subject">
+      <h3>BCA0203 - Digital Electronics</h3>
+      <p>
+        <b>Unit 1:</b> Semiconductor physics, pn-junction diode, BJT, logic families TTL, ECL, CMOS.<br><br>
+        <b>Unit 2:</b> Logic gates, Boolean algebra, Demorgan's theorem, Truth tables.<br><br>
+        <b>Unit 3:</b> MAP simplification, K-Map, Combinational circuits.<br><br>
+        <b>Unit 4:</b> Sequential circuits, Half adder, Full adder, Flip-flops, Shift registers, Multiplexer.<br><br>
+      </p>
+    </div>
 
-<div class="subject">
-<h3>BCA201 - Mathematics-II</h3>
+    <div class="subject">
+      <h3>BCA0204 - Data Structures</h3>
+      <p>
+        <b>Unit 1:</b> Concept & notation, algorithm complexity, Arrays, Multidimensional arrays.<br><br>
+        <b>Unit 2:</b> Linked List, types, operations.<br><br>
+        <b>Unit 3:</b> Stacks, Queues, applications of stacks.<br><br>
+        <b>Unit 4:</b> Trees, Binary Trees, Tree Traversal, Sorting & Searching algorithms.<br><br>
+      </p>
+    </div>
 
-<p>
-<b>Unit 1:</b> Permutation and Combination, Fundamental Principle of Counting, Factorial Notation, Circular Permutation, Binomial Theorem and Applications.
-<br><br>
+    <div class="subject">
+      <h3>BCA0205 - Database Management System</h3>
+      <p>
+        <b>Unit 1:</b> Database Concepts, Data Models, Entity-Relationship Model.<br><br>
+        <b>Unit 2:</b> File Organization, Index-Sequential Files, B-Tree, Relational Model.<br><br>
+        <b>Unit 3:</b> Relational Database Design, Normal forms (1NF, 2NF, 3NF, BCNF).<br><br>
+        <b>Unit 4:</b> MS Access- Tables, Queries, Forms, Reports.<br><br>
+      </p>
+    </div>
 
-<b>Unit 2:</b> Probability, Events, Sample Space, Addition and Multiplication Theorem of Probability, Conditional Probability and Bayes Theorem.
-<br><br>
-
-<b>Unit 3:</b> Statistics, Measures of Central Tendency, Mean, Median, Mode, Quartiles and Percentiles.
-<br><br>
-
-<b>Unit 4:</b> Measures of Dispersion, Standard Deviation, Variance, Correlation and Regression.
-<br><br>
-
-<b>Unit 5:</b> Probability Distribution, Binomial Distribution, Poisson Distribution and Normal Distribution.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA202 - Communicative English</h3>
-
-<p>
-<b>Unit 1:</b> Communication Process, Types of Communication, Barriers of Communication and Effective Communication Skills.
-<br><br>
-
-<b>Unit 2:</b> Vocabulary Building, Synonyms, Antonyms, One Word Substitution, Idioms and Phrases.
-<br><br>
-
-<b>Unit 3:</b> Business Correspondence, Official Letters, Applications, Resume Writing and Email Writing.
-<br><br>
-
-<b>Unit 4:</b> Presentation Skills, Group Discussion, Public Speaking and Interview Techniques.
-<br><br>
-
-<b>Unit 5:</b> Personality Development, Leadership Skills, Team Work and Professional Ethics.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA203 - Digital Electronics</h3>
-
-<p>
-<b>Unit 1:</b> Number System, Binary, Decimal, Octal and Hexadecimal Number Systems and Conversions.
-<br><br>
-
-<b>Unit 2:</b> Logic Gates, AND Gate, OR Gate, NOT Gate, NAND Gate, NOR Gate, XOR Gate and XNOR Gate.
-<br><br>
-
-<b>Unit 3:</b> Boolean Algebra, Boolean Laws, De Morgan's Theorem and Simplification Techniques.
-<br><br>
-
-<b>Unit 4:</b> Combinational Circuits, Half Adder, Full Adder, Multiplexer, Demultiplexer, Encoder and Decoder.
-<br><br>
-
-<b>Unit 5:</b> Sequential Circuits, Flip Flops, Registers, Counters and Shift Registers.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA204 - Data Structures</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Data Structures, Classification of Data Structures, Arrays and Operations on Arrays.
-<br><br>
-
-<b>Unit 2:</b> Linked List, Singly Linked List, Doubly Linked List, Circular Linked List and Applications.
-<br><br>
-
-<b>Unit 3:</b> Stack, Operations on Stack, Applications of Stack, Queue, Circular Queue and Priority Queue.
-<br><br>
-
-<b>Unit 4:</b> Trees, Binary Tree, Binary Search Tree, Tree Traversal Techniques and Applications.
-<br><br>
-
-<b>Unit 5:</b> Searching and Sorting Techniques, Linear Search, Binary Search, Bubble Sort, Selection Sort and Insertion Sort.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA205 - Database Management System (DBMS)</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to DBMS, Advantages of DBMS, Database Models and Components of Database System.
-<br><br>
-
-<b>Unit 2:</b> Entity Relationship Model, ER Diagram, Entities, Attributes and Relationships.
-<br><br>
-
-<b>Unit 3:</b> Relational Database Model, Keys, Constraints and Normalization.
-<br><br>
-
-<b>Unit 4:</b> SQL Commands, DDL, DML, DCL and TCL Commands, Queries and Joins.
-<br><br>
-
-<b>Unit 5:</b> Transactions, Concurrency Control, Database Security and Backup Recovery Techniques.
-</p>
-
-</div>
-
-`
-},
+    `
+  },
 
 3:{
-title:"Semester 3",
+    title:"Semester 3",
+    subjects:[
+      ["BCA0301","Mathematics-III","30","70","100"],
+      ["BCA0302","Business Practice and Management","30","70","100"],
+      ["BCA0303","Computer Organization","30","70","100"],
+      ["BCA0304","Object Oriented Programming with C++","30","70","100"],
+      ["BCA0305","Desktop Publishing and Designing","30","70","100"],
+    ],
+    details:`
+    <div class="subject">
+      <h3>BCA0301 - Mathematics-III</h3>
+      <p>
+        <b>Unit 1:</b> Differential equations, linear differential equations with constant coefficients, Cauchy's and Legendre's.<br><br>
+        <b>Unit 2:</b> Complex numbers, Argand diagram, De-Moivre's theorem.<br><br>
+        <b>Unit 3:</b> Primes, Factorization, Chinese Remainder Theorem.<br><br>
+        <b>Unit 4:</b> Finite fields, GF(p) fields, Polynomials over GF(2).<br><br>
+      </p>
+    </div>
 
-subjects:[
-["BCA301","Computer Organization","30","70","100"],
-["BCA302","Business Practices and Management","30","70","100"],
-["BCA303","Object Oriented Programming with C++","30","70","100"],
-["BCA304","Desktop Publishing","30","70","100"],
-["BCA305","Computer Oriented Numerical and Statistical Methods","30","70","100"]
-],
+    <div class="subject">
+      <h3>BCA0302 - Business Practice and Management</h3>
+      <p>
+        <b>Unit 1:</b> Concepts of Business, Business Environment, Forms of Business Organization.<br><br>
+        <b>Unit 2:</b> Management, functions, principles.<br><br>
+        <b>Unit 3:</b> Planning, Decision making, M.B.O., Motivation, Leadership.<br><br>
+        <b>Unit 4:</b> Organizing, Authority, Communication, Managerial control.<br><br>
+      </p>
+    </div>
 
-details:`
+    <div class="subject">
+      <h3>BCA0303 - Computer Organization</h3>
+      <p>
+        <b>Unit 1:</b> Data representation, number systems, binary arithmetic, floating point.<br><br>
+        <b>Unit 2:</b> Register Transfer Language, micro-operations, ALU.<br><br>
+        <b>Unit 3:</b> Instruction codes, computer registers, instruction cycle, Micro programmed control.<br><br>
+        <b>Unit 4:</b> Central Processing Unit, stack organization, addressing modes, interrupts.<br><br>
+      </p>
+    </div>
 
-<div class="subject">
-<h3>BCA301 - Computer Organization</h3>
+    <div class="subject">
+      <h3>BCA0304 - Object Oriented Programming with C++</h3>
+      <p>
+        <b>Unit 1:</b> OOP concepts, C++ basics, cout, cin, data types, operators.<br><br>
+        <b>Unit 2:</b> Loops, Decision structures, Functions, overloading.<br><br>
+        <b>Unit 3:</b> Objects and Classes, Constructors, Arrays, Strings.<br><br>
+        <b>Unit 4:</b> Operator overloading, Inheritance, multiple inheritance.<br><br>
+      </p>
+    </div>
 
-<p>
-<b>Unit 1:</b> Introduction to Computer Organization, Number Systems, Binary Arithmetic, Complements and Codes, Data Representation and Character Encoding.
-<br><br>
+    <div class="subject">
+      <h3>BCA0305 - Desktop Publishing and Designing</h3>
+      <p>
+        <b>Unit 1:</b> DTP for Publications, Printing types, Offset Printing.<br><br>
+        <b>Unit 2:</b> Page Layout, PageMaker, tools, styles, menus.<br><br>
+        <b>Unit 3:</b> Use of DTP, Adobe Photoshop, graphic files.<br><br>
+        <b>Unit 4:</b> Vector and Raster images, Colour Modes, Photoshop tools.<br><br>
+      </p>
+    </div>
 
-<b>Unit 2:</b> Boolean Algebra, Logic Gates, Combinational Circuits, Adders, Subtractors, Encoders, Decoders and Multiplexers.
-<br><br>
-
-<b>Unit 3:</b> Central Processing Unit, Registers, Instruction Cycle, Addressing Modes and Micro Operations.
-<br><br>
-
-<b>Unit 4:</b> Memory Organization, RAM, ROM, Cache Memory, Secondary Storage Devices and Memory Hierarchy.
-<br><br>
-
-<b>Unit 5:</b> Input Output Organization, Interrupts, DMA, Bus Structure and Peripheral Devices.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA302 - Business Practices and Management</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Management, Functions of Management, Principles of Management and Levels of Management.
-<br><br>
-
-<b>Unit 2:</b> Planning, Decision Making, Organizing, Staffing and Delegation of Authority.
-<br><br>
-
-<b>Unit 3:</b> Leadership, Motivation, Communication and Coordination in Organizations.
-<br><br>
-
-<b>Unit 4:</b> Recruitment, Selection, Training, Performance Appraisal and Human Resource Management.
-<br><br>
-
-<b>Unit 5:</b> Business Ethics, Corporate Social Responsibility, Entrepreneurship and Modern Business Environment.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA303 - Object Oriented Programming with C++</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Object Oriented Programming, Features of OOP, Classes, Objects, Access Specifiers and Member Functions.
-<br><br>
-
-<b>Unit 2:</b> Constructors, Destructors, Friend Functions, Static Members and Inline Functions.
-<br><br>
-
-<b>Unit 3:</b> Function Overloading, Operator Overloading, Inheritance and Types of Inheritance.
-<br><br>
-
-<b>Unit 4:</b> Polymorphism, Virtual Functions, Abstract Classes and Runtime Binding.
-<br><br>
-
-<b>Unit 5:</b> Templates, Exception Handling, File Handling and Standard Template Library (STL).
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA304 - Desktop Publishing</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Desktop Publishing, Features of DTP and Applications of DTP.
-<br><br>
-
-<b>Unit 2:</b> Adobe PageMaker Interface, Tool Box, Text Formatting and Document Creation.
-<br><br>
-
-<b>Unit 3:</b> Graphics Handling, Image Editing, Layers and Templates.
-<br><br>
-
-<b>Unit 4:</b> Designing Brochures, Newsletters, Posters, Magazines and Advertisements.
-<br><br>
-
-<b>Unit 5:</b> Printing Techniques, Color Models, Exporting Documents and Publishing Methods.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA305 - Computer Oriented Numerical and Statistical Methods</h3>
-
-<p>
-<b>Unit 1:</b> Errors in Numerical Computation, Approximation and Significant Digits.
-<br><br>
-
-<b>Unit 2:</b> Solution of Algebraic and Transcendental Equations using Numerical Methods.
-<br><br>
-
-<b>Unit 3:</b> Interpolation, Newton Forward Formula and Newton Backward Formula.
-<br><br>
-
-<b>Unit 4:</b> Measures of Central Tendency, Correlation and Regression Analysis.
-<br><br>
-
-<b>Unit 5:</b> Probability Distribution, Sampling Theory and Statistical Applications in Computing.
-</p>
-
-</div>
-
-`
-},
+    `
+  },
 
 4:{
-title:"Semester 4",
+    title:"Semester 4",
+    subjects:[
+      ["BCA0401","Personnel Management","30","70","100"],
+      ["BCA0402","Accounting","30","70","100"],
+      ["BCA0403","System Analysis and Design","30","70","100"],
+      ["BCA0404","Internet Technology & Web Page Design","30","70","100"],
+      ["BCA0405","Programming in Visual Basic","30","70","100"],
+    ],
+    details:`
+    <div class="subject">
+      <h3>BCA0401 - Personnel Management</h3>
+      <p>
+        <b>Unit 1:</b> Introduction to Personnel Management, Nature, Scope, functions.<br><br>
+        <b>Unit 2:</b> Human Resource Planning, Recruitment, selection, Placement.<br><br>
+        <b>Unit 3:</b> Human Resources Development, Training, Promotion, incentives.<br><br>
+        <b>Unit 4:</b> Performance Appraisal, Job Evaluation, Employee remuneration.<br><br>
+      </p>
+    </div>
 
-subjects:[
-["BCA401","Personnel Management","30","70","100"],
-["BCA402","Accounting","30","70","100"],
-["BCA403","System Analysis and Design","30","70","100"],
-["BCA404","Internet Technology","30","70","100"],
-["BCA405","Visual Basic .NET","30","70","100"]
-],
+    <div class="subject">
+      <h3>BCA0402 - Accounting</h3>
+      <p>
+        <b>Unit 1:</b> Accounting fundamentals, Double Entry System, Journal, Ledger, Trial Balance.<br><br>
+        <b>Unit 2:</b> Final Accounts, Trading Account, P&L Account, Balance Sheet.<br><br>
+        <b>Unit 3:</b> Cost Accounting, Cost Sheet, Marginal Costing, BEP analysis.<br><br>
+        <b>Unit 4:</b> Management Accounting, Ratio Analysis, Fund Flow, Cash Flow.<br><br>
+      </p>
+    </div>
 
-details:`
+    <div class="subject">
+      <h3>BCA0403 - System Analysis and Design</h3>
+      <p>
+        <b>Unit 1:</b> System Analysis overview, SDLC, Feasibility Analysis.<br><br>
+        <b>Unit 2:</b> Feasibility studies, cost and benefit analysis.<br><br>
+        <b>Unit 3:</b> Requirement specification, DFD, Data Dictionaries, Decision Tables.<br><br>
+        <b>Unit 4:</b> Detail Design, Modularization, testing, quality assurance.<br><br>
+      </p>
+    </div>
 
-<div class="subject">
-<h3>BCA401 - Personnel Management</h3>
+    <div class="subject">
+      <h3>BCA0404 - Internet Technology & Web Page Design</h3>
+      <p>
+        <b>Unit 1:</b> Internet basics, Network requirements, Email, FTP, Search Engine.<br><br>
+        <b>Unit 2:</b> World Wide Web, TCP/IP, DNS, IP addressing.<br><br>
+        <b>Unit 3:</b> HTML, Text formatting, Tables, Images, Forms, Frames.<br><br>
+        <b>Unit 4:</b> CSS, XML, SGML.<br><br>
+      </p>
+    </div>
 
-<p>
-<b>Unit 1:</b> Introduction to Personnel Management, Objectives, Scope, Functions of Personnel Management and Role of Personnel Manager.
-<br><br>
+    <div class="subject">
+      <h3>BCA0405 - Programming in Visual Basic</h3>
+      <p>
+        <b>Unit 1:</b> Visual Studio introduction, Form Designer, Code Editor, controls.<br><br>
+        <b>Unit 2:</b> Data types, Variables, Control structures, loops.<br><br>
+        <b>Unit 3:</b> Procedures, event handlers, exception handling, data validation.<br><br>
+        <b>Unit 4:</b> Arrays, Collections, Multi-form projects, debugging.<br><br>
+      </p>
+    </div>
 
-<b>Unit 2:</b> Human Resource Planning, Recruitment, Selection Process, Placement and Induction.
-<br><br>
+    `
+  },
 
-<b>Unit 3:</b> Training and Development, Performance Appraisal, Promotion and Transfer.
-<br><br>
-
-<b>Unit 4:</b> Wage Administration, Incentives, Compensation, Benefits and Employee Welfare.
-<br><br>
-
-<b>Unit 5:</b> Industrial Relations, Trade Unions, Collective Bargaining and Grievance Handling.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA402 - Accounting</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Accounting, Accounting Principles, Concepts and Conventions, Journal and Ledger.
-<br><br>
-
-<b>Unit 2:</b> Trial Balance, Rectification of Errors and Bank Reconciliation Statement.
-<br><br>
-
-<b>Unit 3:</b> Final Accounts, Trading Account, Profit and Loss Account and Balance Sheet.
-<br><br>
-
-<b>Unit 4:</b> Cost Accounting, Marginal Costing, Break Even Analysis and Contribution.
-<br><br>
-
-<b>Unit 5:</b> Ratio Analysis, Cash Flow Statement and Fund Flow Statement.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA403 - System Analysis and Design</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to System, Characteristics of System, Types of Systems and SDLC.
-<br><br>
-
-<b>Unit 2:</b> Feasibility Study, Fact Finding Techniques, Requirement Analysis and System Investigation.
-<br><br>
-
-<b>Unit 3:</b> Data Flow Diagram (DFD), Decision Tree, Decision Table and ER Diagram.
-<br><br>
-
-<b>Unit 4:</b> System Design, Input Design, Output Design, File Design and Database Design.
-<br><br>
-
-<b>Unit 5:</b> Testing, Implementation, Maintenance and System Documentation.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA404 - Internet Technology</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Internet, History of Internet, WWW, Web Browser and Search Engines.
-<br><br>
-
-<b>Unit 2:</b> HTML, HTML Tags, Lists, Tables, Forms and Frames.
-<br><br>
-
-<b>Unit 3:</b> CSS, Selectors, Box Model, Flexbox, Grid and Responsive Design.
-<br><br>
-
-<b>Unit 4:</b> JavaScript Basics, Variables, Functions, Arrays, DOM and Events.
-<br><br>
-
-<b>Unit 5:</b> Web Hosting, Domain Name System, FTP, HTTP and Website Security.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA405 - Visual Basic .NET</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to .NET Framework, Visual Studio IDE, Forms, Controls and Properties.
-<br><br>
-
-<b>Unit 2:</b> Variables, Data Types, Operators, Conditional Statements and Loops.
-<br><br>
-
-<b>Unit 3:</b> Arrays, Functions, Procedures, Exception Handling and Debugging.
-<br><br>
-
-<b>Unit 4:</b> Object Oriented Programming Concepts, Classes, Objects, Inheritance and Polymorphism.
-<br><br>
-
-<b>Unit 5:</b> Database Connectivity, ADO.NET, Data Controls and Report Generation.
-</p>
-
-</div>
-
-`
-},
 5:{
-title:"Semester 5",
+    title:"Semester 5",
+    subjects:[
+      ["BCA0501","Operating System","30","70","100"],
+      ["BCA0502","e-Commerce","30","70","100"],
+      ["BCA0503","Management Information System","30","70","100"],
+      ["BCA0504","ASP.Net Technologies","30","70","100"],
+      ["BCA0505","Computer Oriented Statistical Methods","30","70","100"],
+    ],
+    details:`
+    <div class="subject">
+      <h3>BCA0501 - Operating System</h3>
+      <p>
+        <b>Unit 1:</b> OS concepts, Classification, Functions.<br><br>
+        <b>Unit 2:</b> Processor Management, Process scheduling, Deadlock.<br><br>
+        <b>Unit 3:</b> Memory Management, Paging, Segmentation, Virtual Memory.<br><br>
+        <b>Unit 4:</b> File Management, allocation methods, directory systems.<br><br>
+      </p>
+    </div>
 
-subjects:[
-["BCA501","Operating System","30","70","100"],
-["BCA502","e-Commerce","30","70","100"],
-["BCA503","Management Information System","30","70","100"],
-["BCA504","ASP.NET Technologies","30","70","100"],
-["BCA505","Computer Oriented Statistical Methods","30","70","100"]
-],
+    <div class="subject">
+      <h3>BCA0502 - e-Commerce</h3>
+      <p>
+        <b>Unit 1:</b> Introduction to e-Commerce, Framework, Architecture.<br><br>
+        <b>Unit 2:</b> Consumer E-Commerce, Internet advertising, Online marketing.<br><br>
+        <b>Unit 3:</b> Electronic Payment Systems, smart cards, EDI.<br><br>
+        <b>Unit 4:</b> Security, CRM, e-CRM applications.<br><br>
+      </p>
+    </div>
 
-details:`
+    <div class="subject">
+      <h3>BCA0503 - Management Information System</h3>
+      <p>
+        <b>Unit 1:</b> MIS Introduction, Role, System's Approach.<br><br>
+        <b>Unit 2:</b> Data Processing, Decision Making and MIS.<br><br>
+        <b>Unit 3:</b> Strategic Planning, Conceptual System Design.<br><br>
+        <b>Unit 4:</b> Detailed System Design, Testing, Documentation.<br><br>
+      </p>
+    </div>
 
-<div class="subject">
-<h3>BCA501 - Operating System</h3>
+    <div class="subject">
+      <h3>BCA0504 - ASP.Net Technologies</h3>
+      <p>
+        <b>Unit 1:</b> Introducing .NET, CLR, Framework class libraries.<br><br>
+        <b>Unit 2:</b> VB.NET Programming, statements, classes, inheritance.<br><br>
+        <b>Unit 3:</b> ASP.NET Web Forms, event handling, server controls.<br><br>
+        <b>Unit 4:</b> List Controls, Validation Controls, User Controls.<br><br>
+      </p>
+    </div>
 
-<p>
-<b>Unit 1:</b> Introduction to Operating System, Objectives of OS, Functions of OS, Types of Operating Systems, Batch Processing System, Multiprogramming System, Time Sharing System and Real Time System.
-<br><br>
+    <div class="subject">
+      <h3>BCA0505 - Computer Oriented Statistical Methods</h3>
+      <p>
+        <b>Unit 1:</b> Frequency distribution, Mean, Median, Mode, Dispersion.<br><br>
+        <b>Unit 2:</b> Probability, Addition and Multiplication Theorems.<br><br>
+        <b>Unit 3:</b> Mathematical expectation, Variance, Covariance.<br><br>
+        <b>Unit 4:</b> Correlation, Karl Pearson's Coefficient, Rank correlation.<br><br>
+      </p>
+    </div>
 
-<b>Unit 2:</b> Process Management, Process States, Process Control Block, CPU Scheduling, Scheduling Algorithms, FCFS, SJF, Priority Scheduling and Round Robin Scheduling.
-<br><br>
+    `
+  },
 
-<b>Unit 3:</b> Memory Management, Contiguous Memory Allocation, Paging, Segmentation, Virtual Memory and Demand Paging.
-<br><br>
-
-<b>Unit 4:</b> Deadlocks, Deadlock Prevention, Deadlock Avoidance, Deadlock Detection and Recovery Techniques.
-<br><br>
-
-<b>Unit 5:</b> File System, File Organization Methods, Disk Scheduling Algorithms, File Protection and Security.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA502 - e-Commerce</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to e-Commerce, Features of e-Commerce, Advantages and Limitations of e-Commerce and Applications of e-Commerce.
-<br><br>
-
-<b>Unit 2:</b> Business to Business (B2B), Business to Consumer (B2C), Consumer to Consumer (C2C) and Consumer to Business (C2B) Models.
-<br><br>
-
-<b>Unit 3:</b> Electronic Payment System, Credit Cards, Debit Cards, Smart Cards, Net Banking and Digital Wallets.
-<br><br>
-
-<b>Unit 4:</b> Electronic Data Interchange (EDI), Electronic Fund Transfer (EFT), Supply Chain Management and Customer Relationship Management.
-<br><br>
-
-<b>Unit 5:</b> Security Issues in e-Commerce, Digital Signature, Encryption, Cyber Laws and Ethical Issues.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA503 - Management Information System</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to MIS, Characteristics of MIS, Components of MIS and Role of MIS in Organizations.
-<br><br>
-
-<b>Unit 2:</b> Information System, Transaction Processing System, Decision Support System and Executive Information System.
-<br><br>
-
-<b>Unit 3:</b> System Development Process, Information Requirements and Information Resources Management.
-<br><br>
-
-<b>Unit 4:</b> Decision Making Process, Management Levels and Information Needs at Different Levels.
-<br><br>
-
-<b>Unit 5:</b> Enterprise Resource Planning, Knowledge Management System and Modern Trends in MIS.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA504 - ASP.NET Technologies</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to .NET Framework, CLR, CTS, CLS, Features of ASP.NET, Web Applications and ASP.NET Architecture.
-<br><br>
-
-<b>Unit 2:</b> Web Forms, Server Controls, HTML Controls, Validation Controls and User Controls.
-<br><br>
-
-<b>Unit 3:</b> State Management, View State, Session State, Cookies and Application State.
-<br><br>
-
-<b>Unit 4:</b> ADO.NET, Database Connectivity, Data Reader, Data Adapter, Data Set and Data Binding.
-<br><br>
-
-<b>Unit 5:</b> Authentication, Authorization, Web Services, Deployment and Website Security.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA505 - Computer Oriented Statistical Methods</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Statistics, Collection of Data, Classification of Data and Tabulation of Data.
-<br><br>
-
-<b>Unit 2:</b> Measures of Central Tendency, Mean, Median, Mode and Weighted Average.
-<br><br>
-
-<b>Unit 3:</b> Measures of Dispersion, Range, Mean Deviation, Variance and Standard Deviation.
-<br><br>
-
-<b>Unit 4:</b> Correlation, Regression Analysis and Curve Fitting Techniques.
-<br><br>
-
-<b>Unit 5:</b> Probability Distribution, Sampling Theory, Statistical Quality Control and Applications of Statistics in Computing.
-</p>
-
-</div>
-
-`
-},
 6:{
-title:"Semester 6",
+    title:"Semester 6",
+    subjects:[
+      ["BCA0601","Computer Networks","30","70","100"],
+      ["BCA0602","Numerical Methods","30","70","100"],
+      ["BCA0603","Multimedia Technology","30","70","100"],
+      ["BCA0604","Computer Graphics","30","70","100"],
+      ["BCA0605","Software Engineering","30","70","100"],
+    ],
+    details:`
+    <div class="subject">
+      <h3>BCA0601 - Computer Networks</h3>
+      <p>
+        <b>Unit 1:</b> Network fundamentals, Topologies, Types of Networks.<br><br>
+        <b>Unit 2:</b> Error Detection and Correction, Transmission Media.<br><br>
+        <b>Unit 3:</b> OSI Model, TCP/IP Model, Network devices.<br><br>
+        <b>Unit 4:</b> TCP/IP Protocol, IP addressing, DNS, FTP, SMTP.<br><br>
+      </p>
+    </div>
 
-subjects:[
-["BCA601","Computer Networks","30","70","100"],
-["BCA602","Numerical Methods","30","70","100"],
-["BCA603","Multimedia Technology","30","70","100"],
-["BCA604","Computer Graphics","30","70","100"],
-["BCA605","Software Engineering","30","70","100"]
-],
+    <div class="subject">
+      <h3>BCA0602 - Numerical Methods</h3>
+      <p>
+        <b>Unit 1:</b> Number representation, Floating point, Errors.<br><br>
+        <b>Unit 2:</b> Equation solving, Bisection, Newton-Raphson, Gauss elimination.<br><br>
+        <b>Unit 3:</b> Interpolation, Finite differences, Newton interpolation.<br><br>
+        <b>Unit 4:</b> Numerical differentiation and integration, Simpson's rules.<br><br>
+      </p>
+    </div>
 
-details:`
+    <div class="subject">
+      <h3>BCA0603 - Multimedia Technology</h3>
+      <p>
+        <b>Unit 1:</b> Multimedia introduction, Elements, PowerPoint.<br><br>
+        <b>Unit 2:</b> Sound, Analog vs Digital, WAV, MP3.<br><br>
+        <b>Unit 3:</b> Graphics, Vector and Raster, File formats.<br><br>
+        <b>Unit 4:</b> Video, Analog and Digital, Video standards, Virtual Reality.<br><br>
+      </p>
+    </div>
 
-<div class="subject">
-<h3>BCA601 - Computer Networks</h3>
+    <div class="subject">
+      <h3>BCA0604 - Computer Graphics</h3>
+      <p>
+        <b>Unit 1:</b> Display devices, Input devices.<br><br>
+        <b>Unit 2:</b> Output Primitives, Line and Circle drawing algorithms.<br><br>
+        <b>Unit 3:</b> 2D Transformations, Translation, Rotation, Scaling.<br><br>
+        <b>Unit 4:</b> Clipping, Line clipping, Polygon clipping.<br><br>
+      </p>
+    </div>
 
-<p>
-<b>Unit 1:</b> Introduction to Computer Networks, Types of Networks, Network Topologies, Transmission Media and Network Devices.
-<br><br>
+    <div class="subject">
+      <h3>BCA0605 - Software Engineering</h3>
+      <p>
+        <b>Unit 1:</b> Software Engineering, Process Models.<br><br>
+        <b>Unit 2:</b> Requirements Engineering, Software Architecture.<br><br>
+        <b>Unit 3:</b> Function Oriented Design, Object-Oriented Design, UML.<br><br>
+        <b>Unit 4:</b> Detailed Design, Coding, Verification.<br><br>
+      </p>
+    </div>
 
-<b>Unit 2:</b> OSI Reference Model, TCP/IP Model, Functions of Layers and Protocols.
-<br><br>
-
-<b>Unit 3:</b> IP Addressing, IPv4, IPv6, Subnetting, Routing and Routing Algorithms.
-<br><br>
-
-<b>Unit 4:</b> Transport Layer Protocols, TCP, UDP, Flow Control and Congestion Control.
-<br><br>
-
-<b>Unit 5:</b> Network Security, Firewalls, Cryptography, Digital Signature and Network Attacks.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA602 - Numerical Methods</h3>
-
-<p>
-<b>Unit 1:</b> Errors in Numerical Computation, Significant Digits, Approximation and Round Off Errors.
-<br><br>
-
-<b>Unit 2:</b> Solution of Algebraic and Transcendental Equations using Bisection Method, Regula Falsi Method and Newton Raphson Method.
-<br><br>
-
-<b>Unit 3:</b> Interpolation Methods, Newton Forward Interpolation and Newton Backward Interpolation.
-<br><br>
-
-<b>Unit 4:</b> Numerical Differentiation, Numerical Integration and Trapezoidal Rule.
-<br><br>
-
-<b>Unit 5:</b> Solution of Differential Equations using Euler Method and Runge Kutta Method.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA603 - Multimedia Technology</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Multimedia, Multimedia Components, Applications and Characteristics of Multimedia.
-<br><br>
-
-<b>Unit 2:</b> Text, Images, Graphics, Audio and Video Fundamentals.
-<br><br>
-
-<b>Unit 3:</b> Multimedia Authoring Tools, Animation Techniques and Animation Principles.
-<br><br>
-
-<b>Unit 4:</b> Compression Techniques, Image Compression, Audio Compression and Video Compression.
-<br><br>
-
-<b>Unit 5:</b> Multimedia Applications in Education, Entertainment, Business and Communication.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA604 - Computer Graphics</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Computer Graphics, Applications of Computer Graphics and Graphics Hardware.
-<br><br>
-
-<b>Unit 2:</b> Line Drawing Algorithms, DDA Algorithm and Bresenham Line Drawing Algorithm.
-<br><br>
-
-<b>Unit 3:</b> Circle Drawing Algorithms, Midpoint Circle Algorithm and Polygon Filling Techniques.
-<br><br>
-
-<b>Unit 4:</b> Two Dimensional Transformations, Translation, Rotation, Scaling, Reflection and Shearing.
-<br><br>
-
-<b>Unit 5:</b> Three Dimensional Transformations, Viewing Transformations and Hidden Surface Removal Techniques.
-</p>
-
-</div>
-
-
-<div class="subject">
-<h3>BCA605 - Software Engineering</h3>
-
-<p>
-<b>Unit 1:</b> Introduction to Software Engineering, Software Characteristics, Software Crisis and Software Development Life Cycle.
-<br><br>
-
-<b>Unit 2:</b> Software Process Models, Waterfall Model, Prototype Model, Spiral Model and Agile Model.
-<br><br>
-
-<b>Unit 3:</b> Requirement Analysis, Feasibility Study, Data Flow Diagram and Entity Relationship Diagram.
-<br><br>
-
-<b>Unit 4:</b> Software Testing, Black Box Testing, White Box Testing, Unit Testing and Integration Testing.
-<br><br>
-
-<b>Unit 5:</b> Software Maintenance, Project Management, Cost Estimation, Risk Management and CASE Tools.
-</p>
-
-</div>
-
-`
-},
-
+    `
+  },
 
 };
 
 function loadSemester(sem){
 
-document.getElementById("semesterTitle").innerText=
-`${syllabus[sem].title} Subjects & Marks Distribution`;
+document.getElementById("semesterTitle").innerText=`${syllabus[sem].title} Subjects & Marks Distribution`;
 
 let table=`
 <tr>

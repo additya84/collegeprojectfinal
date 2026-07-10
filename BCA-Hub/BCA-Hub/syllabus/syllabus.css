@@ -80,6 +80,15 @@ table{
     margin-top:20px;
 }
 
+#subjectTable {
+    width: auto;
+    margin: 20px auto 0;
+}
+
+.table-box h2 {
+    text-align: center;
+}
+
 th,td{
     border:1px solid #ddd;
     padding:15px;
