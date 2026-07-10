@@ -64,7 +64,7 @@
             </div>
         </header>
 
-        <div class="profile-grid">
+        <form class="details-panel" id="profileForm">
             <section class="identity-card">
                 <div class="avatar-wrap">
                     <img id="avatarPreview" src="../assets/images/profile.png" alt="Profile photo">
@@ -83,26 +83,6 @@
                 </div>
             </section>
 
-            <section class="stats-grid" aria-label="Learning stats">
-                <div class="stat-card">
-                    <i class="fa-solid fa-book-open"></i>
-                    <strong id="statCourses">8</strong>
-                    <span>Completed Courses</span>
-                </div>
-                <div class="stat-card">
-                    <i class="fa-solid fa-star"></i>
-                    <strong id="statScore">1250</strong>
-                    <span>Quiz Points</span>
-                </div>
-                <div class="stat-card">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <strong id="statProgress">75%</strong>
-                    <span>Progress</span>
-                </div>
-            </section>
-        </div>
-
-        <form class="details-panel" id="profileForm">
             <div class="panel-heading">
                 <h2>Personal Details</h2>
                 <p id="saveStatus" aria-live="polite"></p>
@@ -130,6 +110,11 @@
                 </label>
 
                 <label>
+                    Phone Number
+                    <input id="phone" name="phone" type="tel">
+                </label>
+
+                <label>
                     Course
                     <input id="course" name="course" type="text">
                 </label>
@@ -144,22 +129,6 @@
                         <option>Semester 5</option>
                         <option>Semester 6</option>
                     </select>
-                </label>
-
-                <label>
-                    Completed Courses
-                    <input id="completedCourses" name="completedCourses" type="number" min="0" max="100">
-                </label>
-
-                <label>
-                    Quiz Points
-                    <input id="quizScore" name="quizScore" type="number" min="0">
-                </label>
-
-                <label>
-                    Progress
-                    <input id="progress" name="progress" type="range" min="0" max="100">
-                    <span class="range-value" id="progressValue">75%</span>
                 </label>
 
                 <label class="wide">

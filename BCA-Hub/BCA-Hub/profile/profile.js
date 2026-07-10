@@ -9,9 +9,8 @@ const defaultProfile = {
     college: "",
     course: "BCA Student",
     semester: "Semester 1",
-    completedCourses: "0",
-    quizScore: "0",
-    progress: "0",
+    phone: "",
+
     skills: "",
     about: "",
     avatar: "../assets/images/profile.png"
@@ -24,9 +23,7 @@ const fields = [
     "college",
     "course",
     "semester",
-    "completedCourses",
-    "quizScore",
-    "progress",
+    "phone",
     "skills",
     "about"
 ];
@@ -38,7 +35,6 @@ const logoutButton = document.getElementById("logoutBtn");
 const avatarInput = document.getElementById("avatarInput");
 const avatarPreview = document.getElementById("avatarPreview");
 const saveStatus = document.getElementById("saveStatus");
-const progressValue = document.getElementById("progressValue");
 
 function getToken() {
     return localStorage.getItem(tokenKey);
@@ -85,10 +81,6 @@ function updatePreview(profile = collectProfile()) {
     document.getElementById("cardCourse").textContent = profile.course || "BCA Student";
     document.getElementById("cardSemester").textContent = profile.semester || "Semester";
     document.getElementById("cardRoll").textContent = profile.rollNumber || "Roll No";
-    document.getElementById("statCourses").textContent = profile.completedCourses || "0";
-    document.getElementById("statScore").textContent = profile.quizScore || "0";
-    document.getElementById("statProgress").textContent = `${profile.progress || 0}%`;
-    progressValue.textContent = `${profile.progress || 0}%`;
 }
 
 function showStatus(message) {

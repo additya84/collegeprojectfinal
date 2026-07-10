@@ -43,6 +43,33 @@
         return minutes;
     }
 
+    const learningStatsKey = "bcaHubLearningStats";
+
+    function getQuizResult(subject, title) {
+        const quizId = `${subject}-${title}`.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+        try {
+            const stats = JSON.parse(localStorage.getItem(learningStatsKey));
+            if (stats && stats.quizzes) {
+                return stats.quizzes.find(q => q.quizId === quizId) || null;
+            }
+        } catch (e) {}
+        return null;
+    }
+
+    function appendQuizResult(card, result) {
+        const wrong = result.total - result.correct;
+        const mins = Math.floor(result.timeTaken / 60);
+        const secs = result.timeTaken % 60;
+        const timeStr = secs > 0 ? `${mins}m ${secs}s` : `${mins}m`;
+
+        const div = document.createElement("div");
+        div.className = "quiz-result";
+        div.innerHTML =
+            `<div class="qr-row"><span class="qr-correct">${result.correct} ✓</span><span class="qr-wrong">${wrong} ✗</span></div>` +
+            `<div class="qr-row"><span class="qr-acc">${result.percent}% Accuracy</span><span class="qr-time">${timeStr}</span></div>`;
+        card.appendChild(div);
+    }
+
     document.querySelectorAll(".quiz-card").forEach((card) => {
         const title = card.querySelector("h3")?.textContent.trim() || "Quiz";
         const button = card.querySelector("button");
@@ -50,6 +77,12 @@
 
         if (!button || !quizId) {
             return;
+        }
+
+        const result = getQuizResult(subjectLabel, title);
+        if (result) {
+            button.textContent = "Retake Quiz";
+            appendQuizResult(card, result);
         }
 
         const data = getDataPath(quizId);
