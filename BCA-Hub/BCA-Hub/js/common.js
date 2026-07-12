@@ -14,6 +14,19 @@
       });
     }
   }
+
+  var savedProfile = localStorage.getItem("bcaHubProfile");
+  if (savedProfile) {
+    try {
+      var profile = JSON.parse(savedProfile);
+      var avatar = document.querySelector(".profile img");
+      if (avatar && profile.avatar) avatar.src = profile.avatar;
+      var nameEl = document.querySelector(".profile h4");
+      if (nameEl && profile.fullName) nameEl.textContent = profile.fullName;
+      var courseEl = document.querySelector(".profile span");
+      if (courseEl && profile.course) courseEl.textContent = profile.course;
+    } catch (e) {}
+  }
 });
 
 document.addEventListener("DOMContentLoaded", function () {
