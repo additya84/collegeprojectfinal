@@ -397,11 +397,11 @@ let table=`
 syllabus[sem].subjects.forEach(sub=>{
 table+=`
 <tr>
-<td>${sub[0]}</td>
-<td>${sub[1]}</td>
-<td>${sub[2]}</td>
-<td>${sub[3]}</td>
-<td>${sub[4]}</td>
+<td data-label="Code">${sub[0]}</td>
+<td data-label="Subject">${sub[1]}</td>
+<td data-label="CCA">${sub[2]}</td>
+<td data-label="ESE">${sub[3]}</td>
+<td data-label="Total">${sub[4]}</td>
 </tr>
 `;
 });
