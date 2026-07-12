@@ -81,8 +81,9 @@ table{
 }
 
 #subjectTable {
-    width: auto;
-    margin: 20px auto 0;
+    width: 100%;
+    margin: 20px;
+    margin-left: 230px;
 }
 
 .table-box h2 {
@@ -91,13 +92,15 @@ table{
 
 th,td{
     border:1px solid #ddd;
-    padding:15px;
+    padding:18px 50px;
     text-align:center;
+    font-size:16px;
 }
 
 th{
     background:#2563eb;
     color:white;
+    font-size:17px;
 }
 
 .subject{
