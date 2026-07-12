@@ -29,10 +29,14 @@ loginForm.addEventListener("submit", async (event) => {
             body: JSON.stringify(payload)
         });
 
-        const data = await response.json();
+        let data = null;
+        const text = await response.text();
+        if (text) {
+            data = JSON.parse(text);
+        }
 
         if (!response.ok) {
-            throw new Error(data.message || "Login failed");
+            throw new Error(data?.message || "Login failed");
         }
 
         localStorage.setItem(tokenKey, data.token);

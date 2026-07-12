@@ -103,10 +103,20 @@ async function requestProfile(path, options = {}) {
         }
     });
 
-    const data = await response.json();
+    let data = null;
+    const text = await response.text();
+    if (text) {
+        data = JSON.parse(text);
+    }
 
+    if (response.status === 401) {
+        localStorage.removeItem(tokenKey);
+        localStorage.removeItem(storageKey);
+        window.location.href = "../login.html";
+        return null;
+    }
     if (!response.ok) {
-        throw new Error(data.message || "Request failed");
+        throw new Error(data?.message || `Request failed (${response.status})`);
     }
 
     return data;
@@ -126,8 +136,11 @@ async function loadProfileFromBackend() {
 
     try {
         const data = await requestProfile("/profile/me");
-        localStorage.setItem(storageKey, JSON.stringify(data.user));
-        fillForm({ ...defaultProfile, ...data.user });
+        if (data === null) return; // 401 redirect already happened
+        if (data?.user) {
+            localStorage.setItem(storageKey, JSON.stringify(data.user));
+            fillForm({ ...defaultProfile, ...data.user });
+        }
         showStatus("");
     } catch (error) {
         showStatus(error.message);
@@ -148,8 +161,11 @@ async function saveProfile() {
             body: JSON.stringify(profile)
         });
 
-        localStorage.setItem(storageKey, JSON.stringify(data.user));
-        fillForm({ ...defaultProfile, ...data.user });
+        if (data === null) return; // 401 redirect already happened
+        if (data?.user) {
+            localStorage.setItem(storageKey, JSON.stringify(data.user));
+            fillForm({ ...defaultProfile, ...data.user });
+        }
         showStatus("Saved to MongoDB");
 
         window.clearTimeout(saveProfile.statusTimer);
