@@ -6,119 +6,8 @@
     <title>BCA Syllabus</title>
     <link rel="stylesheet" href="syllabus.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/responsive.css">
-    <style>
-        /* Sidebar styles from dashboard */
-        .dashboard {
-            display: flex;
-            min-height: 100vh;
-        }
-        .sidebar-toggle {
-            position: fixed;
-            top: 16px;
-            left: 16px;
-            z-index: 1001;
-            background: #2563eb;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 10px 12px;
-            cursor: pointer;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-        }
-        .sidebar-overlay {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.4);
-            z-index: 999;
-            display: none;
-        }
-        .sidebar-overlay.show { display: block; }
-        .sidebar {
-            position: fixed;
-            top: 0; left: 0;
-            width: 260px;
-            height: 100vh;
-            background: #fff;
-            border-right: 1px solid #e2e8f0;
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-            transform: translateX(-100%);
-            transition: transform 0.3s ease;
-        }
-        .sidebar.open { transform: translateX(0); }
-        .logo {
-            display: flex; align-items: center; gap: 12px;
-            padding: 20px;
-            border-bottom: 1px solid #e2e8f0;
-        }
-        .logo i { font-size: 28px; color: #2563eb; }
-        .logo-text h2 { font-size: 18px; color: #1e293b; }
-        .logo-text p { font-size: 12px; color: #64748b; }
-        .menu { flex: 1; padding: 12px 8px; overflow-y: auto; }
-        .menu-item {
-            display: flex; align-items: center; gap: 12px;
-            padding: 12px 14px;
-            border-radius: 10px;
-            color: #475569;
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-        .menu-item:hover { background: #f1f5f9; color: #2563eb; }
-        .menu-item.active { background: #eff6ff; color: #2563eb; font-weight: 600; }
-        .menu-item i { width: 20px; text-align: center; }
-        .sidebar-card {
-            margin: 16px; padding: 16px;
-            background: #f8fafc; border-radius: 12px;
-            border: 1px solid #e2e8f0;
-        }
-        .sidebar-card h3 { font-size: 14px; margin-bottom: 6px; }
-        .sidebar-card p { font-size: 13px; color: #64748b; margin-bottom: 12px; }
-        .sidebar-card button {
-            width: 100%; background: #2563eb; color: white;
-            border: none; padding: 10px; border-radius: 8px;
-            font-weight: 600; cursor: pointer;
-        }
-        .main-content {
-            flex: 1;
-            margin-left: 0;
-            padding: 20px;
-            transition: margin-left 0.3s;
-        }
-        @media (min-width: 1024px) {
-            .sidebar { transform: translateX(0); }
-            .main-content { margin-left: 260px; }
-            .sidebar-toggle { display: none; }
-        }
-        /* Back button for sub-pages */
-        .back-btn {
-            position: fixed;
-            top: 16px;
-            right: 16px;
-            z-index: 1000;
-            background: #2563eb;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 44px;
-            height: 44px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 8px rgba(37,99,235,0.3);
-            transition: all 0.2s;
-        }
-        .back-btn:hover { background: #1d4ed8; transform: scale(1.05); }
-        .back-btn i { font-size: 18px; }
-        @media (min-width: 1024px) {
-            .back-btn { top: 16px; right: 24px; }
-        }
-        /* Hero section adjustments */
-        .hero { margin-top: 60px; }
-        @media (min-width: 1024px) { .hero { margin-top: 0; } }
-    </style>
 </head>
 <body>
 <div class="dashboard">
@@ -126,6 +15,7 @@
         <i class="fa-solid fa-bars"></i>
     </button>
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
     <div class="sidebar" id="sidebar">
         <div class="logo">
             <i class="fa-solid fa-graduation-cap"></i>
@@ -152,12 +42,9 @@
         </div>
     </div>
 
-    <!-- Back button - hidden on main syllabus page, shown on sub-pages -->
-    <button class="back-btn" id="backBtn" aria-label="Go back" style="display:none;">
-        <i class="fa-solid fa-arrow-left"></i>
-    </button>
-
     <div class="main-content">
+        
+
         <section class="hero">
             <h1>BCA Syllabus</h1>
             <p>Himachal Pradesh University (HPU)</p>
@@ -181,8 +68,6 @@
                 <h2>Detailed Syllabus - Semester 1</h2>
             </section>
         </div>
-
-        <footer>© 2026 BCA Hub | HPU BCA Syllabus</footer>
     </div>
 </div>
 
@@ -204,27 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 overlay.classList.remove("show");
             });
         }
-    }
-
-    // Back button logic
-    var backBtn = document.getElementById("backBtn");
-    if (backBtn) {
-        // Show back button if we came from another page (referrer)
-        // Or if URL has a back parameter
-        var referrer = document.referrer;
-        var isSubPage = window.location.search.includes('back=') || 
-                        (referrer && referrer.includes(window.location.hostname) && !referrer.includes('syllabus.html'));
-        if (isSubPage) {
-            backBtn.style.display = 'flex';
-        }
-        backBtn.addEventListener("click", function() {
-            // Go back to previous page in history
-            if (window.history.length > 1) {
-                window.history.back();
-            } else {
-                window.location.href = "../dashboard.html";
-            }
-        });
     }
 });
 </script>
