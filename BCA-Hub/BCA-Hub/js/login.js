@@ -49,11 +49,7 @@ loginForm.addEventListener("submit", async (event) => {
         }));
         sessionStorage.setItem("bcaHubLoggedIn", "true");
 
-        showLoginMessage("Login successful. Opening BCA Hub...");
-
-        window.setTimeout(() => {
-            window.location.href = "index.html";
-        }, 500);
+        window.location.href = "index.html";
     } catch (error) {
         showLoginMessage(error.message, true);
     }
