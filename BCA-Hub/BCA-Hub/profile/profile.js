@@ -162,9 +162,14 @@ async function saveProfile() {
         });
 
         if (data === null) return; // 401 redirect already happened
+        // Use local profile (has avatar) for localStorage, backend data for form
+        const localProfile = collectProfile();
         if (data?.user) {
-            localStorage.setItem(storageKey, JSON.stringify(data.user));
-            fillForm({ ...defaultProfile, ...data.user });
+            localStorage.setItem(storageKey, JSON.stringify({ ...data.user, avatar: localProfile.avatar }));
+            fillForm({ ...defaultProfile, ...data.user, avatar: localProfile.avatar });
+        } else {
+            localStorage.setItem(storageKey, JSON.stringify(localProfile));
+            fillForm({ ...defaultProfile, ...localProfile });
         }
         showStatus("Saved to MongoDB");
 
@@ -210,7 +215,11 @@ avatarInput.addEventListener("change", () => {
 
     reader.addEventListener("load", () => {
         avatarPreview.src = reader.result;
-        updatePreview();
+        // Persist avatar immediately to localStorage
+        const profile = getCachedProfile();
+        profile.avatar = reader.result;
+        localStorage.setItem(storageKey, JSON.stringify(profile));
+        updatePreview(profile);
     });
 
     reader.readAsDataURL(file);

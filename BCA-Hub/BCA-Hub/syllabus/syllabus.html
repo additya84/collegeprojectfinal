@@ -35,20 +35,24 @@
             <a href="../community/index.html"><div class="menu-item"><i class="fa-solid fa-users"></i><span>Community</span></div></a>
             <a href="../profile/profile.html"><div class="menu-item"><i class="fa-solid fa-user"></i><span>Profile</span></div></a>
         </div>
-        <div class="sidebar-card">
-            <h3>🚀 Keep Learning</h3>
-            <p>Complete today's goal and improve your skills.</p>
-            <button>Explore</button>
+        
+        <!-- User Profile Card in Sidebar -->
+        <div class="sidebar-profile" style="margin-top:auto; padding:16px; border-top:1px solid #e2e8f0;">
+            <a href="../profile/profile.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:12px;">
+                <img id="sidebarAvatar" src="../../assets/images/profile.png" alt="Profile" style="width:44px;height:44px;border-radius:50%;object-fit:cover;">
+                <div>
+                    <h4 id="sidebarName" style="font-size:15px;font-weight:600;margin:0;color:#1e293b;">Student</h4>
+                    <span id="sidebarCourse" style="font-size:13px;color:#64748b;">BCA Student</span>
+                </div>
+            </a>
         </div>
     </div>
 
     <div class="main-content">
-        
 
-        <section class="hero">
-            <h1>BCA Syllabus</h1>
-            <p>Himachal Pradesh University (HPU)</p>
-        </section>
+        <div class="page-header" style="padding:20px 0; text-align:center;">
+            <h1 style="font-size:32px; color:#1e293b; margin:0;">BCA Syllabus</h1>
+        </div>
 
         <div class="semester-buttons">
             <button onclick="loadSemester(1)">Semester 1</button>

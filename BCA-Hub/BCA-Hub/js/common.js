@@ -19,12 +19,16 @@
   if (savedProfile) {
     try {
       var profile = JSON.parse(savedProfile);
-      var avatar = document.querySelector(".profile img");
-      if (avatar && profile.avatar) avatar.src = profile.avatar;
-      var nameEl = document.querySelector(".profile h4");
-      if (nameEl && profile.fullName) nameEl.textContent = profile.fullName;
-      var courseEl = document.querySelector(".profile span");
-      if (courseEl && profile.course) courseEl.textContent = profile.course;
+      var avatars = document.querySelectorAll(".profile img, #sidebarAvatar, #topAvatar");
+      avatars.forEach(function(avatar) { if (avatar && profile.avatar) avatar.src = profile.avatar; });
+      var nameEls = document.querySelectorAll(".profile h4, #sidebarName, #topName, #profileName");
+      nameEls.forEach(function(el) { if (el && profile.fullName) el.textContent = profile.fullName; });
+      var welcomeText = document.querySelector("#welcomeText, #welcomeBanner");
+      if (welcomeText && profile.fullName) welcomeText.textContent = welcomeText.id === "welcomeBanner" ? "Welcome Back," : "Welcome back,";
+      var welcomeH1 = document.querySelector("#welcomeBanner");
+      if (welcomeH1 && profile.fullName) welcomeH1.innerHTML = "Welcome Back,<br>" + profile.fullName + " 👋";
+      var courseEls = document.querySelectorAll(".profile span, #sidebarCourse, #topCourse");
+      courseEls.forEach(function(el) { if (el && profile.course) el.textContent = profile.course; });
     } catch (e) {}
   }
 });
