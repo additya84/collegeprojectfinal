@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="../css/responsive.css">
 </head>
 <body>
-
 <button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
   <i class="fa-solid fa-bars"></i>
 </button>
@@ -24,7 +23,6 @@
                 <small>Learn Practice Grow</small>
             </span>
         </a>
-
         <nav class="side-nav" aria-label="Profile navigation">
             <a href="../dashboard.html"><i class="fa-solid fa-house"></i><span>Dashboard</span></a>
             <a href="../pages/notes/notes.html"><i class="fa-solid fa-book"></i><span>Notes</span></a>
@@ -34,21 +32,13 @@
             <a href="../placement/index.html"><i class="fa-solid fa-briefcase"></i><span>Placement</span></a>
             <a class="active" href="profile.html"><i class="fa-solid fa-user"></i><span>Profile</span></a>
         </nav>
-
-        <div class="sidebar-card">
-            <h3>Keep Learning</h3>
-            <p>Complete today's goal to stay on track.</p>
-            <button>Explore</button>
-        </div>
     </aside>
-
     <div class="main-content">
         <header class="topbar">
             <div>
                 <p class="eyebrow">Student Profile</p>
-                <h1 id="displayName">Additya Choudhary</h1>
+                <h1 id="displayName"></h1>
             </div>
-
             <div class="topbar-actions">
                 <button class="icon-btn" id="resetProfile" type="button" title="Reset profile">
                     <i class="fa-solid fa-rotate-left"></i>
@@ -63,7 +53,6 @@
                 </button>
             </div>
         </header>
-
         <form class="details-panel" id="profileForm">
             <section class="identity-card">
                 <div class="avatar-wrap">
@@ -73,99 +62,56 @@
                         <input id="avatarInput" type="file" accept="image/*">
                     </label>
                 </div>
-
-                <h2 id="cardName">Additya Choudhary</h2>
-                <p id="cardCourse">BCA Student</p>
-
+                <h2 id="cardName"></h2>
+                <p id="cardCourse"></p>
                 <div class="quick-meta">
-                    <span><i class="fa-solid fa-layer-group"></i><b id="cardSemester">Semester 1</b></span>
-                    <span><i class="fa-solid fa-id-card"></i><b id="cardRoll">BCA-001</b></span>
+                    <span><i class="fa-solid fa-layer-group"></i><b id="cardSemester"></b></span>
+                    <span><i class="fa-solid fa-id-card"></i><b id="cardRoll"></b></span>
                 </div>
             </section>
-
             <div class="panel-heading">
                 <h2>Personal Details</h2>
                 <p id="saveStatus" aria-live="polite"></p>
             </div>
-
             <div class="form-grid">
-                <label>
-                    Full Name
-                    <input id="fullName" name="fullName" type="text" required>
-                </label>
-
-                <label>
-                    Email
-                    <input id="email" name="email" type="email" required>
-                </label>
-
-                <label>
-                    Roll Number
-                    <input id="rollNumber" name="rollNumber" type="text">
-                </label>
-
-                <label>
-                    College
-                    <input id="college" name="college" type="text">
-                </label>
-
-                <label>
-                    Phone Number
-                    <input id="phone" name="phone" type="tel">
-                </label>
-
-                <label>
-                    Course
-                    <input id="course" name="course" type="text">
-                </label>
-
-                <label>
-                    Semester
+                <label>Full Name<input id="fullName" name="fullName" type="text" required></label>
+                <label>Email<input id="email" name="email" type="email" required></label>
+                <label>Roll Number<input id="rollNumber" name="rollNumber" type="text"></label>
+                <label>College<input id="college" name="college" type="text"></label>
+                <label>Phone Number<input id="phone" name="phone" type="tel"></label>
+                <label>Course<input id="course" name="course" type="text"></label>
+                <label>Semester
                     <select id="semester" name="semester">
-                        <option>Semester 1</option>
-                        <option>Semester 2</option>
-                        <option>Semester 3</option>
-                        <option>Semester 4</option>
-                        <option>Semester 5</option>
-                        <option>Semester 6</option>
+                        <option>Semester 1</option><option>Semester 2</option><option>Semester 3</option>
+                        <option>Semester 4</option><option>Semester 5</option><option>Semester 6</option>
                     </select>
                 </label>
-
-                <label class="wide">
-                    Skills
-                    <input id="skills" name="skills" type="text" placeholder="HTML, CSS, JavaScript, C">
-                </label>
-
-                <label class="wide">
-                    About
-                    <textarea id="about" name="about" rows="4"></textarea>
-                </label>
+                <label class="wide">Skills<input id="skills" name="skills" type="text" placeholder="HTML, CSS, JavaScript, C"></label>
+                <label class="wide">About<textarea id="about" name="about" rows="4"></textarea></label>
             </div>
         </form>
     </div>
 </div>
-
+<script src="profile.js"></script>
+<script src="js/common.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var toggle = document.getElementById("sidebarToggle");
-  var sidebar = document.getElementById("sidebar");
-  var overlay = document.getElementById("sidebarOverlay");
-  if (toggle && sidebar) {
-    toggle.addEventListener("click", function () {
-      sidebar.classList.toggle("open");
-      if (overlay) overlay.classList.toggle("show");
-    });
-    if (overlay) {
-      overlay.addEventListener("click", function () {
-        sidebar.classList.remove("open");
-        overlay.classList.remove("show");
-      });
+    var toggle = document.getElementById("sidebarToggle");
+    var sidebar = document.getElementById("sidebar");
+    var overlay = document.getElementById("sidebarOverlay");
+    if (toggle && sidebar) {
+        toggle.addEventListener("click", function () {
+            sidebar.classList.toggle("open");
+            if (overlay) overlay.classList.toggle("show");
+        });
+        if (overlay) {
+            overlay.addEventListener("click", function () {
+                sidebar.classList.remove("open");
+                overlay.classList.remove("show");
+            });
+        }
     }
-  }
 });
 </script>
-<script src="profile.js"></script>
-  <script src="js/common.js"></script>
 </body>
 </html>
-

@@ -23,12 +23,15 @@
       avatars.forEach(function(avatar) { if (avatar && profile.avatar) avatar.src = profile.avatar; });
       var nameEls = document.querySelectorAll(".profile h4, #sidebarName, #topName, #profileName");
       nameEls.forEach(function(el) { if (el && profile.fullName) el.textContent = profile.fullName; });
-      var welcomeText = document.querySelector("#welcomeText, #welcomeBanner");
-      if (welcomeText && profile.fullName) welcomeText.textContent = welcomeText.id === "welcomeBanner" ? "Welcome Back," : "Welcome back,";
-      var welcomeH1 = document.querySelector("#welcomeBanner");
-      if (welcomeH1 && profile.fullName) welcomeH1.innerHTML = "Welcome Back,<br>" + profile.fullName + " 👋";
+      var welcomeText = document.querySelector("#welcomeText");
+      if (welcomeText && profile.fullName) welcomeText.textContent = "Welcome back, " + profile.fullName + " 👋";
+      var welcomeBanner = document.querySelector("#welcomeBanner");
+      if (welcomeBanner && profile.fullName) welcomeBanner.innerHTML = "Welcome Back,<br>" + profile.fullName + " 👋";
       var courseEls = document.querySelectorAll(".profile span, #sidebarCourse, #topCourse");
       courseEls.forEach(function(el) { if (el && profile.course) el.textContent = profile.course; });
+      // Sidebar welcome
+      var sidebarWelcome = document.querySelector("#sidebarWelcome");
+      if (sidebarWelcome && profile.fullName) sidebarWelcome.textContent = "Welcome back, " + profile.fullName + " 👋";
     } catch (e) {}
   }
 });
